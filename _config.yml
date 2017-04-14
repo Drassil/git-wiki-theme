@@ -9,6 +9,7 @@ theme:
 use_github_wiki: false
 use_prose_io: true
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
+custom_sidebar: true
 gems:
   - jekyll-sitemap
   - jekyll-mentions
