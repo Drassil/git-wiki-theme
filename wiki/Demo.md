@@ -1,6 +1,6 @@
 # Demo
 
-![Beyond_-_Conspiracy_-_2004_-_64k_intro.jpg](wiki/Beyond_-_Conspiracy_-_2004_-_64k_intro.jpg)
+![Beyond_-_Conspiracy_-_2004_-_64k_intro.jpg](Beyond_-_Conspiracy_-_2004_-_64k_intro.jpg)
 
 
 Within the computer subculture known as the demoscene, a non-interactive multimedia presentation is called a demo (or demonstration). Demogroups create demos to demonstrate their abilities in programming, music, drawing, and 3D modeling. The key difference between a classical animation and a demo is that the display of a demo is computed in real time, making computing power considerations the biggest challenge. Demos are mostly composed of 3D animations mixed with 2D effects and full screen effects.
