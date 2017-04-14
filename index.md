@@ -17,6 +17,9 @@ You can fork/copy the master branch now and start your wiki in just 1 minute.
 
 Then please, [share your wiki with us!](wiki/Showreel.md)
 
+**Note:**
+You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and has few advantages but various drawbacks.
+
 ## Current known limitations
 
 * Unexistant wiki page links are not "red".
