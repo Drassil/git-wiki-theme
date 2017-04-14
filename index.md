@@ -48,4 +48,4 @@ Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/
 
 Thank you!
 
-[LICENSE](LICENSE.md)
+[LICENSE](LICENSE)
