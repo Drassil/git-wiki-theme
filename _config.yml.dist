@@ -8,6 +8,9 @@ theme:
 use_github_wiki: false
 use_prose_io: true
 google_cse_token: 
+custom_head: false
+custom_sidebar: false
+custom_footer: false
 gems:
   - jekyll-sitemap
   - jekyll-mentions
