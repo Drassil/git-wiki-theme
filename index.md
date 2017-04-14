@@ -8,7 +8,7 @@ It means:
 
 * Improvements in the cooperative aspect: forks, pull-requests and roles.
 * You can customize your wiki as you want with style sheets and even changing the layout.
-* No databases! Only static files that can be downloaded in few seconds.
+* No databases! Only static files that can be downloaded in a few seconds.
 * Markdown and html mixed together!
 * History, revision comparison and everything you need from a wiki platform.
 * You can edit your pages with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
