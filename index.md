@@ -28,13 +28,13 @@ You can even include the github wiki as a submodule and enable the conf, but it'
 
 3. create your index.md in root directory
 
-4. push your changes in your repo, configure the github pages in your repo settings
+4. push your changes in your repository, then configure the github pages in your repository settings
 
 5. Your wiki is ready!
 
 **Note:**
 
-Is suggested the creation of a /wiki/ subfolder that will collects all your .md pages (except index.md)
+The creation of a /wiki/ subfolder Is suggested. That will collects all your .md pages (except index.md)
 
 ## Current known limitations
 
@@ -44,7 +44,7 @@ Is suggested the creation of a /wiki/ subfolder that will collects all your .md 
 
 ## Looking for collaboration
 
-Do you like this project? then contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
+Do you like this project? then contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) , <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
 
 Thank you!
 
