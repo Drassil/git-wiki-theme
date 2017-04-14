@@ -8,10 +8,9 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    {% capture include_head_content %}{% include head.html %}{% endcapture %}
-    {% unless include_head_content contains "Liquid error" %}
+    {% if site.custom_head %}
         {% include head.html %}
-    {% endunless %}
+    {% endif %}
 
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -38,10 +37,9 @@
           </ul>
         {% endif %}
 
-        {% capture include_sidebar_content %}{% include sidebar.html %}{% endcapture %}
-        {% unless include_sidebar_content contains "Liquid error" %}
-            {% include sidebar.html %}
-        {% endunless %}
+      {% if site.custom_sidebar %}
+          {% include sidebar.html %}
+      {% endif %}
         
       </header>
       <section>
@@ -88,10 +86,9 @@
 
       </section>
       <footer>
-        {% capture include_footer_content %}{% include footer.html %}{% endcapture %}
-        {% unless include_footer_content contains "Liquid error" %}
+        {% if site.custom_footer %}
             {% include footer.html %}
-        {% endunless %}
+        {% endif %}
 
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
