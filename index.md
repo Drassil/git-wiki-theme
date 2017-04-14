@@ -6,7 +6,7 @@ it's a full featured wiki that powered by git, github pages and pull-requests!
 
 It means: 
 
-* Better collaboration possibilities instead of integrated github wiki, thanks to forks, pull-requests and roles.
+* Better collaboration possibilities (than github wiki ) thanks to forks, pull-requests and roles.
 * You can customize your wiki as you want with stylesheets and even change the layout
 * No database! just static files that can be downloaded in few seconds
 * Markdown and html mixed together!
