@@ -21,7 +21,7 @@ Then please, [share your wiki with us!](wiki/Showreel.md)
 
 * Unexistant wiki page links are not "red".
 
-* You can't use the wiki link format: [[example]] , but you should use gh-pages links instead: [example](example) 
+* You can't use the wiki link format: [[example]] , but you should use gh-pages links instead: \[example\](example) 
 
 ## Looking for collaboration
 
