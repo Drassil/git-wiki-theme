@@ -34,7 +34,7 @@ You can even include the github wiki as a submodule and enable the conf, but it'
 
 **Note:**
 
-We suggest to create of a /wiki/ subfolder that collects all your .md pages (except index.md)
+We suggest create of a /wiki/ subfolder that collects all your .md pages (except index.md)
 
 ## Current known limitations
 
