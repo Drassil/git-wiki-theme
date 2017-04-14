@@ -2,7 +2,7 @@
 
 This is a [demo](wiki/Demo.md) of git-wiki theme for jekyll
 
-it's a full featured wiki that powered by git, github pages and pull-requests!
+it's a full featured wiki powered by git, github pages and pull-requests!
 
 It means: 
 
