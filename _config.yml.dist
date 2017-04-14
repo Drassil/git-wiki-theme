@@ -1,0 +1,15 @@
+title: git-wiki
+description: git-wiki is a jekyll theme originally based on jekyll-theme-minimal
+show_downloads: true
+logo_url:
+google_analytics:
+theme: 
+use_github_wiki: false
+use_prose_io: true
+google_cse_token: 
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-feed
