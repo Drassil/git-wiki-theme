@@ -83,6 +83,10 @@
         
 
       {{ content }}
+        
+      {% if site.comments %}
+          {% include comments.html %}
+      {% endif %}
 
       </section>
       <footer>
