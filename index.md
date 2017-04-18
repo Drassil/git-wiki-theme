@@ -42,6 +42,15 @@ We suggest create of a /wiki/ subfolder that collects all your .md pages (except
 
 * You can't use the wiki link format: [[example]]. Please, use gh-pages links instead: \[example\](example) 
 
+## Customization
+
+You can create following files in _includes folder to costumize git-wiki without patching original code:
+
+* head.html  -> this file will be included in <head> tag allowing you to add css/js and any kind of head tags
+* sidebar.html -> this file will be included in left sidebar allowing you to create your widgets
+* comments.html -> this is mostly used to integrate social comments under page contents
+* footer.html -> this file will be included in left side of the footer.
+
 ## Looking for collaboration
 
 Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) , <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
