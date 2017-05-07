@@ -1,1 +1,1 @@
-# Welcome to [git-wiki](index.md)!
+# Welcome to [git-wiki](../index.md)!
