@@ -1,1 +1,1 @@
-# Welcome to [git-wiki](/git-wiki/)!
+# Welcome to [git-wiki](./)!
