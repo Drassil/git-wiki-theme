@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    {% capture lchar %}{page.url | slice: -1, 1}{% endcapture %}
+    {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
     {% capture url %}{% if lchar == "/" %}/index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
