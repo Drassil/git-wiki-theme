@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    {% capture url %}{% if page.url == "/" %}/index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
+    {% capture lchar %}{page.url | slice: -1, 1}{% endcapture %}
+    {% capture url %}{% if lchar == "/" %}/index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
