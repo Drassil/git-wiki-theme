@@ -8,6 +8,7 @@
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/wiki-features.js' | relative_url }}"></script>
 
     {% if site.custom_head %}
         {% include head.html %}
@@ -83,7 +84,8 @@
         {% endif %}
       </div>
         
-
+      <div id="toc"></div>
+ 
       {{ content }}
         
       {% if site.comments %}
@@ -108,7 +110,7 @@
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
 
-  {% if site.google_analytics %}
+    {% if site.google_analytics %}
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -118,6 +120,12 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
     </script>
-  {% endif %}
+    {% endif %}
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#toc').toc();
+        });
+    </script>
   </body>
 </html>
