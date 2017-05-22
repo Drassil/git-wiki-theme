@@ -57,4 +57,11 @@ Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/
 
 Thank you!
 
+## Components used
+
+- [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
+
+- [jQuery](https://jquery.com/)
+
+
 [MIT LICENSE](LICENSE)
