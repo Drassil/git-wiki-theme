@@ -111,7 +111,7 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header .downloads ul {
+header .downloads {
   list-style:none;
   height:40px;
   padding:0;
@@ -136,7 +136,7 @@ header .downloads li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-header .downloads ul a {
+header .downloads a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -146,11 +146,11 @@ header .downloads ul a {
   height:34px;
 }
 
-header .downloads ul a:hover {
+header .downloads a:hover {
   color:#999;
 }
 
-header .downloads ul a:active {
+header .downloads a:active {
   background-color:#f0f0f0;
 }
 
@@ -159,12 +159,12 @@ strong {
   font-weight:700;
 }
 
-header .downloads ul li + li + li {
+header .downloads li + li + li {
   border-right:none;
   width:89px;
 }
 
-header .downloads ul a strong {
+header .downloads a strong {
   font-size:14px;
   display:block;
   color:#222;
@@ -230,7 +230,7 @@ footer {
     display:inline;
   }
 
-  header .downloads ul {
+  header .downloads {
     position:absolute;
     right:50px;
     top:52px;
@@ -247,7 +247,7 @@ footer {
     padding:0;
   }
 
-  header .downloads ul, header p.view {
+  header .downloads, header p.view {
     position:static;
   }
 
@@ -261,11 +261,11 @@ footer {
     padding:15px;
   }
 
-  header .downloads ul {
+  header .downloads {
     width:99%;
   }
 
-  header li, header .downloads ul li + li + li {
+  header li, header .downloads li + li + li {
     width:33%;
   }
 }
