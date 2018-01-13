@@ -40,7 +40,7 @@ We suggest the creation of a /wiki/ subfolder that collects all your .md pages (
 
 * Non-existent wiki page links are not "[red](wiki/red.md)".
 
-* You can't use the wiki link format: [[example]]. Please, use gh-pages links instead: \[example\](example) 
+* You can't use the wiki link format: `[[example]]`. Please, use gh-pages links instead: `[example](example)` 
 
 ## Customization
 
