@@ -4,7 +4,7 @@ This is a [demo](wiki/Demo.md) of git-wiki theme for jekyll.
 
 it's a full featured wiki powered by git, github pages and pull-requests!
 
-It means: 
+It means: testing
 
 * Improvements in the cooperative aspect: forks, pull-requests and roles.
 * You can customize your wiki as you want with style sheets and even changing the layout.
