@@ -20,6 +20,12 @@ Then [share your wiki with us!](wiki/Showreel.md) please.
 **Note:**
 You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
 
+## Who is using git-wiki
+
+[List of git-wiki installations](wiki/Showreel.md)
+
+[List of forked repository](https://github.com/Drassil/git-wiki/network/members)
+
 ## Installation instructions
 
 1. Fork or copy [this repository](https://github.com/drassil/git-wiki)
