@@ -102,4 +102,27 @@
 
     render[settings.showEffect]();
   };
+  
+  //
+  // RED LINK FEATURE (Hacky)
+  // TODO: filter external links
+  $(window).load(function () {
+    $('a').each(function() {
+      var that=this;
+        $.ajax({
+        type: 'HEAD',
+        url: this.href,
+      success: function() {
+
+      },
+      error: function (xhr, ajaxOptions, thrownError){
+        if(xhr.status==404) {
+          console.log("err");
+          $(that).css('color', 'red');
+        }
+      }
+      });   
+    });
+  });
+  
 })(jQuery);
