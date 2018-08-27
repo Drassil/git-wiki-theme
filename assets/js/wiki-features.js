@@ -106,7 +106,7 @@
   //
   // RED LINK FEATURE (Hacky)
   // TODO: filter external links
-  $(window).load(function () {
+  $.fn.redLinks = function () {
     $('a').each(function() {
       var that=this;
         $.ajax({
@@ -122,7 +122,7 @@
         }
       }
       });   
-    });
+    };
   });
   
 })(jQuery);
