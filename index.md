@@ -12,6 +12,7 @@ It means:
 * Markdown and html mixed together!
 * History, revision comparison and everything you need from a wiki platform.
 * You can edit your pages with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
+* Non-existent wiki page links are "[red](wiki/red.md)"
 
 You can fork/copy the master branch now and start your wiki in just 1 minute.
 
@@ -44,9 +45,7 @@ We suggest the creation of a /wiki/ subfolder that collects all your .md pages (
 
 ## Current known limitations
 
-* Non-existent wiki page links are not "[red](wiki/red.md)".
-
-* You can't use the wiki link format: [[example]]. Please, use gh-pages links instead: \[example\](example) 
+* You can't use the wiki internal link format: [[example]]. Please, use gh-pages links instead: \[example\](example) . It's a known jekyll limitation: <https://jekyllrb.com/docs/templates/>
 
 ## Customization
 
