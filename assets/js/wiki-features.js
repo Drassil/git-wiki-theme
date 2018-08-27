@@ -117,7 +117,6 @@
               },
               error: function (xhr, ajaxOptions, thrownError) {
                   if (xhr.status == 404) {
-                      console.log("err");
                       $(that).css('color', 'red');
                   }
               }
