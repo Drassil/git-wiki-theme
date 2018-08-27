@@ -80,10 +80,14 @@
           <gcse:search></gcse:search>
         {% else %}
           <form method="GET" action="{{ site.github.repository_url }}/search">
+            <input type="text" name="q[]" placeholder="Text to search">
             {% if site.use_github_wiki %}
               <input type="hidden" name="type" value="Wikis">
+            {% else %}
+              <input type="hidden" name="l" value="Markdown">
+              <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}"></form>
             {% endif %}
-            <input type="text" name="q" placeholder="Text to search"><input type="submit" value="Search">
+            <input type="submit" value="Search">
           </form>
         {% endif %}
       </div>
