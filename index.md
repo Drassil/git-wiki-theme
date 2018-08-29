@@ -16,14 +16,14 @@ It means:
 
 You can fork/copy the master branch now and start your wiki in just 1 minute.
 
-Then [share your wiki with us!](wiki/Showreel.md) please.
+Then [share your wiki with us!](wiki/examples.md) please.
 
 **Note:**
 You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
 
 ## Who is using git-wiki
 
-[List of git-wiki installations](wiki/Showreel.md)
+[List of git-wiki installations](wiki/examples.md)
 
 [List of forked repository](https://github.com/Drassil/git-wiki/network/members)
 
