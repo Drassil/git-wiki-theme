@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    {% assign version = "1.2.0" %}
     {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
     {% capture url %}{% if lchar == "/" %}{{page.url}}index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
     <meta charset="utf-8">
@@ -84,7 +85,7 @@
             {% if site.use_github_wiki %}
               <input type="hidden" name="type" value="Wikis">
             {% else %}
-              <input type="hidden" name="l" value="Markdown">
+              <!-- <input type="hidden" name="l" value="Markdown"> -->
               <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}"></form>
             {% endif %}
             <input type="submit" value="Search">
@@ -111,7 +112,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Powered by <a href="https://github.com/Drassil/git-wiki">Git-Wiki</a> </p>
+        <p><small>Hosted on GitHub Pages &mdash; Powered by <a href="https://github.com/Drassil/git-wiki">Git-Wiki v{{ version }}</a> </p>
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
         {% endif %}

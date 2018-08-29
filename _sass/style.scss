@@ -109,6 +109,8 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  overflow-y: scroll;
+  max-height: 100%;
 }
 
 header .downloads {
