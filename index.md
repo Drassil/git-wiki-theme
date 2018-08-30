@@ -53,7 +53,7 @@ We suggest the creation of a /wiki/ subfolder that collects all your .md pages (
 
 You can create following files in _includes folder to costumize git-wiki without patching original code:
 
-* head.html  -> this file will be included in <head> tag allowing you to add css/js and any kind of head tags
+* head.html  -> this file will be included in <head> tag allowing you to add **css/js** and any kind of head tags
 * sidebar.html -> this file will be included in left sidebar allowing you to create your widgets
 * comments.html -> this is mostly used to integrate social comments under page contents
 * footer.html -> this file will be included in left side of the footer.
