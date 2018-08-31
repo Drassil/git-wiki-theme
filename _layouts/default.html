@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    {% assign version = "1.2.0" %}
+    {% assign version = "1.0.4" %}
     {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
     {% capture url %}{% if lchar == "/" %}{{page.url}}index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
     <meta charset="utf-8">
@@ -86,7 +86,7 @@
               <input type="hidden" name="type" value="Wikis">
             {% else %}
               <!-- <input type="hidden" name="l" value="Markdown"> -->
-              <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}"></form>
+              <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}">
             {% endif %}
             <input type="submit" value="Search">
           </form>
