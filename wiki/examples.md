@@ -9,4 +9,8 @@ If you have built a wiki with git-wiki, please edit this file and add your wiki 
 
 * [ClearlyDefined doc](https://docs.clearlydefined.io/)
 
+* [ifbctag](https://ifbctag.github.io/labwiki)
+
+* [xavcc](https://xavcc.github.io/formations/wiki/agenda.html)
+
 
