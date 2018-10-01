@@ -17,7 +17,7 @@ It means:
 You can fork/copy the master branch now and start your wiki in just 1 minute.
 
 **Note:**
-You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
+You can even include the [official github wiki](https://help.github.com/articles/about-github-wikis/) as a submodule and enable the option in our conf file to use github wiki pages in git-wiki system, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
 
 ## Who is using git-wiki
 
