@@ -13,4 +13,6 @@ If you have built a wiki with git-wiki, please edit this file and add your wiki 
 
 * [xavcc](https://xavcc.github.io/formations/wiki/agenda.html)
 
+* [lacroix](https://gihad.github.io/lacroix/)
+
 
