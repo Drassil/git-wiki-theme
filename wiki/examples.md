@@ -12,6 +12,7 @@ If you have built a wiki with git-wiki, please edit this file and add your wiki 
 * [ifbctag](https://ifbctag.github.io/labwiki)
 
 * [xavcc](https://xavcc.github.io/formations/wiki/agenda.html)
+  * migrated to [framagit](https://framagit.org/Xavcc/formations)
 
 * [sonbuildmeahouse](https://sonbuildmeahouse.github.io/)
 
