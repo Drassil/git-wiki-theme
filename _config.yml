@@ -1,5 +1,6 @@
+# (string) Title of your wiki
 title: git-wiki-demo
-description: This is a demo of git-wiki theme for jekyll
+description: Git-Wiki demo and documentation
 show_downloads: true
 logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png
 google_analytics:
@@ -10,6 +11,11 @@ use_prose_io: true
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
 inc_after_content: "drassil_comments/comments.html"
 inc_after_header: "drassil_sidebar/sidebar.html"
+
+#
+# Jekyll
+#
+
 defaults:
  -
     scope:
