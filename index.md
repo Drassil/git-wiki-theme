@@ -56,7 +56,7 @@ Read documentation about [Customization HERE](wiki/customize.md)
 * You can't use the wiki internal link format: [[example]]. Please, use gh-pages links instead: \[example\](example) . It's a known jekyll limitation: <https://jekyllrb.com/docs/templates/>
 
 
-## Communicate / Collaborate
+## Support & Collaboration
 
 You can open a public issue on [github](https://github.com/Drassil/git-wiki/issues) , send a private <a href="mailto:staff-drassil@googlegroups.com">email</a>  or create a PR to improve it.
 
