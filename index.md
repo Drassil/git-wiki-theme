@@ -13,6 +13,7 @@ It means:
 * History, revision comparison and everything you need from a wiki platform.
 * You can edit your pages with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
 * Non-existent wiki page links are "[red](wiki/red.md)"
+* Component system with hooks that allows you to totally customize your wiki UI.
 
 You can fork/copy the master branch now and start your wiki in just 1 minute.
 
@@ -45,22 +46,19 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
 
+## Customization
+
+Read documentation about [Customization HERE](wiki/customize.md)
+
+
 ## Current known limitations
 
 * You can't use the wiki internal link format: [[example]]. Please, use gh-pages links instead: \[example\](example) . It's a known jekyll limitation: <https://jekyllrb.com/docs/templates/>
 
-## Customization
 
-You can create following files in _includes folder to costumize git-wiki without patching original code:
+## Communicate / Collaborate
 
-* head.html  -> this file will be included in <head> tag allowing you to add **css/js** and any kind of head tags
-* sidebar.html -> this file will be included in left sidebar allowing you to create your widgets
-* comments.html -> this is mostly used to integrate social comments under page contents
-* footer.html -> this file will be included in left side of the footer.
-
-## Looking for collaboration
-
-Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) , <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
+You can open a public issue on [github](https://github.com/Drassil/git-wiki/issues) , send a private <a href="mailto:staff-drassil@googlegroups.com">email</a>  or create a PR to improve it.
 
 Thank you!
 
@@ -68,7 +66,7 @@ Thank you!
 
 - [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
 
-- [jQuery](https://jquery.com/)
+- [jQuery](https://jquery.com/) for DOM manipulation
 
 
 [MIT LICENSE](LICENSE)

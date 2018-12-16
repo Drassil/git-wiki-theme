@@ -1,7 +1,6 @@
 title: git-wiki-demo
 description: This is a demo of git-wiki theme for jekyll
 show_downloads: true
-comments: true
 logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png
 google_analytics:
 git_branch: gh-pages
@@ -9,8 +8,21 @@ theme:
 use_github_wiki: false
 use_prose_io: true
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
-custom_sidebar: true
-gems:
+inc_after_content: "drassil_comments/comments.html"
+inc_after_header: "drassil_sidebar/sidebar.html"
+defaults:
+ -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "git-wiki-default"
+ -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "git-wiki-default"
+plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji
