@@ -27,7 +27,7 @@ If you need to extend git-wiki adding or replacing css rules, adding scripts or 
 can use the "including hooks" feature. It allows you to dynamically include a custom html code using the jekyll partials.
 **NOTE**: Your file must be added inside the _include folder
 
-#### Style changes (<head>)
+#### Style changes (head)
 
 If you need a simple style change the easiest way to do it is including a custom css file that is able to add/overwrite default css rules.
   
