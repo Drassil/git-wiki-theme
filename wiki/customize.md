@@ -29,13 +29,13 @@ by default git-wiki includes some internal layout that you can set in your _conf
 * [lux theme](theme-lux) (bootstrap)
 * [united theme](theme-united) (bootstrap)
 
-### Including hooks
+## Including hooks
 
 If you need to extend git-wiki adding or replacing css rules, adding scripts or html elements you
 can use the "including hooks" feature. It allows you to dynamically include a custom html code using the jekyll partials.
 **NOTE**: Your file must be added inside the _include folder
 
-#### Style changes (head)
+### Style changes (head)
 
 If you need a simple style change the easiest way to do it is including a custom css file that is able to add/overwrite default css rules.
   
@@ -54,20 +54,20 @@ For example: <link rel="stylesheet" href="{{ 'assets/css/mystyle.css' | relative
 
 
   
-#### Add your components
+### Add your components
   
 With the same method used to include styles file you are able to use our "including hooks" to add your code everywhere you want.
 
 You can find the list of all hooks at the bottom of this page
 
 
-##### Sidebar
+#### Sidebar
   
 If you need to add content inside sidebar of our default layout you can use following hook:
 
 `inc_after_header: "my_sidebar_file.html"`
 
-##### Comments
+#### Comments
   
 If you need to add a comment component (for example disqus) you can use following hook:
   
