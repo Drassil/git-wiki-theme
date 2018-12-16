@@ -2,7 +2,7 @@
 title: git-wiki
 description: Git-Wiki demo and documentation
 show_downloads: true
-logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png
+logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
 google_analytics:
 git_branch: gh-pages
 theme: 
@@ -43,11 +43,11 @@ plugins:
 inc_before_toc : 
 inc_after_toc :
 inc_before_content :
-inc_after_content: "drassil_comments/comments.html"
+inc_after_content: "drassil/comments.html"
 inc_before_footer :
 inc_after_footer : 
 inc_before_head : 
-inc_after_head : 
+inc_after_head : "drassil/head.html"
 inc_before_meta :
 inc_after_meta : 
 inc_before_scripts : 
@@ -55,7 +55,7 @@ inc_after_scripts :
 inc_before_styles : 
 inc_after_styles : 
 inc_before_header : 
-inc_after_header: "drassil_sidebar/sidebar.html"
+inc_after_header: "drassil/sidebar.html"
 inc_before_tail : 
 inc_after_tail : 
 inc_before_tools : 
