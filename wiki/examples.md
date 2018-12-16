@@ -17,4 +17,5 @@ If you have built a wiki with git-wiki, please edit this file and add your wiki 
 
 * [lacroix](https://gihad.github.io/lacroix/)
 
+* [NCSA Genomics](http://priyab2.github.io/git-wiki)
 
