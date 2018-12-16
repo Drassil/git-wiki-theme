@@ -46,7 +46,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
 
-## Customization
+## Configuration and customization
 
 Read documentation about [Customization HERE](wiki/customize.md)
 
