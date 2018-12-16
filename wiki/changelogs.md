@@ -1,5 +1,10 @@
 # CHANGELOGS
 
+## 2.0.1 - Themed Wiki
+
+* Created new themes from "united" and "lux" bootstrap styles
+* minor fix to 404 page, fixed build warning
+
 ## 2.0.0 - Wiki Modules
 
 * Splitted default layout in reusable partial files and modular architecture
