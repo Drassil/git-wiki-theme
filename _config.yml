@@ -9,8 +9,6 @@ theme:
 use_github_wiki: false
 use_prose_io: true
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
-inc_after_content: "drassil_comments/comments.html"
-inc_after_header: "drassil_sidebar/sidebar.html"
 
 #
 # Jekyll
@@ -34,3 +32,30 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-feed
+  
+  #
+# INCLUDING HOOKS
+# They are optional, change them only if you need
+# Check wiki documentation to learn how they work
+#
+
+inc_before_toc : ""
+inc_after_toc : ""
+inc_before_content : ""
+inc_after_content: "drassil_comments/comments.html"
+inc_before_footer : ""
+inc_after_footer : ""
+inc_before_head : ""
+inc_after_head : ""
+inc_before_meta : ""
+inc_after_meta : ""
+inc_before_scripts : ""
+inc_after_scripts : ""
+inc_before_styles : ""
+inc_after_styles : ""
+inc_before_header : ""
+inc_after_header: "drassil_sidebar/sidebar.html"
+inc_before_tail : ""
+inc_after_tail : ""
+inc_before_tools : ""
+inc_after_tools : ""
