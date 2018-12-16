@@ -1,0 +1,13 @@
+<div id="tools-buttons" style="width: 100%; text-align: right">
+    {% if site.inc_before_tools %}
+    {% include {{ site.inc_before_tools }} %}
+    {% endif %}
+
+    {% include gw_tools/page_actions.html %}
+
+    {% include gw_tools/search_module.html %}
+
+    {% if site.inc_after_tools %}
+    {% include {{ site.inc_after_tools }} %}
+    {% endif %}
+</div>

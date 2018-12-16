@@ -1,0 +1,14 @@
+{{page.relative_path}}
+{% if site.use_github_wiki %}
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: ''}}/_history">History</a></span>
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/{{page.folder}}{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
+{% else %}
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit</a></span>
+{% if site.use_prose_io %}
+<span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Edit
+        with Prose.io</a></span>
+{% endif %}
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">History</a></span>
+<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}{{page.folder}}{{url | remove: '.html' | append: '.md'}}">Source</a></span>
+{% endif %}

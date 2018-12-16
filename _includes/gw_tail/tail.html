@@ -1,0 +1,34 @@
+{% if site.inc_before_tail %}
+{% include {{ site.inc_before_tail }} %}
+{% endif %}
+
+<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+{% if site.google_analytics %}
+<script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#toc').toc({
+            title: '<i>Contents</i>',
+            showSpeed: 0,
+            headers: '#content h1, #content h2, #content h3, #content h4, #content h5, #content h6'
+        });
+        $(document.body).redLinks();
+    });
+</script>
+
+{% if site.inc_after_tail %}
+{% include {{ site.inc_after_tail }} %}
+{% endif %}

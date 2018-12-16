@@ -1,0 +1,13 @@
+<head>
+  {% if site.inc_before_head %}
+  {% include {{ site.inc_before_head }} %}
+  {% endif %}
+ 
+  {% include gw_head/meta.html %}
+  {% include gw_head/scripts.html %}
+  {% include gw_head/styles.html %}
+
+  {% if site.inc_after_head %}
+  {% include {{ site.inc_after_head }} %}
+  {% endif %}
+</head>

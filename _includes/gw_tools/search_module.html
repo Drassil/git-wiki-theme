@@ -1,0 +1,25 @@
+{% if site.google_cse_token %}
+<script>
+    (function () {
+        var cx = "{{site.google_cse_token}}";
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+</script>
+<gcse:search></gcse:search>
+{% else %}
+<form method="GET" action="{{ site.github.repository_url }}/search">
+    <input type="text" name="q[]" placeholder="Text to search">
+    {% if site.use_github_wiki %}
+    <input type="hidden" name="type" value="Wikis">
+    {% else %}
+    <!-- <input type="hidden" name="l" value="Markdown"> -->
+    <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}">
+    {% endif %}
+    <input type="submit" value="Search">
+</form>
+{% endif %}
