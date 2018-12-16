@@ -67,8 +67,14 @@ If you need to add a comment component (for example disqus) you can use followin
 
 
 ## Layout refactoring
-  
-If you need to totally change the layout of your wiki you can also create a custom file in _layout folder and reuse only components that you need in the place that you want.
+
+Before working with layout refactoring you should learn:
+
+* how to work with Jekyll: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
+* which are the components of git-wiki, you can find them here: https://github.com/Drassil/git-wiki/tree/master/_includes
+* Take a look at git-wiki default layouts to understand how to build your: https://github.com/Drassil/git-wiki/tree/master/_layouts
+
+If you need to totally change the layout of your wiki you can create a custom file in _layout folder and reuse only components that you need in the place that you want.
   
 You've just to change following config:
 
