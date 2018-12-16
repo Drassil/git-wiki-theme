@@ -21,6 +21,14 @@ logo_url
 It will allow you to define your brand.
 Of course there are also other internal configurations to enable/disable features (you can see the complete list at bottom of this page)
 
+## Internal themes
+
+by default git-wiki includes some internal layout that you can set in your _config.yml to change your UI:
+
+* [default theme](theme-default) (no css libraries)
+* [lux theme](theme-lux) (bootstrap)
+* [united theme](theme-united) (bootstrap)
+
 ### Including hooks
 
 If you need to extend git-wiki adding or replacing css rules, adding scripts or html elements you

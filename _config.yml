@@ -26,6 +26,7 @@ defaults:
       type: "pages"
     values:
       layout: "git-wiki-default"
+
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
