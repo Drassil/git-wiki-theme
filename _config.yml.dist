@@ -1,14 +1,34 @@
-title: git-wiki
-description: git-wiki is a jekyll theme originally based on jekyll-theme-minimal
+# (string) Title of your wiki
+title: ""
+# (string) Description of your wiki
+description: ""
+# (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
-git_branch: master
-logo_url:
-google_analytics:
-theme: 
+# (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
+git_branch: "master"
+# (string) Url of logo image, it can be full, absolute or relative.
+logo_url: ""
+# (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
+google_analytics: ""
+# (string) folder where wiki pages are stored, it's needed for tool buttons
 wiki_folder: wiki
+# (boolean) if you're using github wiki as submodule then this config
+# must be enabled to allow tool buttons to work properly
 use_github_wiki: false
+# (boolean) Enable "Edit with Prose.io" button in tools, it's a 3rd party
+# service to edit github markdown pages easily
 use_prose_io: true
-google_cse_token:
+# Setting google custom search engine token will enable the 
+# cse search bar (https://cse.google.it/cse/) instead of default 
+# one based on github search that could not work on forks
+google_cse_token: ""
+
+#
+# Jekyll configurations
+#
+
+# You can customize it changing default layout for all pages
+# More info: https://jekyllrb.com/docs/configuration/
 defaults:
  -
     scope:
@@ -29,3 +49,31 @@ plugins:
   - jemoji
   - jekyll-redirect-from
   - jekyll-feed
+
+
+#
+# INCLUDING HOOKS
+# They are optional, change them only if you need
+# Check wiki documentation to learn how they work
+#
+
+inc_before_toc : ""
+inc_after_toc : ""
+inc_before_content : ""
+inc_after_content : ""
+inc_before_footer : ""
+inc_after_footer : ""
+inc_before_head : ""
+inc_after_head : ""
+inc_before_meta : ""
+inc_after_meta : ""
+inc_before_scripts : ""
+inc_after_scripts : ""
+inc_before_styles : ""
+inc_after_styles : ""
+inc_before_header : ""
+inc_after_header : ""
+inc_before_tail : ""
+inc_after_tail : ""
+inc_before_tools : ""
+inc_after_tools : ""
