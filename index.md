@@ -46,6 +46,12 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
 
+### local development
+
+If you need to work on git-wiki locally before publish, then clone your wiki repo and follow this instructions 
+from official github article: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+Git wiki already contains the Gemfile for local installations.
+
 ## Configuration and customization
 
 Read documentation about [Customization HERE](wiki/customize.md)
