@@ -1,5 +1,10 @@
 # CHANGELOGS
 
+## 2.0.3
+
+* fixed bug on logo visualization
+* fixed united and lux theme unwanted character
+
 ## 2.0.1 - Themed Wiki
 
 * Created new themes from "united" and "lux" bootstrap styles
