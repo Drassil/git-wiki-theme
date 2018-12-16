@@ -8,11 +8,22 @@ theme:
 wiki_folder: wiki
 use_github_wiki: false
 use_prose_io: true
-google_cse_token: 
-custom_head: false
-custom_sidebar: false
-custom_footer: false
-gems:
+google_cse_token:
+defaults:
+ -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "git-wiki-default"
+ -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "git-wiki-default"
+sass:
+    style: compressed
+plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji

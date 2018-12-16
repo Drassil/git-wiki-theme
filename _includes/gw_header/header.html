@@ -1,0 +1,21 @@
+<header>
+  {% if site.inc_before_header %}
+  {% include {{ site.inc_before_header }} %}
+  {% endif %}
+
+  {% if site.show_downloads %}
+  {% include gw_header/logo.html %}
+  {% endif %}
+
+  {% if site.github.is_user_page %}
+  <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+  {% endif %}
+
+  {% if site.show_downloads %}
+  {% include gw_header/downloads.html %}
+  {% endif %}
+
+  {% if site.inc_after_header %}
+  {% include {{ site.inc_after_header }} %}
+  {% endif %}
+</header>

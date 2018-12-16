@@ -1,0 +1,9 @@
+{% if site.inc_before_styles %}
+{% include {{ site.inc_before_styles }} %}
+{% endif %}
+
+<link rel="stylesheet" href="{{ '/assets/css/git-wiki-style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% if site.inc_after_styles %}
+{% include {{ site.inc_after_styles }} %}
+{% endif %}

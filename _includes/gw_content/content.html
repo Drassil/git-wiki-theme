@@ -1,0 +1,25 @@
+<section>
+  {% include gw_tools/tools.html %}
+
+  {% if site.inc_before_toc %}
+  {% include {{ site.inc_before_toc }} %}
+  {% endif %}
+
+  <div id="toc"></div>
+
+  {% if site.inc_after_toc %}
+  {% include {{ site.inc_after_toc }} %}
+  {% endif %}
+
+  {% if site.inc_before_content %}
+  {% include {{ site.inc_before_content }} %}
+  {% endif %}
+
+  <div id="content">
+    {{ content }}
+  </div>
+
+  {% if site.inc_after_content %}
+  {% include {{ site.inc_after_content }} %}
+  {% endif %}
+</section>
