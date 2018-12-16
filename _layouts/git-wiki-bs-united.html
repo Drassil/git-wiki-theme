@@ -1,0 +1,68 @@
+<!--
+    This layout uses bootstrap with united theme
+-->
+{% include gw_defines/defines.html %}
+
+<!doctype html>
+<html>
+
+<head>
+    {% if site.inc_before_head %}
+    {% include {{ site.inc_before_head }} %}
+    {% endif %}
+
+    {% include gw_head/meta.html %}
+    {% include gw_head/scripts.html %}
+    {% include gw_head/styles.html %}
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/united/bootstrap.min.css">
+
+    {% if site.inc_after_head %}
+    {% include {{ site.inc_after_head }} %}
+    {% endif %}
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-lg-9">
+                {% include gw_tools/tools.html %}
+
+                {% if site.inc_before_toc %}
+                {% include {{ site.inc_before_toc }} %}
+                {% endif %}
+
+                <div id="toc"></div>
+
+                {% if site.inc_after_toc %}
+                {% include {{ site.inc_after_toc }} %}
+                {% endif %}
+
+                {% if site.inc_before_content %}
+                {% include {{ site.inc_before_content }} %}
+                {% endif %}
+
+                <div id="content">
+                    {{ content }}
+                </div>
+
+                {% if site.inc_after_content %}
+                {% include {{ site.inc_after_content }} %}
+                {% endif %}
+            </div>
+            <div class="col-lg-3">
+                {% include gw_header/header.html %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                {% include gw_footer/footer.html %}
+            </div>
+        </div>
+    </div>
+
+    {% include gw_tail/tail.html %}
+</body>
+
+</html>
+s

@@ -29,6 +29,10 @@ google_cse_token: ""
 
 # You can customize it changing default layout for all pages
 # More info: https://jekyllrb.com/docs/configuration/
+#
+# git-wiki includes some internal themes that you can choose
+# check _layouts folder
+#
 defaults:
  -
     scope:
