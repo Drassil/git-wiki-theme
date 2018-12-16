@@ -2,7 +2,7 @@
 
 This is both documentation and [demo](wiki/Demo.md) of git-wiki theme for jekyll.
 
-it's a modular and full featured wiki powered by git, github pages and pull-requests!
+it's a **modular and full featured wiki** powered by git, github pages and pull-requests!
 
 It means: 
 
