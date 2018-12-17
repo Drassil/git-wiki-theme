@@ -18,9 +18,14 @@ use_github_wiki: false
 # (boolean) Enable "Edit with Prose.io" button in tools, it's a 3rd party
 # service to edit github markdown pages easily
 use_prose_io: true
-# Setting google custom search engine token will enable the 
-# cse search bar (https://cse.google.it/cse/) instead of default 
-# one based on github search that could not work on forks
+# Select search_engine component from:
+# - js: it uses a built in javascript component that uses generated sitemap_full.xml to search inside your wiki
+# - github : it uses internal github repository search
+# - google : it uses cse search bar, you need to configure google_cse_token
+#
+search_engine : "js"
+# Setting google custom search engine for google
+# cse search bar (https://cse.google.it/cse/)
 google_cse_token: 
 
 #
@@ -48,11 +53,14 @@ defaults:
 sass:
     style: compressed
 plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+ - jekyll-include-cache
 
 
 #
