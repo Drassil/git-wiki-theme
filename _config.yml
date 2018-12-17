@@ -2,6 +2,11 @@
 title: git-wiki
 description: Git-Wiki demo and documentation
 show_downloads: true
+show_wiki_pages: true
+show_wiki_pages_limit: 10
+blog_feature: true
+show_wiki_posts: true
+show_wiki_posts_limit: 5
 logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
 google_analytics:
 git_branch: gh-pages
@@ -59,8 +64,13 @@ inc_after_scripts :
 inc_before_styles : 
 inc_after_styles : 
 inc_before_header : 
-inc_after_header: "drassil/sidebar.html"
+inc_after_header: 
 inc_before_tail : 
 inc_after_tail : 
 inc_before_tools : 
 inc_after_tools : 
+
+inc_before_page_list : "drassil/sidebar.html"
+inc_after_page_list :
+inc_before_post_list :
+inc_after_post_list :
