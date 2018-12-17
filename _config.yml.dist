@@ -12,6 +12,9 @@ blog_feature: true
 show_wiki_posts: true
 # (integer) Maximum number of wiki posts to shown in sidebar
 show_wiki_posts_limit: 10
+# from jekyll (read jekyll doc)
+paginate: 5
+paginate_path: "/blog/page:num"
 # (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
@@ -60,6 +63,12 @@ defaults:
       type: "pages"
     values:
       layout: "git-wiki-default"
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "git-wiki-post"
 sass:
     style: compressed
 plugins:

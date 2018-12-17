@@ -107,11 +107,12 @@ img {
 header {
   width: 272px;
   float: left;
-  position: fixed;
+  /*position: fixed;*/
   -webkit-font-smoothing: subpixel-antialiased;
-  overflow-y: auto;
-  overflow-x: auto;
+  /*overflow-y: auto;
+  overflow-x: auto;*/
   max-height: 100%;
+  margin-bottom: 30px;
 }
 
 header .downloads {

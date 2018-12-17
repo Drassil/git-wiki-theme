@@ -1,0 +1,15 @@
+---
+layout: git-wiki-default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+{% if page.author or site.author %}
+<p class="view">by {{ page.author | default: site.author }}</p>
+{% endif %}
+
+{{content}}
+
+
+{% if page.tags.size > 0 %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
