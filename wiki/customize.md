@@ -1,4 +1,4 @@
-# CUSTOMIZE GIT WIKI
+# Customize git-wiki
 
 
 From version 2.x Git-Wiki uses a **modular** architecture based on **components** and **"including hooks".**
