@@ -1,6 +1,9 @@
 ---
 published: true
 ---
+
+# Blog Refactoring v2.1.0
+
 Version 2.1.0 of git-wiki includes with following features:
 
 * Complete Blog solution
