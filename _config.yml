@@ -8,6 +8,7 @@ git_branch: gh-pages
 theme: 
 use_github_wiki: false
 use_prose_io: true
+search_engine : "js"
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
 
 #
@@ -28,13 +29,16 @@ defaults:
       layout: "git-wiki-default"
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jemoji
+ - jekyll-mentions
+# - jekyll-include-cache
   
-  #
+#
 # INCLUDING HOOKS
 # They are optional, change them only if you need
 # Check wiki documentation to learn how they work
