@@ -27,8 +27,8 @@ sitemap: false
 				<title>{{ post.title | xml_escape }}</title>
 				<description>{{ post.content | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ post.url | relative_url }}</link>
-				<guid isPermaLink="true">{{ post.url | relative_url }}</guid>
+				<link>{{site.url}}{{ post.url | relative_url }}</link>
+				<guid isPermaLink="true">{{site.url}}{{ post.url | relative_url }}</guid>
 			</item>
 			{% endif %}
 		{% endif %}
