@@ -1,0 +1,7 @@
+{% comment %}
+    This component just select your preferred search engine based on _config.yml value
+{% endcomment %}
+
+{% assign se = site.search_engine | default: "github" %}
+{% assign file = "git-wiki/components/search/se_" | append: se | append: ".html" %}
+{% include {{file}} %}

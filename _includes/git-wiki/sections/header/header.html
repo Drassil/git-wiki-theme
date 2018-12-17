@@ -4,7 +4,7 @@
   {% endif %}
 
   {% if site.logo_url %}
-  {% include gw_header/logo.html %}
+  {% include git-wiki/components/logo/logo.html %}
   {% endif %}
 
   {% if site.github.is_user_page %}
@@ -12,7 +12,15 @@
   {% endif %}
 
   {% if site.show_downloads %}
-  {% include gw_header/downloads.html %}
+  {% include git-wiki/components/action_btn/downloads.html %}
+  {% endif %}
+
+  {% if site.show_wiki_pages %}
+  {% include git-wiki/components/lists/page-list.html %}
+  {% endif %}
+
+  {% if site.blog_feature and site.show_wiki_posts %}
+  {% include git-wiki/components/lists/post-list.html %}
   {% endif %}
 
   {% if site.inc_after_header %}
