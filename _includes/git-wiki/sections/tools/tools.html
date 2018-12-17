@@ -3,9 +3,9 @@
     {% include {{ site.inc_before_tools }} %}
     {% endif %}
 
-    {% include gw_tools/page_actions.html %}
+    {% include git-wiki/components/action_btn/page_actions.html %}
 
-    {% include gw_tools/search_module.html %}
+    {% include git-wiki/components/search/index.html %}
 
     {% if site.inc_after_tools %}
     {% include {{ site.inc_after_tools }} %}
