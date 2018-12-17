@@ -1,5 +1,10 @@
 # Changelogs
 
+## 2.1.11 - Blog fixes
+
+* various critical fixes to new blog system
+* added "permalink" in config dist 
+
 ## 2.1.0 - Blog Refactoring
 
 * Blog
