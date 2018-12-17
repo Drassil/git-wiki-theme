@@ -9,7 +9,7 @@
 <script type="text/javascript">
 	$("#search-field").camelHunter({
 		onKeyUp 			: true,
-		rss: "/sitemap_full.xml",
+		rss: "{{ '/sitemap_full.xml' | relative_url }}",
 		results   : "#results"
 	});
 </script>
