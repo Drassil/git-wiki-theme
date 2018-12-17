@@ -1,5 +1,15 @@
 # Changelogs
 
+## 2.1.0 - Blog Refactoring
+
+* Blog
+* New search engine
+* Button to add wiki page and post
+* Page and post list in sidebar
+* other minor fixes
+
+See the list of changes here: [Article](/2018/12/17/blog-refactoring-v2-1-0.html)
+
 ## 2.0.3
 
 * fixed bug on logo visualization
