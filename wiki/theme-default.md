@@ -1,4 +1,4 @@
-# THEME GIT-WIKI DEFAULT
+# Theme: Git-Wiki Default
 
 
 This is an example of layout built using default git-wiki theme
