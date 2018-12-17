@@ -12,6 +12,7 @@
 * Button to add wiki page and post
 * Page and post list in sidebar
 * other minor fixes
+* Improved SEO
 
 See the list of changes here: [Article](../_posts/2018-12-17-blog-refactoring-v2.1.0.md)
 
