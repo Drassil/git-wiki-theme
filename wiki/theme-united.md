@@ -2,7 +2,7 @@
 layout: "git-wiki-bs-united"
 ---
 
-# THEME UNITED
+# Theme: United
 
 
 This is an example of layout built using [bootstrap united theme](https://bootswatch.com/united/)
