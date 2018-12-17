@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Version 2.1.0 of git-wiki includes with following features:
 

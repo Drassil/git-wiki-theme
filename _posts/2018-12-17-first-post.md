@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # First post - An example of blogging
 
