@@ -1,4 +1,4 @@
-{% assign version = "2.1.10" %}
+{% assign version = "2.1.14" %}
 {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
 {% capture url %}
 {% if lchar == "/" %}{{page.url}}index.html{% else %}{{ page.url | default: 'index.html' }}{% endif%}
