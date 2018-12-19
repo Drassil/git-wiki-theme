@@ -25,7 +25,7 @@ Of course there are also other internal configurations to enable/disable feature
 
 by default git-wiki includes some internal layout that you can set in your _config.yml to change your UI:
 
-* [default theme](theme-default) (no css libraries)
+* [default theme](theme-default) (w3css)
 * [lux theme](theme-lux) (bootstrap)
 * [united theme](theme-united) (bootstrap)
 
