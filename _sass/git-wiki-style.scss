@@ -1,5 +1,6 @@
 @import "fonts";
 @import "rouge-github";
+@import "w3.scss";
 
 body {
   background-color: #fff;
@@ -104,15 +105,44 @@ img {
   max-width:100%;
 }
 
-header {
-  width: 272px;
+.w3-teal {
+  color: #000 !important;
+  background-color: inherit !important;
+}
+
+#git-wiki-mobile-header {
+  position: fixed;
+  top: 0;
+  height: 55px;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-radius: 10px;
+}
+
+#git-wiki-sidebar {
+  width: 280px;
   float: left;
-  /*position: fixed;*/
+  position: relative !important;
   -webkit-font-smoothing: subpixel-antialiased;
   /*overflow-y: auto;
   overflow-x: auto;*/
   max-height: 100%;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+@media print, screen and (max-width: 992px) {
+  #git-wiki-sidebar {
+    position: fixed !important;
+    top: 50px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+  }
+}
+
+.git-wiki-main-logo {
+  max-width: 270px;
 }
 
 header .downloads {
@@ -234,11 +264,11 @@ footer {
     display:inline;
   }
 
-  header .downloads {
+  /*header .downloads {
     position:absolute;
     right:50px;
     top:52px;
-  }
+  }*/
 }
 
 
