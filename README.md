@@ -1,6 +1,6 @@
 # git-wiki
 
-it's a **modular and full featured wiki** powered by git, github pages and pull-requests!
+it's a **modular and full featured wiki** powered by git, github pages and pull-requests without the needs of local installations/build! 
 
 It means: 
 
@@ -16,5 +16,7 @@ It means:
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
 * Integrated **Blogging** feature thanks to jekyll!
 
+You can fork/copy the master branch now and start your wiki in just 1 minute.
 
-Readme and demo: (http://drassil.github.io/git-wiki)
+
+Instructions and documentation: (http://drassil.github.io/git-wiki)
