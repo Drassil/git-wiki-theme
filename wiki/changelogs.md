@@ -1,5 +1,10 @@
 # Changelogs
 
+## 2.1.11 - Blog fixes
+
+* various critical fixes to new blog system
+* added "permalink" in config dist 
+
 ## 2.1.0 - Blog Refactoring
 
 * Blog
@@ -7,6 +12,7 @@
 * Button to add wiki page and post
 * Page and post list in sidebar
 * other minor fixes
+* Improved SEO
 
 See the list of changes here: [Article](../_posts/2018-12-17-blog-refactoring-v2.1.0.md)
 
