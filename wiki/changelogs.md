@@ -1,5 +1,8 @@
 # Changelogs
 
+## 2.1.12 - Mobile Header
+* Implemented collapsible responsive header
+
 ## 2.1.11 - Blog fixes
 
 * various critical fixes to new blog system
