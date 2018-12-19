@@ -1,15 +1,16 @@
-<div class="container">
-	<div class="well" id="searchbox">
-		<input id="search-field" placeholder="Search the Site"/>
-		<ul id="results"></ul>
+<div class="git-wiki-search-js">
+	<div class="container">
+		<div class="well" id="searchbox">
+			<input id="search-field" placeholder="Search the Site" />
+			<ul id="results"></ul>
+		</div>
 	</div>
 </div>
-
-<script src="{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}"></script>
-<script type="text/javascript">
-	$("#search-field").camelHunter({
-		onKeyUp 			: true,
-		rss: "{{ '/sitemap_full.xml' | relative_url }}",
-		results   : "#results"
-	});
-</script>
+	<script src="{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}"></script>
+	<script type="text/javascript">
+		$("#search-field").camelHunter({
+			onKeyUp: true,
+			rss: "{{ '/sitemap_full.xml' | relative_url }}",
+			results: "#results"
+		});
+	</script>
