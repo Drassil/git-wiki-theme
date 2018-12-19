@@ -1,10 +1,12 @@
-<form method="GET" action="{{ site.github.repository_url }}/search">
-    <input type="text" name="q[]" placeholder="Text to search">
-    {% if site.use_github_wiki %}
-    <input type="hidden" name="type" value="Wikis">
-    {% else %}
-    <!-- <input type="hidden" name="l" value="Markdown"> -->
-    <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}">
-    {% endif %}
-    <input type="submit" value="Search">
-</form>
+<div class="git-wiki-search-github">
+    <form method="GET" action="{{ site.github.repository_url }}/search">
+        <input type="text" name="q[]" placeholder="Text to search">
+        {% if site.use_github_wiki %}
+        <input type="hidden" name="type" value="Wikis">
+        {% else %}
+        <!-- <input type="hidden" name="l" value="Markdown"> -->
+        <input type="hidden" name="q[]" value="path:/{{ site.wiki_folder }}">
+        {% endif %}
+        <input type="submit" value="Search">
+    </form>
+</div>

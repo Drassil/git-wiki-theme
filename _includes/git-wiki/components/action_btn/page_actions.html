@@ -1,23 +1,29 @@
-{% if site.use_github_wiki %}
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/_new">Add new</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_history">History</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
-{% else %}
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename={{ site.wiki_folder | default: 'wiki' }}/">Add new</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}/{{page.path}}">Edit</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}/{{page.path}}">History</a></span>
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}/{{page.path}}">Source</a></span>
-{% if site.blog_feature %}
-<span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename=_posts/">Add new post</a></span>
-{% endif %}
+<div class="git-wiki-tools">
+    {% if site.use_github_wiki %}
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/_new">Add new</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_history">History</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
+    {% else %}
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename={{ site.wiki_folder | default: 'wiki' }}/">Add
+            new</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch}}/{{page.path}}">Edit</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch}}/{{page.path}}">History</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch}}/{{page.path}}">Source</a></span>
+    {% if site.blog_feature %}
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename=_posts/">Add
+            new post</a></span>
+    {% endif %}
     {% if site.use_prose_io %}
     <br>
-    Prose.io: 
-    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch}}/{{ site.wiki_folder | default: 'wiki' }}">Add new</a></span>
+    Prose.io:
+    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch}}/{{ site.wiki_folder | default: 'wiki' }}">Add
+            new</a></span>
     <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch}}/{{page.path}}">Edit</a></span>
     {% if site.blog_feature %}
-    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch}}/_posts/">Add new post</a></span>
+    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch}}/_posts/">Add
+            new post</a></span>
     {% endif %}
     {% endif %}
-{% endif %}
+    {% endif %}
+</div>

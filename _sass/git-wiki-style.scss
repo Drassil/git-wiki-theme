@@ -118,6 +118,7 @@ img {
   width: 100%;
   border-bottom: 1px solid;
   border-radius: 10px;
+  z-index: 999;
 }
 
 #git-wiki-sidebar {
@@ -128,7 +129,7 @@ img {
   /*overflow-y: auto;
   overflow-x: auto;*/
   max-height: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 55px !important;
 }
 
 @media print, screen and (max-width: 992px) {
@@ -139,13 +140,17 @@ img {
     border-bottom: 1px solid;
     border-radius: 10px;
   }
+
+  .git-wiki-content {
+    margin-top:50px;
+  }
 }
 
 .git-wiki-main-logo {
   max-width: 270px;
 }
 
-header .downloads {
+#git-wiki-sidebar .git-wiki-downloads {
   list-style:none;
   height:40px;
   padding:0;
@@ -155,22 +160,22 @@ header .downloads {
   width:270px;
 }
 
-header .downloads li {
+#git-wiki-sidebar .git-wiki-downloads li {
   width:89px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
 
-header .downloads li:first-child a {
+#git-wiki-sidebar .git-wiki-downloads li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-header .downloads li:last-child a {
+#git-wiki-sidebar .git-wiki-downloads li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-header .downloads a {
+#git-wiki-sidebar .git-wiki-downloads a {
   line-height:1;
   font-size:11px;
   color:#999;
@@ -180,11 +185,11 @@ header .downloads a {
   height:34px;
 }
 
-header .downloads a:hover {
+#git-wiki-sidebar .git-wiki-downloads a:hover {
   color:#999;
 }
 
-header .downloads a:active {
+#git-wiki-sidebar .git-wiki-downloads a:active {
   background-color:#f0f0f0;
 }
 
@@ -193,18 +198,18 @@ strong {
   font-weight:700;
 }
 
-header .downloads li + li + li {
+#git-wiki-sidebar .git-wiki-downloads li + li + li {
   border-right:none;
   width:89px;
 }
 
-header .downloads a strong {
+#git-wiki-sidebar .git-wiki-downloads a strong {
   font-size:14px;
   display:block;
   color:#222;
 }
 
-section {
+.git-wiki-content {
   /*width:500px;
   float:right;*/
   padding-left: 320px;
@@ -243,28 +248,28 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  #git-wiki-sidebar, .git-wiki-content, footer {
     float:none;
     position:static;
     width:auto;
   }
 
-  header {
+  #git-wiki-sidebar{
     padding-right:320px;
   }
 
-  section, footer {
+  .git-wiki-content, footer {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
 
-  header a small {
+  #git-wiki-sidebara small {
     display:inline;
   }
 
-  /*header .downloads {
+  /*#git-wiki-sidebar .git-wiki-downloads {
     position:absolute;
     right:50px;
     top:52px;
@@ -277,11 +282,11 @@ footer {
     word-wrap:break-word;
   }
 
-  header {
+  #git-wiki-sidebar{
     padding:0;
   }
 
-  header .downloads, header p.view {
+  #git-wiki-sidebar .git-wiki-downloads, #git-wiki-sidebarp.view {
     position:static;
   }
 
@@ -295,11 +300,11 @@ footer {
     padding:15px;
   }
 
-  header .downloads {
+  #git-wiki-sidebar .git-wiki-downloads {
     width:99%;
   }
 
-  header li, header .downloads li + li + li {
+  #git-wiki-sidebarli, #git-wiki-sidebar .git-wiki-downloads li + li + li {
     width:33%;
   }
 }

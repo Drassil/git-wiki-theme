@@ -1,28 +1,31 @@
-{% if site.inc_before_post_list %}
-{% include {{ site.inc_before_post_list }} %}
-{% endif %}
+<div class="git-wiki-page-list">
+    {% if site.inc_before_post_list %}
+    {% include {{ site.inc_before_post_list }} %}
+    {% endif %}
 
-<span class="post-list-title">Posts {% if (site.show_wiki_posts_limit >= 1 %} (Latest {{site.show_wiki_posts_limit }} updated) {% endif %}:</span>
-<ul class="post-list">
-{% assign numPages=0 %}
-{% assign items = site.posts | sort: 'date' %}
-{% for post in items %}
-{% if numPages >= site.show_wiki_posts_limit %}
-    {% break %}
-{% endif %}
+    <span class="post-list-title">Posts {% if (site.show_wiki_posts_limit >= 1 %} (Latest {{site.show_wiki_posts_limit
+        }} updated) {% endif %}:</span>
+    <ul class="post-list">
+        {% assign numPages=0 %}
+        {% assign items = site.posts | sort: 'date' %}
+        {% for post in items %}
+        {% if numPages >= site.show_wiki_posts_limit %}
+        {% break %}
+        {% endif %}
 
-{% if post.layout != "null" and post.sitemap != false and post.title %}
-    <li class="post-list-item">
-        <a href="{{ post.url | relative_url }}">{{ post.title}}</a>
-    </li>
-    {% assign numPages = numPages | plus: 1 %}
-{% endif %}
+        {% if post.layout != "null" and post.sitemap != false and post.title %}
+        <li class="post-list-item">
+            <a href="{{ post.url | relative_url }}">{{ post.title}}</a>
+        </li>
+        {% assign numPages = numPages | plus: 1 %}
+        {% endif %}
 
-{% endfor %}
-</ul>
+        {% endfor %}
+    </ul>
 
-<span class="post-list read-all"><a href="{{ '/blog/' | relative_url}}">Read all</a></span>
+    <span class="post-list read-all"><a href="{{ '/blog/' | relative_url}}">Read all</a></span>
 
-{% if site.inc_after_post_list %}
-{% include {{ site.inc_after_post_list }} %}
-{% endif %}
+    {% if site.inc_after_post_list %}
+    {% include {{ site.inc_after_post_list }} %}
+    {% endif %}
+</div>
