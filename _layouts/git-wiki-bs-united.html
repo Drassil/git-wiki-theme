@@ -1,7 +1,7 @@
 {% comment %}
 #
 # This layout uses bootstrap with united theme
-# 
+#
 {% endcomment %}
 
 {% include git-wiki/defines/defines.html %}
@@ -29,29 +29,31 @@
     <div class="wrapper">
         <div class="row">
             <div class="col-lg-9">
-                {% include git-wiki/sections/tools/tools.html %}
+                <div class="git-wiki-content">
+                    {% include git-wiki/sections/tools/tools.html %}
 
-                {% if site.inc_before_toc %}
-                {% include {{ site.inc_before_toc }} %}
-                {% endif %}
+                    {% if site.inc_before_toc %}
+                    {% include {{ site.inc_before_toc }} %}
+                    {% endif %}
 
-                <div id="toc"></div>
+                    <div id="toc"></div>
 
-                {% if site.inc_after_toc %}
-                {% include {{ site.inc_after_toc }} %}
-                {% endif %}
+                    {% if site.inc_after_toc %}
+                    {% include {{ site.inc_after_toc }} %}
+                    {% endif %}
 
-                {% if site.inc_before_content %}
-                {% include {{ site.inc_before_content }} %}
-                {% endif %}
+                    {% if site.inc_before_content %}
+                    {% include {{ site.inc_before_content }} %}
+                    {% endif %}
 
-                <div id="content">
-                    {{ content }}
+                    <div id="content">
+                        {{ content }}
+                    </div>
+
+                    {% if site.inc_after_content %}
+                    {% include {{ site.inc_after_content }} %}
+                    {% endif %}
                 </div>
-
-                {% if site.inc_after_content %}
-                {% include {{ site.inc_after_content }} %}
-                {% endif %}
             </div>
             <div class="col-lg-3">
                 {% include git-wiki/sections/header/header.html %}
