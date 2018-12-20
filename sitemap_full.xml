@@ -2,9 +2,10 @@
 layout: none
 sitemap: false
 ---
-{% if site.search_engine == "js" %}<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+{% if site.search_engine == "js" %}
 	<title>{{ site.name | xml_escape }}</title>
 	<description>{{ site.description | xml_escape }}</description>
 	<link>{{ site.url }}</link>
@@ -33,5 +34,6 @@ sitemap: false
 			{% endif %}
 		{% endif %}
 	{% endfor %}
+{% endif %}
 </channel>
-</rss>{% endif %}
+</rss>
