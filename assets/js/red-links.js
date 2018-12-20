@@ -11,21 +11,22 @@
 
             var ext = this.href.split('.').pop().split(/\#|\?/)[0];
 
-            if (ext != "html")
-                $(this).css('color', 'red'); // pessimistic condition
+            // [Performance tip] pessimistic condition based on the fact that
+            // markdown files are automatically converted in html
+            // if they are part of the wiki (the real check is right below)
+            if (ext.toLowerCase() == "md" || ext.toLowerCase() == "markdown")
+                $(this).css('color', 'red');
 
             var that = this;
             $.ajax({
                 type: 'HEAD',
                 url: this.href,
                 success: function () {
-
+                    $(that).css('color', '');
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
                     if (xhr.status == 404) {
                         $(that).css('color', 'red');
-                    } else if (xhr.status == 200) {
-                        $(that).css('color', '');
                     }
                 }
             });
