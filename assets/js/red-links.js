@@ -24,7 +24,7 @@
                 error: function (xhr, ajaxOptions, thrownError) {
                     if (xhr.status == 404) {
                         $(that).css('color', 'red');
-                    } else {
+                    } else (xhr.status == 200) {
                         $(that).css('color', '');
                     }
                 }
