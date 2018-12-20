@@ -12,7 +12,7 @@
             var ext = this.href.split('.').pop().split(/\#|\?/)[0];
 
             if (ext != "html")
-                this.css('color', 'red'); // pessimistic condition
+                $(this).css('color', 'red'); // pessimistic condition
 
             var that = this;
             $.ajax({
@@ -24,7 +24,7 @@
                 error: function (xhr, ajaxOptions, thrownError) {
                     if (xhr.status == 404) {
                         $(that).css('color', 'red');
-                    } else (xhr.status == 200) {
+                    } else if (xhr.status == 200) {
                         $(that).css('color', '');
                     }
                 }
