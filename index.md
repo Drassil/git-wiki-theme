@@ -13,7 +13,7 @@ It means:
 * **Markdown and html** mixed together!
 * **History, revision comparison** and everything you need from a wiki platform.
 * You can **edit your pages** with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
-* Non-existent wiki page links are "[red](wiki/red.md)"
+* Non-existent wiki page links are "[red](wiki/red.md)", you can click on them to automatically create a new page!
 * **Component system with hooks** that allows you to totally customize your wiki UI. (see customization section below) 
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
 * Integrated **Blogging** feature thanks to jekyll!
