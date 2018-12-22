@@ -6,11 +6,12 @@
 		</div>
 	</div>
 </div>
-	<script src="{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}"></script>
 	<script type="text/javascript">
-		$("#search-field").camelHunter({
-			onKeyUp: true,
-			rss: "{{ '/sitemap_full.xml' | relative_url }}",
-			results: "#results"
+		$.getScript( "{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}", function() { 
+			$("#search-field").camelHunter({
+				onKeyUp: true,
+				rss: "{{ '/sitemap_full.xml' | relative_url }}",
+				results: "#results"
+			})
 		});
 	</script>
