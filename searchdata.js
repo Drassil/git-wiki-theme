@@ -2,7 +2,7 @@
 layout: null
 is_wiki_page: false
 ---
-
+{% if site.search_engine == "js" %}
 var jsondata=[
   {% for post in site.posts %}
     {
@@ -11,19 +11,20 @@ var jsondata=[
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
-      "content"  : "{{ post.content | strip_html | strip_newlines }}"
+      "content"  : "{{ post.content | strip_html | strip_newlines | remove: '"' }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
   ,
-  {% for page in site.pages %}
+  {% for page in site.html_pages %}
    {
-     {% if page.title != nil %}
-        "title"    : "{{ page.title | escape }}",
+     {% assign title = page.title | default: page.name %}
+     {% if title != nil %}
+        "title"    : "{{ title | escape }}",
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
         "date"     : "{{ page.date }}",
-        "content"  : "{{ page.content | strip_html | strip_newlines }}"
+        "content"  : "{{ page.content | strip_html | strip_newlines | remove: '"' }}"
      {% endif %}
    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -39,4 +40,5 @@ var sjs = SimpleJekyllSearch({
     fuzzy: false,
     exclude: []
   })
+{% endif %}
 
