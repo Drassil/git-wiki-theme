@@ -1,16 +1,7 @@
 <div class="git-wiki-search-js">
-	<div class="container">
-		<div class="well" id="searchbox">
-			<input id="search-field" placeholder="Search the Site" />
-			<ul id="results"></ul>
-		</div>
-	</div>
+	<input type="text" id="search-input" placeholder="Search..">
+	<ul id="results-container"></ul>
 </div>
-	<script src="{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}"></script>
-	<script type="text/javascript">
-		$("#search-field").camelHunter({
-			onKeyUp: true,
-			rss: "{{ '/sitemap_full.xml' | relative_url }}",
-			results: "#results"
-		});
-	</script>
+<!-- script pointing to jekyll-search.js -->
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
+<script async src="{{ '/searchdata.js' | relative_url }}"></script>

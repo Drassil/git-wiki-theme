@@ -1,0 +1,21 @@
+<div class="git-wiki-search-js">
+	<div class="container">
+		<div class="well" id="searchbox">
+			<input id="search-field" placeholder="Search the Site" />
+			<ul id="results"></ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$.ajax({
+		url: "{{ '/assets/js/jquery.camelhunter.min.js' | relative_url }}",
+		dataType: "script",
+		success: function () {
+			setTimeout($("#search-field").camelHunter({
+				onKeyUp: true,
+				rss: "{{ '/sitemap_full.xml' | relative_url }}",
+				results: "#results"
+			}), 0);
+		}
+	});
+</script>
