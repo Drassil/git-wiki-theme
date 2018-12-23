@@ -19,3 +19,5 @@ If you have built a wiki with git-wiki, please edit this file and add your wiki 
 
 * [NCSA Genomics](http://priyab2.github.io/git-wiki)
 
+* [WoWGaming](https://wowgaming.github.io/wiki-en)
+
