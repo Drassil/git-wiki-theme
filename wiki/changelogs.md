@@ -1,5 +1,10 @@
 # Changelogs
 
+## 2.1.16 - Search with steroids
+
+* Improved search engine with new async js data loading
+* fixed page list
+
 ## 2.1.12 - Mobile Header
 * Implemented collapsible responsive header
 
