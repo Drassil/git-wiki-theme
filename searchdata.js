@@ -1,5 +1,6 @@
 ---
 layout: null
+is_wiki_page: false
 ---
 
 var jsondata=[
