@@ -33,7 +33,8 @@ use_github_wiki: false
 # service to edit github markdown pages easily
 use_prose_io: true
 # Select search_engine component from:
-# - js: it uses a built in javascript component that uses generated sitemap_full.xml to search inside your wiki
+# - js: it uses a built in javascript component that uses generated js object
+# - js_rss: it uses a built in javascript component that uses generated  sitemap_full.xml to search inside your wiki with lunr library (slow and experimental)
 # - github : it uses internal github repository search
 # - google : it uses cse search bar, you need to configure google_cse_token
 #
