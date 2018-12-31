@@ -4,105 +4,122 @@
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding: 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
+  color: #727272;
+  font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin: 0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+  margin: 0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
+h1,
+h2,
+h3 {
+  line-height: 1.1;
 }
 
 h1 {
-  font-size:28px;
+  font-size: 28px;
 }
 
 h2 {
-  color:#393939;
+  color: #393939;
 }
 
-h3, h4, h5, h6 {
-  color:#494949;
+h3,
+h4,
+h5,
+h6 {
+  color: #494949;
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
+  color: #39c;
+  text-decoration: none;
 }
 
 a:hover {
-  color:#069;
+  color: #069;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
+  font-size: 11px;
+  color: #777;
+  margin-top: -0.3em;
+  display: block;
 }
 
 a:hover small {
-  color:#777;
+  color: #777;
 }
 
 .wrapper {
   /*width:860px;*/
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
+  border-left: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
 }
 
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-  font-size:12px;
+code,
+pre {
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color: #333;
+  font-size: 12px;
 }
 
 pre {
-  padding:8px 15px;
+  padding: 8px 15px;
   background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
   overflow-x: auto;
 }
 
 table {
-  width:100%;
-  border-collapse:collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+th,
+td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 dt {
-  color:#444;
-  font-weight:700;
+  color: #444;
+  font-weight: 700;
 }
 
 th {
-  color:#444;
+  color: #444;
 }
 
 img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 .w3-teal {
@@ -132,7 +149,8 @@ img {
   padding-bottom: 55px !important;
 }
 
-@media print, screen and (max-width: 992px) {
+@media print,
+screen and (max-width: 992px) {
   #git-wiki-sidebar {
     position: fixed !important;
     top: 50px;
@@ -141,8 +159,8 @@ img {
     border-radius: 10px;
   }
 
-  .git-wiki-content {
-    margin-top:60px;
+  .git-wiki-page {
+    margin-top: 60px;
   }
 }
 
@@ -151,122 +169,126 @@ img {
 }
 
 #git-wiki-sidebar .git-wiki-downloads {
-  list-style:none;
-  height:40px;
-  padding:0;
+  list-style: none;
+  height: 40px;
+  padding: 0;
   background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 270px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads li {
-  width:89px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  height:40px;
+  width: 89px;
+  float: left;
+  border-right: 1px solid #e0e0e0;
+  height: 40px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads li:first-child a {
-  border-radius:5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads li:last-child a {
-  border-radius:0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }
 
 #git-wiki-sidebar .git-wiki-downloads a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
+  line-height: 1;
+  font-size: 11px;
+  color: #999;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads a:hover {
-  color:#999;
+  color: #999;
 }
 
 #git-wiki-sidebar .git-wiki-downloads a:active {
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
 }
 
 strong {
-  color:#222;
-  font-weight:700;
+  color: #222;
+  font-weight: 700;
 }
 
-#git-wiki-sidebar .git-wiki-downloads li + li + li {
-  border-right:none;
-  width:89px;
+#git-wiki-sidebar .git-wiki-downloads li+li+li {
+  border-right: none;
+  width: 89px;
 }
 
 #git-wiki-sidebar .git-wiki-downloads a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
+  font-size: 14px;
+  display: block;
+  color: #222;
 }
 
-.git-wiki-content {
+.git-wiki-page {
   /*width:500px;
   float:right;*/
   padding-left: 320px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 small {
-  font-size:11px;
+  font-size: 11px;
 }
 
 hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin: 0 0 20px;
 }
 
 footer {
   padding-left: 320px;
-  float:left;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+  float: left;
+  bottom: 50px;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .tools-element {
-    border-left: aqua;
-    border-left-style: solid;
-    padding-left: 10px;
-    padding-right: 10px; 
+  border-left: aqua;
+  border-left-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print,
+screen and (max-width: 960px) {
 
   div.wrapper {
-    width:auto;
-    margin:0;
+    width: auto;
+    margin: 0;
   }
 
-  #git-wiki-sidebar, .git-wiki-content, footer {
-    float:none;
-    position:static;
-    width:auto;
+  #git-wiki-sidebar,
+  .git-wiki-page,
+  footer {
+    float: none;
+    position: static;
+    width: auto;
   }
 
-  #git-wiki-sidebar{
-    padding-right:320px;
+  #git-wiki-sidebar {
+    padding-right: 320px;
   }
 
-  .git-wiki-content, footer {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:60px 0 20px;
+  .git-wiki-page,
+  footer {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 60px 0 20px;
   }
 
   #git-wiki-sidebara small {
-    display:inline;
+    display: inline;
   }
 
   /*#git-wiki-sidebar .git-wiki-downloads {
@@ -277,43 +299,48 @@ footer {
 }
 
 
-@media print, screen and (max-width: 720px) {
+@media print,
+screen and (max-width: 720px) {
   body {
-    word-wrap:break-word;
+    word-wrap: break-word;
   }
 
-  #git-wiki-sidebar{
-    padding:0;
+  #git-wiki-sidebar {
+    padding: 0;
   }
 
-  #git-wiki-sidebar .git-wiki-downloads, #git-wiki-sidebarp.view {
-    position:static;
+  #git-wiki-sidebar .git-wiki-downloads,
+  #git-wiki-sidebarp.view {
+    position: static;
   }
 
-  pre, code {
-    word-wrap:normal;
+  pre,
+  code {
+    word-wrap: normal;
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print,
+screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding: 15px;
   }
 
   #git-wiki-sidebar .git-wiki-downloads {
-    width:99%;
+    width: 99%;
   }
 
-  #git-wiki-sidebarli, #git-wiki-sidebar .git-wiki-downloads li + li + li {
-    width:33%;
+  #git-wiki-sidebarli,
+  #git-wiki-sidebar .git-wiki-downloads li+li+li {
+    width: 33%;
   }
 }
 
 @media print {
   body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
   }
 }
 
@@ -321,7 +348,8 @@ footer {
   Pagination rules
 */
 
-.pagination a, .pagination span {
+.pagination a,
+.pagination span {
   padding: 7px 18px;
   border: 1px solid #eee;
   margin-left: -2px;
@@ -330,10 +358,10 @@ footer {
   display: inline-block;
 }
 
-.pagination a {    
+.pagination a {
   &:hover {
-      background-color: #f1f1f1;
-      color: #333;
+    background-color: #f1f1f1;
+    color: #333;
   }
 }
 
@@ -342,9 +370,17 @@ footer {
 }
 
 .post-item {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #results-container li {
   list-style-type: none;
+}
+
+.external-link {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-image: url("../images/external-link-ltr-icon.png");
+  background-image: linear-gradient(transparent, transparent), url("../images/external.svg");
+  padding-right: 13px;
 }
