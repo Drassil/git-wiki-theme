@@ -19,7 +19,9 @@ It means:
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
 * Integrated **Blogging** feature thanks to jekyll!
 
-You can fork/copy the master branch now and start your wiki in just 1 minute!
+You can fork/copy the master branch now and start your wiki in just 1 minute*!
+
+* Github pages takes about 10 minutes to show up the first time you configure it
 
 **Note:**
 You can even include the [official github wiki](https://help.github.com/articles/about-github-wikis/) as a submodule and enable the option in our conf file to use github wiki pages in git-wiki system, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
