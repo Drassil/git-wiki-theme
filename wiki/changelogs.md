@@ -1,5 +1,9 @@
 # Changelogs
 
+## 2.2 - External Links
+
+* Implemented external links icon (wikipedia style)
+
 ## 2.1.16 - Search with steroids
 
 * Improved search engine with new async js data loading
