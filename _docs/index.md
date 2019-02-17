@@ -1,8 +1,3 @@
----
-redirect_from:
-  - /
----
-
 Welcome to the AzerothCore project wiki!
 
 - [Traditional setup guide](wiki/Installation)
