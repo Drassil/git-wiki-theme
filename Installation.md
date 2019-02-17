@@ -1,6 +1,6 @@
 This tutorial explains how to compile and install AzerothCore in your host system.
 
-Alternatively, it is also possible to [use AzerothCore with Docker](https://github.com/azerothcore/azerothcore-wotlk/wiki/install-with-Docker).
+Alternatively, it is also possible to [use AzerothCore with Docker](install-with-Docker).
 
 For macOS users: the build on mac is currently broken (see [this issue](https://github.com/azerothcore/azerothcore-wotlk/issues/122)), but you can still use AzerothCore on macOS with Docker.
 
@@ -42,7 +42,7 @@ Before running the CMake command, replace `/home/youruser/azeroth-server/` with 
 
 **CMAKE OPTIONS**
 
-Check the options here if you know what you're doing: [CMake options](https://github.com/azerothcore/azerothcore-wotlk/wiki/Cmake-options)
+Check the options here if you know what you're doing: [CMake options](Cmake-options)
 
 
 **CMake on Linux:**
