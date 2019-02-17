@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[account_access|account_access]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [account_access](account_access)
 
 Column | Type | Description
 --- | --- | ---

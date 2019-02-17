@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[locales_quest|locales_quest]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_quest](locales_quest)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_tele|game_tele]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_tele](game_tele)
 
 Column | Type | Description
 --- | --- | ---

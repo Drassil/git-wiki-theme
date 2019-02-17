@@ -1,4 +1,4 @@
-Before start we suggest you to read [[Documentation about modular structure|The-Modular-Structure]] to understand the way AzerothCore works.
+Before start we suggest you to read [Documentation about modular structure](The-Modular-Structure) to understand the way AzerothCore works.
 
 ## **How to create a module**
 
@@ -21,7 +21,7 @@ it will be automatically detected by cmake when you [re]configure your project.
 3. Now you can develop add anything to the main project, such as some scripts or 
 even an entire library
 
-Note: we suggest to use the [[directory structure|Directory-Structure]] standards of AzerothCore to better organize your modules and be familiar with main project.
+Note: we suggest to use the [directory structure](Directory-Structure) standards of AzerothCore to better organize your modules and be familiar with main project.
 
 ### **Add the first script**
 

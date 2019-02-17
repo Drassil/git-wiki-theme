@@ -84,7 +84,7 @@ Press `Configure` once again and then press `Generate`. If no error occurred you
 Go to the location where the build files have been generated and open AzerothCore.sln  
 
 _Note: If MySQL is not found by CMake it is required to set MYSQL_INCLUDE_DIR = C:/mysql_libs/include and MYSQL_LIBRARY= C:/mysql_libs/lib_XX/libmysql.lib._
-_XX depends if you are compiling in 32 or 64 bits mode. ( See [[Windows Requirements article|Requirements#windows]] )_
+_XX depends if you are compiling in 32 or 64 bits mode. ( See [Windows Requirements article](Requirements#windows) )_
 
 Press `BUILD` then select `Build solution` or press F6.  
 Wait until the Build has been finished (It should take between 10-40 minutes depending on your hardware).  

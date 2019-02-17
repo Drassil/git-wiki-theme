@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[bugreport|bugreport]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [bugreport](bugreport)
 
 Column | Type | Description
 --- | --- | ---

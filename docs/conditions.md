@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[conditions|conditions]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [conditions](conditions)
 
 Column | Type | Description
 --- | --- | ---

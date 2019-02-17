@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[locales_creature_text|locales_creature_text]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_creature_text](locales_creature_text)
 
 Column | Type | Description
 --- | --- | ---

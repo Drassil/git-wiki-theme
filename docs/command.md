@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[command|command]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [command](command)
 
 Column | Type | Description
 --- | --- | ---

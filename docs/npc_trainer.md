@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[npc_trainer|npc_trainer]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [npc_trainer](npc_trainer)
 
 Column | Type | Description
 --- | --- | ---

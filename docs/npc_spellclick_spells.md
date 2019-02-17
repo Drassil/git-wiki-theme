@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[npc_spellclick_spells|npc_spellclick_spells]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [npc_spellclick_spells](npc_spellclick_spells)
 
 Column | Type | Description
 --- | --- | ---

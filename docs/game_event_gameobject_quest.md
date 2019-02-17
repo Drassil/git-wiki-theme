@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_event_gameobject_quest|game_event_gameobject_quest]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_gameobject_quest](game_event_gameobject_quest)
 
 Column | Type | Description
 --- | --- | ---

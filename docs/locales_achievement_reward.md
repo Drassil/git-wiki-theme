@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[locales_achievement_reward|locales_achievement_reward]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_achievement_reward](locales_achievement_reward)
 
 Column | Type | Description
 --- | --- | ---

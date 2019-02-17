@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[skill_extra_item_template|skill_extra_item_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [skill_extra_item_template](skill_extra_item_template)
 
 Column | Type | Description
 --- | --- | ---

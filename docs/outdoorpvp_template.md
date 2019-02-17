@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[outdoorpvp_template|outdoorpvp_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [outdoorpvp_template](outdoorpvp_template)
 
 Column | Type | Description
 --- | --- | ---

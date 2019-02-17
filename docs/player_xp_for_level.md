@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[player_xp_for_level|player_xp_for_level]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [player_xp_for_level](player_xp_for_level)
 
 Column | Type | Description
 --- | --- | ---

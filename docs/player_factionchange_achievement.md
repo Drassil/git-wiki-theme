@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[player_factionchange_achievement|player_factionchange_achievement]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [player_factionchange_achievement](player_factionchange_achievement)
 
 Column | Type | Description
 --- | --- | ---

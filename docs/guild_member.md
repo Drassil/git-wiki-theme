@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[guild_member|guild_member]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [guild_member](guild_member)
 
 Column | Type | Description
 --- | --- | ---

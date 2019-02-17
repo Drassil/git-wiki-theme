@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_queststatus_rewarded|character_queststatus_rewarded]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_queststatus_rewarded](character_queststatus_rewarded)
 
 Column | Type | Description
 --- | --- | ---

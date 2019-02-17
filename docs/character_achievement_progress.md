@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_achievement_progress|character_achievement_progress]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_achievement_progress](character_achievement_progress)
 
 Column | Type | Description
 --- | --- | ---

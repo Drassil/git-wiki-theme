@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[spell_mixology|spell_mixology]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_mixology](spell_mixology)
 
 Column | Type | Description
 --- | --- | ---

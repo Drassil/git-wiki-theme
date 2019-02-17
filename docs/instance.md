@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[instance|instance]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [instance](instance)
 
 Column | Type | Description
 --- | --- | ---

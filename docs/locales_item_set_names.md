@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[locales_item_set_names|locales_item_set_names]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_item_set_names](locales_item_set_names)
 
 Column | Type | Description
 --- | --- | ---

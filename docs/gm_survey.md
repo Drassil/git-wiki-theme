@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[gm_survey|gm_survey]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [gm_survey](gm_survey)
 
 Column | Type | Description
 --- | --- | ---

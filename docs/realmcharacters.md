@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[realmcharacters|realmcharacters]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [realmcharacters](realmcharacters)
 
 Column | Type | Description
 --- | --- | ---

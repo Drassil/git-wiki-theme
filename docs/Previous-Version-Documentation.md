@@ -1,2 +1,2 @@
 
-[[Release 0.x|release_0.x]]
+[Release 0.x](release_0.x)

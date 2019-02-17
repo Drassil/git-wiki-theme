@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[player_factionchange_spells|player_factionchange_spells]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [player_factionchange_spells](player_factionchange_spells)
 
 Column | Type | Description
 --- | --- | ---

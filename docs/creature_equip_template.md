@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_equip_template|creature_equip_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_equip_template](creature_equip_template)
 
 Column | Type | Description
 --- | --- | ---

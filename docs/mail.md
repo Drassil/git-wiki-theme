@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[mail|mail]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [mail](mail)
 
 Column | Type | Description
 --- | --- | ---

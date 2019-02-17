@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[uptime|uptime]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [uptime](uptime)
 
 Column | Type | Description
 --- | --- | ---

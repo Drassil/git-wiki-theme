@@ -69,4 +69,4 @@ As said before, we've a special workflow for PR to allow db data consistency for
 
 it requires some stuffs to be done on your PR's sql to be compatible with our import system and allow you to avoid double importing of same queries.
 
-The how to is described under [[Dealing-with-SQL-files|Dealing-with-SQL-files]] article
+The how to is described under [Dealing-with-SQL-files](Dealing-with-SQL-files) article

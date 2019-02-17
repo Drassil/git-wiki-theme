@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[instance_template|instance_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [instance_template](instance_template)
 
 Column | Type | Description
 --- | --- | ---

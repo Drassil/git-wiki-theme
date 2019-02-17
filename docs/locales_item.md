@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[locales_item|locales_item]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_item](locales_item)
 
 Column | Type | Description
 --- | --- | ---

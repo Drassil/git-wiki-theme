@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[cheaters|cheaters]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [cheaters](cheaters)
 
 Column | Type | Description
 --- | --- | ---

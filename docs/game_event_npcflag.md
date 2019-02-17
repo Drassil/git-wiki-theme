@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_event_npcflag|game_event_npcflag]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_npcflag](game_event_npcflag)
 
 Column | Type | Description
 --- | --- | ---

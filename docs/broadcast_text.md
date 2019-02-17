@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[broadcast_text|broadcast_text]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [broadcast_text](broadcast_text)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_gifts|character_gifts]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_gifts](character_gifts)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_questitem|creature_questitem]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_questitem](creature_questitem)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_summon_groups|creature_summon_groups]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_summon_groups](creature_summon_groups)
 
 Column | Type | Description
 --- | --- | ---

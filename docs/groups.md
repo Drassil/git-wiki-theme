@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[groups|groups]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [groups](groups)
 
 Column | Type | Description
 --- | --- | ---

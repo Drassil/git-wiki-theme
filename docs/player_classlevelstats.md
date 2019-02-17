@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[player_classlevelstats|player_classlevelstats]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [player_classlevelstats](player_classlevelstats)
 
 Column | Type | Description
 --- | --- | ---

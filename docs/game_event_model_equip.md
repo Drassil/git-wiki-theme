@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_event_model_equip|game_event_model_equip]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_model_equip](game_event_model_equip)
 
 Column | Type | Description
 --- | --- | ---

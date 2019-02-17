@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[prospecting_loot_template|prospecting_loot_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [prospecting_loot_template](prospecting_loot_template)
 
 Column | Type | Description
 --- | --- | ---

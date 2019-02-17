@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[log_arena_memberstats|log_arena_memberstats]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [log_arena_memberstats](log_arena_memberstats)
 
 Column | Type | Description
 --- | --- | ---

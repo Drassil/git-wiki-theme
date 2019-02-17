@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_event_npc_vendor|game_event_npc_vendor]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_npc_vendor](game_event_npc_vendor)
 
 Column | Type | Description
 --- | --- | ---

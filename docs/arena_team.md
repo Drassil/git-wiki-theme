@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[arena_team|arena_team]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [arena_team](arena_team)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_skills|character_skills]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_skills](character_skills)
 
 Column | Type | Description
 --- | --- | ---

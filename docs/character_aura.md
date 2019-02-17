@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_aura|character_aura]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_aura](character_aura)
 
 Column | Type | Description
 --- | --- | ---

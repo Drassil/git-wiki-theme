@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[pet_name_generation|pet_name_generation]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [pet_name_generation](pet_name_generation)
 
 Column | Type | Description
 --- | --- | ---

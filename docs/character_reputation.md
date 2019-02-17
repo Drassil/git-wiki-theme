@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_reputation|character_reputation]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_reputation](character_reputation)
 
 Column | Type | Description
 --- | --- | ---

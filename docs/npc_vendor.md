@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[npc_vendor|npc_vendor]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [npc_vendor](npc_vendor)
 
 Column | Type | Description
 --- | --- | ---

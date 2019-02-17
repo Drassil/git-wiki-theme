@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_questender|creature_questender]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_questender](creature_questender)
 
 Column | Type | Description
 --- | --- | ---

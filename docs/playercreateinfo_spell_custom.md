@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[playercreateinfo_spell_custom|playercreateinfo_spell_custom]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [playercreateinfo_spell_custom](playercreateinfo_spell_custom)
 
 Column | Type | Description
 --- | --- | ---

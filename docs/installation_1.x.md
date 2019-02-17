@@ -43,7 +43,7 @@ Press `Configure` once again and then press `Generate`. If no error occurred you
 Go to the location where the build files have been generated and open AzerothCore.sln  
 
 _Note: If MySQL is not found by CMake it is required to set MYSQL_INCLUDE_DIR = C:/mysql_libs/include and MYSQL_LIBRARY= C:/mysql_libs/lib_XX/libmysql.lib._
-_XX depends if you are compiling in 32 or 64 bits mode. ( See [[Windows Requirements article|Requirements#windows]] )_
+_XX depends if you are compiling in 32 or 64 bits mode. ( See [Windows Requirements article](Requirements#windows) )_
 
 Press `BUILD` then select `Build solution` or press F6.  
 Wait until the Build has been finished (It should take between 10-40 minutes depending on your hardware).  
@@ -78,7 +78,7 @@ Inside the directory where you installed the binaries (e.g. `/home/youruser/azer
 - copy the file `authserver.conf.dist` and rename it to `authserver.conf` ( DO NOT REMOVE THE .dist FILE )
 - copy the file `worldserver.conf.dist` and rename it to `worldserver.conf` ( DO NOT REMOVE THE .dist FILE )
 
-_Please Read [[How to edit .conf files|how-to-work-with-conf-files]] article to understand how configuration files work, and why you need the .dist file too_
+_Please Read [How to edit .conf files](how-to-work-with-conf-files) article to understand how configuration files work, and why you need the .dist file too_
 
 Open both `authserver.conf` and `worldserver.conf` files and go to the `MYSQL SETTINGS` section, then set the variables:
 

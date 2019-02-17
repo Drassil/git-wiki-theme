@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[lfg_data|lfg_data]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [lfg_data](lfg_data)
 
 Column | Type | Description
 --- | --- | ---

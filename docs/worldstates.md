@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[worldstates|worldstates]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [worldstates](worldstates)
 
 Column | Type | Description
 --- | --- | ---

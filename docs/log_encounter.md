@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[log_encounter|log_encounter]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [log_encounter](log_encounter)
 
 Column | Type | Description
 --- | --- | ---

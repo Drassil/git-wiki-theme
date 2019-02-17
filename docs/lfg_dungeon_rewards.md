@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[lfg_dungeon_rewards|lfg_dungeon_rewards]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [lfg_dungeon_rewards](lfg_dungeon_rewards)
 
 Column | Type | Description
 --- | --- | ---

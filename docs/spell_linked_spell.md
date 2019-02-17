@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[spell_linked_spell|spell_linked_spell]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_linked_spell](spell_linked_spell)
 
 Column | Type | Description
 --- | --- | ---

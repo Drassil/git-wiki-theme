@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_action|character_action]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_action](character_action)
 
 Column | Type | Description
 --- | --- | ---

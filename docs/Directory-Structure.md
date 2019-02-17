@@ -2,7 +2,7 @@ AzerothCore and our modules is following  directory structure standard from hw-c
 
 <a href="https://github.com/HW-Core/directory-structure/blob/master/README.md" target="_blank">Standard Directory Structure</a>
 
-This structure is conformed to our [[modular architecture|The-Modular-Structure]]
+This structure is conformed to our [modular architecture](The-Modular-Structure)
 
 ##  AzerothCore Wotlk directory structure:
 

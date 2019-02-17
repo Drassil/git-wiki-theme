@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[spell_script_names|spell_script_names]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_script_names](spell_script_names)
 
 Column | Type | Description
 --- | --- | ---

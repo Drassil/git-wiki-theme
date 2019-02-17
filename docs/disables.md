@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[disables|disables]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [disables](disables)
 
 Column | Type | Description
 --- | --- | ---

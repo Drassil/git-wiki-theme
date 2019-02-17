@@ -1,6 +1,6 @@
 AzerothCore is able to read on multiple .conf file for both authserver and worldserver
 
-In fact our modules are capable of create their own [[configuration files|Create-a-Module#create-a-custom-configuration-file]].
+In fact our modules are capable of create their own [configuration files](Create-a-Module#create-a-custom-configuration-file).
 
 ## Why worldserver and authserver needs .conf.dist files to be present in installation path?
 

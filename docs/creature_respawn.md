@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[creature_respawn|creature_respawn]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [creature_respawn](creature_respawn)
 
 Column | Type | Description
 --- | --- | ---

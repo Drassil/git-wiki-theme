@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[lag_reports|lag_reports]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [lag_reports](lag_reports)
 
 Column | Type | Description
 --- | --- | ---

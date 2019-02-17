@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[skill_fishing_base_level|skill_fishing_base_level]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [skill_fishing_base_level](skill_fishing_base_level)
 
 Column | Type | Description
 --- | --- | ---

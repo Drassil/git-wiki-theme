@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_spell|character_spell]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_spell](character_spell)
 
 Column | Type | Description
 --- | --- | ---

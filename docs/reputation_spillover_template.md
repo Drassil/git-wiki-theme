@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[reputation_spillover_template|reputation_spillover_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [reputation_spillover_template](reputation_spillover_template)
 
 Column | Type | Description
 --- | --- | ---

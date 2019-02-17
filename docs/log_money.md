@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[log_money|log_money]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [log_money](log_money)
 
 Column | Type | Description
 --- | --- | ---

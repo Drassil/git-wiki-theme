@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_queststatus_seasonal|character_queststatus_seasonal]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_queststatus_seasonal](character_queststatus_seasonal)
 
 Column | Type | Description
 --- | --- | ---

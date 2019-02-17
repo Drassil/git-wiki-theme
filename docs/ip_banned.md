@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[ip_banned|ip_banned]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [ip_banned](ip_banned)
 
 Column | Type | Description
 --- | --- | ---

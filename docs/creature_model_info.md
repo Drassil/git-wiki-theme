@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_model_info|creature_model_info]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_model_info](creature_model_info)
 
 Column | Type | Description
 --- | --- | ---

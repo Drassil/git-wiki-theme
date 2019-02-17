@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[trinity_string|trinity_string]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [trinity_string](trinity_string)
 
 Column | Type | Description
 --- | --- | ---

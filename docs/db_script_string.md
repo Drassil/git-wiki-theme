@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[db_script_string|db_script_string]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [db_script_string](db_script_string)
 
 Column | Type | Description
 --- | --- | ---

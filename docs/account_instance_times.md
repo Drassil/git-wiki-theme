@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[account_instance_times|account_instance_times]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [account_instance_times](account_instance_times)
 
 Column | Type | Description
 --- | --- | ---

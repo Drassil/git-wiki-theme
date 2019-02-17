@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[auctionhouse|auctionhouse]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [auctionhouse](auctionhouse)
 
 Column | Type | Description
 --- | --- | ---

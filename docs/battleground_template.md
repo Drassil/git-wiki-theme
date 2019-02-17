@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[battleground_template|battleground_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [battleground_template](battleground_template)
 
 Column | Type | Description
 --- | --- | ---

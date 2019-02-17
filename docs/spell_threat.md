@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[spell_threat|spell_threat]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_threat](spell_threat)
 
 Column | Type | Description
 --- | --- | ---

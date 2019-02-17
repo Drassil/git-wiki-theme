@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[gameobject_respawn|gameobject_respawn]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [gameobject_respawn](gameobject_respawn)
 
 Column | Type | Description
 --- | --- | ---

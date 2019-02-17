@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[pet_spell_cooldown|pet_spell_cooldown]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [pet_spell_cooldown](pet_spell_cooldown)
 
 Column | Type | Description
 --- | --- | ---

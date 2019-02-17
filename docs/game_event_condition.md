@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[game_event_condition|game_event_condition]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_condition](game_event_condition)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[pool_template|pool_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [pool_template](pool_template)
 
 Column | Type | Description
 --- | --- | ---

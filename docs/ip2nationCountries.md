@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[ip2nationCountries|ip2nationCountries]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [ip2nationCountries](ip2nationCountries)
 
 Column | Type | Description
 --- | --- | ---

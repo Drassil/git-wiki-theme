@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[quest_poi_points|quest_poi_points]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [quest_poi_points](quest_poi_points)
 
 Column | Type | Description
 --- | --- | ---

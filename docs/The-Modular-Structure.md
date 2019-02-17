@@ -26,7 +26,7 @@ Create and use include.sh in your root directory to interact with our bash syste
 *NOTE: *Even if core file modification is not suggested by AzerothCore project, developing as much as possible under your module and patching the core with small rows of code could be a good practice. You can eventually provide an install/uninstall script that can automatically patch/unpatch the core using our bash system.
 
 
-Read guide on [[how to create a module|Create-a-Module]]
+Read guide on [how to create a module](Create-a-Module)
 
 **CORE MODULES:**
 

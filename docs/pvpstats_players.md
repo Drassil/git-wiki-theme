@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[pvpstats_players|pvpstats_players]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [pvpstats_players](pvpstats_players)
 
 Column | Type | Description
 --- | --- | ---

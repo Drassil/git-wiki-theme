@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[vehicle_accessory|vehicle_accessory]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [vehicle_accessory](vehicle_accessory)
 
 Column | Type | Description
 --- | --- | ---

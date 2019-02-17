@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[areatrigger_tavern|areatrigger_tavern]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [areatrigger_tavern](areatrigger_tavern)
 
 Column | Type | Description
 --- | --- | ---

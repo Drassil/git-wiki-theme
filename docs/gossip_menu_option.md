@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[gossip_menu_option|gossip_menu_option]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [gossip_menu_option](gossip_menu_option)
 
 Column | Type | Description
 --- | --- | ---

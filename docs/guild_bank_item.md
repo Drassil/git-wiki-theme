@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[guild_bank_item|guild_bank_item]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [guild_bank_item](guild_bank_item)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[account_tutorial|account_tutorial]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [account_tutorial](account_tutorial)
 
 Column | Type | Description
 --- | --- | ---

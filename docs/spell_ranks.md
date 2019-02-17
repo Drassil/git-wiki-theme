@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[spell_ranks|spell_ranks]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_ranks](spell_ranks)
 
 Column | Type | Description
 --- | --- | ---

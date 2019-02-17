@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[achievement_reward|achievement_reward]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [achievement_reward](achievement_reward)
 
 Column | Type | Description
 --- | --- | ---

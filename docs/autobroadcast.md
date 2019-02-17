@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[autobroadcast|autobroadcast]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [autobroadcast](autobroadcast)
 
 Column | Type | Description
 --- | --- | ---

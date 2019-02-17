@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[areatrigger_involvedrelation|areatrigger_involvedrelation]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [areatrigger_involvedrelation](areatrigger_involvedrelation)
 
 Column | Type | Description
 --- | --- | ---

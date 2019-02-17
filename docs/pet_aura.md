@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[pet_aura|pet_aura]]
+[Database Structure](Database Structure) > [Character-Database](Character-Database) > [pet_aura](pet_aura)
 
 Column | Type | Description
 --- | --- | ---

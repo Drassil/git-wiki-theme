@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[page_text|page_text]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [page_text](page_text)
 
 Column | Type | Description
 --- | --- | ---

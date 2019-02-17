@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[milling_loot_template|milling_loot_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [milling_loot_template](milling_loot_template)
 
 Column | Type | Description
 --- | --- | ---

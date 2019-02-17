@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[npc_text|npc_text]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [npc_text](npc_text)
 
 Column | Type | Description
 --- | --- | ---

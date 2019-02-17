@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[World-Database|World-Database]] > [[creature_loot_template|creature_loot_template]]
+[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_loot_template](creature_loot_template)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[[Database Structure|Database Structure]] > [[Auth-Database|Auth-Database]] > [[version_db_auth|version_db_auth]]
+[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [version_db_auth](version_db_auth)
 
 Column | Type | Description
 --- | --- | ---
