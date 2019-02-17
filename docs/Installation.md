@@ -1,6 +1,6 @@
 This tutorial explains how to compile and install AzerothCore in your host system.
 
-Alternatively, it is also possible to [use AzerothCore with Docker](install-with-Docker).
+Alternatively, it is also possible to [use AzerothCore with Docker](Install-with-Docker).
 
 For macOS users: the build on mac is currently broken (see [this issue](https://github.com/azerothcore/azerothcore-wotlk/issues/122)), but you can still use AzerothCore on macOS with Docker.
 
