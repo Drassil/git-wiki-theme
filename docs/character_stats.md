@@ -1,0 +1,35 @@
+[[Database Structure|Database Structure]] > [[Character-Database|Character-Database]] > [[character_stats|character_stats]]
+
+Column | Type | Description
+--- | --- | ---
+Guid | int(10) unsigned | 
+Maxhealth | int(10) unsigned | 
+Maxpower1 | int(10) unsigned | 
+Maxpower2 | int(10) unsigned | 
+Maxpower3 | int(10) unsigned | 
+Maxpower4 | int(10) unsigned | 
+Maxpower5 | int(10) unsigned | 
+Maxpower6 | int(10) unsigned | 
+Maxpower7 | int(10) unsigned | 
+Strength | int(10) unsigned | 
+Agility | int(10) unsigned | 
+Stamina | int(10) unsigned | 
+Intellect | int(10) unsigned | 
+Spirit | int(10) unsigned | 
+Armor | int(10) unsigned | 
+ResHoly | int(10) unsigned | 
+ResFire | int(10) unsigned | 
+ResNature | int(10) unsigned | 
+ResFrost | int(10) unsigned | 
+ResShadow | int(10) unsigned | 
+ResArcane | int(10) unsigned | 
+BlockPct | float unsigned | 
+DodgePct | float unsigned | 
+ParryPct | float unsigned | 
+CritPct | float unsigned | 
+RangedCritPct | float unsigned | 
+SpellCritPct | float unsigned | 
+AttackPower | int(10) unsigned | 
+RangedAttackPower | int(10) unsigned | 
+SpellPower | int(10) unsigned | 
+Resilience | int(10) unsigned | 
