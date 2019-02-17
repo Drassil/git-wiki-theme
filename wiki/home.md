@@ -1,3 +1,8 @@
+---
+redirect_from:
+  - /
+---
+
 Welcome to the AzerothCore project wiki!
 
 - [Traditional setup guide](https://github.com/AzerothCore/azerothcore-wotlk/wiki/Installation)
