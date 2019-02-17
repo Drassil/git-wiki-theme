@@ -107,7 +107,7 @@ inc_after_content :
 inc_before_footer : 
 inc_after_footer : 
 inc_before_head : 
-inc_after_head : 
+inc_after_head : "azerothcore/afterhead.html"
 inc_before_meta : 
 inc_after_meta : 
 inc_before_scripts : 
