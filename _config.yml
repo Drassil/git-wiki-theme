@@ -25,7 +25,7 @@ logo_url: http://www.azerothcore.org/images/logo.png
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
 google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
-wiki_folder: _docs
+wiki_folder: 
 # (boolean) if you're using github wiki as submodule then this config
 # must be enabled to allow tool buttons to work properly
 use_github_wiki: false
@@ -53,10 +53,6 @@ google_cse_token:
 # git-wiki includes some internal themes that you can choose
 # check _layouts folder
 #
-collections:
-  docs:
-    output: true
-    permalink: /:path
 
 permalink: pretty
 
