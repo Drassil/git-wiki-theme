@@ -1,4 +1,3 @@
-Welcome to the AzerothCore project wiki!
+# aZerothCore WIKI
 
-- [Traditional setup guide](Installation)
-- [Docker setup guide](Install-with-Docker)
+wiki for the aZerothCore Project available here: http://azerothcore.github.io/wiki
