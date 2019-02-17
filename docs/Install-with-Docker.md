@@ -1,9 +1,5 @@
 Welcome to the AzerothCore Docker guide!
 
-- [Introduction](#Introduction)
-- [Setup guide](#Setup)
-- [FAQ](#Faq)
-
 # Introduction
 
 Installing AzerothCore using Docker is a simplified procedure that has several benefits:
