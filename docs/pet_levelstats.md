@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [pet_levelstats](pet_levelstats)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [pet_levelstats](pet_levelstats)
 
 Column | Type | Description
 --- | --- | ---

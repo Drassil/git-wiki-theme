@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [waypoint_data](waypoint_data)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [waypoint_data](waypoint_data)
 
 Column | Type | Description
 --- | --- | ---

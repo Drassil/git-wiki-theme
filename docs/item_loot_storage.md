@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [item_loot_storage](item_loot_storage)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [item_loot_storage](item_loot_storage)
 
 Column | Type | Description
 --- | --- | ---

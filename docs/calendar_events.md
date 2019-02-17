@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [calendar_events](calendar_events)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [calendar_events](calendar_events)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [event_scripts](event_scripts)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [event_scripts](event_scripts)
 
 Column | Type | Description
 --- | --- | ---

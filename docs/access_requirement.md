@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [access_requirement](access_requirement)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [access_requirement](access_requirement)
 
 Column | Type | Description
 --- | --- | ---

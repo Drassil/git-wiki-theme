@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [pool_gameobject](pool_gameobject)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [pool_gameobject](pool_gameobject)
 
 Column | Type | Description
 --- | --- | ---

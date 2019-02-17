@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database)
 * [Account_data](account_data)
 * [Account_instance_times](account_instance_times)
 * [Account_tutorial](account_tutorial)

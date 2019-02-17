@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [log_arena_fights](log_arena_fights)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [log_arena_fights](log_arena_fights)
 
 Column | Type | Description
 --- | --- | ---

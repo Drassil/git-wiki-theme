@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [instance_reset](instance_reset)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [instance_reset](instance_reset)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_spell_cooldown](character_spell_cooldown)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_spell_cooldown](character_spell_cooldown)
 
 Column | Type | Description
 --- | --- | ---

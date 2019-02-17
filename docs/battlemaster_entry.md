@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [battlemaster_entry](battlemaster_entry)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [battlemaster_entry](battlemaster_entry)
 
 Column | Type | Description
 --- | --- | ---

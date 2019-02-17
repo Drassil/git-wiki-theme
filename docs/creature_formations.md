@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_formations](creature_formations)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_formations](creature_formations)
 
 Column | Type | Description
 --- | --- | ---

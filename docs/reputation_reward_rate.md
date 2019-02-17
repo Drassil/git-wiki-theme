@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [reputation_reward_rate](reputation_reward_rate)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [reputation_reward_rate](reputation_reward_rate)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_glyphs](character_glyphs)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_glyphs](character_glyphs)
 
 Column | Type | Description
 --- | --- | ---

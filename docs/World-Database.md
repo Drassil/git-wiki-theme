@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database)
+[Database Structure](Database-Structure) > [World-Database](World-Database)
 * [Access_requirement](access_requirement)
 * [Achievement_criteria_data](achievement_criteria_data)
 * [Achievement_dbc](achievement_dbc)

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_banned](character_banned)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_banned](character_banned)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [transports](transports)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [transports](transports)
 
 Column | Type | Description
 --- | --- | ---

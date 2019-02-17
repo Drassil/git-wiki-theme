@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_group](spell_group)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_group](spell_group)
 
 Column | Type | Description
 --- | --- | ---

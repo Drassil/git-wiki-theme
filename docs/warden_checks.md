@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [warden_checks](warden_checks)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [warden_checks](warden_checks)
 
 Column | Type | Description
 --- | --- | ---

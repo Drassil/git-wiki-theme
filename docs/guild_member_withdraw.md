@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [guild_member_withdraw](guild_member_withdraw)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [guild_member_withdraw](guild_member_withdraw)
 
 Column | Type | Description
 --- | --- | ---

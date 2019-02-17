@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_classlevelstats](creature_classlevelstats)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_classlevelstats](creature_classlevelstats)
 
 Column | Type | Description
 --- | --- | ---

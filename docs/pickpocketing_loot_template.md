@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [pickpocketing_loot_template](pickpocketing_loot_template)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [pickpocketing_loot_template](pickpocketing_loot_template)
 
 Column | Type | Description
 --- | --- | ---

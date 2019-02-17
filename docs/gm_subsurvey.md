@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [gm_subsurvey](gm_subsurvey)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [gm_subsurvey](gm_subsurvey)
 
 Column | Type | Description
 --- | --- | ---

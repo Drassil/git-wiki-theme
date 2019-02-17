@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [skill_discovery_template](skill_discovery_template)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [skill_discovery_template](skill_discovery_template)
 
 Column | Type | Description
 --- | --- | ---

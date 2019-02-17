@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_enchant_proc_data](spell_enchant_proc_data)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_enchant_proc_data](spell_enchant_proc_data)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [item_set_names](item_set_names)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [item_set_names](item_set_names)
 
 Column | Type | Description
 --- | --- | ---

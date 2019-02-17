@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [smart_scripts](smart_scripts)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [smart_scripts](smart_scripts)
 
 Column | Type | Description
 --- | --- | ---

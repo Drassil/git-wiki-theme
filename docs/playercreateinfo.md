@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [playercreateinfo](playercreateinfo)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [playercreateinfo](playercreateinfo)
 
 Column | Type | Description
 --- | --- | ---

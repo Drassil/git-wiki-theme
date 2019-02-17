@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_social](character_social)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_social](character_social)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spelldifficulty_dbc](spelldifficulty_dbc)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spelldifficulty_dbc](spelldifficulty_dbc)
 
 Column | Type | Description
 --- | --- | ---

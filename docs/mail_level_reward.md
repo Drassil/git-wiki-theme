@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [mail_level_reward](mail_level_reward)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [mail_level_reward](mail_level_reward)
 
 Column | Type | Description
 --- | --- | ---

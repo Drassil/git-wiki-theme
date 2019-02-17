@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [player_factionchange_reputations](player_factionchange_reputations)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [player_factionchange_reputations](player_factionchange_reputations)
 
 Column | Type | Description
 --- | --- | ---

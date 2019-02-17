@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_template_locale](creature_template_locale)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_template_locale](creature_template_locale)
 
 Column | Type | Description
 --- | --- | ---

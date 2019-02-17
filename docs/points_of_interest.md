@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [points_of_interest](points_of_interest)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [points_of_interest](points_of_interest)
 
 Column | Type | Description
 --- | --- | ---

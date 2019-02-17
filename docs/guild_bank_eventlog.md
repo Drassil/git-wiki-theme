@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [guild_bank_eventlog](guild_bank_eventlog)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [guild_bank_eventlog](guild_bank_eventlog)
 
 Column | Type | Description
 --- | --- | ---

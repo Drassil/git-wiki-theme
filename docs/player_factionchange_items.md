@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [player_factionchange_items](player_factionchange_items)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [player_factionchange_items](player_factionchange_items)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [pool_quest](pool_quest)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [pool_quest](pool_quest)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [characters](characters)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [characters](characters)
 
 Column | Type | Description
 --- | --- | ---

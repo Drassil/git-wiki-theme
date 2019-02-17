@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [gm_ticket](gm_ticket)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [gm_ticket](gm_ticket)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_prerequisite](game_event_prerequisite)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [game_event_prerequisite](game_event_prerequisite)
 
 Column | Type | Description
 --- | --- | ---

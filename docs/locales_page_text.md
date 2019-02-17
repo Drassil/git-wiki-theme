@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [locales_page_text](locales_page_text)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [locales_page_text](locales_page_text)
 
 Column | Type | Description
 --- | --- | ---

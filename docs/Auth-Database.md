@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Auth-Database](Auth-Database)
+[Database Structure](Database-Structure) > [Auth-Database](Auth-Database)
 * [Account](account)
 * [Account_access](account_access)
 * [Account_banned](account_banned)

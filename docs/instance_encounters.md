@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [instance_encounters](instance_encounters)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [instance_encounters](instance_encounters)
 
 Column | Type | Description
 --- | --- | ---

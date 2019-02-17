@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [version](version)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [version](version)
 
 Column | Type | Description
 --- | --- | ---

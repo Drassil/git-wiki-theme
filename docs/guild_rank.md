@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [guild_rank](guild_rank)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [guild_rank](guild_rank)
 
 Column | Type | Description
 --- | --- | ---

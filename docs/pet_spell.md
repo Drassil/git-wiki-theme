@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [pet_spell](pet_spell)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [pet_spell](pet_spell)
 
 Column | Type | Description
 --- | --- | ---

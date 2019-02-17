@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [calendar_invites](calendar_invites)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [calendar_invites](calendar_invites)
 
 Column | Type | Description
 --- | --- | ---

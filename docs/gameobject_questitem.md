@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [gameobject_questitem](gameobject_questitem)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [gameobject_questitem](gameobject_questitem)
 
 Column | Type | Description
 --- | --- | ---

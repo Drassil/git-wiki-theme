@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_queststatus_weekly](character_queststatus_weekly)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_queststatus_weekly](character_queststatus_weekly)
 
 Column | Type | Description
 --- | --- | ---

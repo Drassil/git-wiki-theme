@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [mail_items](mail_items)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [mail_items](mail_items)
 
 Column | Type | Description
 --- | --- | ---

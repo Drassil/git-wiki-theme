@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_entry_point](character_entry_point)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_entry_point](character_entry_point)
 
 Column | Type | Description
 --- | --- | ---

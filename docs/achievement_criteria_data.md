@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [achievement_criteria_data](achievement_criteria_data)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [achievement_criteria_data](achievement_criteria_data)
 
 Column | Type | Description
 --- | --- | ---

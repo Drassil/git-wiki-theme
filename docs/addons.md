@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [addons](addons)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [addons](addons)
 
 Column | Type | Description
 --- | --- | ---

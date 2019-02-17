@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [game_weather](game_weather)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [game_weather](game_weather)
 
 Column | Type | Description
 --- | --- | ---

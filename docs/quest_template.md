@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [quest_template](quest_template)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [quest_template](quest_template)
 
 Column | Type | Description
 --- | --- | ---

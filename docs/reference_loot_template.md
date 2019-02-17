@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [reference_loot_template](reference_loot_template)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [reference_loot_template](reference_loot_template)
 
 Column | Type | Description
 --- | --- | ---

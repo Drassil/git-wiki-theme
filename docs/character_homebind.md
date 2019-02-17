@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [character_homebind](character_homebind)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_homebind](character_homebind)
 
 Column | Type | Description
 --- | --- | ---

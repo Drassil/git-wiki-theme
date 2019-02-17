@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [item_instance](item_instance)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [item_instance](item_instance)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [game_event_battleground_holiday](game_event_battleground_holiday)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [game_event_battleground_holiday](game_event_battleground_holiday)
 
 Column | Type | Description
 --- | --- | ---

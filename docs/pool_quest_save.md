@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [pool_quest_save](pool_quest_save)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [pool_quest_save](pool_quest_save)
 
 Column | Type | Description
 --- | --- | ---

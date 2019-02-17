@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [group_member](group_member)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [group_member](group_member)
 
 Column | Type | Description
 --- | --- | ---

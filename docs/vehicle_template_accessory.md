@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [vehicle_template_accessory](vehicle_template_accessory)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [vehicle_template_accessory](vehicle_template_accessory)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [petition_sign](petition_sign)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [petition_sign](petition_sign)
 
 Column | Type | Description
 --- | --- | ---

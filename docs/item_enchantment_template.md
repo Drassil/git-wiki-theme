@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [item_enchantment_template](item_enchantment_template)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [item_enchantment_template](item_enchantment_template)
 
 Column | Type | Description
 --- | --- | ---

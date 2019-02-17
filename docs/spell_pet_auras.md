@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_pet_auras](spell_pet_auras)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_pet_auras](spell_pet_auras)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [creature_onkill_reputation](creature_onkill_reputation)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_onkill_reputation](creature_onkill_reputation)
 
 Column | Type | Description
 --- | --- | ---

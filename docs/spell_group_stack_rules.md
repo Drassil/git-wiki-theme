@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_group_stack_rules](spell_group_stack_rules)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_group_stack_rules](spell_group_stack_rules)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [realmlist](realmlist)
+[Database Structure](Database-Structure) > [Auth-Database](Auth-Database) > [realmlist](realmlist)
 
 Column | Type | Description
 --- | --- | ---

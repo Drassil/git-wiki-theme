@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [gameobject_addon](gameobject_addon)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [gameobject_addon](gameobject_addon)
 
 Column | Type | Description
 --- | --- | ---

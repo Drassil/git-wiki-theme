@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [spell_proc](spell_proc)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_proc](spell_proc)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [game_event_condition_save](game_event_condition_save)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [game_event_condition_save](game_event_condition_save)
 
 Column | Type | Description
 --- | --- | ---

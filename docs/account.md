@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Auth-Database](Auth-Database) > [account](account)
+[Database Structure](Database-Structure) > [Auth-Database](Auth-Database) > [account](account)
 
 Column | Type | Description
 --- | --- | ---

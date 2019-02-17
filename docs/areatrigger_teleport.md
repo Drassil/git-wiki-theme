@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [areatrigger_teleport](areatrigger_teleport)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [areatrigger_teleport](areatrigger_teleport)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [World-Database](World-Database) > [linked_respawn](linked_respawn)
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [linked_respawn](linked_respawn)
 
 Column | Type | Description
 --- | --- | ---

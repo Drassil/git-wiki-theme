@@ -1,4 +1,4 @@
-[Database Structure](Database Structure) > [Character-Database](Character-Database) > [item_refund_instance](item_refund_instance)
+[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [item_refund_instance](item_refund_instance)
 
 Column | Type | Description
 --- | --- | ---
