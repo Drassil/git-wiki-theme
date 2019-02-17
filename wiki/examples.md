@@ -2,6 +2,7 @@
 
 If you have built a wiki with git-wiki, please edit this file and add your wiki link
 
+* [aZerothCore](http://www.azerothcore.org/wiki/home)
 
 * [HW-Core JS Class](https://hw-core.github.io/js-lib-class/)
 
