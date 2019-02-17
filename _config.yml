@@ -121,7 +121,7 @@ inc_after_tail :
 inc_before_tools : 
 inc_after_tools : 
 
-inc_before_page_list :
+inc_before_page_list : "azerothcore/sidebar.html"
 inc_after_page_list :
 inc_before_post_list :
 inc_after_post_list :
