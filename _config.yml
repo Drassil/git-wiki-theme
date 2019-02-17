@@ -56,7 +56,7 @@ google_cse_token:
 collections:
   docs:
     output: true
-    permalink: /:path/
+    permalink: /:path
 
 permalink: pretty
 
