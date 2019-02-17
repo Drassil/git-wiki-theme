@@ -11,53 +11,53 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-.git-wiki-page .octicon {
+body > .wrapper .octicon {
   display: inline-block;
   fill: currentColor;
   vertical-align: text-bottom;
 }
 
-.git-wiki-page .anchor {
+body > .wrapper .anchor {
   float: left;
   line-height: 1;
   margin-left: -20px;
   padding-right: 4px;
 }
 
-.git-wiki-page .anchor:focus {
+body > .wrapper .anchor:focus {
   outline: none;
 }
 
-.git-wiki-page h1 .octicon-link,
-.git-wiki-page h2 .octicon-link,
-.git-wiki-page h3 .octicon-link,
-.git-wiki-page h4 .octicon-link,
-.git-wiki-page h5 .octicon-link,
-.git-wiki-page h6 .octicon-link {
+body > .wrapper h1 .octicon-link,
+body > .wrapper h2 .octicon-link,
+body > .wrapper h3 .octicon-link,
+body > .wrapper h4 .octicon-link,
+body > .wrapper h5 .octicon-link,
+body > .wrapper h6 .octicon-link {
   color: #1b1f23;
   vertical-align: middle;
   visibility: hidden;
 }
 
-.git-wiki-page h1:hover .anchor,
-.git-wiki-page h2:hover .anchor,
-.git-wiki-page h3:hover .anchor,
-.git-wiki-page h4:hover .anchor,
-.git-wiki-page h5:hover .anchor,
-.git-wiki-page h6:hover .anchor {
+body > .wrapper h1:hover .anchor,
+body > .wrapper h2:hover .anchor,
+body > .wrapper h3:hover .anchor,
+body > .wrapper h4:hover .anchor,
+body > .wrapper h5:hover .anchor,
+body > .wrapper h6:hover .anchor {
   text-decoration: none;
 }
 
-.git-wiki-page h1:hover .anchor .octicon-link,
-.git-wiki-page h2:hover .anchor .octicon-link,
-.git-wiki-page h3:hover .anchor .octicon-link,
-.git-wiki-page h4:hover .anchor .octicon-link,
-.git-wiki-page h5:hover .anchor .octicon-link,
-.git-wiki-page h6:hover .anchor .octicon-link {
+body > .wrapper h1:hover .anchor .octicon-link,
+body > .wrapper h2:hover .anchor .octicon-link,
+body > .wrapper h3:hover .anchor .octicon-link,
+body > .wrapper h4:hover .anchor .octicon-link,
+body > .wrapper h5:hover .anchor .octicon-link,
+body > .wrapper h6:hover .anchor .octicon-link {
   visibility: visible;
 }
 
-.git-wiki-page {
+body > .wrapper {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #24292e;
@@ -68,212 +68,212 @@ pre {
   word-wrap: break-word;
 }
 
-.git-wiki-page .pl-c {
+body > .wrapper .pl-c {
   color: #6a737d;
 }
 
-.git-wiki-page .pl-c1,
-.git-wiki-page .pl-s .pl-v {
+body > .wrapper .pl-c1,
+body > .wrapper .pl-s .pl-v {
   color: #005cc5;
 }
 
-.git-wiki-page .pl-e,
-.git-wiki-page .pl-en {
+body > .wrapper .pl-e,
+body > .wrapper .pl-en {
   color: #6f42c1;
 }
 
-.git-wiki-page .pl-s .pl-s1,
-.git-wiki-page .pl-smi {
+body > .wrapper .pl-s .pl-s1,
+body > .wrapper .pl-smi {
   color: #24292e;
 }
 
-.git-wiki-page .pl-ent {
+body > .wrapper .pl-ent {
   color: #22863a;
 }
 
-.git-wiki-page .pl-k {
+body > .wrapper .pl-k {
   color: #d73a49;
 }
 
-.git-wiki-page .pl-pds,
-.git-wiki-page .pl-s,
-.git-wiki-page .pl-s .pl-pse .pl-s1,
-.git-wiki-page .pl-sr,
-.git-wiki-page .pl-sr .pl-cce,
-.git-wiki-page .pl-sr .pl-sra,
-.git-wiki-page .pl-sr .pl-sre {
+body > .wrapper .pl-pds,
+body > .wrapper .pl-s,
+body > .wrapper .pl-s .pl-pse .pl-s1,
+body > .wrapper .pl-sr,
+body > .wrapper .pl-sr .pl-cce,
+body > .wrapper .pl-sr .pl-sra,
+body > .wrapper .pl-sr .pl-sre {
   color: #032f62;
 }
 
-.git-wiki-page .pl-smw,
-.git-wiki-page .pl-v {
+body > .wrapper .pl-smw,
+body > .wrapper .pl-v {
   color: #e36209;
 }
 
-.git-wiki-page .pl-bu {
+body > .wrapper .pl-bu {
   color: #b31d28;
 }
 
-.git-wiki-page .pl-ii {
+body > .wrapper .pl-ii {
   background-color: #b31d28;
   color: #fafbfc;
 }
 
-.git-wiki-page .pl-c2 {
+body > .wrapper .pl-c2 {
   background-color: #d73a49;
   color: #fafbfc;
 }
 
-.git-wiki-page .pl-c2:before {
+body > .wrapper .pl-c2:before {
   content: "^M";
 }
 
-.git-wiki-page .pl-sr .pl-cce {
+body > .wrapper .pl-sr .pl-cce {
   color: #22863a;
   font-weight: 700;
 }
 
-.git-wiki-page .pl-ml {
+body > .wrapper .pl-ml {
   color: #735c0f;
 }
 
-.git-wiki-page .pl-mh,
-.git-wiki-page .pl-mh .pl-en,
-.git-wiki-page .pl-ms {
+body > .wrapper .pl-mh,
+body > .wrapper .pl-mh .pl-en,
+body > .wrapper .pl-ms {
   color: #005cc5;
   font-weight: 700;
 }
 
-.git-wiki-page .pl-mi {
+body > .wrapper .pl-mi {
   color: #24292e;
   font-style: italic;
 }
 
-.git-wiki-page .pl-mb {
+body > .wrapper .pl-mb {
   color: #24292e;
   font-weight: 700;
 }
 
-.git-wiki-page .pl-md {
+body > .wrapper .pl-md {
   background-color: #ffeef0;
   color: #b31d28;
 }
 
-.git-wiki-page .pl-mi1 {
+body > .wrapper .pl-mi1 {
   background-color: #f0fff4;
   color: #22863a;
 }
 
-.git-wiki-page .pl-mc {
+body > .wrapper .pl-mc {
   background-color: #ffebda;
   color: #e36209;
 }
 
-.git-wiki-page .pl-mi2 {
+body > .wrapper .pl-mi2 {
   background-color: #005cc5;
   color: #f6f8fa;
 }
 
-.git-wiki-page .pl-mdr {
+body > .wrapper .pl-mdr {
   color: #6f42c1;
   font-weight: 700;
 }
 
-.git-wiki-page .pl-ba {
+body > .wrapper .pl-ba {
   color: #586069;
 }
 
-.git-wiki-page .pl-sg {
+body > .wrapper .pl-sg {
   color: #959da5;
 }
 
-.git-wiki-page .pl-corl {
+body > .wrapper .pl-corl {
   color: #032f62;
   text-decoration: underline;
 }
 
-.git-wiki-page details {
+body > .wrapper details {
   display: block;
 }
 
-.git-wiki-page summary {
+body > .wrapper summary {
   display: list-item;
 }
 
-.git-wiki-page a {
+body > .wrapper a {
   background-color: transparent;
 }
 
-.git-wiki-page a:active,
-.git-wiki-page a:hover {
+body > .wrapper a:active,
+body > .wrapper a:hover {
   outline-width: 0;
 }
 
-.git-wiki-page strong {
+body > .wrapper strong {
   font-weight: inherit;
   font-weight: bolder;
 }
 
-.git-wiki-page h1 {
+body > .wrapper h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-.git-wiki-page img {
+body > .wrapper img {
   border-style: none;
 }
 
-.git-wiki-page code,
-.git-wiki-page kbd,
-.git-wiki-page pre {
+body > .wrapper code,
+body > .wrapper kbd,
+body > .wrapper pre {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-.git-wiki-page hr {
+body > .wrapper hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
 
-.git-wiki-page input {
+body > .wrapper input {
   font: inherit;
   margin: 0;
 }
 
-.git-wiki-page input {
+body > .wrapper input {
   overflow: visible;
 }
 
-.git-wiki-page [type=checkbox] {
+body > .wrapper [type=checkbox] {
   box-sizing: border-box;
   padding: 0;
 }
 
-.git-wiki-page * {
+body > .wrapper * {
   box-sizing: border-box;
 }
 
-.git-wiki-page input {
+body > .wrapper input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-.git-wiki-page a {
+body > .wrapper a {
   color: #0366d6;
   text-decoration: none;
 }
 
-.git-wiki-page a:hover {
+body > .wrapper a:hover {
   text-decoration: underline;
 }
 
-.git-wiki-page strong {
+body > .wrapper strong {
   font-weight: 600;
 }
 
-.git-wiki-page hr {
+body > .wrapper hr {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #dfe2e5;
@@ -282,258 +282,258 @@ pre {
   overflow: hidden;
 }
 
-.git-wiki-page hr:before {
+body > .wrapper hr:before {
   content: "";
   display: table;
 }
 
-.git-wiki-page hr:after {
+body > .wrapper hr:after {
   clear: both;
   content: "";
   display: table;
 }
 
-.git-wiki-page table {
+body > .wrapper table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-.git-wiki-page td,
-.git-wiki-page th {
+body > .wrapper td,
+body > .wrapper th {
   padding: 0;
 }
 
-.git-wiki-page details summary {
+body > .wrapper details summary {
   cursor: pointer;
 }
 
-.git-wiki-page h1,
-.git-wiki-page h2,
-.git-wiki-page h3,
-.git-wiki-page h4,
-.git-wiki-page h5,
-.git-wiki-page h6 {
+body > .wrapper h1,
+body > .wrapper h2,
+body > .wrapper h3,
+body > .wrapper h4,
+body > .wrapper h5,
+body > .wrapper h6 {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.git-wiki-page h1 {
+body > .wrapper h1 {
   font-size: 32px;
 }
 
-.git-wiki-page h1,
-.git-wiki-page h2 {
+body > .wrapper h1,
+body > .wrapper h2 {
   font-weight: 600;
 }
 
-.git-wiki-page h2 {
+body > .wrapper h2 {
   font-size: 24px;
 }
 
-.git-wiki-page h3 {
+body > .wrapper h3 {
   font-size: 20px;
 }
 
-.git-wiki-page h3,
-.git-wiki-page h4 {
+body > .wrapper h3,
+body > .wrapper h4 {
   font-weight: 600;
 }
 
-.git-wiki-page h4 {
+body > .wrapper h4 {
   font-size: 16px;
 }
 
-.git-wiki-page h5 {
+body > .wrapper h5 {
   font-size: 14px;
 }
 
-.git-wiki-page h5,
-.git-wiki-page h6 {
+body > .wrapper h5,
+body > .wrapper h6 {
   font-weight: 600;
 }
 
-.git-wiki-page h6 {
+body > .wrapper h6 {
   font-size: 12px;
 }
 
-.git-wiki-page p {
+body > .wrapper p {
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.git-wiki-page blockquote {
+body > .wrapper blockquote {
   margin: 0;
 }
 
-.git-wiki-page ol,
-.git-wiki-page ul {
+body > .wrapper ol,
+body > .wrapper ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
 }
 
-.git-wiki-page ol ol,
-.git-wiki-page ul ol {
+body > .wrapper ol ol,
+body > .wrapper ul ol {
   list-style-type: lower-roman;
 }
 
-.git-wiki-page ol ol ol,
-.git-wiki-page ol ul ol,
-.git-wiki-page ul ol ol,
-.git-wiki-page ul ul ol {
+body > .wrapper ol ol ol,
+body > .wrapper ol ul ol,
+body > .wrapper ul ol ol,
+body > .wrapper ul ul ol {
   list-style-type: lower-alpha;
 }
 
-.git-wiki-page dd {
+body > .wrapper dd {
   margin-left: 0;
 }
 
-.git-wiki-page code,
-.git-wiki-page pre {
+body > .wrapper code,
+body > .wrapper pre {
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 12px;
 }
 
-.git-wiki-page pre {
+body > .wrapper pre {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.git-wiki-page input::-webkit-inner-spin-button,
-.git-wiki-page input::-webkit-outer-spin-button {
+body > .wrapper input::-webkit-inner-spin-button,
+body > .wrapper input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.git-wiki-page .border {
+body > .wrapper .border {
   border: 1px solid #e1e4e8!important;
 }
 
-.git-wiki-page .border-0 {
+body > .wrapper .border-0 {
   border: 0!important;
 }
 
-.git-wiki-page .border-bottom {
+body > .wrapper .border-bottom {
   border-bottom: 1px solid #e1e4e8!important;
 }
 
-.git-wiki-page .rounded-1 {
+body > .wrapper .rounded-1 {
   border-radius: 3px!important;
 }
 
-.git-wiki-page .bg-white {
+body > .wrapper .bg-white {
   background-color: #fff!important;
 }
 
-.git-wiki-page .bg-gray-light {
+body > .wrapper .bg-gray-light {
   background-color: #fafbfc!important;
 }
 
-.git-wiki-page .text-gray-light {
+body > .wrapper .text-gray-light {
   color: #6a737d!important;
 }
 
-.git-wiki-page .mb-0 {
+body > .wrapper .mb-0 {
   margin-bottom: 0!important;
 }
 
-.git-wiki-page .my-2 {
+body > .wrapper .my-2 {
   margin-bottom: 8px!important;
   margin-top: 8px!important;
 }
 
-.git-wiki-page .pl-0 {
+body > .wrapper .pl-0 {
   padding-left: 0!important;
 }
 
-.git-wiki-page .py-0 {
+body > .wrapper .py-0 {
   padding-bottom: 0!important;
   padding-top: 0!important;
 }
 
-.git-wiki-page .pl-1 {
+body > .wrapper .pl-1 {
   padding-left: 4px!important;
 }
 
-.git-wiki-page .pl-2 {
+body > .wrapper .pl-2 {
   padding-left: 8px!important;
 }
 
-.git-wiki-page .py-2 {
+body > .wrapper .py-2 {
   padding-bottom: 8px!important;
   padding-top: 8px!important;
 }
 
-.git-wiki-page .pl-3,
-.git-wiki-page .px-3 {
+body > .wrapper .pl-3,
+body > .wrapper .px-3 {
   padding-left: 16px!important;
 }
 
-.git-wiki-page .px-3 {
+body > .wrapper .px-3 {
   padding-right: 16px!important;
 }
 
-.git-wiki-page .pl-4 {
+body > .wrapper .pl-4 {
   padding-left: 24px!important;
 }
 
-.git-wiki-page .pl-5 {
+body > .wrapper .pl-5 {
   padding-left: 32px!important;
 }
 
-.git-wiki-page .pl-6 {
+body > .wrapper .pl-6 {
   padding-left: 40px!important;
 }
 
-.git-wiki-page .f6 {
+body > .wrapper .f6 {
   font-size: 12px!important;
 }
 
-.git-wiki-page .lh-condensed {
+body > .wrapper .lh-condensed {
   line-height: 1.25!important;
 }
 
-.git-wiki-page .text-bold {
+body > .wrapper .text-bold {
   font-weight: 600!important;
 }
 
-.git-wiki-page:before {
+body > .wrapper:before {
   content: "";
   display: table;
 }
 
-.git-wiki-page:after {
+body > .wrapper:after {
   clear: both;
   content: "";
   display: table;
 }
 
-.git-wiki-page>:first-child {
+body > .wrapper>:first-child {
   margin-top: 0!important;
 }
 
-.git-wiki-page>:last-child {
+body > .wrapper>:last-child {
   margin-bottom: 0!important;
 }
 
-.git-wiki-page a:not([href]) {
+body > .wrapper a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-.git-wiki-page blockquote,
-.git-wiki-page dl,
-.git-wiki-page ol,
-.git-wiki-page p,
-.git-wiki-page pre,
-.git-wiki-page table,
-.git-wiki-page ul {
+body > .wrapper blockquote,
+body > .wrapper dl,
+body > .wrapper ol,
+body > .wrapper p,
+body > .wrapper pre,
+body > .wrapper table,
+body > .wrapper ul {
   margin-bottom: 16px;
   margin-top: 0;
 }
 
-.git-wiki-page hr {
+body > .wrapper hr {
   background-color: #e1e4e8;
   border: 0;
   height: .25em;
@@ -541,21 +541,21 @@ pre {
   padding: 0;
 }
 
-.git-wiki-page blockquote {
+body > .wrapper blockquote {
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
-.git-wiki-page blockquote>:first-child {
+body > .wrapper blockquote>:first-child {
   margin-top: 0;
 }
 
-.git-wiki-page blockquote>:last-child {
+body > .wrapper blockquote>:last-child {
   margin-bottom: 0;
 }
 
-.git-wiki-page kbd {
+body > .wrapper kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
@@ -569,79 +569,79 @@ pre {
   vertical-align: middle;
 }
 
-.git-wiki-page h1,
-.git-wiki-page h2,
-.git-wiki-page h3,
-.git-wiki-page h4,
-.git-wiki-page h5,
-.git-wiki-page h6 {
+body > .wrapper h1,
+body > .wrapper h2,
+body > .wrapper h3,
+body > .wrapper h4,
+body > .wrapper h5,
+body > .wrapper h6 {
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 16px;
   margin-top: 24px;
 }
 
-.git-wiki-page h1 {
+body > .wrapper h1 {
   font-size: 2em;
 }
 
-.git-wiki-page h1,
-.git-wiki-page h2 {
+body > .wrapper h1,
+body > .wrapper h2 {
   border-bottom: 1px solid #eaecef;
   padding-bottom: .3em;
 }
 
-.git-wiki-page h2 {
+body > .wrapper h2 {
   font-size: 1.5em;
 }
 
-.git-wiki-page h3 {
+body > .wrapper h3 {
   font-size: 1.25em;
 }
 
-.git-wiki-page h4 {
+body > .wrapper h4 {
   font-size: 1em;
 }
 
-.git-wiki-page h5 {
+body > .wrapper h5 {
   font-size: .875em;
 }
 
-.git-wiki-page h6 {
+body > .wrapper h6 {
   color: #6a737d;
   font-size: .85em;
 }
 
-.git-wiki-page ol,
-.git-wiki-page ul {
+body > .wrapper ol,
+body > .wrapper ul {
   padding-left: 2em;
 }
 
-.git-wiki-page ol ol,
-.git-wiki-page ol ul,
-.git-wiki-page ul ol,
-.git-wiki-page ul ul {
+body > .wrapper ol ol,
+body > .wrapper ol ul,
+body > .wrapper ul ol,
+body > .wrapper ul ul {
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.git-wiki-page li {
+body > .wrapper li {
   word-wrap: break-all;
 }
 
-.git-wiki-page li>p {
+body > .wrapper li>p {
   margin-top: 16px;
 }
 
-.git-wiki-page li+li {
+body > .wrapper li+li {
   margin-top: .25em;
 }
 
-.git-wiki-page dl {
+body > .wrapper dl {
   padding: 0;
 }
 
-.git-wiki-page dl dt {
+body > .wrapper dl dt {
   font-size: 1em;
   font-style: italic;
   font-weight: 600;
@@ -649,51 +649,51 @@ pre {
   padding: 0;
 }
 
-.git-wiki-page dl dd {
+body > .wrapper dl dd {
   margin-bottom: 16px;
   padding: 0 16px;
 }
 
-.git-wiki-page table {
+body > .wrapper table {
   display: block;
   overflow: auto;
   width: 100%;
 }
 
-.git-wiki-page table th {
+body > .wrapper table th {
   font-weight: 600;
 }
 
-.git-wiki-page table td,
-.git-wiki-page table th {
+body > .wrapper table td,
+body > .wrapper table th {
   border: 1px solid #dfe2e5;
   padding: 6px 13px;
 }
 
-.git-wiki-page table tr {
+body > .wrapper table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
 }
 
-.git-wiki-page table tr:nth-child(2n) {
+body > .wrapper table tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
 
-.git-wiki-page img {
+body > .wrapper img {
   background-color: #fff;
   box-sizing: content-box;
   max-width: 100%;
 }
 
-.git-wiki-page img[align=right] {
+body > .wrapper img[align=right] {
   padding-left: 20px;
 }
 
-.git-wiki-page img[align=left] {
+body > .wrapper img[align=left] {
   padding-right: 20px;
 }
 
-.git-wiki-page code {
+body > .wrapper code {
   background-color: rgba(27,31,35,.05);
   border-radius: 3px;
   font-size: 85%;
@@ -701,11 +701,11 @@ pre {
   padding: .2em .4em;
 }
 
-.git-wiki-page pre {
+body > .wrapper pre {
   word-wrap: normal;
 }
 
-.git-wiki-page pre>code {
+body > .wrapper pre>code {
   background: transparent;
   border: 0;
   font-size: 100%;
@@ -715,17 +715,17 @@ pre {
   word-break: normal;
 }
 
-.git-wiki-page .highlight {
+body > .wrapper .highlight {
   margin-bottom: 16px;
 }
 
-.git-wiki-page .highlight pre {
+body > .wrapper .highlight pre {
   margin-bottom: 0;
   word-break: normal;
 }
 
-.git-wiki-page .highlight pre,
-.git-wiki-page pre {
+body > .wrapper .highlight pre,
+body > .wrapper pre {
   background-color: #f6f8fa;
   border-radius: 3px;
   font-size: 85%;
@@ -734,7 +734,7 @@ pre {
   padding: 16px;
 }
 
-.git-wiki-page pre code {
+body > .wrapper pre code {
   background-color: transparent;
   border: 0;
   display: inline;
@@ -746,26 +746,26 @@ pre {
   word-wrap: normal;
 }
 
-.git-wiki-page .commit-tease-sha {
+body > .wrapper .commit-tease-sha {
   color: #444d56;
   display: inline-block;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 90%;
 }
 
-.git-wiki-page .blob-wrapper {
+body > .wrapper .blob-wrapper {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
-.git-wiki-page .blob-wrapper-embedded {
+body > .wrapper .blob-wrapper-embedded {
   max-height: 240px;
   overflow-y: auto;
 }
 
-.git-wiki-page .blob-num {
+body > .wrapper .blob-num {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
@@ -784,15 +784,15 @@ pre {
   width: 1%;
 }
 
-.git-wiki-page .blob-num:hover {
+body > .wrapper .blob-num:hover {
   color: rgba(27,31,35,.6);
 }
 
-.git-wiki-page .blob-num:before {
+body > .wrapper .blob-num:before {
   content: attr(data-line-number);
 }
 
-.git-wiki-page .blob-code {
+body > .wrapper .blob-code {
   line-height: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -800,7 +800,7 @@ pre {
   vertical-align: top;
 }
 
-.git-wiki-page .blob-code-inner {
+body > .wrapper .blob-code-inner {
   color: #24292e;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 12px;
@@ -809,13 +809,13 @@ pre {
   word-wrap: normal;
 }
 
-.git-wiki-page .pl-token.active,
-.git-wiki-page .pl-token:hover {
+body > .wrapper .pl-token.active,
+body > .wrapper .pl-token:hover {
   background: #ffea7f;
   cursor: pointer;
 }
 
-.git-wiki-page kbd {
+body > .wrapper kbd {
   background-color: #fafbfc;
   border: 1px solid #d1d5da;
   border-bottom-color: #c6cbd1;
@@ -829,137 +829,137 @@ pre {
   vertical-align: middle;
 }
 
-.git-wiki-page :checked+.radio-label {
+body > .wrapper :checked+.radio-label {
   border-color: #0366d6;
   position: relative;
   z-index: 1;
 }
 
-.git-wiki-page .tab-size[data-tab-size="1"] {
+body > .wrapper .tab-size[data-tab-size="1"] {
   -moz-tab-size: 1;
   tab-size: 1;
 }
 
-.git-wiki-page .tab-size[data-tab-size="2"] {
+body > .wrapper .tab-size[data-tab-size="2"] {
   -moz-tab-size: 2;
   tab-size: 2;
 }
 
-.git-wiki-page .tab-size[data-tab-size="3"] {
+body > .wrapper .tab-size[data-tab-size="3"] {
   -moz-tab-size: 3;
   tab-size: 3;
 }
 
-.git-wiki-page .tab-size[data-tab-size="4"] {
+body > .wrapper .tab-size[data-tab-size="4"] {
   -moz-tab-size: 4;
   tab-size: 4;
 }
 
-.git-wiki-page .tab-size[data-tab-size="5"] {
+body > .wrapper .tab-size[data-tab-size="5"] {
   -moz-tab-size: 5;
   tab-size: 5;
 }
 
-.git-wiki-page .tab-size[data-tab-size="6"] {
+body > .wrapper .tab-size[data-tab-size="6"] {
   -moz-tab-size: 6;
   tab-size: 6;
 }
 
-.git-wiki-page .tab-size[data-tab-size="7"] {
+body > .wrapper .tab-size[data-tab-size="7"] {
   -moz-tab-size: 7;
   tab-size: 7;
 }
 
-.git-wiki-page .tab-size[data-tab-size="8"] {
+body > .wrapper .tab-size[data-tab-size="8"] {
   -moz-tab-size: 8;
   tab-size: 8;
 }
 
-.git-wiki-page .tab-size[data-tab-size="9"] {
+body > .wrapper .tab-size[data-tab-size="9"] {
   -moz-tab-size: 9;
   tab-size: 9;
 }
 
-.git-wiki-page .tab-size[data-tab-size="10"] {
+body > .wrapper .tab-size[data-tab-size="10"] {
   -moz-tab-size: 10;
   tab-size: 10;
 }
 
-.git-wiki-page .tab-size[data-tab-size="11"] {
+body > .wrapper .tab-size[data-tab-size="11"] {
   -moz-tab-size: 11;
   tab-size: 11;
 }
 
-.git-wiki-page .tab-size[data-tab-size="12"] {
+body > .wrapper .tab-size[data-tab-size="12"] {
   -moz-tab-size: 12;
   tab-size: 12;
 }
 
-.git-wiki-page .task-list-item {
+body > .wrapper .task-list-item {
   list-style-type: none;
 }
 
-.git-wiki-page .task-list-item+.task-list-item {
+body > .wrapper .task-list-item+.task-list-item {
   margin-top: 3px;
 }
 
-.git-wiki-page .task-list-item input {
+body > .wrapper .task-list-item input {
   margin: 0 .2em .25em -1.6em;
   vertical-align: middle;
 }
 
-.git-wiki-page hr {
+body > .wrapper hr {
   border-bottom-color: #eee;
 }
 
-.git-wiki-page .pl-0 {
+body > .wrapper .pl-0 {
   padding-left: 0!important;
 }
 
-.git-wiki-page .pl-1 {
+body > .wrapper .pl-1 {
   padding-left: 4px!important;
 }
 
-.git-wiki-page .pl-2 {
+body > .wrapper .pl-2 {
   padding-left: 8px!important;
 }
 
-.git-wiki-page .pl-3 {
+body > .wrapper .pl-3 {
   padding-left: 16px!important;
 }
 
-.git-wiki-page .pl-4 {
+body > .wrapper .pl-4 {
   padding-left: 24px!important;
 }
 
-.git-wiki-page .pl-5 {
+body > .wrapper .pl-5 {
   padding-left: 32px!important;
 }
 
-.git-wiki-page .pl-6 {
+body > .wrapper .pl-6 {
   padding-left: 40px!important;
 }
 
-.git-wiki-page .pl-7 {
+body > .wrapper .pl-7 {
   padding-left: 48px!important;
 }
 
-.git-wiki-page .pl-8 {
+body > .wrapper .pl-8 {
   padding-left: 64px!important;
 }
 
-.git-wiki-page .pl-9 {
+body > .wrapper .pl-9 {
   padding-left: 80px!important;
 }
 
-.git-wiki-page .pl-10 {
+body > .wrapper .pl-10 {
   padding-left: 96px!important;
 }
 
-.git-wiki-page .pl-11 {
+body > .wrapper .pl-11 {
   padding-left: 112px!important;
 }
 
-.git-wiki-page .pl-12 {
+body > .wrapper .pl-12 {
   padding-left: 128px!important;
 }
