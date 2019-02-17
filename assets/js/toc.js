@@ -1,6 +1,8 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
 (function ($) {
   $.fn.toc = function (options) {
+    var element = $(this);
+
     setTimeout(function () {
       var defaults = {
           noBackToTopLinks: false,
@@ -30,42 +32,26 @@
 
       var headers = $(settings.headers).filter(function () {
           // get all headers with an ID
-          var previousSiblingName = $(this).prev().attr("name");
+          var previousSiblingName = element.prev().attr("name");
           if (!this.id && previousSiblingName) {
-            this.id = $(this).attr("id", previousSiblingName.replace(/\./g, "-"));
+            this.id = element.attr("id", previousSiblingName.replace(/\./g, "-"));
           }
 
           // Yehonal
           if (!this.id) {
-            this.id = $(this).text().replace(/\W/g, '_');
+            this.id = element.text().replace(/\W/g, '_');
           }
 
           return this.id;
-        }),
-        output = $(this);
-      if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {
-        $(this).hide();
+        });
+      if (!headers.length || headers.length < settings.minimumHeaders || !element.length) {
+        element.hide();
         return;
       }
 
       if (0 === settings.showSpeed) {
         settings.showEffect = 'none';
       }
-
-      var render = {
-        show: function () {
-          output.hide().html(html).show(settings.showSpeed);
-        },
-        slideDown: function () {
-          output.hide().html(html).slideDown(settings.showSpeed);
-        },
-        fadeIn: function () {
-          output.hide().html(html).fadeIn(settings.showSpeed);
-        },
-        none: function () {
-          output.html(html);
-        }
-      };
 
       var get_level = function (ele) {
         return parseInt(ele.nodeName.replace("H", ""), 10);
@@ -112,6 +98,21 @@
           window.location.hash = '';
         });
       }
+
+      var render = {
+        show: function () {
+          element.hide().html(html).show(settings.showSpeed);
+        },
+        slideDown: function () {
+          element.hide().html(html).slideDown(settings.showSpeed);
+        },
+        fadeIn: function () {
+          element.hide().html(html).fadeIn(settings.showSpeed);
+        },
+        none: function () {
+          element.html(html).show();
+        }
+      };
 
       render[settings.showEffect]();
     }, 0);
