@@ -54,6 +54,11 @@ google_cse_token:
 # check _layouts folder
 #
 defaults:
+ - 
+    scope:
+      path: "wiki"
+    values:
+      permalink: /:basename
  -
     scope:
       path: "" # an empty string here means all files in the project
