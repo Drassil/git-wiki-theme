@@ -3,7 +3,7 @@ Before start we suggest you to read [Documentation about modular structure](The-
 ## **How to create a module**
 
 
-### Ressources
+### Resources
 
 - Module template: [https://github.com/azerothcore/skeleton-module](https://github.com/azerothcore/skeleton-module)
 - Script template: https://github.com/azerothcore/azerothcore-boilerplates
