@@ -45,17 +45,15 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 1. Fork or copy [this repository](https://github.com/drassil/git-wiki)
 
-2. copy and rename _config.yml.dist in _config.yml changing settings inside
+2. Use master branch of this repository to start instead of gh-pages that contains useless files for you! (you can delete that branch from your repository and re-create if you need)
 
-3. create your index.md in root directory
+3. **copy and rename** _config.yml.dist in _config.yml changing settings inside
 
-4. push your changes in your repository, then configure the github pages in your repository settings
+4. **copy and rename** wiki/main_page.md.dist in wiki/main_page.md
 
-5. Your wiki is ready!
+5. push your changes in your repository, then configure the github pages in your repository settings
 
-**Note:**
-
-We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
+6. Your wiki is ready!
 
 ### local development
 
