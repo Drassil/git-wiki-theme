@@ -1,3 +1,7 @@
+---
+redirect_from: "/"
+---
+
 # Welcome to git-wiki demo
 
 This is both documentation and [demo](wiki/Demo.md) of git-wiki theme for jekyll.
