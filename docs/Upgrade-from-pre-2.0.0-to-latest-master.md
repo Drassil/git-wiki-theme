@@ -4,7 +4,7 @@ This is the tutorial to upgrade any existing server from a version prior to the 
 
 ### Step 1. Upgrade to last 2.0.0 commit
 
-You need first to update your server to this commit: https://github.com/azerothcore/azerothcore-wotlk/commit/1fc22a74088e235e78fa02decbaf0864899477d7
+You need first to update your server to [this commit](https://github.com/azerothcore/azerothcore-wotlk/commit/1fc22a74088e235e78fa02decbaf0864899477d7), running:
 
 `git checkout 1fc22a74088e235e78fa02decbaf0864899477d7`
 
