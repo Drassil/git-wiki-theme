@@ -28,6 +28,7 @@ by default git-wiki includes some internal layout that you can set in your _conf
 * [default theme](theme-default) (w3css)
 * [lux theme](theme-lux) (bootstrap)
 * [united theme](theme-united) (bootstrap)
+* [github theme](theme-github) (bootstrap)
 
 ## Including hooks
 
