@@ -126,7 +126,7 @@ Feel free to ask questions on [StackOverflow](https://stackoverflow.com/) and li
 
 By default they are located in `docker/authserver/` and `docker/worldserver/`.
 
-### How can I change the server configuration?
+### How can I change the docker containers configuration?
 
 You can copy the file `.env.dist`, renaming the copy in `.env` and editing it accordingly to your needs.
 
