@@ -49,7 +49,7 @@ Imagine that our following Lich King creature_text only has 1 Group ID which is 
 
 If we want to make him say his line when he enters combat we only need to set his smart AI event type to 4 (when the npc gets aggro), action_type to 1 (action type equivalent to talk event) and action_param1 to 0 (which is our desired group id in creature_text).
 
-For more information about smart_scripts table check this [link](https://github.com/azerothcore/azerothcore-wotlk/wiki/smart_scripts).
+For more information about smart_scripts table check this [link](smart_scripts).
 ``` SQL
 # Our Lich King will shout "Frostmourne hungers" on aggro
 UPDATE smart_scripts

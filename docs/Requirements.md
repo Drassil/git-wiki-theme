@@ -14,7 +14,7 @@
 
 To configure MySQL in Ubuntu 18.04 and similar (set `root` password and other settings) read [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04).
 
-Note: on latest versions of Ubuntu the default mysql version is 5.7. If you're using this version, [read this](https://github.com/azerothcore/azerothcore-wotlk/wiki/Requirements#mysql-57).
+Note: on latest versions of Ubuntu the default mysql version is 5.7. If you're using this version, [read this](Requirements#mysql-57).
 
 # Mac OS X
 

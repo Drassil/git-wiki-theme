@@ -16,12 +16,12 @@ Clicking on the label above will show you the list of all PRs that need to be te
 
 You need to:
 
-- have AzerothCore installed in your system (either using the [traditional setup](https://github.com/AzerothCore/azerothcore-wotlk/wiki/Installation) or the [Docker setup](https://github.com/azerothcore/azerothcore-wotlk/wiki/Install-with-Docker)).
+- have AzerothCore installed in your system (either using the [traditional setup](Installation) or the [Docker setup](Install-with-Docker)).
 - have a GitHub account, you can [register one here](https://github.com/join) for free.
 
 ### What if the PR has only DB changes?
 
-Some PRs have only database changes (no C++ changes). If that's the case, there is a [simplified procedure to test such changes](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-DB-only-changes).
+Some PRs have only database changes (no C++ changes). If that's the case, there is a [simplified procedure to test such changes](How-to-test-DB-only-changes).
 
 If you're not sure, just keep reading here and do the traditional PR test which will work for all kind of PRs.
 
@@ -66,7 +66,7 @@ Basically you need to **recompile your sources** and **update the DB**.
 
 ### Using traditional setup
 
-If you are using the traditional setup, you have to recompile following the steps of the [3) Compiling](https://github.com/azerothcore/azerothcore-wotlk/wiki/Installation#3-compiling) from the main setup guide.
+If you are using the traditional setup, you have to recompile following the steps of the [3) Compiling](Installation#3-compiling) from the main setup guide.
 
 You also need to update your DB. You can use the DB assembler to do that, but usually it's quicker to just manually importing the pending sql file(s) that the PR includes. Such file(s) are located under `data/sql/updates/pending_db_*`.
 

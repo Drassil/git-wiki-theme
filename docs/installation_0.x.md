@@ -1,6 +1,6 @@
 ## 1) Installing the requirements
 
-Make sure your system fits with the [requirements](https://github.com/AzerothCore/azerothcore-wotlk/wiki/Requirements).
+Make sure your system fits with the [requirements](Requirements).
 
 
 ## 2) Getting the source files

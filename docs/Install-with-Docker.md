@@ -76,7 +76,7 @@ Now cd into the main directory using `cd azerothcore-wotlk`. **All commands will
 
 ## WoW Client Data files
 
-You also need to have the data files. Check the step "5) Download the data files" from the [installation guide](https://github.com/azerothcore/azerothcore-wotlk/wiki/Installation#5-download-the-data-files).
+You also need to have the data files. Check the step "5) Download the data files" from the [installation guide](Installation#5-download-the-data-files).
 
 Put your data files into the `docker/worldserver/data/` folder that is inside `azerothcore-wotlk`.
 

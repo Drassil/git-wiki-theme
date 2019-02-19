@@ -2,8 +2,8 @@
 
 #### 1 - How can I contribute? I am not a developer, I know nothing useful.
 
-- You can help us by testing our [Pull Requests](https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute#how-to-test-a-pull-request), and participating on the github issues' discussions. You can also provide support when you can in our discord, on the popular [stackoverflow](https://stackoverflow.com/questions/tagged/azerothcore) and on other emulation forums (ac-web.org for example). You can also help us with documentation (this wiki, or the readme), we need help with that too!
-- If you're a developer, check out this page: https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute
+- You can help us by testing our [Pull Requests](Contribute#how-to-test-a-pull-request), and participating on the github issues' discussions. You can also provide support when you can in our discord, on the popular [stackoverflow](https://stackoverflow.com/questions/tagged/azerothcore) and on other emulation forums (ac-web.org for example). You can also help us with documentation (this wiki, or the readme), we need help with that too!
+- If you're a developer, check out this page: Contribute
 
 #### 2 - Why is AzerothCore using more ram than TrinityCore?
 
@@ -11,11 +11,11 @@ AzerothCore is based on SunwellCore (a fork from TC). SunwellCore was a public s
 
 #### 3 - I want this fixed or this feature or this module. How can I proceed?
 
-You can open a bounty and if developers are interested by the job, they might do it. Read this: https://github.com/azerothcore/azerothcore-wotlk/wiki/Bountysource
+You can open a bounty and if developers are interested by the job, they might do it. Read this: Bountysource
 
 #### 4 - I have an issue, where can I get help?
 
-Read this carefully: https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-ask-for-help
+Read this carefully: How-to-ask-for-help
 
 
 ## COMMON ERRORS

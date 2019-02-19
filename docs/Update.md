@@ -2,13 +2,13 @@
 
 Move to your AzerothCore sources directory.
 
-- If you have your own fork of AzerothCore, you need to [sync it](https://github.com/azerothcore/azerothcore-wotlk/wiki/Syncing-your-fork).
+- If you have your own fork of AzerothCore, you need to [sync it](Syncing-your-fork).
 
 - Otherwise, if you cloned AzerothCore directly from the main repo, you have to `git pull` to update it.
 
 ## 2) Recompile
 
-Compile again your sources, this step is the same as the [Compilation step during Installation](https://github.com/azerothcore/azerothcore-wotlk/wiki/Installation#3-compiling), but generally you can skip the CMake part.
+Compile again your sources, this step is the same as the [Compilation step during Installation](Installation#3-compiling), but generally you can skip the CMake part.
 
 For example, in Linux/Mac you just have to `cd build;` and run `make -j 4; make install`.
 

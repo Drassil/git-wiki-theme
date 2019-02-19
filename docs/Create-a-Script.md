@@ -1,6 +1,6 @@
 # Script vs module
 
-On AzerothCore, we don't really use the usual scripts like in other emulators. Instead, we work with modules which are way more practical to use. See https://github.com/azerothcore/azerothcore-wotlk/wiki/Create-a-Module
+On AzerothCore, we don't really use the usual scripts like in other emulators. Instead, we work with modules which are way more practical to use. See Create-a-Module
 
 
 # Scripts

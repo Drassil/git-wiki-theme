@@ -1,6 +1,6 @@
 ## Introduction
 
-The main guide about [How to test a PR](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-a-PR) will work for all kind of PRs.
+The main guide about [How to test a PR](How-to-test-a-PR) will work for all kind of PRs.
 
 However it is common to have PRs that only make changes to the database (typically the `world` database).
 
@@ -12,7 +12,7 @@ For those PRs there is a simpler way to test them, which will be explained in th
 
 This tutorial assumes that you:
 
-- have a **recent** version of AzerothCore installed in your system (either using the [traditional setup](https://github.com/AzerothCore/azerothcore-wotlk/wiki/Installation) or the [Docker setup](https://github.com/azerothcore/azerothcore-wotlk/wiki/Install-with-Docker)). We recommend using latest `master`.
+- have a **recent** version of AzerothCore installed in your system (either using the [traditional setup](Installation) or the [Docker setup](Install-with-Docker)). We recommend using latest `master`.
 - have a GitHub account, you can [register one here](https://github.com/join) for free.
 - have a database client such as [HeidiSQL](https://www.heidisql.com/), Navicat or similar.
 
@@ -22,7 +22,7 @@ Open the PR page and click on the "File Changes" tab:
 
 ![File Changes](https://user-images.githubusercontent.com/75517/52176720-ea4da900-27b6-11e9-8459-d58adf7fd50c.png)
 
-- If you see `*.cpp`, `*.h` file changes, then follow [this guide](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-a-PR) instead.
+- If you see `*.cpp`, `*.h` file changes, then follow [this guide](How-to-test-a-PR) instead.
 
 - If you only see `*.sql` changes, keep reading.
 
@@ -60,4 +60,4 @@ After you test the changes, you need to return in a clean state (as you were bef
 
 ## Reports
 
-For instructions about what needs to be tested, how to report your test results and examples of other reports, please read from [this part](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-a-PR#what-needs-to-be-tested) of the main PR guide.
+For instructions about what needs to be tested, how to report your test results and examples of other reports, please read from [this part](How-to-test-a-PR#what-needs-to-be-tested) of the main PR guide.

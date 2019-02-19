@@ -1,16 +1,16 @@
 You can contribute in several ways to AzerothCore:
 
-- [commenting an open issue](https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute#how-to-comment-an-issue)
+- [commenting an open issue](Contribute#how-to-comment-an-issue)
 
-- [opening an issue](https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute#how-to-open-an-issue)
+- [opening an issue](Contribute#how-to-open-an-issue)
 
-- [testing a pull request](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-a-PR)
+- [testing a pull request](How-to-test-a-PR)
 
-- [testing DB-only changes](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-DB-only-changes)
+- [testing DB-only changes](How-to-test-DB-only-changes)
 
-- [creating a pull request](https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute#how-to-create-a-pull-request)
+- [creating a pull request](Contribute#how-to-create-a-pull-request)
 
-- [improving our wiki](https://github.com/azerothcore/azerothcore-wotlk/wiki/Contribute#improve-the-wiki)
+- [improving our wiki](Contribute#improve-the-wiki)
 ## General information
 
 To contribute, you obviously need a github account.
@@ -37,7 +37,7 @@ If **(and only if)** the bug hasn't been reported yet, you can [open an issue](h
 
 ## How to test a Pull Request
 
-- Read [How to test a PR](https://github.com/azerothcore/azerothcore-wotlk/wiki/How-to-test-a-PR).
+- Read [How to test a PR](How-to-test-a-PR).
 
 ## How to create a Pull Request
 
@@ -45,7 +45,7 @@ Official GitHub tutorial [here](https://help.github.com/articles/creating-a-pull
 
 In order to create a Pull Request (PR), you have to fork the AzerothCore repository (via your web browser, using the top-right Fork button) and clone your fork locally with `git clone https://github.com/YOUR_USERNAME/azerothcore-wotlk.git`.
 
-If you already have a local fork, remember to [sync it](https://github.com/azerothcore/azerothcore-wotlk/wiki/Syncing-your-fork) before creating a new Pull Request to avoid conflicts.
+If you already have a local fork, remember to [sync it](Syncing-your-fork) before creating a new Pull Request to avoid conflicts.
 
 Open a terminal and move to your local clone of the fork, then create a new branch by typing:
 
@@ -53,7 +53,7 @@ Open a terminal and move to your local clone of the fork, then create a new bran
 
 Now add your changes to the code.
 
-**IMPORTANT:** If you are going to add some database contents or structure changes, read [how to deal with SQL files](https://github.com/azerothcore/azerothcore-wotlk/wiki/Dealing-with-SQL-files) first.
+**IMPORTANT:** If you are going to add some database contents or structure changes, read [how to deal with SQL files](Dealing-with-SQL-files) first.
 
 Then you can commit your changes and push them:
 
