@@ -1,5 +1,13 @@
 # Changelogs
 
+## 2.3.0
+
+Changed #toc div, now it's called #git-wiki-toc. You've to change it too if you are using a totally custom theme.
+
+New theme: github
+
+Various fixes
+
 ## 2.2 - External Links
 
 * Implemented external links icon (wikipedia style)
