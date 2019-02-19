@@ -49,7 +49,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 3. **copy and rename** _config.yml.dist in _config.yml changing settings inside
 
-4. **copy and rename** wiki/main_page.md.dist in wiki/main_page.md
+4. **rename** wiki/main_page.md.dist in wiki/main_page.md
 
 5. push your changes in your repository, then configure the github pages in your repository settings
 
