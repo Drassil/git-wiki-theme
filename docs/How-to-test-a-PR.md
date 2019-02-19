@@ -1,3 +1,5 @@
+# How to test a PR
+
 ## Introduction
 
 At AzerothCore we care about game quality and stability. Because of this, **we do not push changes directly to the master branch**. Instead, whenever introducing a new change, we create a new [Pull Request](https://help.github.com/articles/about-pull-requests/) (often shortened in PR).
