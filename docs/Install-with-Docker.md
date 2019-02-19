@@ -1,6 +1,6 @@
 Welcome to the AzerothCore Docker guide!
 
-# Introduction
+## Introduction
 
 Installing AzerothCore using Docker is a simplified procedure that has several benefits:
 
@@ -33,9 +33,9 @@ Usind Docker will have the same benefits as using virtual machines, but with muc
 
 ![Docker containers vs Virtual machines](https://user-images.githubusercontent.com/75517/51078179-d4fec680-16b1-11e9-8ce6-87b5053f55dd.png)
 
-# Setup
+## Setup
 
-## Software requirements
+### Software requirements
 
 The only requirements are [git](https://git-scm.com/download/) and Docker.
 
@@ -64,7 +64,7 @@ You should see a similar output:
 
 **Note for Windows users**: you can use **git-bash** (the shell included in git) as a terminal.
 
-## Clone the AzerothCore repository
+### Clone the AzerothCore repository
 
 You need to clone the AzerothCore repository (or use your own fork):
 
@@ -74,13 +74,13 @@ git clone https://github.com/azerothcore/azerothcore-wotlk.git
 
 Now cd into the main directory using `cd azerothcore-wotlk`. **All commands will have to be run from this position**.
 
-## WoW Client Data files
+### WoW Client Data files
 
 You also need to have the data files. Check the step "5) Download the data files" from the [installation guide](Installation#5-download-the-data-files).
 
 Put your data files into the `docker/worldserver/data/` folder that is inside `azerothcore-wotlk`.
 
-## Installation
+### Installation
 
 Inside your terminal (if you use Windows, use git bash), run the following commands.
 
@@ -111,7 +111,7 @@ Docker will build and run your containers. Meanwhile you will see messages like:
 
 Your server will be up and running shortly. The default password of the root DB user will be `password`.
 
-### Docker reference & support requests
+#### Docker reference & support requests
 
 For server administrators, we recommend to read the [Docker documentation](https://docs.docker.com/) as well as the [Docker Compose reference](https://docs.docker.com/compose/reference/overview/).
 
@@ -119,7 +119,7 @@ If you want to be an administrator of an AzerothCore production server, it helps
 
 Feel free to ask questions on [StackOverflow](https://stackoverflow.com/) and link them in the **#support-docker** channel of our [Discord chat](https://stackoverflow.com/questions/tagged/azerothcore). We will be happy to help you!
 
-# FAQ
+## FAQ
 *Faq? Faq you!*
 
 ### Where are the etc and logs folders of my server?
