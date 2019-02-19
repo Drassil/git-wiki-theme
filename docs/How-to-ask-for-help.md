@@ -1,3 +1,5 @@
+# How to ask for help
+
 ### Need help?
 
 Do you need support with AzerothCore? No worries, we're happy to help you!
@@ -71,8 +73,10 @@ Remember to:
   - **Bad** example `I got DB error plz help me`.
   - **Good** example: `After importing the sql updates, I get the error "XXX"`
 
-- Don't forget the [azerothcore] tag
+- Don't forget the **[azerothcore]** tag!
   - ![image](https://user-images.githubusercontent.com/75517/51132313-364da380-1832-11e9-8483-3bb6898d438a.png)
+
+- It's useful to add **4 more tags** according to the category of your question (e.g. `c++`, `docker`, `mysql`, `sql`, etc... ).
 
 - Link your question in the #support-general channel of our [Discord chat](https://discordapp.com/channels/217589275766685707/284406375495368704)
 
