@@ -7,7 +7,7 @@ Welcome to the [AzerothCore](http://www.azerothcore.org/) project wiki!
 - [Traditional setup guide](Installation.md)
 - [Docker setup guide](Install-with-Docker.md)
 
-## Overwiew
+## Overview
 
 AzerothCore is a complete Open Source and Modular solution for MMO
 
