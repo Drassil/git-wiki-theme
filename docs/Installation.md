@@ -42,7 +42,7 @@ Before running the CMake command, replace `/home/youruser/azeroth-server/` with 
 
 **CMAKE OPTIONS**
 
-Check the options here if you know what you're doing: [CMake options](Cmake-options.md)
+Check the options here if you know what you're doing: [CMake options](CMake-options.md)
 
 
 **CMake on Linux:**
