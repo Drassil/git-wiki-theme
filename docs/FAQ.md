@@ -11,11 +11,11 @@ AzerothCore is based on SunwellCore (a fork from TC). SunwellCore was a public s
 
 #### 3 - I want this fixed or this feature or this module. How can I proceed?
 
-You can open a bounty and if developers are interested by the job, they might do it. Read this: Bountysource
+You can open a bounty and if developers are interested by the job, they might do it. Read this: [Bountysource](Bountysource.md)
 
 #### 4 - I have an issue, where can I get help?
 
-Read this carefully: How-to-ask-for-help
+Read this carefully: [How to ask help](How-to-ask-for-help.md)
 
 
 ## COMMON ERRORS
