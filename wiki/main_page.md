@@ -4,7 +4,7 @@ redirect_from: "/"
 
 # Welcome to git-wiki demo
 
-This is both documentation and [demo](wiki/Demo.md) of git-wiki theme for jekyll.
+This is both documentation and [demo](Demo.md) of git-wiki theme for jekyll.
 
 it's a **modular and full featured wiki** powered by git, github pages and pull-requests!
 
@@ -33,7 +33,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 ## Who is using git-wiki
 
-[List of git-wiki installations](wiki/examples.md)
+[List of git-wiki installations](examples.md)
 
 [List of forked repository](https://github.com/Drassil/git-wiki/network/members)
 
@@ -63,7 +63,7 @@ Git wiki already contains the Gemfile for local installations.
 
 ## Configuration and customization
 
-Read documentation about [Customization HERE](wiki/customize.md)
+Read documentation about [Customization HERE](customize.md)
 
 
 ## Current known limitations
