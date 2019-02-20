@@ -1,12 +1,12 @@
 This tutorial explains how to compile and install AzerothCore in your host system.
 
-Alternatively, it is also possible to [use AzerothCore with Docker](Install-with-Docker).
+Alternatively, it is also possible to [use AzerothCore with Docker](Install-with-Docker.md).
 
 For macOS users: the build on mac is currently broken (see [this issue](https://github.com/azerothcore/azerothcore-wotlk/issues/122)), but you can still use AzerothCore on macOS with Docker.
 
 ## 1) Installing the requirements
 
-Make sure your system fits with the [Requirements](Requirements).
+Make sure your system fits with the [Requirements](Requirements.md).
 
 
 ## 2) Getting the source files
@@ -42,7 +42,7 @@ Before running the CMake command, replace `/home/youruser/azeroth-server/` with 
 
 **CMAKE OPTIONS**
 
-Check the options here if you know what you're doing: [CMake options](Cmake-options)
+Check the options here if you know what you're doing: [CMake options](Cmake-options.md)
 
 
 **CMake on Linux:**
@@ -84,7 +84,7 @@ Press `Configure` once again and then press `Generate`. If no error occurred you
 Go to the location where the build files have been generated and open AzerothCore.sln  
 
 _Note: If MySQL is not found by CMake it is required to set MYSQL_INCLUDE_DIR = C:/mysql_libs/include and MYSQL_LIBRARY= C:/mysql_libs/lib_XX/libmysql.lib._
-_XX depends if you are compiling in 32 or 64 bits mode. ( See [Windows Requirements article](Requirements#windows) )_
+_XX depends if you are compiling in 32 or 64 bits mode. ( See [Windows Requirements article](Requirements.md#windows) )_
 
 Press `BUILD` then select `Build solution` or press F6.  
 Wait until the Build has been finished (It should take between 10-40 minutes depending on your hardware).  
