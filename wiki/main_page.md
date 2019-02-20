@@ -23,6 +23,7 @@ It means:
 * **Component system with hooks** that allows you to totally customize your wiki UI. (see customization section below) 
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
 * Integrated **Blogging** feature thanks to jekyll!
+* You can download the entire wiki for offline usage and even navigate directly using a markdown reader
 
 You can fork/copy the master branch now and start your wiki in just 1 minute*!
 
