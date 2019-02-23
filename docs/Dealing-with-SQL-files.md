@@ -12,7 +12,9 @@ Also remember to:
 
 - surround any table or field name with `backticks`, and string values with `single quotes`, example:
 
-``UPDATE `table_name` SET `field_I_want_to_change` = 'new string value' WHERE `entry` = 10 ;``
+```SQL
+UPDATE `table_name` SET `field_I_want_to_change` = 'new string value' WHERE `entry` = 10 ;
+```
 
 ## Write compact code
 
