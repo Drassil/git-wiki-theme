@@ -1,4 +1,6 @@
-## SQL Format
+# Dealing with SQL files
+
+## SQL basics
 
 If you are not confident with the SQL language, we suggest to read [this tutorial](http://www.w3schools.com/sql/default.asp) before starting.
 
@@ -11,6 +13,62 @@ Also remember to:
 - surround any table or field name with `backticks`, and string values with `single quotes`, example:
 
 ``UPDATE `table_name` SET `field_I_want_to_change` = 'new string value' WHERE `entry` = 10 ;``
+
+## Write compact code
+
+Compact code helps to keep the size of our SQL update files small, so installing/updating the ACDB will be faster.
+
+### INSERT
+
+Bad:
+
+```SQL
+INSERT INTO `table_1` VALUES (1000, ...);
+INSERT INTO `table_1` VALUES (2000, ...);
+INSERT INTO `table_1` VALUES (3000, ...);
+```
+
+
+Good:
+
+```SQL
+INSERT INTO `table_1` VALUES
+(1000, ...),
+(2000, ...),
+(3000, ...);
+```
+
+### UPDATE
+
+Bad:
+
+```SQL
+UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 1000;
+UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 2000;
+UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 3000;
+```
+
+Good:
+
+```SQL
+UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` IN (1000, 2000, 3000);
+```
+
+### DELETE
+
+Bad:
+
+```SQL
+DELETE FROM `table_1` WHERE `entry` = 1000;
+DELETE FROM `table_1` WHERE `entry` = 2000;
+DELETE FROM `table_1` WHERE `entry` = 3000;
+```
+
+Good:
+
+```SQL
+DELETE FROM `table_1` WHERE `entry` IN (1000, 2000, 3000);
+```
 
 ## How to create an sql update file
 
