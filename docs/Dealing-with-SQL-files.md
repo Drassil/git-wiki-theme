@@ -24,7 +24,7 @@ Compact code helps to keep the size of our SQL update files small, so installing
 
 Bad:
 
-```SQL
+```sql
 INSERT INTO `table_1` VALUES (1000, ...);
 INSERT INTO `table_1` VALUES (2000, ...);
 INSERT INTO `table_1` VALUES (3000, ...);
@@ -33,7 +33,7 @@ INSERT INTO `table_1` VALUES (3000, ...);
 
 Good:
 
-```SQL
+```sql
 INSERT INTO `table_1` VALUES
 (1000, ...),
 (2000, ...),
@@ -44,7 +44,7 @@ INSERT INTO `table_1` VALUES
 
 Bad:
 
-```SQL
+```sql
 UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 1000;
 UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 2000;
 UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 3000;
@@ -52,7 +52,7 @@ UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` = 3000;
 
 Good:
 
-```SQL
+```sql
 UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` IN (1000, 2000, 3000);
 ```
 
@@ -60,7 +60,7 @@ UPDATE `table_1` SET `field_1` = 'someValue' WHERE `entry` IN (1000, 2000, 3000)
 
 Bad:
 
-```SQL
+```sql
 DELETE FROM `table_1` WHERE `entry` = 1000;
 DELETE FROM `table_1` WHERE `entry` = 2000;
 DELETE FROM `table_1` WHERE `entry` = 3000;
@@ -68,7 +68,7 @@ DELETE FROM `table_1` WHERE `entry` = 3000;
 
 Good:
 
-```SQL
+```sql
 DELETE FROM `table_1` WHERE `entry` IN (1000, 2000, 3000);
 ```
 
