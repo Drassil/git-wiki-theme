@@ -53,6 +53,10 @@ google_cse_token:
 # git-wiki includes some internal themes that you can choose
 # check _layouts folder
 #
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 defaults:
  - 
