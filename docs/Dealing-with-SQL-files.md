@@ -13,7 +13,7 @@ Also remember to:
 - surround any table or field name with `backticks`, and string values with `single quotes`, example:
 
 ```SQL
-UPDATE `table_name` SET `field_I_want_to_change` = 'new string value' WHERE `entry` = 10 ;
+    UPDATE `table_name` SET `field_I_want_to_change` = 'new string value' WHERE `entry` = 10 ;
 ```
 
 ## Write compact code
@@ -25,9 +25,9 @@ Compact code helps to keep the size of our SQL update files small, so installing
 Bad:
 
 ```SQL
-INSERT INTO `table_1` VALUES (1000, ...);
-INSERT INTO `table_1` VALUES (2000, ...);
-INSERT INTO `table_1` VALUES (3000, ...);
+    INSERT INTO `table_1` VALUES (1000, ...);
+    INSERT INTO `table_1` VALUES (2000, ...);
+    INSERT INTO `table_1` VALUES (3000, ...);
 ```
 
 
