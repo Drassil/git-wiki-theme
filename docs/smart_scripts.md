@@ -1435,7 +1435,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><br />
 </td>
-<td>On gossip clicked (<a href="gossip_menu_option335" class="uri">gossip_menu_option335</a>).</td>
+<td>On gossip clicked (<a href="gossip_menu_option" class="uri">gossip_menu_option</a>).</td>
 </tr>
 <tr class="even">
 <td><p>SMART_EVENT_JUST_CREATED</p></td>

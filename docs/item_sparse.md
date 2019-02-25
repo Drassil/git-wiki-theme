@@ -292,7 +292,7 @@ Flags1 to Flags3 are bitmask fields that contains flags that the item has on it.
 <td> UNK10</td>
 </tr>
 <tr class="even">
-<td>33554432</td>
+<td>54432</td>
 <td>0x02000000</td>
 <td> Profession recipes: can only be looted if you meet requirements and don't already know it</td>
 </tr>
@@ -1423,7 +1423,7 @@ Commonly used socket bonus IDs
 
 +12 Stamina
 
-3353
+3
 
 +8 Intellect
 

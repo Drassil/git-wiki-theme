@@ -1183,16 +1183,16 @@ Notes:
 
 \***CONDITION\_SOURCE\_TYPE\_GOSSIP\_MENU = 14**
 
--   -   SourceGroup: gossip menu entry ([gossip\_menu.entry](gossip_menu335_2130187.html#gossip_menu335-entry))
-    -   SourceEntry: gossip menu text id ([gossip\_menu.text\_id](gossip_menu335_2130187.html#gossip_menu335-text_id))
+-   -   SourceGroup: gossip menu entry ([gossip\_menu.entry](gossip_menu_2130187.html#gossip_menu-entry))
+    -   SourceEntry: gossip menu text id ([gossip\_menu.text\_id](gossip_menu_2130187.html#gossip_menu-text_id))
     -   ConditionTarget:
         -   0 - Player for which gossip text is shown
         -   1 - WorldObject providing gossip
 
 \***CONDITION\_SOURCE\_TYPE\_GOSSIP\_MENU\_OPTION = 15**
 
--   -   SourceGroup: gossip menu entry ([gossip\_menu\_option.menu\_id](gossip_menu_option335_2130188.html#gossip_menu_option335-menu_id))
-    -   SourceEntry: gossip menu option id ([gossip\_menu\_option.id](gossip_menu_option335_2130188.html#gossip_menu_option335-id))
+-   -   SourceGroup: gossip menu entry ([gossip\_menu\_option.menu\_id](gossip_menu_option_2130188.html#gossip_menu_option-menu_id))
+    -   SourceEntry: gossip menu option id ([gossip\_menu\_option.id](gossip_menu_option_2130188.html#gossip_menu_option-id))
     -   ConditionTarget:
         -   0 - Player for which gossip text is shown
         -   1 - WorldObject providing gossip

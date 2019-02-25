@@ -876,7 +876,7 @@ Examples:
 
 **Mist of Pandaria and all Expansions after:**
 
-33555378 (33554432 + 256 + 128 + 32 + 16 + 2 + 512)  = Horde
+55378 (54432 + 256 + 128 + 32 + 16 + 2 + 512)  = Horde
 
 18875469 (16777216 + 2097152 + 1024 + 64 + 8 + 4 + 1) = Alliance
 
@@ -1158,7 +1158,7 @@ This flag field defines more specifically the type of quest it is. Aside from th
 </td>
 </tr>
 <tr class="odd">
-<td>33554432</td>
+<td>54432</td>
 <td>QUEST_FLAGS_REMOVE_EXTRA_GET_ITEMS</td>
 <td><br />
 </td>

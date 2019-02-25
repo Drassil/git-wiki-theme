@@ -200,7 +200,7 @@ List of known values and what their visual effects on the creature
 -   7 = Shows health bar as empty (combine with the state dead emote to make a creature look dead)
 -   8 = Makes the mob kneel
 -   9 = Submerges the creature below the ground
--   33554432 = Hover mode
+-   54432 = Hover mode
 -   50331648 = Hover mode 2
 
 ### bytes2

@@ -96,7 +96,7 @@ Core Revision Hash your server is currently running on, i.e. **Unknown** or **8e
 
 ### db\_version
 
-Database Version your server is currently running on. Example: **TDB 335.58**
+Database Version your server is currently running on. Example: **TDB .58**
 
 ### script\_version
 

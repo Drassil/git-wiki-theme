@@ -2324,7 +2324,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <td> UNK10</td>
 </tr>
 <tr class="even">
-<td>33554432</td>
+<td>54432</td>
 <td>0x02000000</td>
 <td> Profession recipes: can only be looted if you meet requirements and don't already know it</td>
 </tr>
@@ -3563,7 +3563,7 @@ commonly used socket bonus IDs
 <td><p>+12 Stamina</p></td>
 </tr>
 <tr class="even">
-<td><p>3353</p></td>
+<td><p>3</p></td>
 <td><p>+8 Intellect</p></td>
 </tr>
 <tr class="odd">

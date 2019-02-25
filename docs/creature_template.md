@@ -1,85 +1,85 @@
-# creature\_template335
+# creature\_template
 
 This table contains the description of creatures. Each spawned creature is an instance of a template present in this table, this means every creature MUST be defined in this table.
 
 | Field                                                                | Type                  | Null | Key | Default | Extra | Comment                              |
 |----------------------------------------------------------------------|-----------------------|------|-----|---------|-------|--------------------------------------|
-| [entry](#creature_template335-entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
-| [difficulty\_entry\_1](#creature_template335-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_2](#creature_template335-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_3](#creature_template335-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [KillCredit1](#creature_template335-KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [KillCredit2](#creature_template335-KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [modelid1](#creature_template335-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid2](#creature_template335-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid3](#creature_template335-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid4](#creature_template335-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [name](#creature_template335-name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
-| [subname](#creature_template335-subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [IconName](#creature_template335-IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [gossip\_menu\_id](#creature_template335-gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [minlevel](#creature_template335-minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [maxlevel](#creature_template335-maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [exp](#creature_template335-exp)                                     | smallint(6)           | NO   |     | 0       |       |                                      |
-| [faction](#creature_template335-faction)                             | smallint(5) unsigned  | NO   |     | 0       |       |                                      |
-| [npcflag](#creature_template335-npcflag)                             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [speed\_walk](#creature_template335-speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
-| [speed\_run](#creature_template335-speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
-| [scale](#creature_template335-scale)                                 | float                 | NO   |     | 1       |       |                                      |
-| [rank](#creature_template335-rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [dmgschool](#creature_template335-dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [BaseAttackTime](#creature_template335-BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [RangeAttackTime](#creature_template335-RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [BaseVariance](#creature_template335-BaseVariance)                   | float                 | NO   |     | 1       |       |                                      |
-| [RangeVariance](#creature_template335-RangeVariance)                 | float                 | NO   |     | 1       |       |                                      |
-| [unit\_class](#creature_template335-unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [unit\_flags](#creature_template335-unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [unit\_flags2](#creature_template335-unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [dynamicflags](#creature_template335-dynamicflags)                   | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [family](#creature_template335-family)                               | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_type](#creature_template335-trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_spell](#creature_template335-trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [trainer\_class](#creature_template335-trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [trainer\_race](#creature_template335-trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [type](#creature_template335-type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [type\_flags](#creature_template335-type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [lootid](#creature_template335-lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [pickpocketloot](#creature_template335-pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [skinloot](#creature_template335-skinl)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [resistance1](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance2](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance3](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance4](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance5](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance6](#creature_template335-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [spell1](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell2](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell3](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell4](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell5](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell6](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell7](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell8](#creature_template335-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [PetSpellDataId](#creature_template335-PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [VehicleId](#creature_template335-VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [mingold](#creature_template335-mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [maxgold](#creature_template335-maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [AIName](#creature_template335-AIName)                               | char(64)              | NO   |     |         |       |                                      |
-| [MovementType](#creature_template335-MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [InhabitType](#creature_template335-InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
-| [HoverHeight](#creature_template335-HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
-| [HealthModifier](#creature_template335-HealthModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ManaModifier](#creature_template335-ManaModifier)                   | float                 | NO   |     | 1       |       |                                      |
-| [ArmorModifier](#creature_template335-ArmorModifier)                 | float                 | NO   |     | 1       |       |                                      |
-| [DamageModifier](#creature_template335-DamageModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ExperienceModifier](#creature_template335-ExperienceModifier)       | float                 | NO   |     | 1       |       |                                      |
-| [RacialLeader](#creature_template335-RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [movementId](#creature_template335-movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
-| [RegenHealth](#creature_template335-RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [mechanic\_immune\_mask](#creature_template335-mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [flags\_extra](#creature_template335-flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [ScriptName](#creature_template335-ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
-| [VerifiedBuild](#creature_template335-VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
+| [entry](#creature_template-entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
+| [difficulty\_entry\_1](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty\_entry\_2](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty\_entry\_3](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [KillCredit1](#creature_template-KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [KillCredit2](#creature_template-KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [modelid1](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid2](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid3](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid4](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [name](#creature_template-name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
+| [subname](#creature_template-subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
+| [IconName](#creature_template-IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
+| [gossip\_menu\_id](#creature_template-gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [minlevel](#creature_template-minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [maxlevel](#creature_template-maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [exp](#creature_template-exp)                                     | smallint(6)           | NO   |     | 0       |       |                                      |
+| [faction](#creature_template-faction)                             | smallint(5) unsigned  | NO   |     | 0       |       |                                      |
+| [npcflag](#creature_template-npcflag)                             | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [speed\_walk](#creature_template-speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
+| [speed\_run](#creature_template-speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
+| [scale](#creature_template-scale)                                 | float                 | NO   |     | 1       |       |                                      |
+| [rank](#creature_template-rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [dmgschool](#creature_template-dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [BaseAttackTime](#creature_template-BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [RangeAttackTime](#creature_template-RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [BaseVariance](#creature_template-BaseVariance)                   | float                 | NO   |     | 1       |       |                                      |
+| [RangeVariance](#creature_template-RangeVariance)                 | float                 | NO   |     | 1       |       |                                      |
+| [unit\_class](#creature_template-unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [unit\_flags](#creature_template-unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [unit\_flags2](#creature_template-unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [dynamicflags](#creature_template-dynamicflags)                   | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [family](#creature_template-family)                               | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [trainer\_type](#creature_template-trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [trainer\_spell](#creature_template-trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [trainer\_class](#creature_template-trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [trainer\_race](#creature_template-trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [type](#creature_template-type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [type\_flags](#creature_template-type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [lootid](#creature_template-lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [pickpocketloot](#creature_template-pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [skinloot](#creature_template-skinl)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [resistance1](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance2](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance3](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance4](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance5](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance6](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [spell1](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell2](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell3](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell4](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell5](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell6](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell7](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell8](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [PetSpellDataId](#creature_template-PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [VehicleId](#creature_template-VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [mingold](#creature_template-mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [maxgold](#creature_template-maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [AIName](#creature_template-AIName)                               | char(64)              | NO   |     |         |       |                                      |
+| [MovementType](#creature_template-MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [InhabitType](#creature_template-InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
+| [HoverHeight](#creature_template-HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
+| [HealthModifier](#creature_template-HealthModifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ManaModifier](#creature_template-ManaModifier)                   | float                 | NO   |     | 1       |       |                                      |
+| [ArmorModifier](#creature_template-ArmorModifier)                 | float                 | NO   |     | 1       |       |                                      |
+| [DamageModifier](#creature_template-DamageModifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ExperienceModifier](#creature_template-ExperienceModifier)       | float                 | NO   |     | 1       |       |                                      |
+| [RacialLeader](#creature_template-RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [movementId](#creature_template-movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
+| [RegenHealth](#creature_template-RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [mechanic\_immune\_mask](#creature_template-mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [flags\_extra](#creature_template-flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [ScriptName](#creature_template-ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
+| [VerifiedBuild](#creature_template-VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
 
 **
 **
@@ -453,7 +453,7 @@ UNIT\_FLAG\_FLEEING
 0x0100 0000
 UNIT\_FLAG\_PLAYER\_CONTROLLED
 Used in spell Eyes of the Beast for pet... let attack by controlled creature. Also used by Vehicles (PCV).
-33554432
+54432
 0x0200 0000
 UNIT\_FLAG\_NOT\_SELECTABLE
 Can't be selected by mouse or with /target {name} command.
@@ -1046,7 +1046,7 @@ e.g. Death Coil (Warlock)
 0x0100 0000
 MECHANIC\_INVULNERABILITY
 Forbearance, Nether Protection, Diplomatic Immunity only
-33554432
+54432
 0x0200 0000
 MECHANIC\_INTERRUPT
 67108864

@@ -1141,7 +1141,7 @@ A bitmask that represents what Player flags the player has. Each bit controls a 
 <td><p>PLAYER_FLAGS_UNK25</p></td>
 </tr>
 <tr class="even">
-<td><p>33554432</p></td>
+<td><p>54432</p></td>
 <td><p>0x02000000</p></td>
 <td><p>PLAYER_FLAGS_NO_XP_GAIN</p></td>
 </tr>
