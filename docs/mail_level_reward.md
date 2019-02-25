@@ -1,8 +1,93 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [mail_level_reward](mail_level_reward)
+# mail\_level\_reward
 
-Column | Type | Description
---- | --- | ---
-Level | tinyint(3) unsigned | 
-RaceMask | mediumint(8) unsigned | 
-MailTemplateId | mediumint(8) unsigned | 
-SenderEntry | mediumint(8) unsigned | 
+`Back-to:World`
+
+**The \`mail\_level\_reward\` table**
+
+On certain levels, you receive a mail with some text.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#mail_level_reward-level">level</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#mail_level_reward-raceMask">raceMask</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#mail_level_reward-mailTemplateId">mailTemplateId</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#mail_level_reward-senderEntry">senderEntry</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### level
+
+Level required for receiving specific mail
+
+### raceMask
+
+Mask required to receive mail.
+`:ChrRaces.dbc_tc2`
+
+### mailTemplateId
+
+Mail ID to be send. See MailTemplate.dbc
+
+### senderEntry
+
+`field-no-description|4`

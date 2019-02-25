@@ -1,10 +1,110 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_equip_template](creature_equip_template)
+# creature\_equip\_template
 
-Column | Type | Description
---- | --- | ---
-CreatureID | mediumint(8) unsigned | 
-ID | tinyint(3) unsigned | 
-ItemID1 | mediumint(8) unsigned | 
-ItemID2 | mediumint(8) unsigned | 
-ItemID3 | mediumint(8) unsigned | 
-VerifiedBuild | smallint(6) | 
+`Back-to:World`
+
+## **Table: creature\_equip\_template**
+
+This table contains all the equipment combinations that can be sent for each creature.
+
+## Structure
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_equip_template-CreatureID">CreatureID</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p>Unique entry</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_equip_template-ID">ID</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>1</p></td>
+<td><p><br />
+</p></td>
+<td><p>Unique entry</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_equip_template-ItemID1">ItemID1</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_equip_template-ItemID2">ItemID2</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_equip_template-ItemID3">ItemID3</a></p></td>
+<td>mediumint(8)</td>
+<td>unsigned</td>
+<td><br />
+</td>
+<td>NO</td>
+<td>0</td>
+<td><br />
+</td>
+<td><br />
+</td>
+</tr>
+</tbody>
+</table>
+
+**
+**
+
+## Description of the fields
+
+### CreatureID
+
+The direct corresponding [id](creature_2130009.html#creature-id) in [creature](creature) table or [entry](creature_template_2130008.html#creature_template-entry) in [creature\_template](creature_template) table.
+
+### ID
+
+An additional identifier for each individual entry, enabling multiple equipment for one creature entry. Counter **must** start with 1 and grow accordingly.
+
+### ItemID1
+
+This is the item number of the equipment used in the right hand from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).
+
+### ItemID2
+
+This is the item number of the equipment used in the left hand from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).
+
+### ItemID3
+
+This is the item number of the equipment used in the ranged slot from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).

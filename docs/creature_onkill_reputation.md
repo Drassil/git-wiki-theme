@@ -1,14 +1,216 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [creature_onkill_reputation](creature_onkill_reputation)
+# creature\_onkill\_reputation
 
-Column | Type | Description
---- | --- | ---
-Creature_id | mediumint(8) unsigned | 
-RewOnKillRepFaction1 | smallint(6) | 
-RewOnKillRepFaction2 | smallint(6) | 
-MaxStanding1 | tinyint(4) | 
-IsTeamAward1 | tinyint(4) | 
-RewOnKillRepValue1 | mediumint(8) | 
-MaxStanding2 | tinyint(4) | 
-IsTeamAward2 | tinyint(4) | 
-RewOnKillRepValue2 | mediumint(9) | 
-TeamDependent | tinyint(3) unsigned | 
+`Back-to:World`
+
+**The \`creature\_onkill\_reputation\` table**
+
+This table controls the reputation given by creatures when killed by other players.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_onkill_reputation-creature_id">creature_id</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Creature Identifier</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_onkill_reputation-RewOnKillRepFaction">RewOnKillRepFaction1</a></p></td>
+<td><p>smallint(6)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_onkill_reputation-RewOnKillRepFaction">RewOnKillRepFaction2</a></p></td>
+<td><p>smallint(6)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_onkill_reputation-MaxStanding">MaxStanding1</a></p></td>
+<td><p>tinyint(4)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_onkill_reputation-IsTeamAward">IsTeamAward1</a></p></td>
+<td><p>tinyint(4)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_onkill_reputation-RewOnKillRepValue">RewOnKillRepValue1</a></p></td>
+<td><p>mediumint(9)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_onkill_reputation-MaxStanding">MaxStanding2</a></p></td>
+<td><p>tinyint(4)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_onkill_reputation-IsTeamAward">IsTeamAward2</a></p></td>
+<td><p>tinyint(4)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_onkill_reputation-RewOnKillRepValue">RewOnKillRepValue2</a></p></td>
+<td><p>mediumint(9)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_onkill_reputation-TeamDependent">TeamDependent</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### creature\_id
+
+The template ID of the creature. See [creature\_template.entry](http://collab.kpsn.org/display/tc/creature_template#creature_template-entry)
+
+### RewOnKillRepFaction
+
+The faction ID of the faction that the player will gain or lose points in. See Faction.dbc
+
+### MaxStanding
+
+The maximum standing that the creature will award reputation until. If the player achieves this standing or any other standing higher than this, the creature will not award any reputation.
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID</p></th>
+<th><p>Rank</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>Hated</p></td>
+</tr>
+<tr class="even">
+<td><p>1</p></td>
+<td><p>Hostile</p></td>
+</tr>
+<tr class="odd">
+<td><p>2</p></td>
+<td><p>Unfriendly</p></td>
+</tr>
+<tr class="even">
+<td><p>3</p></td>
+<td><p>Neutral</p></td>
+</tr>
+<tr class="odd">
+<td><p>4</p></td>
+<td><p>Friendly</p></td>
+</tr>
+<tr class="even">
+<td><p>5</p></td>
+<td><p>Honored</p></td>
+</tr>
+<tr class="odd">
+<td><p>6</p></td>
+<td><p>Revered</p></td>
+</tr>
+<tr class="even">
+<td><p>7</p></td>
+<td><p>Exalted</p></td>
+</tr>
+</tbody>
+</table>
+
+### IsTeamAward
+
+Boolean 0 or 1 that controls if the player receives the reputation not only to the faction but also the faction team.
+
+-   0: Player receives reputation only for the faction
+-   1: Player receives reputation both for the faction and the faction's team
+
+NOTE: The reputation value that the player gains for the team (if the field is 1) is half of the value specified in [RewOnKillRepValue](#creature_onkill_reputation-RewOnKillRepValue)
+
+### RewOnKillRepValue
+
+The reputation value that the player gains (or loses if it's negative) by killing the creature.
+
+### TeamDependent
+
+Boolean 0 or 1.
+
+-   0: The creature will give reputation to the any player from both fields (RewOnKillRepFaction1 and RewOnKillRepFaction2) if both fields are non-zero.
+-   1: The creature will award alliance players the reputation from RewOnKillRepFaction1 and will award horde players the reputation from RewOnKillRepFaction2
+

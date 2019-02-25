@@ -1,7 +1,78 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [item_enchantment_template](item_enchantment_template)
+# item\_enchantment\_template
 
-Column | Type | Description
---- | --- | ---
-Entry | mediumint(8) unsigned | 
-Ench | mediumint(8) unsigned | 
-Chance | float unsigned | 
+`Back-to:World`
+
+**The \`item\_enchantment\_template\` table**
+
+This table holds enchantment chance information for items that should have either a random property or a random suffix attached to them.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#item_enchantment_template-entry">entry</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#item_enchantment_template-ench">ench</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#item_enchantment_template-chance">chance</a></p></td>
+<td><p>float</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### entry
+
+This field ties in with EITHER RandomProperty OR RandomSuffix fields in the item\_template table. An item cannot have both of those fields set at non-zero values.
+
+### ench
+
+The enchantment to apply on the item. If the entry for the current row is used in RandomProperty, then this field points to the ID in ItemRandomProperties.dbc. If the entry is used in RandomSuffix, then this field points to the ID in ItemRandomSuffix.dbc.
+
+### chance
+
+The chance for a random property or suffix to be applied to the item. For each entry in this table, the combined chances of all properties/suffixes need to equal 100 otherwise the item may not get a random enchantment on it.

@@ -1,19 +1,252 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [arena_team](arena_team)
+# arena\_team
 
-Column | Type | Description
---- | --- | ---
-ArenaTeamId | int(10) unsigned | 
-Name | varchar(24) | 
-CaptainGuid | int(10) unsigned | 
-Type | tinyint(3) unsigned | 
-Rating | smallint(5) unsigned | 
-SeasonGames | smallint(5) unsigned | 
-SeasonWins | smallint(5) unsigned | 
-WeekGames | smallint(5) unsigned | 
-WeekWins | smallint(5) unsigned | 
-Rank | int(10) unsigned | 
-BackgroundColor | int(10) unsigned | 
-EmblemStyle | tinyint(3) unsigned | 
-EmblemColor | int(10) unsigned | 
-BorderStyle | tinyint(3) unsigned | 
-BorderColor | int(10) unsigned | 
+`Back-to:Characters`
+
+**The \`arena\_team\` table**
+
+This table holds the main ArenaTeam information. All created teams or all teams in the process of being created have a record in this table.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-arenaTeamId">arenaTeamId</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p>Unique</p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-name">name</a></p></td>
+<td><p>varchar(24)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>NULL</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-captainGuid">captainGuid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-type">type</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-rating">rating</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-seasonGames">seasonGames</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-seasonWins">seasonWins</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-weekGames">weekGames</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-weekWins">weekWins</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-rank">rank</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-BackgroundColor">BackgroundColor</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-EmblemStyle">EmblemStyle</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-EmblemColor">EmblemColor</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team-BorderStyle">BorderStyle</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team-BorderColor">BorderColor</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### arenaTeamId
+
+The ID of the ArenaTeam. This number is unique to each team and is the main method to identify a team.1
+
+### name
+
+Name of the Arena team
+
+### captainGuid
+
+The GUID of the character who created the ArenaTeam. See [characters.guid](2129969.html#characters(table)-guid)
+
+### type
+
+Defines the ArenaType:
+
+2 – 2vs2 Team
+
+3 – 3vs3 Team
+
+5 – 5vs5 Team
+
+### rating
+
+Rating of arena team.
+
+### seasonGames
+
+Number of games played this **season**.
+
+### seasonWins
+
+Number of games won this **season**.
+
+### weekGames
+
+Number of games played this **week**.
+
+### weekWins
+
+Number of games won this **week**.
+
+### rank
+
+Rank of teams in the competition by rating.
+
+### BackgroundColor
+
+Team-tabard BackgroundColor (same as guild-tabard)
+
+### EmblemStyle
+
+Team-tabard Emblem (same as guild-tabard)
+
+### EmblemColor
+
+Team-tabard EmblemColor (same as guild-tabard)
+
+### BorderStyle
+
+Team-tabard Bordertype (same as guild-tabard)
+
+### BorderColor
+
+Team-tabard BorderColor (same as guild-tabard)

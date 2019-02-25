@@ -1,77 +1,341 @@
-# Introduction
-This table is responsible for storing every bubble chat text whose are either handled by Smart AI or by core scripts.
-Any NPC stored in creature_template can use the table creature_text to talk because they are linked through the row _entry_.
-Smart AI can link the talk event with the creature text and the core is prepared to control the creature talk because the Talk function from a creature will query the database for his text object and then it will be handled by the core so it will decide either it is a yell, say, whisper or an emote.
+# creature\_text
 
-# How to use
-### Core Scripts
-Some code standards should be followed when using this table on a creature script for example:
-* Create an enum for the specific texts so you can avoid confusion with other events for the same creature;
+# Table: creature\_text
 
-``` c++
-enum arthas
-{
-    ARTHAS_RAGE = 0, // APOCALIPSE
-    EVENT_SPELL_FROSTSTRIKE = 0 // Will give compiler error because you can't share the same enum value
-};
+**Short Description:**
+
+This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](https://trinitycore.atlassian.net/wiki/display/tc/smart_scripts) table and core scripts.
+
+**Detailed Description:**
+
+Have you ever wondered how a boss like ***Sindragosa*** (→ [wowhead](http://www.wowhead.com/npc=36853/sindragosa)) is scripted? There is no need to wonder, you can see it for yourself! (→ [Sindragosa Script File](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp))
+
+I know, I know - this looks incredibly complex, over 1600 lines of code! However there is no need to understand everything at one time. Let's focus on something simple, but still very important, shall we? 
+
+If you look at the beginning of the code you can find *enum* named Texts which is composed of 12 elements (numbers from 0 to 11), let's look closer at the first element of this *enum*:
+
+**boss\_sindragosa.cpp**  Expand source
+
+``` cpp
+ enum Texts
+ {
+     SAY_AGGRO = 0, // You are fools to have come to this place! The icy winds of Northrend will consume your souls!
+     ...
+ };
 ```
 
-* The enum must be typed in caps as if it were a const so you can improve readability;
+You can verify in game for yourself that ***Sindragosa*** will yell this when you start a fight versus her.
+Did you notice something interesting? Actual text is placed after a // which means that this information is comment
+and our compiler will ignore it. On the other hand we clearly see that she is yelling that text, how is it possible?
 
-``` c++
-enum arthas_text
-{
-    ARTHAS_RAGE = 0, // APOCALIPSE
-};
+## Where is this information stored? How can I find it?
+
+You may say - well this is over 1600 lines long, for sure there must be something, we just didn't find it yet.
+I can assure you, you won't find anything, if you don't believe, use CTRL+F shortcut and have some fun with searching!
+
+There is nothing? That's a shame, but maybe, maybe you had a chance to discover something?
+
+**boss\_sindragosa.cpp**  Expand source
+
+``` cpp
+ void EnterCombat(Unit* victim) override
+ {
+     ...
+     Talk(SAY_AGGRO); // interesting!
+ }
 ```
 
-#### Consider the following script. It has all the standard norms that someone should follow if he/she where to make a creature to say something.
+Do you see the last line of this function? They are using something which shouldn't work!
+We can conclude that this function will be called when ***Sindragosa*** is entering combat (look at function name!), so
+now we see why she is yelling at start.
 
-``` c++
-enum tyrion_text
-{
-    EVENT_SAY_FINAL_BLESSING = 0 // Light, grant me one final blessing... Give me the strength to shatter these bonds!
-};
+There is still one fundamental question - where is information about this text stored? Answer is
+simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 
-(...)
-void PlayersDied(int32 param)
-{
-    if (param == EVENT_SAY_FINAL_BLESSING)
-    {
-        me->AI()->Talk(EVENT_SAY_1);
-    }
-}
-```
----
-### Smart AI
+*to be continued...*
 
-Imagine that our following Lich King creature_text only has 1 Group ID which is 0 and his creature_text contains the following line:  **_Frostmourne Hungers_**
+## Structure
 
-If we want to make him say his line when he enters combat we only need to set his smart AI event type to 4 (when the npc gets aggro), action_type to 1 (action type equivalent to talk event) and action_param1 to 0 (which is our desired group id in creature_text).
+<table>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-CreatureID">CreatureID</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><a href="https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry">creature_template entry</a></p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_text-GroupID">GroupID</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-ID">ID</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_text-Text">Text</a></p></td>
+<td><p>longtext</p></td>
+<td><p>utf8_general_ci</p></td>
+<td><p><br />
+</p></td>
+<td><p>YES</p></td>
+<td><p>NULL</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-Type">Type</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_text-Language">Language</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-Probability">Probability</a></p></td>
+<td><p>float</p></td>
+<td><p>signed</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_text-Emote">Emote</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-Duration">Duration</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#creature_text-Sound">Sound</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><a href="#creature_text-BroadcastTextId">BroadcastTextId</a></td>
+<td>mediumint(6)</td>
+<td>signed</td>
+<td><br />
+</td>
+<td>NO</td>
+<td>0</td>
+<td><br />
+</td>
+<td><br />
+</td>
+</tr>
+<tr class="odd">
+<td><a href="#creature_text-TextRange">TextRange</a></td>
+<td>tinyint(3)</td>
+<td>unsigned</td>
+<td><br />
+</td>
+<td>NO</td>
+<td>0</td>
+<td><br />
+</td>
+<td><br />
+</td>
+</tr>
+<tr class="even">
+<td><p><a href="#creature_text-comment">comment</a></p></td>
+<td><p>varchar(255)</p></td>
+<td><p>utf8_general_ci</p></td>
+<td><p><br />
+</p></td>
+<td><p>YES</p></td>
+<td><p>' '</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+</tbody>
+</table>
 
-For more information about smart_scripts table check this [link](smart_scripts).
-``` SQL
-# Our Lich King will shout "Frostmourne hungers" on aggro
-UPDATE smart_scripts
-SET event_type = 4,action_type = 1,action_param1 = 0
-WHERE entry = Lich King entry;
-```
----
+## Description of the fields
 
-# Table Structure
+### CreatureID
 
-Name | Primary Key | Data Type | Length/Set | Unsigned| Allow NULL | Default | Comment
---- | --- | --- | --- | --- | --- | --- | ---
-entry | Yes | MEDIUMINT| 8 | Yes | No | 0 | None
-groupid| Yes | TINYINT | 3 | Yes | No | 0 | None
-id| Yes | TINYINT | 3 | Yes | No | 0 | None
-text| | LONGTEXT| 4294967295 / 4 GiB| No| Yes| No default | None
-type| | TINYINT | 3 | Yes | No | 0 | None
-language| | TINYINT | 3 | Yes | No | 0 | None
-probability| | FLOAT|  | No | No | 0 | None
-emote| | MEDIUMINT| 8 | Yes | No | 0 | None
-duration| | MEDIUMINT| 8 | Yes | No | 0 | None
-sound| | MEDIUMINT| 8 | Yes | No | 0 | None
-BroadcastTextID| | MEDIUMINT| 6 | Yes | No | 0 | None
-TextRange|  | TINYINT| 3 | Yes | No | 0 | None
-comment|  | VARCHAR| 255 | No | Yes |  | None
+This is the [creature\_template.entry](https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry) to which the script is linked to.
+
+### GroupID
+
+If there is more than one of the same entry (more than one text the creature says), this column is used to choose if it is a random say or an ordered list. If a creature has got more than one say text to be shown in a given order, it must be incremented for each new matching entry (ex. 0, 1, 2, 3...). If there is only one entry or only one group, this value should be 0. If there are multiple groups of texts, this value stays the same within the group while the id increments within the same group.
+
+Example from Stormwind City Guard, creature 68:
+
+| CreatureID | GroupID | ID  | Text                                                                                                                       |
+|------------|---------|-----|----------------------------------------------------------------------------------------------------------------------------|
+| 68         | 0       | 0   | Taste blade, mongrel!                                                                                                      |
+| 68         | 0       | 1   | Please tell me that you didn't just do what I think you just did. Please tell me that I'm not going to have to hurt you... |
+| 68         | 0       | 2   | As if we don't have enough problems, you go and create more!                                                               |
+| 68         | 2       | 0   | %s throws a rotten apple at $n.                                                                                            |
+| 68         | 3       | 0   | %s throws rotten banana on $n.                                                                                             |
+| 68         | 4       | 0   | %s spits on $n.                                                                                                            |
+| 68         | 5       | 0   | Monster!                                                                                                                   |
+| 68         | 5       | 1   | Murderer!                                                                                                                  |
+| 68         | 5       | 2   | GET A ROPE!                                                                                                                |
+| 68         | 5       | 3   | How dare you set foot in our city!                                                                                         |
+| 68         | 5       | 4   | You disgust me.                                                                                                            |
+| 68         | 5       | 5   | Looks like we're going to have ourselves an execution.                                                                     |
+| 68         | 5       | 6   | Traitorous dog.                                                                                                            |
+| 68         | 5       | 7   | My family was wiped out by the Scourge! MONSTER!                                                                           |
+
+### ID
+
+Entry for each group of texts. This is the unique identifier when entry (creature) is the same and groupid is unchanged, it must be incremented (ex. 0, 1, 2, 3...). A creature say will be randomly selected from this list based on the groupid it belongs to.
+
+### Text
+
+The text the creature will say.
+
+### Type
+
+| Value | Old value | Localization | Picture Example                      |
+|-------|-----------|--------------|--------------------------------------|
+| 12    | 0         | Say          | ![](attachments/2130007/7831561.png) |
+| 14    | 1         | Yell         | ![](attachments/2130007/7831564.png) |
+| 16    | 2         | Emote        | ![](attachments/2130007/7831565.png) |
+| 41    | 3         | Boss Emote   | ![](attachments/2130007/7831566.png) |
+| 15    | 4         | Whisper      | ![](attachments/2130007/7831567.png) |
+| 42    | 5         | Boss Whisper | ![](attachments/2130007/7831568.png) |
+
+### Language
+
+Value from [Languages.dbc](http://collab.kpsn.org/display/tc/Languages) (+ the wiki table from the dbc file). When set to 0, the current default language will be used.
+
+### Probability
+
+A value from 1-100 that represents the percentage chance that this text will be executed.
+
+### Emote
+
+The emote that the creature plays when the text is executed. Value to use in this field can be obtained from the [emote](Emotes).dbc
+
+### Duration
+
+Time in ms to see text.
+0 is default and calculated by core.
+
+### Sound
+
+The sound entry this creature will play at the same time the text is executed. Sounds are found in SoundEntries.dbc.
+
+### BroadcastTextId
+
+Id of the equivalent text found in [broadcast\_text](broadcast_text)
+
+### TextRange
+
+| Value | Range          |
+|-------|----------------|
+| 0     | Normal/Default |
+| 1     | Area           |
+| 2     | Zone           |
+| 3     | Map            |
+| 4     | World          |
+
+### comment
+
+This field allows you to label a text entry.
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831563.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831577.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Yell.png](attachments/2130007/7831578.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Emote.png](attachments/2130007/7831579.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [BossEmote.png](attachments/2130007/7831580.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Whisper.png](attachments/2130007/7831581.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [BossWhisper.png](attachments/2130007/7831582.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831561.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Yell.png](attachments/2130007/7831564.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Emote.png](attachments/2130007/7831565.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [BossEmote.png](attachments/2130007/7831566.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [Whisper.png](attachments/2130007/7831567.png) (image/png)
+![](images/icons/bullet_blue.gif){width="8" height="8"} [BossWhisper.png](attachments/2130007/7831568.png) (image/png)
+
