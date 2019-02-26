@@ -109,7 +109,9 @@ Docker will build and run your containers. Meanwhile you will see messages like:
 
 **Don't panic**. Your server processes are simply waiting for the database container to be ready, it can take a while (depends on your machine).
 
-Your server will be up and running shortly. The default password of the root DB user will be `password`.
+Your server will be up and running shortly. 
+To access your MySQL database we recommend clients like [HeidiSQL](https://www.heidisql.com/) (for Windows/Linux+Wine) or [SequelPro](https://www.sequelpro.com/) (for macOS). Use `root` as user and `127.0.0.1` as default host.
+The default password of the root DB user will be `password`.
 
 #### Docker reference & support requests
 
