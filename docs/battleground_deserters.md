@@ -1,6 +1,6 @@
 # battleground\_deserters
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`battleground\_deserters\` table**
 

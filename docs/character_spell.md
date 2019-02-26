@@ -1,6 +1,6 @@
 # character\_spell
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_spell\` table**
 

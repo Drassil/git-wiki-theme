@@ -1,6 +1,6 @@
 # waypoints
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 ###### **Used by [SAI](https://trinitycore.atlassian.net/wiki/display/tc/smart_scripts)**
 

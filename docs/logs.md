@@ -1,6 +1,6 @@
 # logs
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 **The \`logs\` table**
 

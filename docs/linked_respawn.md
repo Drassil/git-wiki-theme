@@ -1,6 +1,6 @@
 # linked\_respawn
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`linked\_respawn\` table**
 

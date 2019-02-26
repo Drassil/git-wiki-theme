@@ -1,6 +1,6 @@
 # gm\_subsurveys
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`gm\_subsurveys\` table**
 

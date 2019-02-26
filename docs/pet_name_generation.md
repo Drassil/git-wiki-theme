@@ -1,6 +1,6 @@
 # pet\_name\_generation
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`pet\_name\_generation\` table**
 

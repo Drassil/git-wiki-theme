@@ -1,6 +1,6 @@
 # gameobject\_respawn
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`gameobject\_respawn\` table**
 

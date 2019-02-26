@@ -1,6 +1,6 @@
 # petition\_sign
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`petition\_sign\` table**
 

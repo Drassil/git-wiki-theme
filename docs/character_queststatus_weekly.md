@@ -1,6 +1,6 @@
 # character\_queststatus\_weekly
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_queststatus\_weekly\` table**
 

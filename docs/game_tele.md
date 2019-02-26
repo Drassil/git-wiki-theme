@@ -1,6 +1,6 @@
 # game\_tele
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **Table Structure**
 

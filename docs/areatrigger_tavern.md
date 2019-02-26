@@ -1,6 +1,6 @@
 # areatrigger\_tavern
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`areatrigger\_tavern\` table**
 

@@ -1,6 +1,6 @@
 # reputation\_reward\_rate
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`reputation\_reward\_rate\` table**
 

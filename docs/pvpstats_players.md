@@ -1,6 +1,6 @@
 # pvpstats\_players
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`[pvpstats\_players](http://collab.kpsn.org/pages/createpage.action?spaceKey=tc&title=pvpstats_battlegrounds&linkCreation=true&fromPageId=331580)\` table**
 

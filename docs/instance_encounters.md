@@ -1,6 +1,6 @@
 # instance\_encounters
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`instance\_encounters\` table**
 

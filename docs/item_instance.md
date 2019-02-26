@@ -1,6 +1,6 @@
 # item\_instance
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`item\_instance\` table**
 

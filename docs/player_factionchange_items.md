@@ -1,6 +1,6 @@
 # player\_factionchange\_items
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`player\_factionchange\_items\` table**
 

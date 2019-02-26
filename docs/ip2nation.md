@@ -1,6 +1,6 @@
 # ip2nation
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 **The \`ip2nation\` and \`ip2nationCountries\` tables**
 

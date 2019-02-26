@@ -1,6 +1,6 @@
 # account\_data
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`account\_data\` table**
 

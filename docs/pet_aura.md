@@ -1,6 +1,6 @@
 # pet\_aura
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`pet\_aura\` table**
 

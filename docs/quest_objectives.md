@@ -1,6 +1,6 @@
 # quest\_objectives
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 Table: quest\_objectives
 

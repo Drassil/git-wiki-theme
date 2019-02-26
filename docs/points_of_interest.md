@@ -1,6 +1,6 @@
 # points\_of\_interest
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`points\_of\_interest\` table**
 

@@ -1,6 +1,6 @@
 # points\_of\_interest\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`locales\_points\_of\_interest\` table**
 

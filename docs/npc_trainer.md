@@ -1,6 +1,6 @@
 # npc\_trainer
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`npc\_trainer\` table**
 

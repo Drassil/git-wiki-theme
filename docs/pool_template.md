@@ -1,6 +1,6 @@
 # pool\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`pool\_template\` table**
 

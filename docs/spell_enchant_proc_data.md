@@ -1,6 +1,6 @@
 # spell\_enchant\_proc\_data
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_enchant\_proc\` table**
 

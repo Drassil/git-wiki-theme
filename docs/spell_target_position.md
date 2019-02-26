@@ -1,6 +1,6 @@
 # spell\_target\_position
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_target\_position\` table**
 

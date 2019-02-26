@@ -1,6 +1,6 @@
 # creature\_queststarter
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`creature\_queststarter\` table**
 

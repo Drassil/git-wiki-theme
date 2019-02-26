@@ -1,6 +1,6 @@
 # item\_refund\_instance
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`item\_refund\_instance\` table**
 

@@ -1,6 +1,6 @@
 # guild\_bank\_item
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`guild\_bank\_item\` table**
 

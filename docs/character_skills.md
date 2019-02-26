@@ -1,6 +1,6 @@
 # character\_skills
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_skills\` table**
 

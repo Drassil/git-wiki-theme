@@ -1,6 +1,6 @@
 # game\_event\_seasonal\_questrelation
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`game\_event\_seasonal\_questrelation\` table**
 

@@ -1,6 +1,6 @@
 # character\_battleground\_data
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_battleground\_data\` table**
 

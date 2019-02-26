@@ -1,6 +1,6 @@
 # arena\_team
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`arena\_team\` table**
 

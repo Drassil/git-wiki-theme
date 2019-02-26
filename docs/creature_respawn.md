@@ -1,6 +1,6 @@
 # creature\_respawn
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`creature\_respawn\` table**
 

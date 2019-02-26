@@ -1,6 +1,6 @@
 # character\_glyphs
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_glyphs\` table**
 

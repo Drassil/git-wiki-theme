@@ -1,6 +1,6 @@
 # creature\_model\_info
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`creature\_model\_info\` table**
 

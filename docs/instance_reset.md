@@ -1,6 +1,6 @@
 # instance\_reset
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`instance\_reset\` table**
 

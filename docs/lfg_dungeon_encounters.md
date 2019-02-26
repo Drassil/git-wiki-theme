@@ -1,6 +1,6 @@
 # lfg\_dungeon\_encounters
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`lfg\_dungeon\_encounters\` table**
 

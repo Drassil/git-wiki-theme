@@ -1,6 +1,6 @@
 # pet\_spell
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`pet\_spell\` table**
 

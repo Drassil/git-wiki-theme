@@ -1,6 +1,6 @@
 # areatrigger\_scripts
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`areatrigger\_scripts\` table**
 

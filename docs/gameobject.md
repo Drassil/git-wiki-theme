@@ -1,6 +1,6 @@
 # gameobject
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`gameobject\` table**
 

@@ -1,6 +1,6 @@
 # gm\_ticket
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`gm\_tickets\` table**
 

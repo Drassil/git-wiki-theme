@@ -1,6 +1,6 @@
 # npc\_spellclick\_spells
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`npc\_spellclick\_spells\` table**
 

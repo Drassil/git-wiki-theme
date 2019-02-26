@@ -1,6 +1,6 @@
 # characters (table)
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`characters\` table**
 

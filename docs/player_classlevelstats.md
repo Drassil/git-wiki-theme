@@ -1,6 +1,6 @@
 # player\_classlevelstats
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`player\_classlevelstats\` table**
 

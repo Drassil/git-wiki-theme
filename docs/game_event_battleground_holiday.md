@@ -1,6 +1,6 @@
 # game\_event\_battleground\_holiday
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`Game\_event\_battleground\_holiday\` table**
 

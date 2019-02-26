@@ -1,6 +1,6 @@
 # mail\_level\_reward
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`mail\_level\_reward\` table**
 

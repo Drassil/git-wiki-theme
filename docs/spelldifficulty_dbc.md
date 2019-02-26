@@ -1,6 +1,6 @@
 # spelldifficulty\_dbc
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spelldifficulty\_dbc\` table**
 

@@ -1,6 +1,6 @@
 # game\_event\_quest\_condition
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`game\_event\_quest\_condition\` table**
 

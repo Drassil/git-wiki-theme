@@ -1,6 +1,6 @@
 # graveyard\_zone
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`graveyard\_zone\` table**
 

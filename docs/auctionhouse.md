@@ -1,6 +1,6 @@
 # auctionhouse
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`auctionhouse\` table**
 

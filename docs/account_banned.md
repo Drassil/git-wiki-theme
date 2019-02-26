@@ -1,6 +1,6 @@
 # account\_banned
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 **The \`account\_banned\` table**
 

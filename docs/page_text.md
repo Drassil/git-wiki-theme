@@ -1,6 +1,6 @@
 # page\_text
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`page\_text\` table**
 

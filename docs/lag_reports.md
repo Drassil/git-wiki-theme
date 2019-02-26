@@ -1,6 +1,6 @@
 # lag\_reports
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`lag\_reports\` table**
 

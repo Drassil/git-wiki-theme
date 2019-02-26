@@ -1,6 +1,6 @@
 # lfg\_data
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`lfg\_data\` table**
 

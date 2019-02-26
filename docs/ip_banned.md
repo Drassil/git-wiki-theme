@@ -1,6 +1,6 @@
 # ip\_banned
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 **The \`ip\_banned\` table**
 

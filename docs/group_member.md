@@ -1,6 +1,6 @@
 # group\_member
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`group\_member\` table**
 

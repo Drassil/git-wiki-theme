@@ -1,6 +1,6 @@
 # achievement\_reward\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`achievement\_reward\_locale\` table**
 

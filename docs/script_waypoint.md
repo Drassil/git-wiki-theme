@@ -1,6 +1,6 @@
 # script\_waypoint
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`script\_waypoint\` table**
 

@@ -1,6 +1,6 @@
 # achievement\_reward
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`achievement\_reward\` table**
 

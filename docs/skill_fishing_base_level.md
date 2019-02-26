@@ -1,6 +1,6 @@
 # skill\_fishing\_base\_level
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`skill\_fishing\_base\_level\` table**
 

@@ -1,6 +1,6 @@
 # quest\_poi
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`quest\_poi\` table**
 

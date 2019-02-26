@@ -1,6 +1,6 @@
 # player\_factionchange\_reputations
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`player\_factionchange\_reputations\` table**
 

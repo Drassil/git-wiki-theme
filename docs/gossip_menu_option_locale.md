@@ -1,6 +1,6 @@
 # gossip\_menu\_option\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`gossip\_menu\_option\_locale\` table**
 

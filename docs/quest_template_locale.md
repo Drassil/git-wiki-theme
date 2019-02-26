@@ -1,6 +1,6 @@
 # quest\_template\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`quest\_template\_locale\` table**
 

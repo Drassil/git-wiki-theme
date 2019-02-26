@@ -1,6 +1,6 @@
 # character\_declinedname
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_declinedname\` table**
 

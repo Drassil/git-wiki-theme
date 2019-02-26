@@ -1,6 +1,6 @@
 # item\_loot\_items
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`item\_loot\_items\` table**
 

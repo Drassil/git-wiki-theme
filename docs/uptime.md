@@ -1,6 +1,6 @@
 # uptime
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 **The \`uptime\` table**
 

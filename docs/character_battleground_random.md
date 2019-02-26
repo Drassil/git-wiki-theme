@@ -1,6 +1,6 @@
 # character\_battleground\_random
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_battleground\_random\` table**
 

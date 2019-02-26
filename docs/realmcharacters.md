@@ -1,6 +1,6 @@
 # realmcharacters
 
-`Back-to:Auth`
+[<-Back-to:Auth](database-auth.md)
 
 # Table: realmcharacters
 

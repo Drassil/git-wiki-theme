@@ -1,6 +1,6 @@
 # creature\_onkill\_reputation
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`creature\_onkill\_reputation\` table**
 

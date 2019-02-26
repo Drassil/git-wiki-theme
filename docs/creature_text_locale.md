@@ -1,6 +1,6 @@
 # creature\_text\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`creature\_text\_locale\` table**
 

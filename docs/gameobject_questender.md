@@ -1,6 +1,6 @@
 # gameobject\_questender
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`gameobject\_questender\` table**
 

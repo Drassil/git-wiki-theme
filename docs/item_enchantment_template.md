@@ -1,6 +1,6 @@
 # item\_enchantment\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`item\_enchantment\_template\` table**
 

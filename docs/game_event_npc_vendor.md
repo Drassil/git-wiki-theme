@@ -1,6 +1,6 @@
 # game\_event\_npc\_vendor
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`game\_event\_npc\_vendor\` table**
 

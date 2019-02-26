@@ -1,6 +1,6 @@
 # character\_homebind
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_homebind\` table**
 

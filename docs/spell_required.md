@@ -1,6 +1,6 @@
 # spell\_required
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_required\` table**
 

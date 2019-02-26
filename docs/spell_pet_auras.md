@@ -1,6 +1,6 @@
 # spell\_pet\_auras
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_pet\_auras\` table**
 

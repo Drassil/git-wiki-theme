@@ -1,6 +1,6 @@
 # item\_template\_locale
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`item\_template\_locale\` table**
 

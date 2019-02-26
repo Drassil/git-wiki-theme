@@ -1,6 +1,6 @@
 # reputation\_spillover\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`reputation\_spillover\_rate\` table**
 

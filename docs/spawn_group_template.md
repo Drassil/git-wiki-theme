@@ -1,6 +1,6 @@
 # spawn\_group\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spawn\_group\_template\` table**
 

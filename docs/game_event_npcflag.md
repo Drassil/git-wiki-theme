@@ -1,6 +1,6 @@
 # game\_event\_npcflag
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`game\_event\_npcflag\` table**
 

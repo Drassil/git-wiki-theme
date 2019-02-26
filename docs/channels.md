@@ -1,6 +1,6 @@
 # channels
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 # Table: channels
 

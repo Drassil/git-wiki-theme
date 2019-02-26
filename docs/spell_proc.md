@@ -1,6 +1,6 @@
 # spell\_proc
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_proc\` table**
 

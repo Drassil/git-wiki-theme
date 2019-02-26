@@ -1,6 +1,6 @@
 # character\_pet
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_pet\` table**
 

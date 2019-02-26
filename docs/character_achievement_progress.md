@@ -1,6 +1,6 @@
 # character\_achievement\_progress
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_achievement\_progress\` table**
 

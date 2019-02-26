@@ -1,6 +1,6 @@
 # lfg\_entrances
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`lfg\_entrances\` table**
 

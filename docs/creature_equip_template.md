@@ -1,6 +1,6 @@
 # creature\_equip\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 ## **Table: creature\_equip\_template**
 

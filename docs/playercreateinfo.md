@@ -1,6 +1,6 @@
 # playercreateinfo
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`playercreateinfo\` table**
 

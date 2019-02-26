@@ -1,6 +1,6 @@
 # character\_spell\_cooldown
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`character\_spell\_cooldown\` table**
 

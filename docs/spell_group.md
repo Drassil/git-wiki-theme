@@ -1,6 +1,6 @@
 # spell\_group
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`spell\_group\` table**
 

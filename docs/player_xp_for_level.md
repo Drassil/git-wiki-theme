@@ -1,6 +1,6 @@
 # player\_xp\_for\_level
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`player\_xp\_for\_level\` table**
 

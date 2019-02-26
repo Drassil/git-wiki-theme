@@ -1,6 +1,6 @@
 # item\_soulbound\_trade\_data
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`item\_soulbound\_trade\_data**
 

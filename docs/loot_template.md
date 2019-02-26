@@ -1,6 +1,6 @@
 # loot\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 # Tables**: \***\_loot\_template
 

@@ -1,6 +1,6 @@
 # game\_event\_save
 
-`Back-to:Characters`
+[<-Back-to:Characters](database-characters.md)
 
 **The \`game\_event\_save\` table**
 

@@ -1,6 +1,6 @@
 # instance\_template
 
-`Back-to:World`
+[<-Back-to:World](database-world.md)
 
 **The \`instance\_template\` table**
 
