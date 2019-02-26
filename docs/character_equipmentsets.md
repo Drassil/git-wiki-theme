@@ -1,29 +1,337 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_equipmentsets](character_equipmentsets)
+# character\_equipmentsets
 
-Column | Type | Description
---- | --- | ---
-Guid | int(10) | 
-Setguid | bigint(20) | 
-Setindex | tinyint(3) unsigned | 
-Name | varchar(31) | 
-Iconname | varchar(100) | 
-Ignore_mask | int(11) unsigned | 
-Item0 | int(11) unsigned | 
-Item1 | int(11) unsigned | 
-Item2 | int(11) unsigned | 
-Item3 | int(11) unsigned | 
-Item4 | int(11) unsigned | 
-Item5 | int(11) unsigned | 
-Item6 | int(11) unsigned | 
-Item7 | int(11) unsigned | 
-Item8 | int(11) unsigned | 
-Item9 | int(11) unsigned | 
-Item10 | int(11) unsigned | 
-Item11 | int(11) unsigned | 
-Item12 | int(11) unsigned | 
-Item13 | int(11) unsigned | 
-Item14 | int(11) unsigned | 
-Item15 | int(11) unsigned | 
-Item16 | int(11) unsigned | 
-Item17 | int(11) unsigned | 
-Item18 | int(11) unsigned | 
+`Back-to:Characters`
+
+**The \`character\_equipmentsets\` table**
+
+This table holds info about player's equipment manager settings.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-guid">guid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-setguid">setguid</a></p></td>
+<td><p>bigint(20)</p></td>
+<td><p>signed</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p> </p></td>
+<td><p>Auto Increment</p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-setindex">setindex</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-name">name</a></p></td>
+<td><p>varchar(31)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>&quot;</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-iconname">iconname</a></p></td>
+<td><p>varchar(100)</p></td>
+<td><p>signed</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>&quot;</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-ignore_mask">ignore_mask</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item0</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item1</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item2</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item3</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item4</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item5</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item6</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item7</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item8</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item9</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item10</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item11</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item12</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item13</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item14</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item15</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item16</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_equipmentsets-item0-18">item17</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_equipmentsets-item0-18">item18</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### guid
+
+Player's GUID. See characters.guid
+
+### setguid
+
+First free guid.
+
+### setindex
+
+Set index, values from 0 to 9 are used.
+
+### name
+
+Individual. Name is set by player.
+
+### iconname
+
+Name taken from ItemDisplayInfo.dbc, column 6
+
+### ignore\_mask
+
+`field-no-description|6`
+
+### item0-18
+
+Values taken from item\_instance.guid
+
+     0. Head
+
+1.  Neck
+2.  Shoulder
+3.  Shirt
+4.  Chest
+5.  Waist
+6.  Legs
+7.  Feet
+8.  Wrist
+9.  Hands
+10. Ring 1
+11. Ring 2
+12. Trinket 1
+13. Trinket 2
+14. Back
+15. Main Hand
+16. Off Hand
+17. Relic
+18. Tabard
+
+/p

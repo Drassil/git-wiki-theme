@@ -1,12 +1,128 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [character_glyphs](character_glyphs)
+# character\_glyphs
 
-Column | Type | Description
---- | --- | ---
-Guid | int(10) unsigned | 
-TalentGroup | tinyint(3) unsigned | 
-Glyph1 | smallint(5) unsigned | 
-Glyph2 | smallint(5) unsigned | 
-Glyph3 | smallint(5) unsigned | 
-Glyph4 | smallint(5) unsigned | 
-Glyph5 | smallint(5) unsigned | 
-Glyph6 | smallint(5) unsigned | 
+`Back-to:Characters`
+
+**The \`character\_glyphs\` table**
+
+Contains all the individual glyph data for each character.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_glyphs-guid">guid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_glyphs-spec">spec</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_glyphs-glyph1-6">glyph1</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_glyphs-glyph1-6">glyph2</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_glyphs-glyph1-6">glyph3</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_glyphs-glyph1-6">glyph4</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#character_glyphs-glyph1-6">glyph5</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#character_glyphs-glyph1-6">glyph6</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### guid
+
+The GUID of the character. See characters.guid
+
+### spec
+
+spec = 0 is the first spec, spec = 1 is the second spec.
+
+### glyph1-6
+
+The GlyphProperties entry of the glyphs in that particular spec.

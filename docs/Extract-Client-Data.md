@@ -13,7 +13,7 @@ Next press Configue and then Generate.
 
 ### Now that you have the source compiled, you can proceed to the next step.
 
-3. Go to your AzerothCore build directory (E.g. AzerothCore335\build\bin\Release) and copy the following files to your World of Warcraft directory (E.g. D:\World of Warcraft 3.3.5a (no install))
+3. Go to your AzerothCore build directory (E.g. AzerothCore\build\bin\Release) and copy the following files to your World of Warcraft directory (E.g. D:\World of Warcraft 3.3.5a (no install))
 * **ace.dll**
 * **mapextractor.exe**
 * **mmaps_generator.exe**
@@ -30,7 +30,7 @@ Next press Configue and then Generate.
 7. Next, we need to extract **mmaps**. Go ahead and click on **mmaps_generator.exe**.  
 **NOTE: This process will take up to a few hours, depending on your computer specs.**
 
-Now that everything is completed, you need to copy **dbc**, **maps**, **vmaps** and **mmaps** folders to your AzerothCore build directory (E.g. AzerothCore335\build\bin\Release).
+Now that everything is completed, you need to copy **dbc**, **maps**, **vmaps** and **mmaps** folders to your AzerothCore build directory (E.g. AzerothCore\build\bin\Release).
 
 
 ***

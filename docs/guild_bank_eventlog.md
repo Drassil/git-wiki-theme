@@ -1,13 +1,178 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [guild_bank_eventlog](guild_bank_eventlog)
+# guild\_bank\_eventlog
 
-Column | Type | Description
---- | --- | ---
-Guildid | int(10) unsigned | 
-LogGuid | int(10) unsigned | 
-TabId | tinyint(3) unsigned | 
-EventType | tinyint(3) unsigned | 
-PlayerGuid | int(10) unsigned | 
-ItemOrMoney | int(10) unsigned | 
-ItemStackCount | smallint(5) unsigned | 
-DestTabId | tinyint(3) unsigned | 
-TimeStamp | int(10) unsigned | 
+`Back-to:Characters`
+
+**The \`guild\_bank\_eventlog\` table**
+
+`table-no-description`
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#guild_bank_eventlog-guildid">guildid</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Guild Identificator</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#guild_bank_eventlog-LogGuid">LogGuid</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Log record identificator - auxiliary column</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#guild_bank_eventlog-TabId">TabID</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Guild bank TabId</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#guild_bank_eventlog-EventType">EventType</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Event type</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#guild_bank_eventlog-PlayerGuid">PlayerGuid</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#guild_bank_eventlog-ItemOrMoney">ItemOrMoney</a></p></td>
+<td><p>int(11)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#guild_bank_eventlog-ItemStackCount">ItemStackCount</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#guild_bank_eventlog-DestTabId">DestTabId</a></p></td>
+<td><p>tinyint(1)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Destination Tab Id</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#guild_bank_eventlog-TimeStamp">TimeStamp</a></p></td>
+<td><p>bigint(20)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Event UNIX time</p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### guildid
+
+`Guild Identificator`
+
+### LogGuid
+
+`Log record identificator - auxiliary column`
+
+### TabId
+
+`Guild bank TabId`
+
+### EventType
+
+1 = GUILD\_BANK\_LOG\_DEPOSIT\_ITEM
+
+2 = GUILD\_BANK\_LOG\_WITHDRAW\_ITEM
+
+3 = GUILD\_BANK\_LOG\_MOVE\_ITEM
+
+4 = GUILD\_BANK\_LOG\_DEPOSIT\_MONEY
+
+5 = GUILD\_BANK\_LOG\_WITHDRAW\_MONEY
+
+6 = GUILD\_BANK\_LOG\_REPAIR\_MONEY
+
+7 = GUILD\_BANK\_LOG\_MOVE\_ITEM2
+
+8 = GUILD\_BANK\_LOG\_UNK1
+
+9 = GUILD\_BANK\_LOG\_BUY\_SLOT
+
+### PlayerGuid
+
+`GUID of the Player`
+
+### ItemOrMoney
+
+`field-no-description|6`
+
+### ItemStackCount
+
+`field-no-description|7`
+
+### DestTabId
+
+`Destination Tab Id`
+
+### TimeStamp
+
+`Event UNIX time`

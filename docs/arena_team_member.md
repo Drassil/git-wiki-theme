@@ -1,12 +1,130 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [arena_team_member](arena_team_member)
+# arena\_team\_member
 
-Column | Type | Description
---- | --- | ---
-ArenaTeamId | int(10) unsigned | 
-Guid | int(10) unsigned | 
-PersonalRating | smallint(5) | 
-WeekGames | smallint(5) unsigned | 
-WeekWins | smallint(5) unsigned | 
-SeasonGames | smallint(5) unsigned | 
-SeasonWins | smallint(5) unsigned | 
-Personal_rating | int(10) unsigned | 
+`Back-to:Characters`
+
+**The \`arena\_team\_member\` table**
+
+This table holds arena info about specific team members. All arena\_team members have a record in this table.
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team_member-arenaTeamId">arenaTeamId</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team_member-guid">guid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team_member-personalRating">personalRating</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team_member-weekGames">weekGames</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team_member-weekWins">weekWins</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#arena_team_member-seasonGames">seasonGames</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#arena_team_member-seasonWins">seasonWins</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### arenaTeamId
+
+ID of arena team. See Team Id
+
+### guid
+
+Player's GUID. See characters.guid
+
+### weekGames
+
+Number of games played this **week**.
+
+### weekWins
+
+Number of games won this **week**.
+
+### seasonGames
+
+Number of games played this **season**.
+
+### seasonWins
+
+Number of games won this **season**.

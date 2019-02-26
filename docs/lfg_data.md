@@ -1,7 +1,78 @@
-[Database Structure](Database-Structure) > [Character-Database](Character-Database) > [lfg_data](lfg_data)
+# lfg\_data
 
-Column | Type | Description
---- | --- | ---
-Guid | int(10) unsigned | 
-Dungeon | int(10) unsigned | 
-State | tinyint(3) unsigned | 
+`Back-to:Characters`
+
+**The \`lfg\_data\` table**
+
+`table-no-description`
+
+**Structure**
+
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Field</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Attributes</strong></p></td>
+<td><p><strong>Key</strong></p></td>
+<td><p><strong>Null</strong></p></td>
+<td><p><strong>Default</strong></p></td>
+<td><p><strong>Extra</strong></p></td>
+<td><p><strong>Comment</strong></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#lfg_data-guid">guid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Global Unique Identifier</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#lfg_data-dungeon">dungeon</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#lfg_data-state">state</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+</tbody>
+</table>
+
+**Description of the fields**
+
+### guid
+
+`field-no-description|1`
+
+### dungeon
+
+`field-no-description|2`
+
+### state
+
+`field-no-description|3`
