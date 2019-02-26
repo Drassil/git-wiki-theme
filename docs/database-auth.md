@@ -1,1 +1,16 @@
 NOTE: the DB documentation is still a work in progress. We need your help to make it better, please read [this](https://github.com/azerothcore/wiki/issues/11).
+
+- [account](account.md)
+- [account_access](account_access.md)
+- [account_banned](account_banned.md)
+- [account_muted](account_muted.md)
+- [autobroadcast](autobroadcast.md)
+- [ip2nation](ip2nation.md)
+- [ip2nationCountries](ip2nationCountries.md)
+- [ip_banned](ip_banned.md)
+- [logs](logs.md)
+- [logs_ip_actions](logs_ip_actions.md)
+- [realmcharacters](realmcharacters.md)
+- [realmlist](realmlist.md)
+- [uptime](uptime.md)
+- [version_db_auth](version_db_auth.md)
