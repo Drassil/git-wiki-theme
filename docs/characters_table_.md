@@ -1566,7 +1566,7 @@ A bitmask that contains visible actionbars for the player
 
 ### grantableLevels
 
-{{field-no-description|61))
+
 
 ### deleteInfos\_Account
 
