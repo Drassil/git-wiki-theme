@@ -1,6 +1,6 @@
 # areatrigger\_template\_polygon\_vertices
 
-`Back-to:World     `
+[<-Back-to:World](database-world.md)
 
 **The \`areatrigger\_template\_polygon\_vertices\` table**
 
