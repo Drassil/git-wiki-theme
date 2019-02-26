@@ -77,7 +77,7 @@ make install
 
 Open CMake , press `Browse Source...` button and select the folder that you cloned earlier then press `Browse Build...` and select a folder where the CMake will generate the build files. Press the `Configure` button.
 
-CMake will ask you to select what compiler to use. For example you'll want to select `Visual Studio 14 2015 Win64` to compile x64 binaries using Visual Studio 2015. Do not change the `Use default native compilers` option. Press `Finish` and wait until CMake is done checking for requires files.  
+CMake will ask you to select what compiler to use. For example you'll want to select `Visual Studio 14 2015 Win64` to compile x64 binaries using Visual Studio 2015. Do not change the `Use default native compilers` option. Press `Finish` and wait until CMake is done checking for requires files. (remember to change "optional platform for generator" to x64 for 64bit version)
 
 Change `CMAKE_INSTALL_PREFIX` to the location where you will run your server from.  
 Press `Configure` once again and then press `Generate`. If no error occurred you can close CMake.  
