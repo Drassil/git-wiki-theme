@@ -330,8 +330,8 @@ This field contains the encrypted password. The encryption is SHA1 and is in the
 
 | Language | Code                                                                |
 |----------|---------------------------------------------------------------------|
-| SQL      | SELECT SHA1(CONCAT(UPPER(\`username\`), ':', UPPER(&lt;pass&gt;))); |
-| PHP      | sha1(strtoupper($username).':'.strtoupper($password));              |
+| SQL      | UPPER(SHA1(CONCAT(UPPER('myusername'), ':', UPPER('mypass'))));     |
+| PHP      | strtoupper(sha1(strtoupper($username).':'.strtoupper($password)));  |
 
 ### sessionkey
 
