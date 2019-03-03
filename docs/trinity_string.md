@@ -35,7 +35,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#trinity_string-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#trinity_string-content_default">content_default</a></p></td>
+<td><p><a href="#content_default">content_default</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -55,7 +55,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#trinity_string-content_loc">content_loc1</a></p></td>
+<td><p><a href="#content_loc">content_loc1</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -65,7 +65,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#trinity_string-content_loc">content_loc2</a></p></td>
+<td><p><a href="#content_loc">content_loc2</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -75,7 +75,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#trinity_string-content_loc">content_loc3</a></p></td>
+<td><p><a href="#content_loc">content_loc3</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -85,7 +85,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#trinity_string-content_loc">content_loc4</a></p></td>
+<td><p><a href="#content_loc">content_loc4</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -95,7 +95,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#trinity_string-content_loc">content_loc5</a></p></td>
+<td><p><a href="#content_loc">content_loc5</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -105,7 +105,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#trinity_string-content_loc">content_loc6</a></p></td>
+<td><p><a href="#content_loc">content_loc6</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -115,7 +115,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#trinity_string-content_loc">content_loc7</a></p></td>
+<td><p><a href="#content_loc">content_loc7</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -125,7 +125,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#trinity_string-content_loc">content_loc8</a></p></td>
+<td><p><a href="#content_loc">content_loc8</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

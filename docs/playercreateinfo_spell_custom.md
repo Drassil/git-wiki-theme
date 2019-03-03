@@ -31,7 +31,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_spell_custom-race">racemask</a></p></td>
+<td><p><a href="#race">racemask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_spell_custom-class">classmask</a></p></td>
+<td><p><a href="#class">classmask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_spell_custom-Spell">Spell</a></p></td>
+<td><p><a href="#Spell">Spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_spell_custom-Note">Note</a></p></td>
+<td><p><a href="#Note">Note</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

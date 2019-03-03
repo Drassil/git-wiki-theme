@@ -32,7 +32,7 @@ The data in this table is maintained by the core.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmcharacters-realmid">realmid</a></p></td>
+<td><p><a href="#realmid">realmid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -42,7 +42,7 @@ The data in this table is maintained by the core.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#realmcharacters-acctid">acctid</a></p></td>
+<td><p><a href="#acctid">acctid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -52,7 +52,7 @@ The data in this table is maintained by the core.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmcharacters-numchars">numchars</a></p></td>
+<td><p><a href="#numchars">numchars</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

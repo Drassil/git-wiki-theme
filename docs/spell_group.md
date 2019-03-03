@@ -29,7 +29,7 @@ Table used to group spells for varius checks in the core. One spell may be added
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_group-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -39,7 +39,7 @@ Table used to group spells for varius checks in the core. One spell may be added
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_group-spell_id">spell_id</a></p></td>
+<td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>

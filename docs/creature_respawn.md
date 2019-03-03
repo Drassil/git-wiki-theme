@@ -31,7 +31,7 @@ This table holds the respawn time when creatures should be respawned in the worl
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_respawn-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds the respawn time when creatures should be respawned in the worl
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_respawn-respawntime">respawntime</a></p></td>
+<td><p><a href="#respawntime">respawntime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds the respawn time when creatures should be respawned in the worl
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_respawn-instance">instance</a></p></td>
+<td><p><a href="#instance">instance</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

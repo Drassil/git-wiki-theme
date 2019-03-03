@@ -23,7 +23,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 <td><p><strong>Comment</strong>'</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#npc_spellclick_spells-npc_entry">npc_entry</a></p></td>
+<td><p><a href="#npc_entry">npc_entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -35,7 +35,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 <td>Reference to the creature_template table</td>
 </tr>
 <tr class="odd">
-<td><p><a href="#npc_spellclick_spells-spell_id">spell_id</a></p></td>
+<td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -47,7 +47,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 <td><p>The ID of the spell to be cast</p></td>
 </tr>
 <tr class="even">
-<td><a href="#npc_spellclick_spells-cast_flags">cast_flags</a></td>
+<td><a href="#cast_flags">cast_flags</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -59,7 +59,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 <td><p>Who casts the spell on who, creature &lt;=&gt; player (values: 0-3)</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#npc_spellclick_spells-user_type">user_type</a></p></td>
+<td><p><a href="#user_type">user_type</a></p></td>
 <td><p>smallint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

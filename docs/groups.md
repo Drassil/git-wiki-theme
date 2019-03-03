@@ -31,7 +31,7 @@ This table holds basic info about groups.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-leaderGuid">leaderGuid</a></p></td>
+<td><p><a href="#leaderGuid">leaderGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -51,7 +51,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-lootMethod">lootMethod</a></p></td>
+<td><p><a href="#lootMethod">lootMethod</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-looterGuid">looterGuid</a></p></td>
+<td><p><a href="#looterGuid">looterGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -71,7 +71,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-lootThreshold">lootThreshold</a></p></td>
+<td><p><a href="#lootThreshold">lootThreshold</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-icon1-8">icon1</a></p></td>
+<td><p><a href="#8">icon1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -91,7 +91,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-icon1-8">icon2</a></p></td>
+<td><p><a href="#8">icon2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-icon1-8">icon3</a></p></td>
+<td><p><a href="#8">icon3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -111,7 +111,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-icon1-8">icon4</a></p></td>
+<td><p><a href="#8">icon4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-icon1-8">icon5</a></p></td>
+<td><p><a href="#8">icon5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -131,7 +131,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-icon1-8">icon6</a></p></td>
+<td><p><a href="#8">icon6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -141,7 +141,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-icon1-8">icon7</a></p></td>
+<td><p><a href="#8">icon7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -151,7 +151,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-icon1-8">icon8</a></p></td>
+<td><p><a href="#8">icon8</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -161,7 +161,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-groupType">groupType</a></p></td>
+<td><p><a href="#groupType">groupType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -171,7 +171,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#groups-difficulty">difficulty</a></p></td>
+<td><p><a href="#difficulty">difficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -181,7 +181,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groups-raiddifficulty">raiddifficulty</a></p></td>
+<td><p><a href="#raiddifficulty">raiddifficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

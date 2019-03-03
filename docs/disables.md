@@ -21,7 +21,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#disables-sourceType">sourceType</a></p></td>
+<td><p><a href="#sourceType">sourceType</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#disables-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#disables-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#disables-params_0">params_0</a></p></td>
+<td><p><a href="#params_0">params_0</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
 </p></td>
@@ -72,7 +72,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#disables-params_1">params_1</a></p></td>
+<td><p><a href="#params_1">params_1</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
 </p></td>
@@ -86,7 +86,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#disables-comment">comment</a></p></td>
+<td><p><a href="#comment">comment</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
 </p></td>

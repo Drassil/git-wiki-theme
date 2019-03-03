@@ -19,7 +19,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_action-race">race</a></p></td>
+<td><p><a href="#race">race</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -31,7 +31,7 @@ This table holds information on what default actions a brand new character shoul
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_action-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table holds information on what default actions a brand new character shoul
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_action-button">button</a></p></td>
+<td><p><a href="#button">button</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -56,7 +56,7 @@ This table holds information on what default actions a brand new character shoul
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_action-action">action</a></p></td>
+<td><p><a href="#action">action</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -69,7 +69,7 @@ This table holds information on what default actions a brand new character shoul
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_action-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_declinedname-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_declinedname-genitive">genitive</a></p></td>
+<td><p><a href="#genitive">genitive</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_declinedname-dative">dative</a></p></td>
+<td><p><a href="#dative">dative</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_declinedname-accusative">accusative</a></p></td>
+<td><p><a href="#accusative">accusative</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_declinedname-instrumental">instrumental</a></p></td>
+<td><p><a href="#instrumental">instrumental</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_declinedname-prepositional">prepositional</a></p></td>
+<td><p><a href="#prepositional">prepositional</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

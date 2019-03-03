@@ -31,7 +31,7 @@ This table holds a listing of all skill for each character.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_skills-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds a listing of all skill for each character.
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_skills-skill">skill</a></p></td>
+<td><p><a href="#skill">skill</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds a listing of all skill for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_skills-value">value</a></p></td>
+<td><p><a href="#value">value</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds a listing of all skill for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_skills-max">max</a></p></td>
+<td><p><a href="#max">max</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

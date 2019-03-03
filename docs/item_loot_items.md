@@ -34,7 +34,7 @@ the player either removes an item or destroys the container item.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-container_id">container_id</a></p></td>
+<td><p><a href="#container_id">container_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -44,7 +44,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_items-item_id">item_id</a></p></td>
+<td><p><a href="#item_id">item_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -54,7 +54,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-item_count">item_count</a></p></td>
+<td><p><a href="#item_count">item_count</a></p></td>
 <td><p>int(10)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -64,7 +64,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_items-follow_rules">follow_rules</a></p></td>
+<td><p><a href="#follow_rules">follow_rules</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -74,7 +74,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-ffa">ffa</a></p></td>
+<td><p><a href="#ffa">ffa</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -84,7 +84,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_items-blocked">blocked</a></p></td>
+<td><p><a href="#blocked">blocked</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -94,7 +94,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-counted">counted</a></p></td>
+<td><p><a href="#counted">counted</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -104,7 +104,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_items-under_threshold">under_threshold</a></p></td>
+<td><p><a href="#under_threshold">under_threshold</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -114,7 +114,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-needs_quest">needs_quest</a></p></td>
+<td><p><a href="#needs_quest">needs_quest</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -124,7 +124,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_items-rnd_prop">rnd_prop</a></p></td>
+<td><p><a href="#rnd_prop">rnd_prop</a></p></td>
 <td><p>int(10)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -134,7 +134,7 @@ the player either removes an item or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_items-rnd_suffix">rnd_suffix</a></p></td>
+<td><p><a href="#rnd_suffix">rnd_suffix</a></p></td>
 <td><p>int(10)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>

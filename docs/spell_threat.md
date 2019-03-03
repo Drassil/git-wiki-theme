@@ -31,7 +31,7 @@ This table holds threat values on all spells that should either give or take awa
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_threat-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds threat values on all spells that should either give or take awa
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_threat-Threat">Threat</a></p></td>
+<td><p><a href="#Threat">Threat</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

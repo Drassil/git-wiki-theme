@@ -31,7 +31,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_refund_instance-item_guid">item_guid</a></p></td>
+<td><p><a href="#item_guid">item_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p>Item GUID</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_refund_instance-player_guid">player_guid</a></p></td>
+<td><p><a href="#player_guid">player_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p>Player GUID</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_refund_instance-paidMoney">paidMoney</a></p></td>
+<td><p><a href="#paidMoney">paidMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_refund_instance-paidExtendedCost">paidExtendedCost</a></p></td>
+<td><p><a href="#paidExtendedCost">paidExtendedCost</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

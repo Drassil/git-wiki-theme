@@ -31,7 +31,7 @@ Holds NPC quest giver relations on which NPCs start which quests.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_queststarter-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds NPC quest giver relations on which NPCs start which quests.
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_queststarter-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

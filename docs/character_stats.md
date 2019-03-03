@@ -32,7 +32,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -42,7 +42,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p>Global Unique Identifier, Low part</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-maxhealth">maxhealth</a></p></td>
+<td><p><a href="#maxhealth">maxhealth</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -52,7 +52,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-maxpower">maxpower1</a></p></td>
+<td><p><a href="#maxpower">maxpower1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -62,7 +62,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-maxpower">maxpower2</a></p></td>
+<td><p><a href="#maxpower">maxpower2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -72,7 +72,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-maxpower">maxpower3</a></p></td>
+<td><p><a href="#maxpower">maxpower3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -82,7 +82,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-maxpower">maxpower4</a></p></td>
+<td><p><a href="#maxpower">maxpower4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -92,7 +92,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-maxpower">maxpower5</a></p></td>
+<td><p><a href="#maxpower">maxpower5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -102,7 +102,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-maxpower">maxpower6</a></p></td>
+<td><p><a href="#maxpower">maxpower6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -112,7 +112,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-maxpower">maxpower7</a></p></td>
+<td><p><a href="#maxpower">maxpower7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -122,7 +122,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-strength">strength</a></p></td>
+<td><p><a href="#strength">strength</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -132,7 +132,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-agility">agility</a></p></td>
+<td><p><a href="#agility">agility</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -142,7 +142,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-stamina">stamina</a></p></td>
+<td><p><a href="#stamina">stamina</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -152,7 +152,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-intellect">intellect</a></p></td>
+<td><p><a href="#intellect">intellect</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -162,7 +162,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-spirit">spirit</a></p></td>
+<td><p><a href="#spirit">spirit</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -172,7 +172,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-armor">armor</a></p></td>
+<td><p><a href="#armor">armor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -182,7 +182,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-resHoly">resHoly</a></p></td>
+<td><p><a href="#resHoly">resHoly</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -192,7 +192,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-resFire">resFire</a></p></td>
+<td><p><a href="#resFire">resFire</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -202,7 +202,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-resNature">resNature</a></p></td>
+<td><p><a href="#resNature">resNature</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -212,7 +212,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-resFrost">resFrost</a></p></td>
+<td><p><a href="#resFrost">resFrost</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -222,7 +222,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-resShadow">resShadow</a></p></td>
+<td><p><a href="#resShadow">resShadow</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -232,7 +232,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-resArcane">resArcane</a></p></td>
+<td><p><a href="#resArcane">resArcane</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -242,7 +242,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-blockPct">blockPct</a></p></td>
+<td><p><a href="#blockPct">blockPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -252,7 +252,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-dodgePct">dodgePct</a></p></td>
+<td><p><a href="#dodgePct">dodgePct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -262,7 +262,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-parryPct">parryPct</a></p></td>
+<td><p><a href="#parryPct">parryPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -272,7 +272,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-critPct">critPct</a></p></td>
+<td><p><a href="#critPct">critPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -282,7 +282,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-rangedCritPct">rangedCritPct</a></p></td>
+<td><p><a href="#rangedCritPct">rangedCritPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -292,7 +292,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-spellCritPct">spellCritPct</a></p></td>
+<td><p><a href="#spellCritPct">spellCritPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -302,7 +302,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-attackPower">attackPower</a></p></td>
+<td><p><a href="#attackPower">attackPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -312,7 +312,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-rangedAttackPower">rangedAttackPower</a></p></td>
+<td><p><a href="#rangedAttackPower">rangedAttackPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -322,7 +322,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_stats-spellPower">spellPower</a></p></td>
+<td><p><a href="#spellPower">spellPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -332,7 +332,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_stats-resilience">resilience</a></p></td>
+<td><p><a href="#resilience">resilience</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

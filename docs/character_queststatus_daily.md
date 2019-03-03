@@ -31,7 +31,7 @@ Holds information on the daily quest status of every player. The quest must have
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_queststatus_daily-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds information on the daily quest status of every player. The quest must have
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_queststatus_daily-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Holds information on the daily quest status of every player. The quest must have
 <td><p>Quest Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_queststatus_daily-time">time</a></p></td>
+<td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

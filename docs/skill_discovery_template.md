@@ -31,7 +31,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#skill_discovery_template-spellId">spellId</a></p></td>
+<td><p><a href="#spellId">spellId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p>SpellId of the discoverable spell</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#skill_discovery_template-reqSpell">reqSpell</a></p></td>
+<td><p><a href="#reqSpell">reqSpell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p>spell requirement</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#skill_discovery_template-reqSkillValue">reqSkillValue</a></p></td>
+<td><p><a href="#reqSkillValue">reqSkillValue</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p>skill points requirement</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#skill_discovery_template-chance">chance</a></p></td>
+<td><p><a href="#chance">chance</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

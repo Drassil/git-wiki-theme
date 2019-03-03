@@ -31,7 +31,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_right-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_right-TabId">TabId</a></p></td>
+<td><p><a href="#TabId">TabId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_right-rid">rid</a></p></td>
+<td><p><a href="#rid">rid</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_right-gbright">gbright</a></p></td>
+<td><p><a href="#gbright">gbright</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_right-SlotPerDay">SlotPerDay</a></p></td>
+<td><p><a href="#SlotPerDay">SlotPerDay</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

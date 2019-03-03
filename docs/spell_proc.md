@@ -21,7 +21,7 @@ This table holds information on what events (or procs) certain spells are activa
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-SpellId">SpellId</a></p></td>
+<td><p><a href="#SpellId">SpellId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -32,7 +32,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-SchoolMask">SchoolMask</a></p></td>
+<td><p><a href="#SchoolMask">SchoolMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -45,7 +45,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-SpellFamilyName">SpellFamilyName</a></p></td>
+<td><p><a href="#SpellFamilyName">SpellFamilyName</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-SpellFamilyMask0">SpellFamilyMask0</a></p></td>
+<td><p><a href="#SpellFamilyMask0">SpellFamilyMask0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-SpellFamilyMask1">SpellFamilyMask1</a></p></td>
+<td><p><a href="#SpellFamilyMask1">SpellFamilyMask1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -84,7 +84,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-SpellFamilyMask2">SpellFamilyMask2</a></p></td>
+<td><p><a href="#SpellFamilyMask2">SpellFamilyMask2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -97,7 +97,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-ProcFlags">ProcFlags</a></p></td>
+<td><p><a href="#ProcFlags">ProcFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -110,7 +110,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-SpellTypeMask">SpellTypeMask</a></p></td>
+<td><p><a href="#SpellTypeMask">SpellTypeMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -123,7 +123,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-SpellPhaseMask">SpellPhaseMask</a></p></td>
+<td><p><a href="#SpellPhaseMask">SpellPhaseMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -136,7 +136,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-HitMask">HitMask</a></p></td>
+<td><p><a href="#HitMask">HitMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -149,7 +149,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-AttributesMask">AttributesMask</a></p></td>
+<td><p><a href="#AttributesMask">AttributesMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -162,7 +162,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-ProcPerMinute">ProcsPerMinute</a></p></td>
+<td><p><a href="#ProcPerMinute">ProcsPerMinute</a></p></td>
 <td><p>float</p></td>
 <td><p><br />
 </p></td>
@@ -176,7 +176,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-Chance">Chance</a></p></td>
+<td><p><a href="#Chance">Chance</a></p></td>
 <td><p>float</p></td>
 <td><p><br />
 </p></td>
@@ -190,7 +190,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_proc-Cooldown">Cooldown</a></p></td>
+<td><p><a href="#Cooldown">Cooldown</a></p></td>
 <td>int(10)</td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -203,7 +203,7 @@ This table holds information on what events (or procs) certain spells are activa
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_proc-Charges">Charges</a></p></td>
+<td><p><a href="#Charges">Charges</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

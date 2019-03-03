@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_dungeon_rewards-dungeonId">dungeonId</a></p></td>
+<td><p><a href="#dungeonId">dungeonId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Dungeon entry from dbc</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_dungeon_rewards-maxlevel">maxlevel</a></p></td>
+<td><p><a href="#maxlevel">maxlevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p>Max level at which this reward is rewarded</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_dungeon_rewards-firstQuestId">firstQuestId</a></p></td>
+<td><p><a href="#firstQuestId">firstQuestId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p>Quest id with rewards for first dungeon this day</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_dungeon_rewards-firstMoneyVar">firstMoneyVar</a></p></td>
+<td><p><a href="#firstMoneyVar">firstMoneyVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p>Money multiplier for completing the dungeon first time in a day with less players than max</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_dungeon_rewards-firstXPVar">firstXPVar</a></p></td>
+<td><p><a href="#firstXPVar">firstXPVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p>Experience multiplier for completing the dungeon first time in a day with less players than max</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_dungeon_rewards-otherQuestId">otherQuestId</a></p></td>
+<td><p><a href="#otherQuestId">otherQuestId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p>Quest id with rewards for Nth dungeon this day</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_dungeon_rewards-otherMoneyVar">otherMoneyVar</a></p></td>
+<td><p><a href="#otherMoneyVar">otherMoneyVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@
 <td><p>Money multiplier for completing the dungeon Nth time in a day with less players than max</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_dungeon_rewards-otherXPVar">otherXPVar</a></p></td>
+<td><p><a href="#otherXPVar">otherXPVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

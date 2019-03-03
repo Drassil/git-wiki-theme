@@ -31,7 +31,7 @@ This table contains events that must have been completed to start the given even
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_prerequisite-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#eventEntry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains events that must have been completed to start the given even
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_prerequisite-prerequisite_event">prerequisite_event</a></p></td>
+<td><p><a href="#prerequisite_event">prerequisite_event</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

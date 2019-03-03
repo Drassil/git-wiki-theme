@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_achievement_progress-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_achievement_progress-criteria">criteria</a></p></td>
+<td><p><a href="#criteria">criteria</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_achievement_progress-counter">counter</a></p></td>
+<td><p><a href="#counter">counter</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_achievement_progress-date">date</a></p></td>
+<td><p><a href="#date">date</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

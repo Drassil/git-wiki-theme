@@ -11,23 +11,23 @@
 |                                                         |              |                |         |          |             |           |             |
 |---------------------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
 | **Field**                                               | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
-| [entry](#achievement_reward_locale-entry)               | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
-| [subject\_loc1](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc2](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc3](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc4](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc5](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc6](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc7](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc8](#achievement_reward_locale-subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [text\_loc1](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc2](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc3](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc4](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc5](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc6](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc7](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc8](#achievement_reward_locale-text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [entry](#entry)               | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
+| [subject\_loc1](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc2](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc3](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc4](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc5](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc6](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc7](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [subject\_loc8](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
+| [text\_loc1](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc2](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc3](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc4](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc5](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc6](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc7](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+| [text\_loc8](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
 
 **Description of the fields**
 

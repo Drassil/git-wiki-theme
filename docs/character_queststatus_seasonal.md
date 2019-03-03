@@ -31,7 +31,7 @@ Holds information on the seasonal quest (quests with ZoneOrSort of -22) status o
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_queststatus_seasonal-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds information on the seasonal quest (quests with ZoneOrSort of -22) status o
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_queststatus_seasonal-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Holds information on the seasonal quest (quests with ZoneOrSort of -22) status o
 <td><p>Quest Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_queststatus_seasonal-event">event</a></p></td>
+<td><p><a href="#event">event</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

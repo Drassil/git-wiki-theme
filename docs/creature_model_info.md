@@ -31,7 +31,7 @@ This table contains all models of mobs, their gender and other information that 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_model_info-modelid">modelid</a></p></td>
+<td><p><a href="#modelid">modelid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_model_info-bounding_radius">bounding_radius</a></p></td>
+<td><p><a href="#bounding_radius">bounding_radius</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -56,7 +56,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_model_info-combat_reach">combat_reach</a></p></td>
+<td><p><a href="#combat_reach">combat_reach</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -69,7 +69,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_model_info-gender">gender</a></p></td>
+<td><p><a href="#gender">gender</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -82,7 +82,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_model_info-modelid_other_gender">modelid_other_gender</a></p></td>
+<td><p><a href="#modelid_other_gender">modelid_other_gender</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

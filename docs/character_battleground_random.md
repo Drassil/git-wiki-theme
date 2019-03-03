@@ -31,7 +31,7 @@ This table stores battlegrounds IDs for random battleground sessions.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_random-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int (10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

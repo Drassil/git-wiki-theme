@@ -19,7 +19,7 @@ This table holds information about what a gossip menu option is doing, redirect 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option_action-MenuId">MenuId</a></p></td>
+<td><p><a href="#MenuId">MenuId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -31,7 +31,7 @@ This table holds information about what a gossip menu option is doing, redirect 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option_action-OptionIndex">OptionIndex</a></p></td>
+<td><p><a href="#OptionIndex">OptionIndex</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table holds information about what a gossip menu option is doing, redirect 
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option_action-ActionMenuId">ActionMenuId</a></p></td>
+<td><p><a href="#ActionMenuId">ActionMenuId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -56,7 +56,7 @@ This table holds information about what a gossip menu option is doing, redirect 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option_action-ActionPoiId">ActionPoiId</a></p></td>
+<td><p><a href="#ActionPoiId">ActionPoiId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

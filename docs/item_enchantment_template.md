@@ -31,7 +31,7 @@ This table holds enchantment chance information for items that should have eithe
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_enchantment_template-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds enchantment chance information for items that should have eithe
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_enchantment_template-ench">ench</a></p></td>
+<td><p><a href="#ench">ench</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds enchantment chance information for items that should have eithe
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_enchantment_template-chance">chance</a></p></td>
+<td><p><a href="#chance">chance</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ Holds reputation multipliers for specific factions.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#reputation_reward_rate-faction">faction</a></p></td>
+<td><p><a href="#faction">faction</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds reputation multipliers for specific factions.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#reputation_reward_rate-quest_rate">quest_rate</a></p></td>
+<td><p><a href="#quest_rate">quest_rate</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Holds reputation multipliers for specific factions.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#reputation_reward_rate-creature_rate">creature_rate</a></p></td>
+<td><p><a href="#creature_rate">creature_rate</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Holds reputation multipliers for specific factions.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#reputation_reward_rate-spell_rate">spell_rate</a></p></td>
+<td><p><a href="#spell_rate">spell_rate</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

@@ -20,7 +20,7 @@ Contains all basic definitions of available quests.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="#quest_template-ID">ID</a></p></td>
+<td><p><a href="#ID">ID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>PRI</p></td>
@@ -31,7 +31,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-QuestType">QuestType</a></p></td>
+<td><p><a href="#QuestType">QuestType</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -43,7 +43,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-QuestLevel">QuestLevel</a></p></td>
+<td><p><a href="#QuestLevel">QuestLevel</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -55,7 +55,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-QuestPackageID">QuestPackageID</a></p></td>
+<td><p><a href="#QuestPackageID">QuestPackageID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -67,7 +67,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-MinLevel">MinLevel</a></p></td>
+<td><p><a href="#MinLevel">MinLevel</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -79,7 +79,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-QuestSortID">QuestSortID</a></p></td>
+<td><p><a href="#QuestSortID">QuestSortID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -91,7 +91,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-QuestInfoID">QuestInfoID</a></p></td>
+<td><p><a href="#QuestInfoID">QuestInfoID</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -103,7 +103,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-SuggestedGroupNum">SuggestedGroupNum</a></p></td>
+<td><p><a href="#SuggestedGroupNum">SuggestedGroupNum</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -115,7 +115,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardNextQuest">RewardNextQuest</a></p></td>
+<td><p><a href="#RewardNextQuest">RewardNextQuest</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -127,7 +127,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardXPDifficulty">RewardXPDifficulty</a></p></td>
+<td><p><a href="#RewardXPDifficulty">RewardXPDifficulty</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -139,7 +139,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardXPMultiplier">RewardXPMultiplier</a></p></td>
+<td><p><a href="#RewardXPMultiplier">RewardXPMultiplier</a></p></td>
 <td><p>float</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -151,7 +151,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardMoney">RewardMoney</a></p></td>
+<td><p><a href="#RewardMoney">RewardMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -163,7 +163,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardMoneyDifficulty">RewardMoneyDifficulty</a></p></td>
+<td><p><a href="#RewardMoneyDifficulty">RewardMoneyDifficulty</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -175,7 +175,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardMoneyMultiplier">RewardMoneyMultiplier</a></p></td>
+<td><p><a href="#RewardMoneyMultiplier">RewardMoneyMultiplier</a></p></td>
 <td><p>float</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -187,7 +187,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardBonusMoney">RewardBonusMoney</a></p></td>
+<td><p><a href="#RewardBonusMoney">RewardBonusMoney</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -199,7 +199,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardDisplaySpell">RewardDisplaySpell(X=1...3)</a></p></td>
+<td><p><a href="#RewardDisplaySpell">RewardDisplaySpell(X=1...3)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -211,7 +211,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardSpell">RewardSpell</a></p></td>
+<td><p><a href="#RewardSpell">RewardSpell</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -223,7 +223,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardHonor">RewardHonor</a></p></td>
+<td><p><a href="#RewardHonor">RewardHonor</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -235,7 +235,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardKillH">RewardKillHonor</a></p></td>
+<td><p><a href="#RewardKillH">RewardKillHonor</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -247,7 +247,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-StartItem">StartItem</a></p></td>
+<td><p><a href="#StartItem">StartItem</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -295,7 +295,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-Flags">Flags</a></p></td>
+<td><p><a href="#Flags">Flags</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -307,7 +307,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-FlagsEx">FlagsEx</a></p></td>
+<td><p><a href="#FlagsEx">FlagsEx</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -319,7 +319,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardItem(X=1...4)">RewardItem(X=1...4)</a></p></td>
+<td><p><a href="#RewardItem(X=1...4)">RewardItem(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -331,7 +331,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardAmount">RewardAmount(X=1...4)</a></p></td>
+<td><p><a href="#RewardAmount">RewardAmount(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -343,7 +343,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-ItemDrop">ItemDrop(X=1...4)</a></p></td>
+<td><p><a href="#ItemDrop">ItemDrop(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -355,7 +355,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-ItemDropQuantity(X=1...4)">ItemDropQuantity(X=1...4)</a></p></td>
+<td><p><a href="#ItemDropQuantity(X=1...4)">ItemDropQuantity(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -367,7 +367,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardChoiceItemID">RewardChoiceItemID(X=1...6)</a></p></td>
+<td><p><a href="#RewardChoiceItemID">RewardChoiceItemID(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -379,7 +379,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardChoiceItemQuantity(">RewardChoiceItemQuantity(X=1...6)</a></p></td>
+<td><p><a href="#RewardChoiceItemQuantity(">RewardChoiceItemQuantity(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -391,7 +391,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardChoiceItemDisplayID(X">RewardChoiceItemDisplayID(X=1...6)</a></p></td>
+<td><p><a href="#RewardChoiceItemDisplayID(X">RewardChoiceItemDisplayID(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -403,7 +403,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-POIContinent">POIContinent</a></p></td>
+<td><p><a href="#POIContinent">POIContinent</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -439,7 +439,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-POIPriority">POIPriority</a></p></td>
+<td><p><a href="#POIPriority">POIPriority</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -451,7 +451,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardTitle">RewardTitle</a></p></td>
+<td><p><a href="#RewardTitle">RewardTitle</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -487,7 +487,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardNumSkillUps">RewardNumSkillUps</a></p></td>
+<td><p><a href="#RewardNumSkillUps">RewardNumSkillUps</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -511,7 +511,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-PortraitTurnIn">PortraitTurnIn</a></p></td>
+<td><p><a href="#PortraitTurnIn">PortraitTurnIn</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -523,7 +523,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardFactionID">RewardFactionID(X=1...5)</a></p></td>
+<td><p><a href="#RewardFactionID">RewardFactionID(X=1...5)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -535,7 +535,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardFactionValue">RewardFactionValue(X=1...5)</a></p></td>
+<td><p><a href="#RewardFactionValue">RewardFactionValue(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -547,7 +547,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardFactionOverride(X=1...5)">RewardFactionOverride(X=1...5)</a></p></td>
+<td><p><a href="#RewardFactionOverride(X=1...5)">RewardFactionOverride(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -559,7 +559,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardFactionCapIn(X=1...5)">RewardFactionCapIn(X=1...5)</a></p></td>
+<td><p><a href="#RewardFactionCapIn(X=1...5)">RewardFactionCapIn(X=1...5)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -571,7 +571,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardFactionFlags">RewardFactionFlags</a></p></td>
+<td><p><a href="#RewardFactionFlags">RewardFactionFlags</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -583,7 +583,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-RewardCurrencyID(">RewardCurrencyID(X=1...4)</a></p></td>
+<td><p><a href="#RewardCurrencyID(">RewardCurrencyID(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -595,7 +595,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-RewardCurrencyQty">RewardCurrencyQty(X=1...4)</a></p></td>
+<td><p><a href="#RewardCurrencyQty">RewardCurrencyQty(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -607,7 +607,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-AcceptedSoundKitID">AcceptedSoundKitID</a></p></td>
+<td><p><a href="#AcceptedSoundKitID">AcceptedSoundKitID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -619,7 +619,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-CompleteSoundKitID">CompleteSoundKitID</a></p></td>
+<td><p><a href="#CompleteSoundKitID">CompleteSoundKitID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -631,7 +631,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-AreaGroupID">AreaGroupID</a></p></td>
+<td><p><a href="#AreaGroupID">AreaGroupID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -643,7 +643,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-TimeAllowed">TimeAllowed</a></p></td>
+<td><p><a href="#TimeAllowed">TimeAllowed</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -655,7 +655,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-AllowableRaces">AllowableRaces</a></p></td>
+<td><p><a href="#AllowableRaces">AllowableRaces</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -667,7 +667,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-QuestRewardID">QuestRewardID</a></p></td>
+<td><p><a href="#QuestRewardID">QuestRewardID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -679,7 +679,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-LogTitle">LogTitle</a></p></td>
+<td><p><a href="#LogTitle">LogTitle</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -703,7 +703,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-QuestDescription">QuestDescription</a></p></td>
+<td><p><a href="#QuestDescription">QuestDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -751,7 +751,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_template-PortraitTurnInText">PortraitTurnInText</a></p></td>
+<td><p><a href="#PortraitTurnInText">PortraitTurnInText</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -787,7 +787,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_template-VerifiedBuild">VerifiedBuild</a></p></td>
+<td><p><a href="#VerifiedBuild">VerifiedBuild</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>YES</p></td>
 <td><p><br />

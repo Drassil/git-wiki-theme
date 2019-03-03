@@ -21,7 +21,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#worldstates-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#worldstates-value">value</a></p></td>
+<td><p><a href="#value">value</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -46,7 +46,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#worldstates-comment">comment</a></p></td>
+<td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />

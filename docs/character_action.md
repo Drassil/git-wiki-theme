@@ -31,7 +31,7 @@ Contains all the individual button data for each character. A button is any of t
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_action-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Contains all the individual button data for each character. A button is any of t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_action-spec">spec</a></p></td>
+<td><p><a href="#spec">spec</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Contains all the individual button data for each character. A button is any of t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_action-button">button</a></p></td>
+<td><p><a href="#button">button</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ Contains all the individual button data for each character. A button is any of t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_action-action">action</a></p></td>
+<td><p><a href="#action">action</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ Contains all the individual button data for each character. A button is any of t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_action-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

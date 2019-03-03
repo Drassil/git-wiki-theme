@@ -31,7 +31,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_script_names-spell_id">spell_id</a></p></td>
+<td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>UNIQUE</p></td>
@@ -41,7 +41,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_script_names-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#ScriptName">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>unsigned</p></td>
 <td><p>UNIQUE</p></td>

@@ -31,7 +31,7 @@ Some examples:
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_area-spell">spell</a></p></td>
+<td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_area-area">area</a></p></td>
+<td><p><a href="#area">area</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -55,7 +55,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_area-quest_start">quest_start</a></p></td>
+<td><p><a href="#quest_start">quest_start</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -67,7 +67,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_area-quest_end">quest_end</a></p></td>
+<td><p><a href="#quest_end">quest_end</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -80,7 +80,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_area-aura_spell">aura_spell</a></p></td>
+<td><p><a href="#aura_spell">aura_spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -92,7 +92,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_area-racemask">racemask</a></p></td>
+<td><p><a href="#racemask">racemask</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -104,7 +104,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_area-gender">gender</a></p></td>
+<td><p><a href="#gender">gender</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -116,7 +116,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_area-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -129,7 +129,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_area-quest_start_status,quest_end_status">quest_start_status</a></p></td>
+<td><p><a href="#quest_start_status,quest_end_status">quest_start_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -142,7 +142,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_area-quest_start_status,quest_end_status">quest_end_status</a></p></td>
+<td><p><a href="#quest_start_status,quest_end_status">quest_end_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

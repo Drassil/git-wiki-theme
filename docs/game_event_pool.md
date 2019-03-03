@@ -31,7 +31,7 @@ This table determines if a given pool is active for a given game event.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_pool-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#eventEntry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table determines if a given pool is active for a given game event.
 <td><p>Entry of the game event. Put negative entry to remove during event.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_pool-pool_entry">pool_entry</a></p></td>
+<td><p><a href="#pool_entry">pool_entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

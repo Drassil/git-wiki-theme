@@ -31,7 +31,7 @@ Holds information on which NPC can start what battleground or arena.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battlemaster_entry-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds information on which NPC can start what battleground or arena.
 <td><p>Entry of a creature</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battlemaster_entry-bg_template">bg_template</a></p></td>
+<td><p><a href="#bg_template">bg_template</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

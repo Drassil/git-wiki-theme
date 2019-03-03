@@ -31,7 +31,7 @@ This table controls the minimum skill level required in fishing to fish in a cer
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#skill_fishing_base_level-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table controls the minimum skill level required in fishing to fish in a cer
 <td><p>Area identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#skill_fishing_base_level-skill">skill</a></p></td>
+<td><p><a href="#skill">skill</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

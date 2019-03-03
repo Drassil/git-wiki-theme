@@ -31,7 +31,7 @@ This table is used for any custom items that you might want to give to character
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_item-race">race</a></p></td>
+<td><p><a href="#race">race</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table is used for any custom items that you might want to give to character
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_item-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table is used for any custom items that you might want to give to character
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo_item-itemid">itemid</a></p></td>
+<td><p><a href="#itemid">itemid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table is used for any custom items that you might want to give to character
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo_item-amount">amount</a></p></td>
+<td><p><a href="#amount">amount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ Holds game object quest taker relations. The game objects in this table should a
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_questender-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds game object quest taker relations. The game objects in this table should a
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_questender-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

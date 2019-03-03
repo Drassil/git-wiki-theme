@@ -29,7 +29,7 @@ Basically all spell changes made when player changes faction.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_factionchange_spells-alliance_id">alliance_id</a></p></td>
+<td><p><a href="#alliance_id">alliance_id</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -39,7 +39,7 @@ Basically all spell changes made when player changes faction.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_factionchange_spells-horde_id">horde_id</a></p></td>
+<td><p><a href="#horde_id">horde_id</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>

@@ -31,7 +31,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#arena_team_member-arenaTeamId">arenaTeamId</a></p></td>
+<td><p><a href="#arenaTeamId">arenaTeamId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#arena_team_member-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#arena_team_member-personalRating">personalRating</a></p></td>
+<td><p><a href="#personalRating">personalRating</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#arena_team_member-weekGames">weekGames</a></p></td>
+<td><p><a href="#weekGames">weekGames</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#arena_team_member-weekWins">weekWins</a></p></td>
+<td><p><a href="#weekWins">weekWins</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#arena_team_member-seasonGames">seasonGames</a></p></td>
+<td><p><a href="#seasonGames">seasonGames</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds arena info about specific team members. All arena\_team members
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#arena_team_member-seasonWins">seasonWins</a></p></td>
+<td><p><a href="#seasonWins">seasonWins</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

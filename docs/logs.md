@@ -31,7 +31,7 @@ This table stores all logs from authserver if database logging in config is enab
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#logs-time">time</a></p></td>
+<td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table stores all logs from authserver if database logging in config is enab
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#logs-realm">realm</a></p></td>
+<td><p><a href="#realm">realm</a></p></td>
 <td><p>realm(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table stores all logs from authserver if database logging in config is enab
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#logs-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table stores all logs from authserver if database logging in config is enab
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#logs-level">level</a></p></td>
+<td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table stores all logs from authserver if database logging in config is enab
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#logs-string">string</a></p></td>
+<td><p><a href="#string">string</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ Contains all creature instances that need to change display id and/or equipment 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_model_equip-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#eventEntry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ Contains all creature instances that need to change display id and/or equipment 
 <td><p>Entry of the game event.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_model_equip-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Contains all creature instances that need to change display id and/or equipment 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_model_equip-modelid">modelid</a></p></td>
+<td><p><a href="#modelid">modelid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Contains all creature instances that need to change display id and/or equipment 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_model_equip-equipment_id">equipment_id</a></p></td>
+<td><p><a href="#equipment_id">equipment_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

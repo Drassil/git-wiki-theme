@@ -31,7 +31,7 @@ Holds information for each character's spells.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_spell-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds information for each character's spells.
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_spell-spell">spell</a></p></td>
+<td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Holds information for each character's spells.
 <td><p>Spell Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_spell-active">active</a></p></td>
+<td><p><a href="#active">active</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Holds information for each character's spells.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_spell-disabled">disabled</a></p></td>
+<td><p><a href="#disabled">disabled</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

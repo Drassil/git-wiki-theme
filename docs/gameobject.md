@@ -31,7 +31,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p>Gameobject Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-spawnMask">spawnMask</a></p></td>
+<td><p><a href="#spawnMask">spawnMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-phaseMask">phaseMask</a></p></td>
+<td><p><a href="#phaseMask">phaseMask</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-rotation0">rotation0</a></p></td>
+<td><p><a href="#rotation0">rotation0</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -131,7 +131,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-rotation1">rotation1</a></p></td>
+<td><p><a href="#rotation1">rotation1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -141,7 +141,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-rotation2">rotation2</a></p></td>
+<td><p><a href="#rotation2">rotation2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -151,7 +151,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-rotation3">rotation3</a></p></td>
+<td><p><a href="#rotation3">rotation3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -161,7 +161,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-spawntimesecs">spawntimesecs</a></p></td>
+<td><p><a href="#spawntimesecs">spawntimesecs</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -171,7 +171,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject-animprogress">animprogress</a></p></td>
+<td><p><a href="#animprogress">animprogress</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -181,7 +181,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject-state">state</a></p></td>
+<td><p><a href="#state">state</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

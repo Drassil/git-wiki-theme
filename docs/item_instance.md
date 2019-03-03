@@ -31,7 +31,7 @@ This table holds individual item instance information for all items currently eq
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-itemEnry">itemEntry</a></p></td>
+<td><p><a href="#itemEnry">itemEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-owner_guid">owner_guid</a></p></td>
+<td><p><a href="#owner_guid">owner_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-creatorGuid">creatorGuid</a></p></td>
+<td><p><a href="#creatorGuid">creatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-giftCreatorGuid">giftCreatorGuid</a></p></td>
+<td><p><a href="#giftCreatorGuid">giftCreatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-count">count</a></p></td>
+<td><p><a href="#count">count</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-duration">duration</a></p></td>
+<td><p><a href="#duration">duration</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-charges">charges</a></p></td>
+<td><p><a href="#charges">charges</a></p></td>
 <td><p>tinytext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>mediunint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-enchantments">enchantments</a></p></td>
+<td><p><a href="#enchantments">enchantments</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -131,7 +131,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-randomPropertyId">randomPropertyId</a></p></td>
+<td><p><a href="#randomPropertyId">randomPropertyId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -141,7 +141,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-durability">durability</a></p></td>
+<td><p><a href="#durability">durability</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -151,7 +151,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_instance-playedTime">playedTime</a></p></td>
+<td><p><a href="#playedTime">playedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -161,7 +161,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_instance-text">text</a></p></td>
+<td><p><a href="#text">text</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

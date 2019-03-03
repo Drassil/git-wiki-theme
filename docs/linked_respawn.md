@@ -32,7 +32,7 @@ Gameobjects can be linked too!
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#linked_respawn-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -42,7 +42,7 @@ Gameobjects can be linked too!
 <td><p>Dependent Creature</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#linked_respawn-linkedGuid">linkedGuid</a></p></td>
+<td><p><a href="#linkedGuid">linkedGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -52,7 +52,7 @@ Gameobjects can be linked too!
 <td><p>Master Creature</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#linked_respawn-linkType">linkType</a></p></td>
+<td><p><a href="#linkType">linkType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

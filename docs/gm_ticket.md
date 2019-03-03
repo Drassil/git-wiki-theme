@@ -21,7 +21,7 @@ This table stores all tickets
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-Id">Id</a></p></td>
+<td><p><a href="#Id">Id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table stores all tickets
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-playerGuid">playerGuid</a></p></td>
+<td><p><a href="#playerGuid">playerGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -45,7 +45,7 @@ This table stores all tickets
 <td><p>Global Unique Identifier of ticket creator</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(12)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -57,7 +57,7 @@ This table stores all tickets
 <td><p>Name of ticket creator</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-description">description</a></p></td>
+<td><p><a href="#description">description</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ This table stores all tickets
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-createtime">createtime</a></p></td>
+<td><p><a href="#createtime">createtime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -84,7 +84,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-mapId">mapId</a></p></td>
+<td><p><a href="#mapId">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -97,7 +97,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-posX">posX</a></p></td>
+<td><p><a href="#posX">posX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -110,7 +110,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-posY">posY</a></p></td>
+<td><p><a href="#posY">posY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -123,7 +123,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-posZ">posZ</a></p></td>
+<td><p><a href="#posZ">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -136,7 +136,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-lastModifiedTime">lastModifiedTime</a></p></td>
+<td><p><a href="#lastModifiedTime">lastModifiedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -149,7 +149,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-closedBy">closedBy</a></p></td>
+<td><p><a href="#closedBy">closedBy</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -162,7 +162,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-assignedTo">assignedTo</a></p></td>
+<td><p><a href="#assignedTo">assignedTo</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -174,7 +174,7 @@ This table stores all tickets
 <td><p>GUID of admin to whom ticket is assigned</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-comment">comment</a></p></td>
+<td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -188,7 +188,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-response">response</a></p></td>
+<td><p><a href="#response">response</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -202,7 +202,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-completed">completed</a></p></td>
+<td><p><a href="#completed">completed</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -215,7 +215,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-escalated">escalated</a></p></td>
+<td><p><a href="#escalated">escalated</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -228,7 +228,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#gm_ticket-viewed">viewed</a></p></td>
+<td><p><a href="#viewed">viewed</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -241,7 +241,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gm_ticket-needMoreHelp">needMoreHelp</a></p></td>
+<td><p><a href="#needMoreHelp">needMoreHelp</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><br />

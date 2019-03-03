@@ -15,7 +15,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-entryorguid">entryorguid</a></p></td>
+<td><p><a href="#entryorguid">entryorguid</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -27,7 +27,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-source_type">source_type</a></p></td>
+<td><p><a href="#source_type">source_type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -39,7 +39,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-link">link</a></p></td>
+<td><p><a href="#link">link</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -63,7 +63,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-event_type">event_type</a></p></td>
+<td><p><a href="#event_type">event_type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -76,7 +76,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-event_phase_mask">event_phase_mask</a></p></td>
+<td><p><a href="#event_phase_mask">event_phase_mask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -89,7 +89,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-event_chance">event_chance</a></p></td>
+<td><p><a href="#event_chance">event_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -102,7 +102,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-event_flags">event_flags</a></p></td>
+<td><p><a href="#event_flags">event_flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -115,7 +115,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-event_param1-4">event_param1</a></p></td>
+<td><p><a href="#4">event_param1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -128,7 +128,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-event_param1-4">event_param2</a></p></td>
+<td><p><a href="#4">event_param2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -141,7 +141,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-event_param1-4">event_param3</a></p></td>
+<td><p><a href="#4">event_param3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -154,7 +154,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-event_param1-4">event_param4</a></p></td>
+<td><p><a href="#4">event_param4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -167,7 +167,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#smart_scripts-event_param1-4">event_param5</a></td>
+<td><a href="#4">event_param5</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -180,7 +180,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-action_type">action_type</a></p></td>
+<td><p><a href="#action_type">action_type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -193,7 +193,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-action_param1-6">action_param1</a></p></td>
+<td><p><a href="#6">action_param1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -206,7 +206,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-action_param1-6">action_param2</a></p></td>
+<td><p><a href="#6">action_param2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -219,7 +219,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-action_param1-6">action_param3</a></p></td>
+<td><p><a href="#6">action_param3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -232,7 +232,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-action_param1-6">action_param4</a></p></td>
+<td><p><a href="#6">action_param4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -245,7 +245,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-action_param1-6">action_param5</a></p></td>
+<td><p><a href="#6">action_param5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -258,7 +258,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-action_param1-6">action_param6</a></p></td>
+<td><p><a href="#6">action_param6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -271,7 +271,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-target_type">target_type</a></p></td>
+<td><p><a href="#target_type">target_type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -284,7 +284,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-target_param1-3">target_param1</a></p></td>
+<td><p><a href="#3">target_param1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -297,7 +297,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-target_param1-3">target_param2</a></p></td>
+<td><p><a href="#3">target_param2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -310,7 +310,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-target_param1-3">target_param3</a></p></td>
+<td><p><a href="#3">target_param3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -323,7 +323,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#smart_scripts-target_param1-4">target_param4</a></td>
+<td><a href="#4">target_param4</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -336,7 +336,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-target_xyzo">target_x</a></p></td>
+<td><p><a href="#target_xyzo">target_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -349,7 +349,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-target_xyzo">target_y</a></p></td>
+<td><p><a href="#target_xyzo">target_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -362,7 +362,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-target_xyzo">target_z</a></p></td>
+<td><p><a href="#target_xyzo">target_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -375,7 +375,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#smart_scripts-target_xyzo">target_o</a></p></td>
+<td><p><a href="#target_xyzo">target_o</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -388,7 +388,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#smart_scripts-comment">comment</a></p></td>
+<td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -1839,7 +1839,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_CAST</p></td>
 <td><p>11</p></td>
 <td><p>SpellId</p></td>
-<td><p><a href="#smart_scripts-CastFlags">castFlags</a></p></td>
+<td><p><a href="#CastFlags">castFlags</a></p></td>
 <td><p>triggeredFlags</p></td>
 <td><p><br />
 </p></td>
@@ -1853,7 +1853,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SUMMON_CREATURE</p></td>
 <td><p>12</p></td>
 <td><p>creature_template.entry</p></td>
-<td><p><a href="#smart_scripts-SummonTypes">Summon type</a></p></td>
+<td><p><a href="#SummonTypes">Summon type</a></p></td>
 <td><p>duration in ms</p></td>
 <td><p>attackInvoker</p></td>
 <td><p><br />
@@ -2930,7 +2930,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_CALL_TIMED_ACTIONLIST</p></td>
 <td><p>80</p></td>
-<td><p>EntryOrGuid * 100 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> with 00 added after the entry, or 01, 02, 03 etc. for multiple action lists)</p></td>
+<td><p>EntryOrGuid * 100 (<a href="#entryorguid">smart_scripts.entryorguid</a> with 00 added after the entry, or 01, 02, 03 etc. for multiple action lists)</p></td>
 <td><p>timer update type(0 OOC, 1 IC, 2 ALWAYS)</p></td>
 <td><p><br />
 </p></td>
@@ -3014,7 +3014,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SELF_CAST</p></td>
 <td><p>85</p></td>
 <td><p>SpellID</p></td>
-<td><p><a href="#smart_scripts-Cast_flags">castFlags</a></p></td>
+<td><p><a href="#Cast_flags">castFlags</a></p></td>
 <td><p>triggeredFlags</p></td>
 <td><p><br />
 </p></td>
@@ -3028,7 +3028,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_CROSS_CAST</p></td>
 <td><p>86</p></td>
 <td><p>SpellID</p></td>
-<td><p><a href="#smart_scripts-Cast_flags">castFlags</a></p></td>
+<td><p><a href="#Cast_flags">castFlags</a></p></td>
 <td><p>CasterTargetType (caster is selected here, use it as target_type)</p></td>
 <td><p>CasterTarget (target_param1)</p></td>
 <td><p>CasterTarget (target_param2)</p></td>
@@ -3038,19 +3038,19 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST</p></td>
 <td><p>87</p></td>
-<td><p>EntryOrGuid 1 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 2 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 3 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 4 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 5 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 6 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 1 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 2 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 3 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 4 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 5 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 6 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
 <td><p>Will select one entry from the ones provided. 0 is ignored.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST</p></td>
 <td><p>88</p></td>
-<td><p>EntryOrGuid 1 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
-<td><p>EntryOrGuid 2 (<a href="#smart_scripts-entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 1 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
+<td><p>EntryOrGuid 2 (<a href="#entryorguid">smart_scripts.entryorguid</a> * 100 + n)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3211,8 +3211,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SEND_GOSSIP_MENU</p></td>
 <td><p>98</p></td>
 <td><p>gossip_menu.entry</p></td>
-<td><p><a href="#smart_scripts-gossip_menu-text_id">gossip_menu.text_id</a><br />
-(same value as <a href="#smart_scripts-npc_text-ID">npc_text.ID</a>)</p></td>
+<td><p><a href="#text_id">gossip_menu.text_id</a><br />
+(same value as <a href="#ID">npc_text.ID</a>)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3793,7 +3793,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>SMART_ACTION_INVOKER_CAST</td>
 <td>134</td>
 <td><p>SpellID</p></td>
-<td><a href="#smart_scripts-Cast_flags">castFlags</a></td>
+<td><a href="#Cast_flags">castFlags</a></td>
 <td>triggeredFlags</td>
 <td><br />
 </td>

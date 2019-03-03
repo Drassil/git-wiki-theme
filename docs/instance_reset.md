@@ -31,7 +31,7 @@ Date and time when heroic and raid instances will be reset (i.e. instances which
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance_reset-mapid">mapid</a></p></td>
+<td><p><a href="#mapid">mapid</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Date and time when heroic and raid instances will be reset (i.e. instances which
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance_reset-difficulty">difficulty</a></p></td>
+<td><p><a href="#difficulty">difficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Date and time when heroic and raid instances will be reset (i.e. instances which
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance_reset-resettime">resettime</a></p></td>
+<td><p><a href="#resettime">resettime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -23,7 +23,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-Id">Id</a></p></td>
+<td><p><a href="#Id">Id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -35,7 +35,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-Dispel">Dispel</a></p></td>
+<td><p><a href="#Dispel">Dispel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -48,7 +48,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-Mechanic">Mechanic</a></p></td>
+<td><p><a href="#Mechanic">Mechanic</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -61,7 +61,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-Attributes">Attributes</a></p></td>
+<td><p><a href="#Attributes">Attributes</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -74,7 +74,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-AttributesEx">AttributesEx</a></p></td>
+<td><p><a href="#AttributesEx">AttributesEx</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -87,7 +87,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-AttributesEx">AttributesEx2</a></p></td>
+<td><p><a href="#AttributesEx">AttributesEx2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -100,7 +100,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-AttributesEx">AttributesEx3</a></p></td>
+<td><p><a href="#AttributesEx">AttributesEx3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -113,7 +113,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-AttributesEx">AttributesEx4</a></p></td>
+<td><p><a href="#AttributesEx">AttributesEx4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -126,7 +126,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-AttributesEx">AttributesEx5</a></p></td>
+<td><p><a href="#AttributesEx">AttributesEx5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -139,7 +139,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-Stances">Stances</a></p></td>
+<td><p><a href="#Stances">Stances</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -152,7 +152,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-StancesNot">StancesNot</a></p></td>
+<td><p><a href="#StancesNot">StancesNot</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -165,7 +165,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-Targets">Targets</a></p></td>
+<td><p><a href="#Targets">Targets</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -178,7 +178,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-CastingTimeIndex">CastingTimeIndex</a></p></td>
+<td><p><a href="#CastingTimeIndex">CastingTimeIndex</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -191,7 +191,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-AuraInterruptFlags">AuraInterruptFlags</a></p></td>
+<td><p><a href="#AuraInterruptFlags">AuraInterruptFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -204,7 +204,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-ProcFlags">ProcFlags</a></p></td>
+<td><p><a href="#ProcFlags">ProcFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -217,7 +217,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-ProcChance">ProcChance</a></p></td>
+<td><p><a href="#ProcChance">ProcChance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -230,7 +230,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-ProcCharges">ProcCharges</a></p></td>
+<td><p><a href="#ProcCharges">ProcCharges</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -243,7 +243,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-MaxLevel">MaxLevel</a></p></td>
+<td><p><a href="#MaxLevel">MaxLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -256,7 +256,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-BaseLevel">BaseLevel</a></p></td>
+<td><p><a href="#BaseLevel">BaseLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -269,7 +269,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-SpellLevel">SpellLevel</a></p></td>
+<td><p><a href="#SpellLevel">SpellLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -282,7 +282,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-DurationIndex">DurationIndex</a></p></td>
+<td><p><a href="#DurationIndex">DurationIndex</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -295,7 +295,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-RangeIndex">RangeIndex</a></p></td>
+<td><p><a href="#RangeIndex">RangeIndex</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -308,7 +308,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-StackAmount">StackAmount</a></p></td>
+<td><p><a href="#StackAmount">StackAmount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -321,7 +321,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EquippedItemClass">EquippedItemClass</a></p></td>
+<td><p><a href="#EquippedItemClass">EquippedItemClass</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -340,7 +340,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EquippedItemSubClassMask">EquippedItemSubClassMask</a></p></td>
+<td><p><a href="#EquippedItemSubClassMask">EquippedItemSubClassMask</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -353,7 +353,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EquippedItemInventoryTypeMask">EquippedItemInventoryTypeMask</a></p></td>
+<td><p><a href="#EquippedItemInventoryTypeMask">EquippedItemInventoryTypeMask</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -366,7 +366,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-Effect">Effect1</a></p></td>
+<td><p><a href="#Effect">Effect1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -379,7 +379,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-Effect">Effect2</a></p></td>
+<td><p><a href="#Effect">Effect2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -392,7 +392,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-Effect">Effect3</a></p></td>
+<td><p><a href="#Effect">Effect3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -405,7 +405,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectDieSides">EffectDieSides1</a></p></td>
+<td><p><a href="#EffectDieSides">EffectDieSides1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -418,7 +418,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectDieSides">EffectDieSides2</a></p></td>
+<td><p><a href="#EffectDieSides">EffectDieSides2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -431,7 +431,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectDieSides">EffectDieSides3</a></p></td>
+<td><p><a href="#EffectDieSides">EffectDieSides3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -444,7 +444,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectRealPointsPerLevel">EffectRealPointsPerLevel1</a></p></td>
+<td><p><a href="#EffectRealPointsPerLevel">EffectRealPointsPerLevel1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -457,7 +457,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectRealPointsPerLevel">EffectRealPointsPerLevel2</a></p></td>
+<td><p><a href="#EffectRealPointsPerLevel">EffectRealPointsPerLevel2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -470,7 +470,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectRealPointsPerLevel">EffectRealPointsPerLevel3</a></p></td>
+<td><p><a href="#EffectRealPointsPerLevel">EffectRealPointsPerLevel3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -483,7 +483,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectBasePoints">EffectBasePoints1</a></p></td>
+<td><p><a href="#EffectBasePoints">EffectBasePoints1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -496,7 +496,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectBasePoints">EffectBasePoints2</a></p></td>
+<td><p><a href="#EffectBasePoints">EffectBasePoints2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -509,7 +509,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectBasePoints">EffectBasePoints3</a></p></td>
+<td><p><a href="#EffectBasePoints">EffectBasePoints3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -522,7 +522,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMechanic">EffectMechanic1</a></p></td>
+<td><p><a href="#EffectMechanic">EffectMechanic1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -535,7 +535,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectMechanic">EffectMechanic2</a></p></td>
+<td><p><a href="#EffectMechanic">EffectMechanic2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -548,7 +548,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMechanic">EffectMechanic3</a></p></td>
+<td><p><a href="#EffectMechanic">EffectMechanic3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -561,7 +561,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectImplicitTargetA">EffectImplicitTargetA1</a></p></td>
+<td><p><a href="#EffectImplicitTargetA">EffectImplicitTargetA1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -574,7 +574,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectImplicitTargetA">EffectImplicitTargetA2</a></p></td>
+<td><p><a href="#EffectImplicitTargetA">EffectImplicitTargetA2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -587,7 +587,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectImplicitTargetA">EffectImplicitTargetA3</a></p></td>
+<td><p><a href="#EffectImplicitTargetA">EffectImplicitTargetA3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -600,7 +600,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectImplicitTargetB">EffectImplicitTargetB1</a></p></td>
+<td><p><a href="#EffectImplicitTargetB">EffectImplicitTargetB1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -613,7 +613,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectImplicitTargetB">EffectImplicitTargetB2</a></p></td>
+<td><p><a href="#EffectImplicitTargetB">EffectImplicitTargetB2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -626,7 +626,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectImplicitTargetB">EffectImplicitTargetB3</a></p></td>
+<td><p><a href="#EffectImplicitTargetB">EffectImplicitTargetB3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -639,7 +639,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectRadiusIndex">EffectRadiusIndex1</a></p></td>
+<td><p><a href="#EffectRadiusIndex">EffectRadiusIndex1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -652,7 +652,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectRadiusIndex">EffectRadiusIndex2</a></p></td>
+<td><p><a href="#EffectRadiusIndex">EffectRadiusIndex2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -665,7 +665,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectRadiusIndex">EffectRadiusIndex3</a></p></td>
+<td><p><a href="#EffectRadiusIndex">EffectRadiusIndex3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -678,7 +678,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectApplyAuraName">EffectApplyAuraName1</a></p></td>
+<td><p><a href="#EffectApplyAuraName">EffectApplyAuraName1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -691,7 +691,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectApplyAuraName">EffectApplyAuraName2</a></p></td>
+<td><p><a href="#EffectApplyAuraName">EffectApplyAuraName2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -704,7 +704,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectApplyAuraName">EffectApplyAuraName3</a></p></td>
+<td><p><a href="#EffectApplyAuraName">EffectApplyAuraName3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -717,7 +717,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectAmplitude">EffectAmplitude1</a></p></td>
+<td><p><a href="#EffectAmplitude">EffectAmplitude1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -730,7 +730,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectAmplitude">EffectAmplitude2</a></p></td>
+<td><p><a href="#EffectAmplitude">EffectAmplitude2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -743,7 +743,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectAmplitude">EffectAmplitude3</a></p></td>
+<td><p><a href="#EffectAmplitude">EffectAmplitude3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -756,7 +756,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMultipleValue">EffectMultipleValue1</a></p></td>
+<td><p><a href="#EffectMultipleValue">EffectMultipleValue1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -769,7 +769,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectMultipleValue">EffectMultipleValue2</a></p></td>
+<td><p><a href="#EffectMultipleValue">EffectMultipleValue2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -782,7 +782,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMultipleValue">EffectMultipleValue3</a></p></td>
+<td><p><a href="#EffectMultipleValue">EffectMultipleValue3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -795,7 +795,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectMiscValue">EffectMiscValue1</a></p></td>
+<td><p><a href="#EffectMiscValue">EffectMiscValue1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -808,7 +808,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMiscValue">EffectMiscValue2</a></p></td>
+<td><p><a href="#EffectMiscValue">EffectMiscValue2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -821,7 +821,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectMiscValue">EffectMiscValue3</a></p></td>
+<td><p><a href="#EffectMiscValue">EffectMiscValue3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -834,7 +834,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMiscValueB">EffectMiscValueB1</a></p></td>
+<td><p><a href="#EffectMiscValueB">EffectMiscValueB1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -847,7 +847,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectMiscValueB">EffectMiscValueB2</a></p></td>
+<td><p><a href="#EffectMiscValueB">EffectMiscValueB2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -860,7 +860,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectMiscValueB">EffectMiscValueB3</a></p></td>
+<td><p><a href="#EffectMiscValueB">EffectMiscValueB3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -873,7 +873,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectTriggerSpell">EffectTriggerSpell1</a></p></td>
+<td><p><a href="#EffectTriggerSpell">EffectTriggerSpell1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -886,7 +886,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectTriggerSpell">EffectTriggerSpell2</a></p></td>
+<td><p><a href="#EffectTriggerSpell">EffectTriggerSpell2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -899,7 +899,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectTriggerSpell">EffectTriggerSpell3</a></p></td>
+<td><p><a href="#EffectTriggerSpell">EffectTriggerSpell3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -912,7 +912,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskA">EffectSpellClassMaskA1</a></p></td>
+<td><p><a href="#EffectSpellClassMaskA">EffectSpellClassMaskA1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -925,7 +925,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskA">EffectSpellClassMaskA2</a></p></td>
+<td><p><a href="#EffectSpellClassMaskA">EffectSpellClassMaskA2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -938,7 +938,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskA">EffectSpellClassMaskA3</a></p></td>
+<td><p><a href="#EffectSpellClassMaskA">EffectSpellClassMaskA3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -951,7 +951,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskB">EffectSpellClassMaskB1</a></p></td>
+<td><p><a href="#EffectSpellClassMaskB">EffectSpellClassMaskB1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -964,7 +964,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskB">EffectSpellClassMaskB2</a></p></td>
+<td><p><a href="#EffectSpellClassMaskB">EffectSpellClassMaskB2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -977,7 +977,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskB">EffectSpellClassMaskB3</a></p></td>
+<td><p><a href="#EffectSpellClassMaskB">EffectSpellClassMaskB3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -990,7 +990,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskC">EffectSpellClassMaskC1</a></p></td>
+<td><p><a href="#EffectSpellClassMaskC">EffectSpellClassMaskC1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1003,7 +1003,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskC">EffectSpellClassMaskC2</a></p></td>
+<td><p><a href="#EffectSpellClassMaskC">EffectSpellClassMaskC2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1016,7 +1016,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-EffectSpellClassMaskC">EffectSpellClassMaskC3</a></p></td>
+<td><p><a href="#EffectSpellClassMaskC">EffectSpellClassMaskC3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1029,7 +1029,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-MaxTargetLevel">MaxTargetLevel</a></p></td>
+<td><p><a href="#MaxTargetLevel">MaxTargetLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1042,7 +1042,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-SpellFamilyName">SpellFamilyName</a></p></td>
+<td><p><a href="#SpellFamilyName">SpellFamilyName</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1055,7 +1055,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-SpellFamilyFlags">SpellFamilyFlags1</a></p></td>
+<td><p><a href="#SpellFamilyFlags">SpellFamilyFlags1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1068,7 +1068,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-SpellFamilyFlags">SpellFamilyFlags2</a></p></td>
+<td><p><a href="#SpellFamilyFlags">SpellFamilyFlags2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1081,7 +1081,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-SpellFamilyFlags">SpellFamilyFlags3</a></p></td>
+<td><p><a href="#SpellFamilyFlags">SpellFamilyFlags3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1094,7 +1094,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-MaxAffectedTargets">MaxAffectedTargets</a></p></td>
+<td><p><a href="#MaxAffectedTargets">MaxAffectedTargets</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1107,7 +1107,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-DmgClass">DmgClass</a></p></td>
+<td><p><a href="#DmgClass">DmgClass</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1120,7 +1120,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-PreventionType">PreventionType</a></p></td>
+<td><p><a href="#PreventionType">PreventionType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1133,7 +1133,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-DmgMultiplier">DmgMultiplier1</a></p></td>
+<td><p><a href="#DmgMultiplier">DmgMultiplier1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -1146,7 +1146,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-DmgMultiplier">DmgMultiplier2</a></p></td>
+<td><p><a href="#DmgMultiplier">DmgMultiplier2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -1159,7 +1159,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-DmgMultiplier">DmgMultiplier3</a></p></td>
+<td><p><a href="#DmgMultiplier">DmgMultiplier3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -1172,7 +1172,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-AreaGroupId">AreaGroupId</a></p></td>
+<td><p><a href="#AreaGroupId">AreaGroupId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -1185,7 +1185,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_dbc-SchoolMask">SchoolMask</a></p></td>
+<td><p><a href="#SchoolMask">SchoolMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -1198,7 +1198,7 @@ This table contains data regarding serverside spells which are not to be found i
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_dbc-Comment">Comment</a></p></td>
+<td><p><a href="#Comment">Comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />

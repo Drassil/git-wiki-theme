@@ -17,7 +17,7 @@ Contains template of all gameobjects
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -29,7 +29,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -42,7 +42,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-displayId">displayId</a></p></td>
+<td><p><a href="#displayId">displayId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -55,7 +55,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -68,7 +68,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-IconName">IconName</a></p></td>
+<td><p><a href="#IconName">IconName</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -81,7 +81,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-castBarCaption">castBarCaption</a></p></td>
+<td><p><a href="#castBarCaption">castBarCaption</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -94,7 +94,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-unk1">unk1</a></p></td>
+<td><p><a href="#unk1">unk1</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -107,7 +107,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-size">size</a></p></td>
+<td><p><a href="#size">size</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -120,7 +120,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data0</a></p></td>
+<td><p><a href="#23">data0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -133,7 +133,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data1</a></p></td>
+<td><p><a href="#23">data1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -146,7 +146,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data2</a></p></td>
+<td><p><a href="#23">data2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -159,7 +159,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data3</a></p></td>
+<td><p><a href="#23">data3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -172,7 +172,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data4</a></p></td>
+<td><p><a href="#23">data4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -185,7 +185,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data5</a></p></td>
+<td><p><a href="#23">data5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -198,7 +198,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data6</a></p></td>
+<td><p><a href="#23">data6</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -211,7 +211,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data7</a></p></td>
+<td><p><a href="#23">data7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -224,7 +224,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data8</a></p></td>
+<td><p><a href="#23">data8</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -237,7 +237,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data9</a></p></td>
+<td><p><a href="#23">data9</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -250,7 +250,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data10</a></p></td>
+<td><p><a href="#23">data10</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -263,7 +263,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data11</a></p></td>
+<td><p><a href="#23">data11</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -276,7 +276,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data12</a></p></td>
+<td><p><a href="#23">data12</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -289,7 +289,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data13</a></p></td>
+<td><p><a href="#23">data13</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -302,7 +302,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data14</a></p></td>
+<td><p><a href="#23">data14</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -315,7 +315,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data15</a></p></td>
+<td><p><a href="#23">data15</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -328,7 +328,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data16</a></p></td>
+<td><p><a href="#23">data16</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -341,7 +341,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data17</a></p></td>
+<td><p><a href="#23">data17</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -354,7 +354,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data18</a></p></td>
+<td><p><a href="#23">data18</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -367,7 +367,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data19</a></p></td>
+<td><p><a href="#23">data19</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -380,7 +380,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data20</a></p></td>
+<td><p><a href="#23">data20</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -393,7 +393,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data21</a></p></td>
+<td><p><a href="#23">data21</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -406,7 +406,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-data0-23">data22</a></p></td>
+<td><p><a href="#23">data22</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -419,7 +419,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-data0-23">data23</a></p></td>
+<td><p><a href="#23">data23</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -432,7 +432,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-AIName">AIName</a></p></td>
+<td><p><a href="#AIName">AIName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -445,7 +445,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gameobject_template-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#ScriptName">ScriptName</a></p></td>
 <td><p>varchar(64)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -458,7 +458,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gameobject_template-WDBVerified">WDBVerified</a></p></td>
+<td><p><a href="#WDBVerified">WDBVerified</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p><br />

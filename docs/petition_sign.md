@@ -31,7 +31,7 @@ This table holds information on all the signatures of a petition for either a gu
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#petition_sign-ownerguid">ownerguid</a></p></td>
+<td><p><a href="#ownerguid">ownerguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table holds information on all the signatures of a petition for either a gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#petition_sign-petitionguid">petitionguid</a></p></td>
+<td><p><a href="#petitionguid">petitionguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information on all the signatures of a petition for either a gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#petition_sign-playerguid">playerguid</a></p></td>
+<td><p><a href="#playerguid">playerguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ This table holds information on all the signatures of a petition for either a gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#petition_sign-player_account">player_account</a></p></td>
+<td><p><a href="#player_account">player_account</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds information on all the signatures of a petition for either a gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#petition_sign-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

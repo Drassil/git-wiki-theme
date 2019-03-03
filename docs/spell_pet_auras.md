@@ -29,7 +29,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_pet_auras-spell">spell</a></p></td>
+<td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -39,7 +39,7 @@
 <td><p>dummy spell id</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_pet_auras-effectId">effectId</a></p></td>
+<td><p><a href="#effectId">effectId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -49,7 +49,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_pet_auras-pet">pet</a></p></td>
+<td><p><a href="#pet">pet</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -59,7 +59,7 @@
 <td><p>pet id; 0 = all</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_pet_auras-aura">aura</a></p></td>
+<td><p><a href="#aura">aura</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

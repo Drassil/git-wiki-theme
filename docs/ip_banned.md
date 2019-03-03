@@ -31,7 +31,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ip_banned-ip">ip</a></p></td>
+<td><p><a href="#ip">ip</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ip_banned-bandate">bandate</a></p></td>
+<td><p><a href="#bandate">bandate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ip_banned-unbandate">unbandate</a></p></td>
+<td><p><a href="#unbandate">unbandate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ip_banned-bannedby">bannedby</a></p></td>
+<td><p><a href="#bannedby">bannedby</a></p></td>
 <td><p>varchar(50)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ip_banned-banreason">banreason</a></p></td>
+<td><p><a href="#banreason">banreason</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

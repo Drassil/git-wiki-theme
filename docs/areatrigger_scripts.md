@@ -31,7 +31,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger_scripts-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger_scripts-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#ScriptName">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

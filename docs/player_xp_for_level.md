@@ -31,7 +31,7 @@ Includes information on how much experience needed for next level. Comes from sn
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_xp_for_level-lvl">lvl</a></p></td>
+<td><p><a href="#lvl">lvl</a></p></td>
 <td><p>int(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Includes information on how much experience needed for next level. Comes from sn
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_xp_for_level-xp_for_next_level">xp_for_next_level</a></p></td>
+<td><p><a href="#xp_for_next_level">xp_for_next_level</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

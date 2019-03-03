@@ -24,7 +24,7 @@ Each line holds one Zone or Area with one phaseId and a description.  Each line
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#phase_area-AreaId">AreaId</a></td>
+<td><a href="#AreaId">AreaId</a></td>
 <td>int</td>
 <td>No</td>
 <td>Pri</td>
@@ -33,7 +33,7 @@ Each line holds one Zone or Area with one phaseId and a description.  Each line
 </td>
 </tr>
 <tr class="even">
-<td><a href="#phase_area-PhaseId">PhaseId</a></td>
+<td><a href="#PhaseId">PhaseId</a></td>
 <td>int</td>
 <td>No</td>
 <td>Pri</td>
@@ -42,7 +42,7 @@ Each line holds one Zone or Area with one phaseId and a description.  Each line
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#phase_area-Comment">Comment</a></td>
+<td><a href="#Comment">Comment</a></td>
 <td>varchar</td>
 <td><br />
 </td>

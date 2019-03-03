@@ -29,7 +29,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 <td><strong>Comment</strong></td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-id">id</a></td>
+<td><a href="#id">id</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td><br />
@@ -42,7 +42,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-effIndex">effIndex</a> <sup>[1]</sup></td>
+<td><a href="#effIndex">effIndex</a> <sup>[1]</sup></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -55,7 +55,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-delay">delay</a></td>
+<td><a href="#delay">delay</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -68,7 +68,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-command">command</a></td>
+<td><a href="#command">command</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td><br />
@@ -81,7 +81,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-datalong">datalong</a></td>
+<td><a href="#datalong">datalong</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td><br />
@@ -94,7 +94,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-datalong2">datalong2</a></td>
+<td><a href="#datalong2">datalong2</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -107,7 +107,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-OtherFields">dataint</a></td>
+<td><a href="#OtherFields">dataint</a></td>
 <td>int(11)</td>
 <td>signed</td>
 <td><br />
@@ -120,7 +120,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-OtherFields">x</a></td>
+<td><a href="#OtherFields">x</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -133,7 +133,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-OtherFields">y</a></td>
+<td><a href="#OtherFields">y</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -146,7 +146,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-OtherFields">z</a></td>
+<td><a href="#OtherFields">z</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -159,7 +159,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#scripts-OtherFields">o</a></td>
+<td><a href="#OtherFields">o</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -172,7 +172,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#scripts-guid">guid</a> <sup>[2]</sup></td>
+<td><a href="#guid">guid</a> <sup>[2]</sup></td>
 <td>int(11)</td>
 <td>signed</td>
 <td>PRI</td>

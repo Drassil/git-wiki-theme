@@ -21,7 +21,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-SourceTypeOrReferenceId">SourceTypeOrReferenceId</a></p></td>
+<td><p><a href="#SourceTypeOrReferenceId">SourceTypeOrReferenceId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-SourceGroup">SourceGroup</a></p></td>
+<td><p><a href="#SourceGroup">SourceGroup</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-SourceEntry">SourceEntry</a></p></td>
+<td><p><a href="#SourceEntry">SourceEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -57,7 +57,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-CONDITION_SOURCE_TYPE_SMART_EVENT=22">SourceId</a></p></td>
+<td><p><a href="#CONDITION_SOURCE_TYPE_SMART_EVENT=22">SourceId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -68,7 +68,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><a href="https://trinitycore.atlassian.net/wiki/display/tc/smart_scripts#smart_scripts-source_type">smart_scripts.source_type</a> <strong>||</strong> 0 for everything else</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-ElseGroup">ElseGroup</a></p></td>
+<td><p><a href="#ElseGroup">ElseGroup</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -80,7 +80,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-ConditionTypeOrReference">ConditionTypeOrReference</a></p></td>
+<td><p><a href="#ConditionTypeOrReference">ConditionTypeOrReference</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -92,7 +92,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-ConditionTarget">ConditionTarget</a></p></td>
+<td><p><a href="#ConditionTarget">ConditionTarget</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -104,7 +104,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-ConditionValue1">ConditionValue1</a></p></td>
+<td><p><a href="#ConditionValue1">ConditionValue1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -116,7 +116,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-ConditionValue2">ConditionValue2</a></p></td>
+<td><p><a href="#ConditionValue2">ConditionValue2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -128,7 +128,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-ConditionValue3">ConditionValue3</a></p></td>
+<td><p><a href="#ConditionValue3">ConditionValue3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -140,7 +140,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-NegativeCondition">NegativeCondition</a></p></td>
+<td><p><a href="#NegativeCondition">NegativeCondition</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -149,10 +149,10 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p>0</p></td>
 <td><p><br />
 </p></td>
-<td><p>Boolean 0 or 1 (if <a href="#conditions-NegativeCondition">NegativeCondition</a></p></td>
+<td><p>Boolean 0 or 1 (if <a href="#NegativeCondition">NegativeCondition</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-ErrorType">ErrorType</a></p></td>
+<td><p><a href="#ErrorType">ErrorType</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -165,7 +165,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-ErrorTextId">ErrorTextId</a></p></td>
+<td><p><a href="#ErrorTextId">ErrorTextId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -178,7 +178,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#conditions-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#ScriptName">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -191,7 +191,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#conditions-Comment">Comment</a></p></td>
+<td><p><a href="#Comment">Comment</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
 </p></td>
@@ -229,11 +229,11 @@ if negative, then it is a reference template.
 <tr class="odd">
 <td>CONDITION_SOURCE_TYPE_NONE</td>
 <td>0</td>
-<td><strong><a href="#conditions-REFERENCETEMPLATES">See REFERENCE TEMPLATES</a></strong></td>
+<td><strong><a href="#REFERENCETEMPLATES">See REFERENCE TEMPLATES</a></strong></td>
 <td>(REFERENCE TEMPLATES)</td>
 <td>Always 0</td>
 <td>(See below)</td>
-<td><strong>Only used in <a href="#conditions-REFERENCETEMPLATES">Reference Templates! See below.</a></strong></td>
+<td><strong>Only used in <a href="#REFERENCETEMPLATES">Reference Templates! See below.</a></strong></td>
 </tr>
 <tr class="even">
 <td>CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</td>
@@ -887,7 +887,7 @@ CONDITION_RELATION_TO</td>
 <br />
 <br />
 Target to which relation is checked.<br />
-- one of the ConditionTargets available in current <a href="#conditions-SourceTypeOrReferenceId">SourceType</a></p></td>
+- one of the ConditionTargets available in current <a href="#SourceTypeOrReferenceId">SourceType</a></p></td>
 <td><p>RelationType - defines relation of current ConditionTarget to target specified in ConditionValue1.<br />
 0 - RELATION_SELF<br />
 1 - RELATION_IN_PARTY<br />
@@ -916,7 +916,7 @@ CONDITION_REACTION_TO</td>
 <br />
 <br />
 Target to which reaction is checked.<br />
-- one of the ConditionTargets available in current <a href="#conditions-SourceTypeOrReferenceId">SourceType</a></p></td>
+- one of the ConditionTargets available in current <a href="#SourceTypeOrReferenceId">SourceType</a></p></td>
 <td><pre><code>rankMask: This bitmask defines the reaction(s) of the current ConditionTarget
 to the target specified in ConditionValue1 (which are allowed).
 Flags for the reactions are:
@@ -945,7 +945,7 @@ CONDITION_DISTANCE_TO</td>
 <br />
 <br />
 Target to which distance is checked<br />
-- one of ConditionTargets available in current <a href="#conditions-SourceTypeOrReferenceId">SourceType</a></p></td>
+- one of ConditionTargets available in current <a href="#SourceTypeOrReferenceId">SourceType</a></p></td>
 <td><br />
 <br />
 <br />

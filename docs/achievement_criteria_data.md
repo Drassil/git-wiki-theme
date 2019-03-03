@@ -31,7 +31,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_criteria_data-criteria_id">criteria_id</a></p></td>
+<td><p><a href="#criteria_id">criteria_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#achievement_criteria_data-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_criteria_data-value1">value1</a></p></td>
+<td><p><a href="#value1">value1</a></p></td>
 <td><p>medium(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#achievement_criteria_data-value2">value2</a></p></td>
+<td><p><a href="#value2">value2</a></p></td>
 <td><p>medium(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_criteria_data-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#ScriptName">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

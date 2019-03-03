@@ -33,7 +33,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance_template-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -43,7 +43,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance_template-parent">parent</a></p></td>
+<td><p><a href="#parent">parent</a></p></td>
 <td><p>bigint(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -53,7 +53,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance_template-script">script</a></p></td>
+<td><p><a href="#script">script</a></p></td>
 <td><p>varchar(128)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -63,7 +63,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance_template-allowMount">allowMount</a></p></td>
+<td><p><a href="#allowMount">allowMount</a></p></td>
 <td><p>tinyiny(1)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

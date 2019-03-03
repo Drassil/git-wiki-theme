@@ -31,7 +31,7 @@ On certain levels, you receive a mail with some text.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail_level_reward-level">level</a></p></td>
+<td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ On certain levels, you receive a mail with some text.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail_level_reward-raceMask">raceMask</a></p></td>
+<td><p><a href="#raceMask">raceMask</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ On certain levels, you receive a mail with some text.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail_level_reward-mailTemplateId">mailTemplateId</a></p></td>
+<td><p><a href="#mailTemplateId">mailTemplateId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ On certain levels, you receive a mail with some text.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail_level_reward-senderEntry">senderEntry</a></p></td>
+<td><p><a href="#senderEntry">senderEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

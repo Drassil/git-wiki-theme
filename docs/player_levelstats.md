@@ -31,7 +31,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_levelstats-race">race</a></p></td>
+<td><p><a href="#race">race</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_levelstats-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_levelstats-level">level</a></p></td>
+<td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_levelstats-str">str</a></p></td>
+<td><p><a href="#str">str</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_levelstats-agi">agi</a></p></td>
+<td><p><a href="#agi">agi</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_levelstats-sta">sta</a></p></td>
+<td><p><a href="#sta">sta</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_levelstats-inte">inte</a></p></td>
+<td><p><a href="#inte">inte</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds information on what stats are gained by characters when they le
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_levelstats-spi">spi</a></p></td>
+<td><p><a href="#spi">spi</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

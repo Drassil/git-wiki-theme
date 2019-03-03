@@ -31,7 +31,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger_tavern-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger_tavern-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_target_position-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_target_position-target_map">target_map</a></p></td>
+<td><p><a href="#target_map">target_map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_target_position-target_position_x">target_position_x</a></p></td>
+<td><p><a href="#target_position_x">target_position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_target_position-target_position_y">target_position_y</a></p></td>
+<td><p><a href="#target_position_y">target_position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_target_position-target_position_z">target_position_z</a></p></td>
+<td><p><a href="#target_position_z">target_position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds coordinate information on where the player should be teleported
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_target_position-target_orientation">target_orientation</a></p></td>
+<td><p><a href="#target_orientation">target_orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

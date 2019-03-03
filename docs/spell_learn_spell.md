@@ -33,7 +33,7 @@ NOTE: Spells with spell effects SPELL\_EFFECT\_LEARN\_SPELL should NOT be includ
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_learn_spell-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ NOTE: Spells with spell effects SPELL\_EFFECT\_LEARN\_SPELL should NOT be includ
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_learn_spell-SpellID">SpellID</a></p></td>
+<td><p><a href="#SpellID">SpellID</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -53,7 +53,7 @@ NOTE: Spells with spell effects SPELL\_EFFECT\_LEARN\_SPELL should NOT be includ
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_learn_spell-Active">Active</a></p></td>
+<td><p><a href="#Active">Active</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

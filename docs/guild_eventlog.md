@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_eventlog-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Guild Identificator</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_eventlog-LogGuid">LogGuid</a></p></td>
+<td><p><a href="#LogGuid">LogGuid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p>Log record identificator - auxiliary column</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_eventlog-EventType">EventType</a></p></td>
+<td><p><a href="#EventType">EventType</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p>Event type</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_eventlog-PlayerGuid1">PlayerGuid1</a></p></td>
+<td><p><a href="#PlayerGuid1">PlayerGuid1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p>Player 1</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_eventlog-PlayerGuid2">PlayerGuid2</a></p></td>
+<td><p><a href="#PlayerGuid2">PlayerGuid2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p>Player 2</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_eventlog-NewRank">NewRank</a></p></td>
+<td><p><a href="#NewRank">NewRank</a></p></td>
 <td><p>tinyint(2)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p>New rank(in case promotion/demotion)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_eventlog-TimeStamp">TimeStamp</a></p></td>
+<td><p><a href="#TimeStamp">TimeStamp</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

@@ -35,7 +35,7 @@ This table contains main data about all mails in the game.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ This table contains main data about all mails in the game.
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-messageType">messageType</a></p></td>
+<td><p><a href="#messageType">messageType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -55,7 +55,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-stationery">stationery</a></p></td>
+<td><p><a href="#stationery">stationery</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -65,7 +65,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-mailTemplateId_x">mailTemplateId</a></p></td>
+<td><p><a href="#mailTemplateId_x">mailTemplateId</a></p></td>
 <td><p>mediumint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -75,7 +75,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-sender">sender</a></p></td>
+<td><p><a href="#sender">sender</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -85,7 +85,7 @@ This table contains main data about all mails in the game.
 <td><p>Character Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-receiver">receiver</a></p></td>
+<td><p><a href="#receiver">receiver</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -95,7 +95,7 @@ This table contains main data about all mails in the game.
 <td><p>Character Global Unique Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-subject">subject</a></p></td>
+<td><p><a href="#subject">subject</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -105,7 +105,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-body">body</a></p></td>
+<td><p><a href="#body">body</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -115,7 +115,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-has_items">has_items</a></p></td>
+<td><p><a href="#has_items">has_items</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -125,7 +125,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-expire_time">expire_time</a></p></td>
+<td><p><a href="#expire_time">expire_time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -135,7 +135,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-deliver_time">deliver_time</a></p></td>
+<td><p><a href="#deliver_time">deliver_time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -145,7 +145,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-money">money</a></p></td>
+<td><p><a href="#money">money</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -155,7 +155,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail-cod">cod</a></p></td>
+<td><p><a href="#cod">cod</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -165,7 +165,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail-checked">checked</a></p></td>
+<td><p><a href="#checked">checked</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>

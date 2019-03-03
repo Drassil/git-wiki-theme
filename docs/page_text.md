@@ -31,7 +31,7 @@ This table holds the text for letter items or any items that when moused-over tu
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#page_text-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds the text for letter items or any items that when moused-over tu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#page_text-text">text</a></p></td>
+<td><p><a href="#text">text</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds the text for letter items or any items that when moused-over tu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#page_text-next_page">next_page</a></p></td>
+<td><p><a href="#next_page">next_page</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds the text for letter items or any items that when moused-over tu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#page_text-WDBVerified">WDBVerified</a></p></td>
+<td><p><a href="#WDBVerified">WDBVerified</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

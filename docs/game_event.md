@@ -17,7 +17,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#eventEntry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -28,7 +28,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Entry of the game event</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event-start_time">start_time</a></p></td>
+<td><p><a href="#start_time">start_time</a></p></td>
 <td><p>timestamp</p></td>
 <td><p><br />
 </p></td>
@@ -41,7 +41,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Absolute start date, the event will never start before</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event-end_time">end_time</a></p></td>
+<td><p><a href="#end_time">end_time</a></p></td>
 <td><p>timestamp</p></td>
 <td><p><br />
 </p></td>
@@ -66,7 +66,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Delay in minutes between occurrences of the event</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event-length">length</a></p></td>
+<td><p><a href="#length">length</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -78,7 +78,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Length in minutes of the event</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event-holiday">holiday</a></p></td>
+<td><p><a href="#holiday">holiday</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -102,7 +102,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td>?</td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event-description">description</a></p></td>
+<td><p><a href="#description">description</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -114,7 +114,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Description of the event displayed in console</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event-world_event">world_event</a></p></td>
+<td><p><a href="#world_event">world_event</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
