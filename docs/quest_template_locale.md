@@ -105,44 +105,44 @@ This table is used to provide to localized clients with localized string for que
 
 ### Id
 
-This id must be the same as [quest\_template.id](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-Id) and then the row will be used to provide localization support for this quest\_template record.
+This id must be the same as [quest\_template.id](quest+template+tc2#Questtemplatetc2-Id) and then the row will be used to provide localization support for this quest\_template record.
 
 ### Title\_loc
 
-Translated content for [quest\_template.Title](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-Title) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Title](quest+template+tc2#Questtemplatetc2-Title) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### Details\_loc
 
-Translated content for [quest\_template.Details](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-Details) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Details](quest+template+tc2#Questtemplatetc2-Details) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### Objectives\_loc
 
-Translated content for [quest\_template.Objectives](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Objectives](quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### OfferRewardText\_loc
 
-Translated content for [quest\_template.OfferRewardText](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-OfferRewardText) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.OfferRewardText](quest+template+tc2#Questtemplatetc2-OfferRewardText) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### RequestItemsText\_loc
 
-Translated content for [quest\_template.RequestItemsText](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-RequestItemsText) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.RequestItemsText](quest+template+tc2#Questtemplatetc2-RequestItemsText) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### EndText\_loc
 
-Translated content for [quest\_template.EndText](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-EndText) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.EndText](quest+template+tc2#Questtemplatetc2-EndText) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### CompletedText\_loc
 
-Translated content for [quest\_template.CompletedText](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-CompletedText) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.CompletedText](quest+template+tc2#Questtemplatetc2-CompletedText) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
 ### ObjectiveText\_loc
 
-Translated content for [quest\_template.ObjectiveText](http://collab.kpsn.org/display/tc/quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.ObjectiveText](quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
+See [localization languages](Localization+lang) list to know which value to use for X.

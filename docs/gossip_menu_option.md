@@ -388,7 +388,7 @@ The ID of the same text in broadcast\_text.ID.
 
 ### OptionNpcFlag
 
-This is the npcflag ([Creature\_template.npcflag](http://collab.kpsn.org/display/tc/creature_template#creature_template-npcflag) ) that the NPC must have to have this option display. See comments (after //) in previous table)
+This is the npcflag ([Creature\_template.npcflag](creature_template#creature_template-npcflag) ) that the NPC must have to have this option display. See comments (after //) in previous table)
 
 ### ActionMenuID
 
@@ -396,7 +396,7 @@ If you want to create a sub-menu, this is the ID ([gossip\_menu.entry](https://t
 
 ### ActionPoiID
 
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](http://collab.kpsn.org/display/tc/Points+of+interest+tc2#entry)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](Points+of+interest+tc2#entry)
 
 ### BoxCoded
 

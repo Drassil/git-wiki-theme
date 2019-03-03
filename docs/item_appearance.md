@@ -23,7 +23,7 @@ This table contains some of the appearance data regarding item hotfixes. Togeth
 ### **ID**
 
 This is the unique ID for the item\_appearance table and has no relation whatsoever to the item id that is being hotfixed.
-This value links to [hotfix\_data.RecordID](http://collab.kpsn.org/display/tc/hotfix_data#hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied and [item\_modified\_appearance.AppearanceId](http://collab.kpsn.org/display/tc/item_modified_appearance#item_modified_appearance-AppearanceID).
+This value links to [hotfix\_data.RecordID](hotfix_data#hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied and [item\_modified\_appearance.AppearanceId](item_modified_appearance#item_modified_appearance-AppearanceID).
 
 ### DisplayID
 

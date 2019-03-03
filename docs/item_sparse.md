@@ -995,29 +995,29 @@ The description that appears in orange letters at the bottom of the item tooltip
 
 ### PageText
 
-The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](http://collab.kpsn.org/display/tc/page_text#page_text-entry)
+The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](page_text#page_text-entry)
 
 ### LanguageID
 
 The language that the item text is written in.
 
-See the [Languages DBC file](http://collab.kpsn.org/display/tc/Languages) for the IDs of all of the languages.
+See the [Languages DBC file](Languages) for the IDs of all of the languages.
 
 ### PageMaterial
 
 The background texture that appears in the page text window.
 
-See the [PageTextMaterial DBC file](http://collab.kpsn.org/display/tc/PageTextMaterial) for the IDs of all of the material types.
+See the [PageTextMaterial DBC file](PageTextMaterial) for the IDs of all of the material types.
 
 ### StartQuest
 
-The ID of the quest that this item will start if right-clicked. See [quest\_template.id](http://collab.kpsn.org/display/tc/quest_template#quest_template-entry)
+The ID of the quest that this item will start if right-clicked. See [quest\_template.id](quest_template#quest_template-entry)
 
 ### LockID
 
 The lock entry ID that this item (which serves as a key) is tied to. This field is used in key-door mechanics.
 
-See the [Lock DBC file](http://collab.kpsn.org/display/tc/Lock).
+See the [Lock DBC file](Lock).
 
 ### Material
 
@@ -1139,11 +1139,11 @@ Controls how the item is put away on the character. Press the 'Z' hotkey to shea
 
 ### RandomProperty
 
-The number in this field points to [item\_enchantment\_template.entry](http://collab.kpsn.org/display/tc/item_enchantment_template#item_enchantment_template-entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](http://collab.kpsn.org/display/tc/item_template#item_template-RandomSuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template#item_enchantment_template-entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](item_template#item_template-RandomSuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### RandomSuffix
 
-The number in this field points to [item\_enchantment\_template.entry](http://collab.kpsn.org/display/tc/item_enchantment_template#item_enchantment_template-entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](http://collab.kpsn.org/display/tc/item_template#item_template-RandomProperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template#item_enchantment_template-entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](item_template#item_template-RandomProperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### ItemSet
 
@@ -1457,7 +1457,7 @@ field-no-description|97
 
 ### HolidayID
 
-See the [Holidays DBC file](http://collab.kpsn.org/display/tc/Holidays) for the IDs of all of the holidays.
+See the [Holidays DBC file](Holidays) for the IDs of all of the holidays.
 
 ### StatScalingFactor
 

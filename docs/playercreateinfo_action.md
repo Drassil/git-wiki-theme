@@ -88,11 +88,11 @@ This table holds information on what default actions a brand new character shoul
 
 ### race
 
-The character's [race](http://collab.kpsn.org/display/tc/ChrRaces#ChrRaces-Content).
+The character's [race](ChrRaces#ChrRaces-Content).
 
 ### class
 
-The character's [class](http://collab.kpsn.org/display/tc/ChrClasses#ChrClasses-Content).
+The character's [class](ChrClasses#ChrClasses-Content).
 
 ### button
 
@@ -115,7 +115,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 ### action
 
-Depending on the type value, this could be either the [spell ID](http://collab.kpsn.org/display/tc/Spell#Spell-ID), the [item ID](http://collab.kpsn.org/display/tc/item_template#item_template-entry) or macro ID.
+Depending on the type value, this could be either the [spell ID](Spell#Spell-ID), the [item ID](item_template#item_template-entry) or macro ID.
 
 ### type
 

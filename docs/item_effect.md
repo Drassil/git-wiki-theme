@@ -29,12 +29,12 @@ This table contains some of the item effect data regarding item hotfixes. This t
 ### ID
 
 This is the unique ID for the item\_effect table and has no relation whatsoever to the item ID that is being hotfixed.
-This value links to [hotfix\_data.RecordID](http://collab.kpsn.org/display/tc/hotfix_data#hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied.
+This value links to [hotfix\_data.RecordID](hotfix_data#hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied.
 
 ### ItemID
 
 This is the unique ID for the item that has received a hotfix.
-This value links to [hotfix\_data.RecordID](hotfix_data_2130074.html#hotfix_data-hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied, [item.ID](hotfixes_item_2130073.html#hotfixes_item-hotfixes_item-ID) and [item\_sparse.ID](http://collab.kpsn.org/display/tc/item_sparse#item_sparse-ID).
+This value links to [hotfix\_data.RecordID](hotfix_data_2130074.html#hotfix_data-hotfix_data-hotfix_data-RecordID) with the proper TableHash accompanied, [item.ID](hotfixes_item_2130073.html#hotfixes_item-hotfixes_item-ID) and [item\_sparse.ID](item_sparse#item_sparse-ID).
 
 ### OrderIndex
 

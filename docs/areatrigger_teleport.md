@@ -117,7 +117,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 
 ### id
 
-This is the trigger identifier, it must match with the one from [AreaTrigger.dbc](http://collab.kpsn.org/display/tc/AreaTrigger)
+This is the trigger identifier, it must match with the one from [AreaTrigger.dbc](AreaTrigger)
 
 ### name
 

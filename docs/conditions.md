@@ -362,7 +362,7 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 13</td>
 <td>Mask of effects to be affected by condition:<br />
 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2</td>
-<td>Spell Id from  <a href="http://collab.kpsn.org/display/tc/Spell">Spell DBC file</a></td>
+<td>Spell Id from  <a href="Spell">Spell DBC file</a></td>
 <td>Always 0</td>
 <td><p>0 : Potential spell Target<br />
 1 : spell Caster</p></td>
@@ -1169,7 +1169,7 @@ The content of the [SourceGroup](#conditions-SourceGroup) and [SourceEntry](#con
 \***CONDITION\_SOURCE\_TYPE\_SPELL\_IMPLICIT\_TARGET = 13**
 
 -   -   SourceGroup: mask of effects to be affected by condition (1 - EFFECT\_0, 2 - EFFECT\_1, 4 - EFFECT\_2 - don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number)
-    -   SourceEntry: spell (Spell Id from  [Spell DBC file](http://collab.kpsn.org/display/tc/Spell).)
+    -   SourceEntry: spell (Spell Id from  [Spell DBC file](Spell).)
     -   ConditionTarget:
         -   0 - Potential target of the spell
         -   1 - Caster of the spell

@@ -57,9 +57,9 @@ Allows for an area trigger to be scripted with Trinity Script.
 
 ### entry
 
-This is the trigger identifier from [AreaTrigger.dbc](http://collab.kpsn.org/display/tc/AreaTrigger)
+This is the trigger identifier from [AreaTrigger.dbc](AreaTrigger)
 
 ### ScriptName
 
 The ScriptName for when scripting it in the core.
-This might also be 'SmartTrigger'. It will than use [SmartAI](http://collab.kpsn.org/display/tc/smart_scripts).
+This might also be 'SmartTrigger'. It will than use [SmartAI](smart_scripts).

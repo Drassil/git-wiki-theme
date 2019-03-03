@@ -61,7 +61,7 @@ Table used for storing custom spell attributes.
 
 ### entry
 
-Spell ID. See [Spell.dbc](http://collab.kpsn.org/display/tc/spell_dbc) .
+Spell ID. See [Spell.dbc](spell_dbc) .
 
 ### attributes
 

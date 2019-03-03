@@ -67,12 +67,12 @@ Contains the instance data for characters.
 
 ### guid
 
-The GUID of the character. See [characters.guid](http://collab.kpsn.org/display/tc/Characters+tc2#Characterstc2-guid)
+The GUID of the character. See [characters.guid](Characters+tc2#Characterstc2-guid)
 
 ### instance
 
-The instance ID. See [instance.id](http://collab.kpsn.org/display/tc/Instance+tc2#Instancetc2-id)
+The instance ID. See [instance.id](Instance+tc2#Instancetc2-id)
 
 ### permanent
 
-Boolean 0 or 1 controlling if the player has been bound to the instance. A player is bound to the instance only when he (or his party/raid) kills a creature with the CREATURE\_FLAG\_EXTRA\_INSTANCE\_BIND flag set in the [flags\_extras](http://collab.kpsn.org/display/tc/creature_template#creature_template-flags_extra) field.
+Boolean 0 or 1 controlling if the player has been bound to the instance. A player is bound to the instance only when he (or his party/raid) kills a creature with the CREATURE\_FLAG\_EXTRA\_INSTANCE\_BIND flag set in the [flags\_extras](creature_template#creature_template-flags_extra) field.

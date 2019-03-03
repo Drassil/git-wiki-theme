@@ -4,7 +4,7 @@
 
 **Table Structure**
 
-This table holds the vendor data for all NPCs that sell items and currency. The price for each item or currency is in its item template as [BuyPrice](http://collab.kpsn.org/display/tc/item_template#item_template-BuyPrice) or as [ExtendedCost](http://collab.kpsn.org/display/tc/npc_vendor#npc_vendor-ExtendedCost).
+This table holds the vendor data for all NPCs that sell items and currency. The price for each item or currency is in its item template as [BuyPrice](item_template#item_template-BuyPrice) or as [ExtendedCost](npc_vendor#npc_vendor-ExtendedCost).
 
 ## 3.3.5 version
 
@@ -100,7 +100,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 
 ### entry
 
-The ID of the creature. See [creature\_template.entry](http://collab.kpsn.org/display/tc/creature_template#creature_template-entry).
+The ID of the creature. See [creature\_template.entry](creature_template#creature_template-entry).
 
 ### slot
 
@@ -110,7 +110,7 @@ Position of the item when the vendor window opens. The image below explains how 
 
 ### item
 
-The item ID. See  [item\_template.entry](http://collab.kpsn.org/display/tc/item_template#item_template-entry).
+The item ID. See  [item\_template.entry](item_template#item_template-entry).
 
 ### maxcount
 
@@ -120,8 +120,8 @@ The maximum number of items carried by the vendor at any time. If you want the v
 
 ### incrtime
 
-Combined with [maxcount](#npc_vendor-maxcount), this field tells how often (in seconds) the vendor list is refreshed and the limited item copies are restocked. For limited item copies, every refresh, the quantity is increased by [item\_template.BuyCount](http://collab.kpsn.org/display/tc/item_template#item_template-BuyCount) .
+Combined with [maxcount](#npc_vendor-maxcount), this field tells how often (in seconds) the vendor list is refreshed and the limited item copies are restocked. For limited item copies, every refresh, the quantity is increased by [item\_template.BuyCount](item_template#item_template-BuyCount) .
 
 ### ExtendedCost
 
-The value here corresponds to the ID in [ItemExtendedCost.dbc](http://collab.kpsn.org/display/tc/ItemExtendedCost) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+The value here corresponds to the ID in [ItemExtendedCost.dbc](ItemExtendedCost) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.

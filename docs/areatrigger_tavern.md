@@ -57,7 +57,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 
 ### id
 
-This is the trigger identifier, see [AreaTrigger.dbc](http://collab.kpsn.org/display/tc/AreaTrigger)
+This is the trigger identifier, see [AreaTrigger.dbc](AreaTrigger)
 
 ### name
 

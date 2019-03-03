@@ -128,23 +128,23 @@ Level of the creature.
 
 ### class
 
-Class of the creature. This is a reference to the [unit\_class](http://collab.kpsn.org/display/tc/creature_template#creature_template-unit_class) field in the [creature\_template](http://collab.kpsn.org/display/tc/creature_template) table.
+Class of the creature. This is a reference to the [unit\_class](creature_template#creature_template-unit_class) field in the [creature\_template](creature_template) table.
 
 ### basehp0
 
-Base health for the creature if creature\_template.exp value is set to 0. This value is multiplied by [creature\_template.Health\_mod](http://collab.kpsn.org/display/tc/creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if creature\_template.exp value is set to 0. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
 
 ### basehp1
 
-Base health for the creature if creature\_template.exp value is set to 1. This value is multiplied by [creature\_template.Health\_mod](http://collab.kpsn.org/display/tc/creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if creature\_template.exp value is set to 1. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
 
 ### basehp2
 
-Base health for the creature if creature\_template.exp value is set to 2. This value is multiplied by [creature\_template.Health\_mod](http://collab.kpsn.org/display/tc/creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if creature\_template.exp value is set to 2. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
 
 ### basemana
 
-Base mana for the creature. This value is multiplied by  [creature\_template.Mana\_mod](http://collab.kpsn.org/display/tc/creature_template#creature_template-Mana_mod) to determine the creature's final mana.
+Base mana for the creature. This value is multiplied by  [creature\_template.Mana\_mod](creature_template#creature_template-Mana_mod) to determine the creature's final mana.
 
 ### basearmor
 
@@ -152,11 +152,11 @@ Base armor for the creature. This value is multiplied by creature\_template.Armo
 
 ### attackpower
 
-Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](http://collab.kpsn.org/display/tc/creature_template#creature_template-attackpower) to determine the creature's final attack power.
+Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](creature_template#creature_template-attackpower) to determine the creature's final attack power.
 
 ### rangedattackpower
 
-Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](http://collab.kpsn.org/display/tc/creature_template#creature_template-attackpower)?
+Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](creature_template#creature_template-attackpower)?
 
 ### damage\_base
 

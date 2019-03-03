@@ -4,7 +4,7 @@
 
 **The \`achievement\_dbc\` table**
 
-Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.org/display/tc/Achievement)
+Stores achievement data that is missing in [Achievement.dbc](Achievement)
 
 **Structure**
 
@@ -107,7 +107,7 @@ Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.
 
 ### ID
 
-This is the ID of the achievement from [Achievement\_Criteria.dbc](http://collab.kpsn.org/display/tc/Achievement+Criteria) (2nd column)
+This is the ID of the achievement from [Achievement\_Criteria.dbc](Achievement+Criteria) (2nd column)
 
 ### requiredFaction
 

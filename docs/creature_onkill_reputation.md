@@ -137,7 +137,7 @@ This table controls the reputation given by creatures when killed by other playe
 
 ### creature\_id
 
-The template ID of the creature. See [creature\_template.entry](http://collab.kpsn.org/display/tc/creature_template#creature_template-entry)
+The template ID of the creature. See [creature\_template.entry](creature_template#creature_template-entry)
 
 ### RewOnKillRepFaction
 
