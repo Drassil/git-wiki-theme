@@ -201,4 +201,18 @@ Run `worldserver.exe` and `authserver.exe` from `CMAKE_INSTALL_PREFIX`.
 
 ## 8) Connecting to the server
 
-Edit your `realmlist.wtf` and add the IP you set in the realmlist table (and the port if needed). Then you can connect with a newly made account or the test accounts (`test1` to `test10`, with password `a`)
+Edit your `realmlist.wtf` and add the IP you set in the realmlist table (and the port if needed). Then you can connect with a newly made account or the test accounts (`test1` to `test10`, with password `a`).
+
+You can change all the passwords at once by pasting this into the worldserver console:
+```
+.account set password test1 new_pass new_pass
+.account set password test2 new_pass new_pass
+.account set password test3 new_pass new_pass
+.account set password test4 new_pass new_pass
+.account set password test5 new_pass new_pass
+.account set password test6 new_pass new_pass
+.account set password test7 new_pass new_pass
+.account set password test8 new_pass new_pass
+.account set password test9 new_pass new_pass
+.account set password test10 new_pass new_pass
+```
