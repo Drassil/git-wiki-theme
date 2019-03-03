@@ -21,7 +21,7 @@ This table contains the access requirements to enter an instance.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#access_requirement-mapId">mapId</a></p></td>
+<td><p><a href="#mapId">mapId</a></p></td>
 <td><p>mediumint (8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-difficulty">difficulty</a></p></td>
+<td><p><a href="#difficulty">difficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#access_requirement-level_min">level_min</a></p></td>
+<td><p><a href="#level_min">level_min</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-level_max">level_max</a></p></td>
+<td><p><a href="#level_max">level_max</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#access_requirement-item_level">item_level</a></td>
+<td><a href="#item_level">item_level</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td><br />
@@ -84,7 +84,7 @@ This table contains the access requirements to enter an instance.
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-item">item</a></p></td>
+<td><p><a href="#item">item</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -97,7 +97,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#access_requirement-item2">item2</a></p></td>
+<td><p><a href="#item2">item2</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -110,7 +110,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-quest_done_A">quest_done_A</a></p></td>
+<td><p><a href="#quest_done_A">quest_done_A</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -123,7 +123,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#access_requirement-quest_done_H">quest_done_H</a></p></td>
+<td><p><a href="#quest_done_H">quest_done_H</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -136,7 +136,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-completed_achievement">completed_achievement</a></p></td>
+<td><p><a href="#completed_achievement">completed_achievement</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -149,7 +149,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#access_requirement-quest_failed_text">quest_failed_text</a></p></td>
+<td><p><a href="#quest_failed_text">quest_failed_text</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -162,7 +162,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#access_requirement-comment">comment</a></p></td>
+<td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
