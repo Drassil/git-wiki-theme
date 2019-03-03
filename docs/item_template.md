@@ -56,7 +56,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#SoundOverrideSubclass">SoundOverrideSubclass</a></p></td>
+<td><p><a href="#soundoverridesubclass">SoundOverrideSubclass</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -83,7 +83,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Quality">Quality</a></p></td>
+<td><p><a href="#quality">Quality</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -92,7 +92,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Flags">Flags</a></p></td>
+<td><p><a href="#flags">Flags</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#FlagsExtra">FlagsExtra</a></p></td>
+<td><p><a href="#flagsextra">FlagsExtra</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -110,7 +110,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BuyCount">BuyCount</a></p></td>
+<td><p><a href="#buycount">BuyCount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -119,7 +119,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#BuyPrice">BuyPrice</a></p></td>
+<td><p><a href="#buyprice">BuyPrice</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -128,7 +128,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#SellPrice">SellPrice</a></p></td>
+<td><p><a href="#sellprice">SellPrice</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -137,7 +137,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#InventoryType">InventoryType</a></p></td>
+<td><p><a href="#inventorytype">InventoryType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -146,7 +146,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#AllowableClass">AllowableClass</a></p></td>
+<td><p><a href="#allowableclass">AllowableClass</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -155,7 +155,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#AllowableRace">AllowableRace</a></p></td>
+<td><p><a href="#allowablerace">AllowableRace</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -164,7 +164,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ItemLevel">ItemLevel</a></p></td>
+<td><p><a href="#itemlevel">ItemLevel</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -173,7 +173,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#RequiredLevel">RequiredLevel</a></p></td>
+<td><p><a href="#requiredlevel">RequiredLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -182,7 +182,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RequiredSkill">RequiredSkill</a></p></td>
+<td><p><a href="#requiredskill">RequiredSkill</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -191,7 +191,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#RequiredSkillRank">RequiredSkillRank</a></p></td>
+<td><p><a href="#requiredskillrank">RequiredSkillRank</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -218,7 +218,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RequiredCityRank">RequiredCityRank</a></p></td>
+<td><p><a href="#requiredcityrank">RequiredCityRank</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -227,7 +227,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#RequiredReputationFaction">RequiredReputationFaction</a></p></td>
+<td><p><a href="#requiredreputationfaction">RequiredReputationFaction</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -236,7 +236,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RequiredReputationRank">RequiredReputationRank</a></p></td>
+<td><p><a href="#requiredreputationrank">RequiredReputationRank</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -263,7 +263,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ContainerSlots">ContainerSlots</a></p></td>
+<td><p><a href="#containerslots">ContainerSlots</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -272,7 +272,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#StatsCount">StatsCount</a></p></td>
+<td><p><a href="#statscount">StatsCount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -461,7 +461,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ScalingStatDistribution">ScalingStatDistribution</a></p></td>
+<td><p><a href="#scalingstatdistribution">ScalingStatDistribution</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -470,7 +470,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ScalingStatValue">ScalingStatValue</a></p></td>
+<td><p><a href="#scalingstatvalue">ScalingStatValue</a></p></td>
 <td><p>int(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -614,7 +614,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RangedModRange">RangedModRange</a></p></td>
+<td><p><a href="#rangedmodrange">RangedModRange</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -650,7 +650,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spellppmRate">spellppmRate_1</a></p></td>
+<td><p><a href="#spellppmrate">spellppmRate_1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -713,7 +713,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spellppmRate">spellppmRate_2</a></p></td>
+<td><p><a href="#spellppmrate">spellppmRate_2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -777,7 +777,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spellppmRate">spellppmRate_3</a></p></td>
+<td><p><a href="#spellppmrate">spellppmRate_3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -840,7 +840,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spellppmRate">spellppmRate_4</a></p></td>
+<td><p><a href="#spellppmrate">spellppmRate_4</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -903,7 +903,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spellppmRate">spellppmRate_5</a></p></td>
+<td><p><a href="#spellppmrate">spellppmRate_5</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -957,7 +957,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#PageText">PageText</a></p></td>
+<td><p><a href="#pagetext">PageText</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -966,7 +966,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#LanguageID">LanguageID</a></p></td>
+<td><p><a href="#languageid">LanguageID</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -975,7 +975,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#PageMaterial">PageMaterial</a></p></td>
+<td><p><a href="#pagematerial">PageMaterial</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1002,7 +1002,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Material">Material</a></p></td>
+<td><p><a href="#material">Material</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1020,7 +1020,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#RandomProperty">RandomProperty</a></p></td>
+<td><p><a href="#randomproperty">RandomProperty</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1029,7 +1029,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RandomSuffix">RandomSuffix</a></p></td>
+<td><p><a href="#randomsuffix">RandomSuffix</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1056,7 +1056,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#MaxDurability">MaxDurability</a></p></td>
+<td><p><a href="#maxdurability">MaxDurability</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1074,7 +1074,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Map">Map</a></p></td>
+<td><p><a href="#map">Map</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1083,7 +1083,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BagFamily">BagFamily</a></p></td>
+<td><p><a href="#bagfamily">BagFamily</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1092,7 +1092,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#TotemCategory">TotemCategory</a></p></td>
+<td><p><a href="#totemcategory">TotemCategory</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1101,7 +1101,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#socketColor">socketColor_1</a></p></td>
+<td><p><a href="#socketcolor">socketColor_1</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1110,7 +1110,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#socketContent">socketContent_1</a></p></td>
+<td><p><a href="#socketcontent">socketContent_1</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1119,7 +1119,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#socketColor">socketColor_2</a></p></td>
+<td><p><a href="#socketcolor">socketColor_2</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1128,7 +1128,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#socketContent">socketContent_2</a></p></td>
+<td><p><a href="#socketcontent">socketContent_2</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1137,7 +1137,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#socketColor">socketColor_3</a></p></td>
+<td><p><a href="#socketcolor">socketColor_3</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1146,7 +1146,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#socketContent">socketContent_3</a></p></td>
+<td><p><a href="#socketcontent">socketContent_3</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1155,7 +1155,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#socketBonus">socketBonus</a></p></td>
+<td><p><a href="#socketbonus">socketBonus</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1164,7 +1164,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#GemProperties">GemProperties</a></p></td>
+<td><p><a href="#gemproperties">GemProperties</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1173,7 +1173,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#RequiredDisenchantSkill">RequiredDisenchantSkill</a></p></td>
+<td><p><a href="#requireddisenchantskill">RequiredDisenchantSkill</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1182,7 +1182,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ArmorDamageModifier">ArmorDamageModifier</a></p></td>
+<td><p><a href="#armordamagemodifier">ArmorDamageModifier</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1191,7 +1191,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Duration">duration</a></p></td>
+<td><p><a href="#duration">duration</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1200,7 +1200,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p>Duration in seconds</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ItemLimitCategory">ItemLimitCategory</a></p></td>
+<td><p><a href="#itemlimitcategory">ItemLimitCategory</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1209,7 +1209,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#HolidayId">HolidayId</a></p></td>
+<td><p><a href="#holidayid">HolidayId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1218,7 +1218,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>varchar(64)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -1227,7 +1227,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#DisenchantID">DisenchantID</a></p></td>
+<td><p><a href="#disenchantid">DisenchantID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1236,7 +1236,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#FoodType">FoodType</a></p></td>
+<td><p><a href="#foodtype">FoodType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1245,7 +1245,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#minMoneyLoot">minMoneyLoot</a></p></td>
+<td><p><a href="#minmoneyloot">minMoneyLoot</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1254,7 +1254,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#maxMoneyLoot">maxMoneyLoot</a></p></td>
+<td><p><a href="#maxmoneyloot">maxMoneyLoot</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1263,7 +1263,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#flagsCustom">flagsCustom</a></p></td>
+<td><p><a href="#flagscustom">flagsCustom</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -1272,7 +1272,7 @@ Holds information on every item that exists in the game. All items are created f
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#VerifiedBuild">VerifiedBuild (WDBVerified)</a></p></td>
+<td><p><a href="#verifiedbuild">VerifiedBuild (WDBVerified)</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

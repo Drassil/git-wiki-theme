@@ -71,7 +71,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

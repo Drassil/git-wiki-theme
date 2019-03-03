@@ -68,7 +68,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#OptionBroadcastTextID">OptionBroadcastTextID</a></td>
+<td><a href="#optionbroadcasttextid">OptionBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
 </td>
@@ -174,7 +174,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#BoxBroadcastTextID">BoxBroadcastTextID</a></td>
+<td><a href="#boxbroadcasttextid">BoxBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
 </td>

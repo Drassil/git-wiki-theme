@@ -51,7 +51,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#matchmakerRating">matchmakerRating</a></p></td>
+<td><p><a href="#matchmakerrating">matchmakerRating</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

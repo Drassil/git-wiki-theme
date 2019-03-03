@@ -45,7 +45,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#objIndex">ObjectiveIndex</a></p></td>
+<td><p><a href="#objindex">ObjectiveIndex</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#WorldMapAreaId">WorldMapAreaId</a></p></td>
+<td><p><a href="#worldmapareaid">WorldMapAreaId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -84,7 +84,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#FloorId">Floor</a></p></td>
+<td><p><a href="#floorid">Floor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

@@ -31,7 +31,7 @@ This table contains events that must have been completed to start the given even
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

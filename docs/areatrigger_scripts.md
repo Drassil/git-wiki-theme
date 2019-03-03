@@ -41,7 +41,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

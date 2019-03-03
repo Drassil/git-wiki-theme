@@ -31,7 +31,7 @@ This table contains the mapping of a quest in a world event to the condition tha
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

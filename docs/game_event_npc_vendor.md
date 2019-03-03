@@ -31,7 +31,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ExtendedCost">ExtendedCost</a></p></td>
+<td><p><a href="#extendedcost">ExtendedCost</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

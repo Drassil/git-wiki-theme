@@ -102,7 +102,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#aiAnimKit/movementAnimKit/meleeAnimKit">aiAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">aiAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -115,7 +115,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#aiAnimKit/movementAnimKit/meleeAnimKit">movementAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">movementAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -128,7 +128,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="even">
-<td><a href="#aiAnimKit/movementAnimKit/meleeAnimKit">meleeAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">meleeAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -141,7 +141,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#visibilityDistanceType">visibilityDistanceType</a></td>
+<td><a href="#visibilitydistancetype">visibilityDistanceType</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />

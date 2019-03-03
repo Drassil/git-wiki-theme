@@ -85,7 +85,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Importance">Importance</a></p></td>
+<td><p><a href="#importance">Importance</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

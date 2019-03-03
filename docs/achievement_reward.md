@@ -41,7 +41,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#title_A">title_A</a></p></td>
+<td><p><a href="#title_a">title_A</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#title_H">title_H</a></p></td>
+<td><p><a href="#title_h">title_H</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#mailTemplate">mailTemplate</a></td>
+<td><a href="#mailtemplate">mailTemplate</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td> </td>

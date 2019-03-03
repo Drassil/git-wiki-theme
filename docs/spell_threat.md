@@ -41,7 +41,7 @@ This table holds threat values on all spells that should either give or take awa
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Threat">Threat</a></p></td>
+<td><p><a href="#threat">Threat</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

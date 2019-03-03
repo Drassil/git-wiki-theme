@@ -51,7 +51,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p>Player GUID</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#paidMoney">paidMoney</a></p></td>
+<td><p><a href="#paidmoney">paidMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#paidExtendedCost">paidExtendedCost</a></p></td>
+<td><p><a href="#paidextendedcost">paidExtendedCost</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

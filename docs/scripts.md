@@ -42,7 +42,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#effIndex">effIndex</a> <sup>[1]</sup></td>
+<td><a href="#effindex">effIndex</a> <sup>[1]</sup></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -107,7 +107,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#OtherFields">dataint</a></td>
+<td><a href="#otherfields">dataint</a></td>
 <td>int(11)</td>
 <td>signed</td>
 <td><br />
@@ -120,7 +120,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#OtherFields">x</a></td>
+<td><a href="#otherfields">x</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -133,7 +133,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#OtherFields">y</a></td>
+<td><a href="#otherfields">y</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -146,7 +146,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#OtherFields">z</a></td>
+<td><a href="#otherfields">z</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -159,7 +159,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 </td>
 </tr>
 <tr class="even">
-<td><a href="#OtherFields">o</a></td>
+<td><a href="#otherfields">o</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />

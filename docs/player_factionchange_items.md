@@ -29,7 +29,7 @@ Basically all item changes made when player changes faction.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#race_A">race_A</a></p></td>
+<td><p><a href="#race_a">race_A</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -49,7 +49,7 @@ Basically all item changes made when player changes faction.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#commentA">commentA</a></p></td>
+<td><p><a href="#commenta">commentA</a></p></td>
 <td><p>tex</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -59,7 +59,7 @@ Basically all item changes made when player changes faction.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#race_H">race_H</a></p></td>
+<td><p><a href="#race_h">race_H</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -79,7 +79,7 @@ Basically all item changes made when player changes faction.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#commentH">commentH</a></p></td>
+<td><p><a href="#commenth">commentH</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

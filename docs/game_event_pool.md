@@ -31,7 +31,7 @@ This table determines if a given pool is active for a given game event.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

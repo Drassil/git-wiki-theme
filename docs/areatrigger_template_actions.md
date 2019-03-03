@@ -21,7 +21,7 @@ This table contains the description of areatrigger actions.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#AreaTriggerId">AreaTriggerId</a></p></td>
+<td><p><a href="#areatriggerid">AreaTriggerId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -34,7 +34,7 @@ This table contains the description of areatrigger actions.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ActionType">ActionType</a></p></td>
+<td><p><a href="#actiontype">ActionType</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -47,7 +47,7 @@ This table contains the description of areatrigger actions.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ActionParam">ActionParam</a></p></td>
+<td><p><a href="#actionparam">ActionParam</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -60,7 +60,7 @@ This table contains the description of areatrigger actions.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#TargetType">TargetType</a></td>
+<td><a href="#targettype">TargetType</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />

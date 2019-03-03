@@ -31,7 +31,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#leaderGUID">leaderGUID</a></p></td>
+<td><p><a href="#leaderguid">leaderGUID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#memberGUID">memberGUID</a></p></td>
+<td><p><a href="#memberguid">memberGUID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -71,7 +71,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><a href="#groupAI">groupAI</a></td>
+<td><a href="#groupai">groupAI</a></td>
 <td>int(11)</td>
 <td>unsigned</td>
 <td> </td>

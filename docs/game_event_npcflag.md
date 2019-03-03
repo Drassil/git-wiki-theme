@@ -31,7 +31,7 @@ This table contains npcflags that are to be added to an NPC when the specified e
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

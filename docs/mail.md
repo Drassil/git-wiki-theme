@@ -45,7 +45,7 @@ This table contains main data about all mails in the game.
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#messageType">messageType</a></p></td>
+<td><p><a href="#messagetype">messageType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -65,7 +65,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mailTemplateId_x">mailTemplateId</a></p></td>
+<td><p><a href="#mailtemplateid_x">mailTemplateId</a></p></td>
 <td><p>mediumint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -21,7 +21,7 @@ This table stores all tickets
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Id">Id</a></p></td>
+<td><p><a href="#id">Id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table stores all tickets
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playerGuid">playerGuid</a></p></td>
+<td><p><a href="#playerguid">playerGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -84,7 +84,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mapId">mapId</a></p></td>
+<td><p><a href="#mapid">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -97,7 +97,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#posX">posX</a></p></td>
+<td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -110,7 +110,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#posY">posY</a></p></td>
+<td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -123,7 +123,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#posZ">posZ</a></p></td>
+<td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -136,7 +136,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lastModifiedTime">lastModifiedTime</a></p></td>
+<td><p><a href="#lastmodifiedtime">lastModifiedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -149,7 +149,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#closedBy">closedBy</a></p></td>
+<td><p><a href="#closedby">closedBy</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -162,7 +162,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#assignedTo">assignedTo</a></p></td>
+<td><p><a href="#assignedto">assignedTo</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -241,7 +241,7 @@ This table stores all tickets
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#needMoreHelp">needMoreHelp</a></p></td>
+<td><p><a href="#needmorehelp">needMoreHelp</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><br />

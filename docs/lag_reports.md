@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#reportId">reportId</a></p></td>
+<td><p><a href="#reportid">reportId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lagType">lagType</a></p></td>
+<td><p><a href="#lagtype">lagType</a></p></td>
 <td><p>inyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mapId">mapId</a></p></td>
+<td><p><a href="#mapid">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#posX">posX</a></p></td>
+<td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#posY">posY</a></p></td>
+<td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#posZ">posZ</a></p></td>
+<td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

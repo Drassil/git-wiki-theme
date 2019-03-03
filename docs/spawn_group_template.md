@@ -21,7 +21,7 @@ This table contains Spawn Group names and flags.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groupId">roupId</a></p></td>
+<td><p><a href="#groupid">roupId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -31,7 +31,7 @@ This table contains Spawn Group names and flags.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groupName">roupName</a></p></td>
+<td><p><a href="#groupname">roupName</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p><br />
 </p></td>
@@ -43,7 +43,7 @@ This table contains Spawn Group names and flags.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#groupFlags">roupFlags</a></p></td>
+<td><p><a href="#groupflags">roupFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

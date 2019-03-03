@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mainSurvey">mainSurvey</a></p></td>
+<td><p><a href="#mainsurvey">mainSurvey</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

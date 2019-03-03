@@ -21,7 +21,7 @@ This table contains the description of the shape of an areatrigger.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#AreaTriggerId">AreaTriggerId</a></p></td>
+<td><p><a href="#areatriggerid">AreaTriggerId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -34,7 +34,7 @@ This table contains the description of the shape of an areatrigger.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#Idx">Idx</a></td>
+<td><a href="#idx">Idx</a></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -47,7 +47,7 @@ This table contains the description of the shape of an areatrigger.
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#VerticeX">VerticeX</a></td>
+<td><a href="#verticex">VerticeX</a></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><br />
@@ -60,7 +60,7 @@ This table contains the description of the shape of an areatrigger.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#VerticeY">VerticeY</a></td>
+<td><a href="#verticey">VerticeY</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -99,7 +99,7 @@ This table contains the description of the shape of an areatrigger.
 </td>
 </tr>
 <tr class="even">
-<td><a href="#VerifiedBuild">VerifiedBuild</a></td>
+<td><a href="#verifiedbuild">VerifiedBuild</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />

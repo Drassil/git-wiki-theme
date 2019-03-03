@@ -59,7 +59,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spawnMask">spawnMask</a></p></td>
+<td><p><a href="#spawnmask">spawnMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -69,7 +69,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#phaseMask">phaseMask</a></p></td>
+<td><p><a href="#phasemask">phaseMask</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -189,7 +189,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Storage used by core. &quot;Always set as 0&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#MovementType">MovementType</a></p></td>
+<td><p><a href="#movementtype">MovementType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

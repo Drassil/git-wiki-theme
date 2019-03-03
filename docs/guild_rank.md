@@ -71,7 +71,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#BankMoneyPerDay">BankMoneyPerDay</a></p></td>
+<td><p><a href="#bankmoneyperday">BankMoneyPerDay</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

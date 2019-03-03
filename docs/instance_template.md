@@ -63,7 +63,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#allowMount">allowMount</a></p></td>
+<td><p><a href="#allowmount">allowMount</a></p></td>
 <td><p>tinyiny(1)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

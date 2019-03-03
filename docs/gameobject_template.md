@@ -42,7 +42,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#displayId">displayId</a></p></td>
+<td><p><a href="#displayid">displayId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -68,7 +68,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#IconName">IconName</a></p></td>
+<td><p><a href="#iconname">IconName</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -81,7 +81,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#castBarCaption">castBarCaption</a></p></td>
+<td><p><a href="#castbarcaption">castBarCaption</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -432,7 +432,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#AIName">AIName</a></p></td>
+<td><p><a href="#ainame">AIName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -445,7 +445,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>varchar(64)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -458,7 +458,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#WDBVerified">WDBVerified</a></p></td>
+<td><p><a href="#wdbverified">WDBVerified</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p><br />

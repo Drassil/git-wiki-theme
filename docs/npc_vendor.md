@@ -67,7 +67,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>0</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ExtendedCost">ExtendedCost</a></p></td>
+<td><p><a href="#extendedcost">ExtendedCost</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

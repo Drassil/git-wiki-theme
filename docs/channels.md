@@ -81,7 +81,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BannedList">bannedList</a></p></td>
+<td><p><a href="#bannedlist">bannedList</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

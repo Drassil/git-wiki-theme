@@ -61,7 +61,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#EmblemStyle">EmblemStyle</a></p></td>
+<td><p><a href="#emblemstyle">EmblemStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#EmblemColor">EmblemColor</a></p></td>
+<td><p><a href="#emblemcolor">EmblemColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BorderStyle">BorderStyle</a></p></td>
+<td><p><a href="#borderstyle">BorderStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#BorderColor">BorderColor</a></p></td>
+<td><p><a href="#bordercolor">BorderColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BackgroundColor">BackgroundColor</a></p></td>
+<td><p><a href="#backgroundcolor">BackgroundColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -141,7 +141,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BankMoney">BankMoney</a></p></td>
+<td><p><a href="#bankmoney">BankMoney</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

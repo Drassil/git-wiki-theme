@@ -18,7 +18,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#ID">ID</a></td>
+<td><a href="#id">ID</a></td>
 <td>mediumint</td>
 <td>Unsigned</td>
 <td>Yes</td>
@@ -27,7 +27,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 <td>Unique ID (<a href="https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry">creature_template.entry</a> or <a href="https://trinitycore.atlassian.net/wiki/display/tc/gameobject_template#gameobject_template-entry">gameobject_template.entry</a>)</td>
 </tr>
 <tr class="even">
-<td><a href="#Type">Type</a></td>
+<td><a href="#type">Type</a></td>
 <td>tinyint</td>
 <td>Unsigned</td>
 <td>Yes</td>
@@ -36,7 +36,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 <td>0=Creature 1=GameObject</td>
 </tr>
 <tr class="odd">
-<td><a href="#GreetEmoteType">GreetEmoteType</a></td>
+<td><a href="#greetemotetype">GreetEmoteType</a></td>
 <td>smallint</td>
 <td>Unsigned</td>
 <td>NO</td>
@@ -45,7 +45,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 <td>Quest NPC <a href="https://trinitycore.atlassian.net/wiki/display/tc/Emotes">Emote</a></td>
 </tr>
 <tr class="even">
-<td><a href="#GreetEmoteDelay">GreetEmoteDelay</a></td>
+<td><a href="#greetemotedelay">GreetEmoteDelay</a></td>
 <td>int</td>
 <td>Unsigned</td>
 <td>NO</td>
@@ -54,7 +54,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 <td>Emote delay in milliseconds</td>
 </tr>
 <tr class="odd">
-<td><a href="#Greeting">Greeting</a></td>
+<td><a href="#greeting">Greeting</a></td>
 <td>text</td>
 <td><br />
 </td>
@@ -64,7 +64,7 @@ This table add greeting behavior to an NPC or an Gameobject.
 <td>Text to show</td>
 </tr>
 <tr class="even">
-<td><a href="#VerifiedBuild">VerifiedBuild</a></td>
+<td><a href="#verifiedbuild">VerifiedBuild</a></td>
 <td>smallint</td>
 <td>Signed</td>
 <td>NO</td>

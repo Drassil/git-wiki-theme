@@ -134,7 +134,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playerBytes">playerBytes</a></p></td>
+<td><p><a href="#playerbytes">playerBytes</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -147,7 +147,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playerBytes2">playerBytes2</a></p></td>
+<td><p><a href="#playerbytes2">playerBytes2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -160,7 +160,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playerFlags">playerFlags</a></p></td>
+<td><p><a href="#playerflags">playerFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -536,7 +536,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#arenaPoints">arenaPoints</a></p></td>
+<td><p><a href="#arenapoints">arenaPoints</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -549,7 +549,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#totalHonorPoints">totalHonorPoints</a></p></td>
+<td><p><a href="#totalhonorpoints">totalHonorPoints</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -562,7 +562,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#todayHonorPoints">todayHonorPoints</a></p></td>
+<td><p><a href="#todayhonorpoints">todayHonorPoints</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -575,7 +575,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#yesterdayHonorPoints">yesterdayHonorPoints</a></p></td>
+<td><p><a href="#yesterdayhonorpoints">yesterdayHonorPoints</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -588,7 +588,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#totalKills">totalKills</a></p></td>
+<td><p><a href="#totalkills">totalKills</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -601,7 +601,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#todayKills">todayKills</a></p></td>
+<td><p><a href="#todaykills">todayKills</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -614,7 +614,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#yesterdayKills">yesterdayKills</a></p></td>
+<td><p><a href="#yesterdaykills">yesterdayKills</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -627,7 +627,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#chosenTitle">chosenTitle</a></p></td>
+<td><p><a href="#chosentitle">chosenTitle</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -640,7 +640,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#knownCurrencies">knownCurrencies</a></p></td>
+<td><p><a href="#knowncurrencies">knownCurrencies</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -653,7 +653,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#watchedFaction">watchedFaction</a></p></td>
+<td><p><a href="#watchedfaction">watchedFaction</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -822,7 +822,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#exploredZones">exploredZones</a></p></td>
+<td><p><a href="#exploredzones">exploredZones</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -836,7 +836,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#equipmentCache">equipmentCache</a></p></td>
+<td><p><a href="#equipmentcache">equipmentCache</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -850,7 +850,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ammoId">ammoId</a></p></td>
+<td><p><a href="#ammoid">ammoId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -863,7 +863,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#knownTitles">knownTitles</a></p></td>
+<td><p><a href="#knowntitles">knownTitles</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -877,7 +877,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#actionBars">actionBars</a></p></td>
+<td><p><a href="#actionbars">actionBars</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -890,7 +890,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#grantableLevels">grantableLevels</a></p></td>
+<td><p><a href="#grantablelevels">grantableLevels</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -903,7 +903,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#deleteInfos_Account">deleteInfos_Account</a></p></td>
+<td><p><a href="#deleteinfos_account">deleteInfos_Account</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -916,7 +916,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#deleteInfos_Name">deleteInfos_Name</a></p></td>
+<td><p><a href="#deleteinfos_name">deleteInfos_Name</a></p></td>
 <td><p>varchar(12)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -929,7 +929,7 @@ This table holds vital static information for each character. This information l
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#deleteDate">deleteDate</a></p></td>
+<td><p><a href="#deletedate">deleteDate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><p><br />

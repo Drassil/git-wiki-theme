@@ -41,7 +41,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#TabId">TabId</a></p></td>
+<td><p><a href="#tabid">TabId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -71,7 +71,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#SlotPerDay">SlotPerDay</a></p></td>
+<td><p><a href="#slotperday">SlotPerDay</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

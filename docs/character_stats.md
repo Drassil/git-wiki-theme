@@ -182,7 +182,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#resHoly">resHoly</a></p></td>
+<td><p><a href="#resholy">resHoly</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -192,7 +192,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#resFire">resFire</a></p></td>
+<td><p><a href="#resfire">resFire</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -202,7 +202,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#resNature">resNature</a></p></td>
+<td><p><a href="#resnature">resNature</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -212,7 +212,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#resFrost">resFrost</a></p></td>
+<td><p><a href="#resfrost">resFrost</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -222,7 +222,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#resShadow">resShadow</a></p></td>
+<td><p><a href="#resshadow">resShadow</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -232,7 +232,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#resArcane">resArcane</a></p></td>
+<td><p><a href="#resarcane">resArcane</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -242,7 +242,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#blockPct">blockPct</a></p></td>
+<td><p><a href="#blockpct">blockPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -252,7 +252,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#dodgePct">dodgePct</a></p></td>
+<td><p><a href="#dodgepct">dodgePct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -262,7 +262,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#parryPct">parryPct</a></p></td>
+<td><p><a href="#parrypct">parryPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -272,7 +272,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#critPct">critPct</a></p></td>
+<td><p><a href="#critpct">critPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -282,7 +282,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#rangedCritPct">rangedCritPct</a></p></td>
+<td><p><a href="#rangedcritpct">rangedCritPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -292,7 +292,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spellCritPct">spellCritPct</a></p></td>
+<td><p><a href="#spellcritpct">spellCritPct</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -302,7 +302,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#attackPower">attackPower</a></p></td>
+<td><p><a href="#attackpower">attackPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -312,7 +312,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#rangedAttackPower">rangedAttackPower</a></p></td>
+<td><p><a href="#rangedattackpower">rangedAttackPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -322,7 +322,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spellPower">spellPower</a></p></td>
+<td><p><a href="#spellpower">spellPower</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -1839,7 +1839,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_CAST</p></td>
 <td><p>11</p></td>
 <td><p>SpellId</p></td>
-<td><p><a href="#CastFlags">castFlags</a></p></td>
+<td><p><a href="#castflags">castFlags</a></p></td>
 <td><p>triggeredFlags</p></td>
 <td><p><br />
 </p></td>
@@ -1853,7 +1853,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SUMMON_CREATURE</p></td>
 <td><p>12</p></td>
 <td><p>creature_template.entry</p></td>
-<td><p><a href="#SummonTypes">Summon type</a></p></td>
+<td><p><a href="#summontypes">Summon type</a></p></td>
 <td><p>duration in ms</p></td>
 <td><p>attackInvoker</p></td>
 <td><p><br />
@@ -3014,7 +3014,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SELF_CAST</p></td>
 <td><p>85</p></td>
 <td><p>SpellID</p></td>
-<td><p><a href="#Cast_flags">castFlags</a></p></td>
+<td><p><a href="#cast_flags">castFlags</a></p></td>
 <td><p>triggeredFlags</p></td>
 <td><p><br />
 </p></td>
@@ -3028,7 +3028,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_CROSS_CAST</p></td>
 <td><p>86</p></td>
 <td><p>SpellID</p></td>
-<td><p><a href="#Cast_flags">castFlags</a></p></td>
+<td><p><a href="#cast_flags">castFlags</a></p></td>
 <td><p>CasterTargetType (caster is selected here, use it as target_type)</p></td>
 <td><p>CasterTarget (target_param1)</p></td>
 <td><p>CasterTarget (target_param2)</p></td>
@@ -3212,7 +3212,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>98</p></td>
 <td><p>gossip_menu.entry</p></td>
 <td><p><a href="#text_id">gossip_menu.text_id</a><br />
-(same value as <a href="#ID">npc_text.ID</a>)</p></td>
+(same value as <a href="#id">npc_text.ID</a>)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3793,7 +3793,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>SMART_ACTION_INVOKER_CAST</td>
 <td>134</td>
 <td><p>SpellID</p></td>
-<td><a href="#Cast_flags">castFlags</a></td>
+<td><a href="#cast_flags">castFlags</a></td>
 <td>triggeredFlags</td>
 <td><br />
 </td>

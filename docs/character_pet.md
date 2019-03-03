@@ -71,7 +71,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#CreatedBySpell">CreatedBySpell</a></p></td>
+<td><p><a href="#createdbyspell">CreatedBySpell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#PetType">PetType</a></p></td>
+<td><p><a href="#pettype">PetType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Reactstate">Reactstate</a></p></td>
+<td><p><a href="#reactstate">Reactstate</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

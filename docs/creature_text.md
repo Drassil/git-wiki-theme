@@ -69,7 +69,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#CreatureID">CreatureID</a></p></td>
+<td><p><a href="#creatureid">CreatureID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -80,7 +80,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 <td><p><a href="https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry">creature_template entry</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#GroupID">GroupID</a></p></td>
+<td><p><a href="#groupid">GroupID</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -92,7 +92,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ID">ID</a></p></td>
+<td><p><a href="#id">ID</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -104,7 +104,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Text">Text</a></p></td>
+<td><p><a href="#text">Text</a></p></td>
 <td><p>longtext</p></td>
 <td><p>utf8_general_ci</p></td>
 <td><p><br />
@@ -117,7 +117,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Type">Type</a></p></td>
+<td><p><a href="#type">Type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -130,7 +130,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Language">Language</a></p></td>
+<td><p><a href="#language">Language</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -143,7 +143,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability">Probability</a></p></td>
+<td><p><a href="#probability">Probability</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -156,7 +156,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Emote">Emote</a></p></td>
+<td><p><a href="#emote">Emote</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -169,7 +169,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Duration">Duration</a></p></td>
+<td><p><a href="#duration">Duration</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -182,7 +182,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Sound">Sound</a></p></td>
+<td><p><a href="#sound">Sound</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -195,7 +195,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#BroadcastTextId">BroadcastTextId</a></td>
+<td><a href="#broadcasttextid">BroadcastTextId</a></td>
 <td>mediumint(6)</td>
 <td>signed</td>
 <td><br />
@@ -208,7 +208,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#TextRange">TextRange</a></td>
+<td><a href="#textrange">TextRange</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />

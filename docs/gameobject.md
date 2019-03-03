@@ -61,7 +61,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spawnMask">spawnMask</a></p></td>
+<td><p><a href="#spawnmask">spawnMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#phaseMask">phaseMask</a></p></td>
+<td><p><a href="#phasemask">phaseMask</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

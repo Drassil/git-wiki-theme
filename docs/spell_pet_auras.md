@@ -39,7 +39,7 @@
 <td><p>dummy spell id</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#effectId">effectId</a></p></td>
+<td><p><a href="#effectid">effectId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

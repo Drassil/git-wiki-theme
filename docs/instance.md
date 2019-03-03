@@ -71,7 +71,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#completedEncounters">completedEncounters</a></p></td>
+<td><p><a href="#completedencounters">completedEncounters</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

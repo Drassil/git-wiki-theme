@@ -41,7 +41,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p>Unique entry from DungeonEncounter.dbc</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creditType">creditType</a></p></td>
+<td><p><a href="#credittype">creditType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creditEntry">creditEntry</a></p></td>
+<td><p><a href="#creditentry">creditEntry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lastEncounterDungeon">lastEncounterDungeon</a></p></td>
+<td><p><a href="#lastencounterdungeon">lastEncounterDungeon</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

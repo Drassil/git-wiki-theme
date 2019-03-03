@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#dungeonId">dungeonId</a></p></td>
+<td><p><a href="#dungeonid">dungeonId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p>Max level at which this reward is rewarded</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#firstQuestId">firstQuestId</a></p></td>
+<td><p><a href="#firstquestid">firstQuestId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p>Quest id with rewards for first dungeon this day</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#firstMoneyVar">firstMoneyVar</a></p></td>
+<td><p><a href="#firstmoneyvar">firstMoneyVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p>Money multiplier for completing the dungeon first time in a day with less players than max</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#firstXPVar">firstXPVar</a></p></td>
+<td><p><a href="#firstxpvar">firstXPVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p>Experience multiplier for completing the dungeon first time in a day with less players than max</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#otherQuestId">otherQuestId</a></p></td>
+<td><p><a href="#otherquestid">otherQuestId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p>Quest id with rewards for Nth dungeon this day</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#otherMoneyVar">otherMoneyVar</a></p></td>
+<td><p><a href="#othermoneyvar">otherMoneyVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@
 <td><p>Money multiplier for completing the dungeon Nth time in a day with less players than max</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#otherXPVar">otherXPVar</a></p></td>
+<td><p><a href="#otherxpvar">otherXPVar</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -101,7 +101,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#VerifiedBuild">VerifiedBuild</a></p></td>
+<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

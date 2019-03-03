@@ -25,7 +25,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p><strong>Default</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ID">ID</a></p></td>
+<td><p><a href="#id">ID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -57,7 +57,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability0">Probability0</a></p></td>
+<td><p><a href="#probability0">Probability0</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -137,7 +137,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability1">Probability1</a></p></td>
+<td><p><a href="#probability1">Probability1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -217,7 +217,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability2">Probability2</a></p></td>
+<td><p><a href="#probability2">Probability2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -297,7 +297,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability3">Probability3</a></p></td>
+<td><p><a href="#probability3">Probability3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -377,7 +377,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability4">Probability4</a></p></td>
+<td><p><a href="#probability4">Probability4</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -457,7 +457,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability5">Probability5</a></p></td>
+<td><p><a href="#probability5">Probability5</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -537,7 +537,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td>0</td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability6">Probability6</a></p></td>
+<td><p><a href="#probability6">Probability6</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -617,7 +617,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Probability7">Probability7</a></p></td>
+<td><p><a href="#probability7">Probability7</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -673,7 +673,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>0</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#VerifiedBuild">VerifiedBuild</a></p></td>
+<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

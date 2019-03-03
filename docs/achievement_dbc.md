@@ -31,7 +31,7 @@ Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ID">ID</a></p></td>
+<td><p><a href="#id">ID</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#requiredFaction">requiredFaction</a></p></td>
+<td><p><a href="#requiredfaction">requiredFaction</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mapID">mapID</a></p></td>
+<td><p><a href="#mapid">mapID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ Stores achievement data that is missing in [Achievement.dbc](http://collab.kpsn.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#refAchievement">refAchievement</a></p></td>
+<td><p><a href="#refachievement">refAchievement</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

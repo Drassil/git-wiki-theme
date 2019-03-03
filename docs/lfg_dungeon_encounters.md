@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievementId">achievementId</a></p></td>
+<td><p><a href="#achievementid">achievementId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Achievement marking final boss completion</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#dungeonId">dungeonId</a></p></td>
+<td><p><a href="#dungeonid">dungeonId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

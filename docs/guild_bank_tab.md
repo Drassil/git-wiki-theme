@@ -41,7 +41,7 @@ This table holds information on all the tabs in use for all guilds that make use
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#TabId">TabId</a></p></td>
+<td><p><a href="#tabid">TabId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information on all the tabs in use for all guilds that make use
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#TabName">TabName</a></p></td>
+<td><p><a href="#tabname">TabName</a></p></td>
 <td><p>varchar(16)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds information on all the tabs in use for all guilds that make use
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#TabIcon">TabIcon</a></p></td>
+<td><p><a href="#tabicon">TabIcon</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds information on all the tabs in use for all guilds that make use
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#TabText">TabText</a></p></td>
+<td><p><a href="#tabtext">TabText</a></p></td>
 <td><p>varchar(500)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

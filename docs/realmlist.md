@@ -58,7 +58,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#localAddress">localAddress</a></td>
+<td><a href="#localaddress">localAddress</a></td>
 <td>varchar(255)</td>
 <td>signed</td>
 <td><br />
@@ -122,7 +122,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#allowedSecurityLevel">allowedSecurityLevel</a></p></td>
+<td><p><a href="#allowedsecuritylevel">allowedSecurityLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

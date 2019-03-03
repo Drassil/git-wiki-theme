@@ -42,7 +42,7 @@ Gameobjects can be linked too!
 <td><p>Dependent Creature</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#linkedGuid">linkedGuid</a></p></td>
+<td><p><a href="#linkedguid">linkedGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -52,7 +52,7 @@ Gameobjects can be linked too!
 <td><p>Master Creature</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#linkType">linkType</a></p></td>
+<td><p><a href="#linktype">linkType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

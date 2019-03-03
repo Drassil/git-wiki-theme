@@ -61,7 +61,7 @@ This table holds the text for letter items or any items that when moused-over tu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#WDBVerified">WDBVerified</a></p></td>
+<td><p><a href="#wdbverified">WDBVerified</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

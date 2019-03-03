@@ -41,7 +41,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>unsigned</p></td>
 <td><p>UNIQUE</p></td>

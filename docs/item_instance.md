@@ -41,7 +41,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#itemEnry">itemEntry</a></p></td>
+<td><p><a href="#itemenry">itemEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creatorGuid">creatorGuid</a></p></td>
+<td><p><a href="#creatorguid">creatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#giftCreatorGuid">giftCreatorGuid</a></p></td>
+<td><p><a href="#giftcreatorguid">giftCreatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -131,7 +131,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#randomPropertyId">randomPropertyId</a></p></td>
+<td><p><a href="#randompropertyid">randomPropertyId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -151,7 +151,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playedTime">playedTime</a></p></td>
+<td><p><a href="#playedtime">playedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

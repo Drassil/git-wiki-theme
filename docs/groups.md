@@ -41,7 +41,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#leaderGuid">leaderGuid</a></p></td>
+<td><p><a href="#leaderguid">leaderGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -51,7 +51,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lootMethod">lootMethod</a></p></td>
+<td><p><a href="#lootmethod">lootMethod</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#looterGuid">looterGuid</a></p></td>
+<td><p><a href="#looterguid">looterGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -71,7 +71,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lootThreshold">lootThreshold</a></p></td>
+<td><p><a href="#lootthreshold">lootThreshold</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -161,7 +161,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#groupType">groupType</a></p></td>
+<td><p><a href="#grouptype">groupType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>

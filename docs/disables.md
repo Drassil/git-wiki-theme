@@ -21,7 +21,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#sourceType">sourceType</a></p></td>
+<td><p><a href="#sourcetype">sourceType</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

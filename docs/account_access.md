@@ -51,7 +51,7 @@ This table holds security access level for any realm in [realmlist](realmlist) t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#RealmID">RealmID</a></p></td>
+<td><p><a href="#realmid">RealmID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>

@@ -45,7 +45,7 @@ Contains all the individual talent data for each character. This is only used as
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#talentGroup">talentGroup</a></p></td>
+<td><p><a href="#talentgroup">talentGroup</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

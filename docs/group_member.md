@@ -45,7 +45,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#memberGuid">memberGuid</a></p></td>
+<td><p><a href="#memberguid">memberGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -55,7 +55,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#memberFlags">memberFlags</a></p></td>
+<td><p><a href="#memberflags">memberFlags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>

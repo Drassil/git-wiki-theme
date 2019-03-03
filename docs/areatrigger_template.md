@@ -33,7 +33,7 @@ This table contains the description of areatrigger.
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#Type">Type</a></p></td>
+<td><p><a href="#type">Type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -46,7 +46,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#Flags">Flags</a></p></td>
+<td><p><a href="#flags">Flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -59,7 +59,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#Data0">Data0</a></td>
+<td><a href="#data0">Data0</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -72,7 +72,7 @@ This table contains the description of areatrigger.
 </td>
 </tr>
 <tr class="even">
-<td><a href="#Data1">Data1</a></td>
+<td><a href="#data1">Data1</a></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -85,7 +85,7 @@ This table contains the description of areatrigger.
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#Data2">Data2</a></td>
+<td><a href="#data2">Data2</a></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -98,7 +98,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#Data">Data3</a></td>
+<td><a href="#data">Data3</a></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -111,7 +111,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#Data4">Data4</a></td>
+<td><a href="#data4">Data4</a></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -124,7 +124,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#Data5">Data5</a></td>
+<td><a href="#data5">Data5</a></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -137,7 +137,7 @@ This table contains the description of areatrigger.
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#ScriptName">ScriptName</a></td>
+<td><a href="#scriptname">ScriptName</a></td>
 <td>char(64)</td>
 <td>signed</td>
 <td><br />
@@ -150,7 +150,7 @@ This table contains the description of areatrigger.
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#VerifiedBuild">VerifiedBuild</a></p></td>
+<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><p><br />

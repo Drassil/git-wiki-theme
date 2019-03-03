@@ -81,7 +81,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#BankResetTimeMoney">BankResetTimeMoney</a></p></td>
+<td><p><a href="#bankresettimemoney">BankResetTimeMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#BankRemMoney">BankRemMoney</a></p></td>
+<td><p><a href="#bankremmoney">BankRemMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

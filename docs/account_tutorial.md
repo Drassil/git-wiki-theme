@@ -31,7 +31,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#accountId">accountId</a></p></td>
+<td><p><a href="#accountid">accountId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

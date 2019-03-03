@@ -41,7 +41,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#customChance">customChance</a></p></td>
+<td><p><a href="#customchance">customChance</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#PPMChance">PPMChance</a></p></td>
+<td><p><a href="#ppmchance">PPMChance</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#proxEx">proxEx</a></p></td>
+<td><p><a href="#proxex">proxEx</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

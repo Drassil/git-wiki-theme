@@ -31,7 +31,7 @@ This table stores information about which players can trade soulbound items betw
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#itemGuid">itemGuid</a></p></td>
+<td><p><a href="#itemguid">itemGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
