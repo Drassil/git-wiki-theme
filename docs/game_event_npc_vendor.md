@@ -31,7 +31,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_npc_vendor-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_npc_vendor-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_npc_vendor-slot">slot</a></p></td>
+<td><p><a href="#slot">slot</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_npc_vendor-item">item</a></p></td>
+<td><p><a href="#item">item</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -71,7 +71,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_npc_vendor-maxcount">maxcount</a></p></td>
+<td><p><a href="#maxcount">maxcount</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_npc_vendor-incrtime">incrtime</a></p></td>
+<td><p><a href="#incrtime">incrtime</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_npc_vendor-ExtendedCost">ExtendedCost</a></p></td>
+<td><p><a href="#extendedcost">ExtendedCost</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

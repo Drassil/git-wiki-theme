@@ -31,7 +31,7 @@ This table contains the autobroadcast entries for your realms. Values like it's 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><a href="#autobroadcast-realmid">realmid</a></td>
+<td><a href="#realmid">realmid</a></td>
 <td>int(11)</td>
 <td>signed</td>
 <td>PRI</td>
@@ -41,7 +41,7 @@ This table contains the autobroadcast entries for your realms. Values like it's 
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#autobroadcast-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table contains the autobroadcast entries for your realms. Values like it's 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><a href="#autobroadcast-weight">weight</a></td>
+<td><a href="#weight">weight</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td> </td>
@@ -61,7 +61,7 @@ This table contains the autobroadcast entries for your realms. Values like it's 
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#autobroadcast-text">text</a></p></td>
+<td><p><a href="#text">text</a></p></td>
 <td><p>longtext</p></td>
 <td><p> </p></td>
 <td><p> </p></td>

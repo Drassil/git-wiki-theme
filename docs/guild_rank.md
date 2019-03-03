@@ -31,7 +31,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_rank-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_rank-rid">rid</a></p></td>
+<td><p><a href="#rid">rid</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_rank-rname">rname</a></p></td>
+<td><p><a href="#rname">rname</a></p></td>
 <td><p>varchar(20)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_rank-rights">rights</a></p></td>
+<td><p><a href="#rights">rights</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds the information on all of the ranks available in a guild along 
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_rank-BankMoneyPerDay">BankMoneyPerDay</a></p></td>
+<td><p><a href="#bankmoneyperday">BankMoneyPerDay</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

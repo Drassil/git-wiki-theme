@@ -31,7 +31,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-MinPlayersPerTeam">MinPlayersPerTeam</a></p></td>
+<td><p><a href="#minplayersperteam">MinPlayersPerTeam</a></p></td>
 <td><p>smallintint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -56,7 +56,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-MaxPlayersPerTeam">MaxPlayersPerTeam</a></p></td>
+<td><p><a href="#maxplayersperteam">MaxPlayersPerTeam</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -69,7 +69,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-MinLvl">MinLvl</a></p></td>
+<td><p><a href="#minlvl">MinLvl</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -82,7 +82,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-MaxLvl">MaxLvl</a></p></td>
+<td><p><a href="#maxlvl">MaxLvl</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -95,7 +95,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-AllianceStartLoc">AllianceStartLoc</a></p></td>
+<td><p><a href="#alliancestartloc">AllianceStartLoc</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -108,7 +108,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-AllianceStartO">AllianceStartO</a></p></td>
+<td><p><a href="#alliancestarto">AllianceStartO</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -121,7 +121,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-HordeStartLoc">HordeStartLoc</a></p></td>
+<td><p><a href="#hordestartloc">HordeStartLoc</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -134,7 +134,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-HordeStartO">HordeStartO</a></p></td>
+<td><p><a href="#hordestarto">HordeStartO</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -147,7 +147,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-StartMaxDist">StartMaxDist</a></p></td>
+<td><p><a href="#startmaxdist">StartMaxDist</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -160,7 +160,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-Weight">Weight</a></p></td>
+<td><p><a href="#weight">Weight</a></p></td>
 <td><p>tinyint (2)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -173,7 +173,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_template-ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char (64)</p></td>
 <td><p><br />
 </p></td>
@@ -188,7 +188,7 @@ Contains information about the different battlegrounds, like how many players ar
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_template-Comment">Comment</a></p></td>
+<td><p><a href="#comment">Comment</a></p></td>
 <td><p>char (32)</p></td>
 <td><p><br />
 </p></td>

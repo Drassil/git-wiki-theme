@@ -31,7 +31,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#pet_name_generation-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#pet_name_generation-word">word</a></p></td>
+<td><p><a href="#word">word</a></p></td>
 <td><p>tinytext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#pet_name_generation-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#pet_name_generation-half">half</a></p></td>
+<td><p><a href="#half">half</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

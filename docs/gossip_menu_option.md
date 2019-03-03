@@ -19,7 +19,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option-menu_id">MenuID</a></p></td>
+<td><p><a href="#menu_id">MenuID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -31,7 +31,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-id">OptionID</a></p></td>
+<td><p><a href="#id">OptionID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option-option_icon">OptionIcon</a></p></td>
+<td><p><a href="#option_icon">OptionIcon</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -55,7 +55,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-option_text">OptionText</a></p></td>
+<td><p><a href="#option_text">OptionText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -68,7 +68,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#gossip_menu_option-OptionBroadcastTextID">OptionBroadcastTextID</a></td>
+<td><a href="#optionbroadcasttextid">OptionBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
 </td>
@@ -83,7 +83,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-option_id">OptionType</a></p></td>
+<td><p><a href="#option_id">OptionType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -96,7 +96,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option-npc_option_npcflag">OptionNpcFlag</a></p></td>
+<td><p><a href="#npc_option_npcflag">OptionNpcFlag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -109,7 +109,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-action_menu_id">ActionMenuID</a></p></td>
+<td><p><a href="#action_menu_id">ActionMenuID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -122,7 +122,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option-action_poi_id">ActionPoiID</a></p></td>
+<td><p><a href="#action_poi_id">ActionPoiID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -135,7 +135,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-box_coded">BoxCoded</a></p></td>
+<td><p><a href="#box_coded">BoxCoded</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -148,7 +148,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu_option-box_money">BoxMoney</a></p></td>
+<td><p><a href="#box_money">BoxMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -161,7 +161,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu_option-box_text">BoxText</a></p></td>
+<td><p><a href="#box_text">BoxText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -174,7 +174,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#gossip_menu_option-BoxBroadcastTextID">BoxBroadcastTextID</a></td>
+<td><a href="#boxbroadcasttextid">BoxBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
 </td>

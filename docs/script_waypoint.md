@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#script_waypoint-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>creature_template entry</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#script_waypoint-point_id">point_id</a></p></td>
+<td><p><a href="#point_id">point_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#script_waypoint-location_x">location_x</a></p></td>
+<td><p><a href="#location_x">location_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#script_waypoint-location_y">location_y</a></p></td>
+<td><p><a href="#location_y">location_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#script_waypoint-location_z">location_z</a></p></td>
+<td><p><a href="#location_z">location_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#script_waypoint-waittime">waittime</a></p></td>
+<td><p><a href="#waittime">waittime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#script_waypoint-point_comment">point_comment</a></p></td>
+<td><p><a href="#point_comment">point_comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

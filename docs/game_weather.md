@@ -25,7 +25,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p><strong>Default</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-zone">zone</a></p></td>
+<td><p><a href="#zone">zone</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>0</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-spring_rain_chance">spring_rain_chance</a></p></td>
+<td><p><a href="#spring_rain_chance">spring_rain_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-spring_snow_chance">spring_snow_chance</a></p></td>
+<td><p><a href="#spring_snow_chance">spring_snow_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -49,7 +49,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-spring_storm_chance">spring_storm_chance</a></p></td>
+<td><p><a href="#spring_storm_chance">spring_storm_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -57,7 +57,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-summer_rain_chance">summer_rain_chance</a></p></td>
+<td><p><a href="#summer_rain_chance">summer_rain_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -65,7 +65,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-summer_snow_chance">summer_snow_chance</a></p></td>
+<td><p><a href="#summer_snow_chance">summer_snow_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -73,7 +73,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-summer_storm_chance">summer_storm_chance</a></p></td>
+<td><p><a href="#summer_storm_chance">summer_storm_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-fall_rain_chance">fall_rain_chance</a></p></td>
+<td><p><a href="#fall_rain_chance">fall_rain_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -89,7 +89,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-fall_snow_chance">fall_snow_chance</a></p></td>
+<td><p><a href="#fall_snow_chance">fall_snow_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -97,7 +97,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-fall_storm_chance">fall_storm_chance</a></p></td>
+<td><p><a href="#fall_storm_chance">fall_storm_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -105,7 +105,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-winter_rain_chance">winter_rain_chance</a></p></td>
+<td><p><a href="#winter_rain_chance">winter_rain_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -113,7 +113,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_weather-winter_snow_chance">winter_snow_chance</a></p></td>
+<td><p><a href="#winter_snow_chance">winter_snow_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds the percent chances for weather changes to occur in various zon
 <td><p>25</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_weather-winter_storm_chance">winter_storm_chance</a></p></td>
+<td><p><a href="#winter_storm_chance">winter_storm_chance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

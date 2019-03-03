@@ -31,7 +31,7 @@ This table holds information on the base health and mana of characters when they
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_classlevelstats-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information on the base health and mana of characters when they
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_classlevelstats-level">level</a></p></td>
+<td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information on the base health and mana of characters when they
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#player_classlevelstats-basehp">basehp</a></p></td>
+<td><p><a href="#basehp">basehp</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds information on the base health and mana of characters when they
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#player_classlevelstats-basemana">basemana</a></p></td>
+<td><p><a href="#basemana">basemana</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

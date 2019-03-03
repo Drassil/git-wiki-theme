@@ -35,7 +35,7 @@ This table holds info about group members.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#group_member-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -45,7 +45,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#group_member-memberGuid">memberGuid</a></p></td>
+<td><p><a href="#memberguid">memberGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -55,7 +55,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#group_member-memberFlags">memberFlags</a></p></td>
+<td><p><a href="#memberflags">memberFlags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -65,7 +65,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#group_member-subgroup">subgroup</a></p></td>
+<td><p><a href="#subgroup">subgroup</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -75,7 +75,7 @@ This table holds info about group members.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#group_member-roles">roles</a></p></td>
+<td><p><a href="#roles">roles</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>

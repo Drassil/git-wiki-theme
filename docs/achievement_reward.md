@@ -31,7 +31,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_reward-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#achievement_reward-title_A">title_A</a></p></td>
+<td><p><a href="#title_a">title_A</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_reward-title_H">title_H</a></p></td>
+<td><p><a href="#title_h">title_H</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#achievement_reward-item">item</a></p></td>
+<td><p><a href="#item">item</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_reward-sender">sender</a></p></td>
+<td><p><a href="#sender">sender</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#achievement_reward-subject">subject</a></p></td>
+<td><p><a href="#subject">subject</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#achievement_reward-text">text</a></p></td>
+<td><p><a href="#text">text</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#achievement_reward-mailTemplate">mailTemplate</a></td>
+<td><a href="#mailtemplate">mailTemplate</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td> </td>

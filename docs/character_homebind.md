@@ -31,7 +31,7 @@ Contains information on the location where characters get teleported when they u
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_homebind-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Contains information on the location where characters get teleported when they u
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_homebind-mapId">mapId</a></p></td>
+<td><p><a href="#mapid">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Contains information on the location where characters get teleported when they u
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_homebind-zoneId">zoneId</a></p></td>
+<td><p><a href="#zoneid">zoneId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Contains information on the location where characters get teleported when they u
 <td><p>Zone Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_homebind-posX">posX</a></p></td>
+<td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_homebind-posY">posY</a></p></td>
+<td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_homebind-posZ">posZ</a></p></td>
+<td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

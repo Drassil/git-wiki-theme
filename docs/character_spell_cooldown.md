@@ -31,7 +31,7 @@ Holds the remaining cooldowns from either character spells or item spells for ea
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_spell_cooldown-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Holds the remaining cooldowns from either character spells or item spells for ea
 <td><p>Global Unique Identifier, Low part</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_spell_cooldown-spell">spell</a></p></td>
+<td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Holds the remaining cooldowns from either character spells or item spells for ea
 <td><p>Spell Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_spell_cooldown-item">item</a></p></td>
+<td><p><a href="#item">item</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Holds the remaining cooldowns from either character spells or item spells for ea
 <td><p>Item Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_spell_cooldown-time">time</a></p></td>
+<td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

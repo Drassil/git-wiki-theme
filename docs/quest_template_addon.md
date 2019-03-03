@@ -22,7 +22,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#quest_template_addon-ID">ID</a></td>
+<td><a href="#id">ID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td>PRI</td>
@@ -33,7 +33,7 @@
 <td>Unique ID linked to quest_template.ID</td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-MaxLevel">MaxLevel</a></td>
+<td><a href="#maxlevel">MaxLevel</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -46,7 +46,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-AllowableClasses">AllowableClasses</a></td>
+<td><a href="#allowableclasses">AllowableClasses</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -59,7 +59,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-SourceSpellID">SourceSpellID</a></td>
+<td><a href="#sourcespellid">SourceSpellID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td><br />
@@ -72,7 +72,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-PrevQuestID">PrevQuestID</a></td>
+<td><a href="#prevquestid">PrevQuestID</a></td>
 <td>mediumint(8)</td>
 <td><br />
 </td>
@@ -86,7 +86,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-NextQuestID">NextQuestID</a></td>
+<td><a href="#nextquestid">NextQuestID</a></td>
 <td>mediumint(8)</td>
 <td><br />
 </td>
@@ -100,7 +100,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-ExclusiveGroup">ExclusiveGroup</a></td>
+<td><a href="#exclusivegroup">ExclusiveGroup</a></td>
 <td>mediumint(8)</td>
 <td><br />
 </td>
@@ -114,7 +114,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-RewardMailTemplateID">RewardMailTemplateID</a></td>
+<td><a href="#rewardmailtemplateid">RewardMailTemplateID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td><br />
@@ -127,7 +127,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-RewardMailDelay">RewardMailDelay</a></td>
+<td><a href="#rewardmaildelay">RewardMailDelay</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td><br />
@@ -140,7 +140,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-RequiredSkillID">RequiredSkillID</a></td>
+<td><a href="#requiredskillid">RequiredSkillID</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td><br />
@@ -153,7 +153,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-RequiredSkillPoints">RequiredSkillPoints</a></td>
+<td><a href="#requiredskillpoints">RequiredSkillPoints</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td><br />
@@ -166,7 +166,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-RequiredMinRepFaction">RequiredMinRepFaction</a></td>
+<td><a href="#requiredminrepfaction">RequiredMinRepFaction</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td><br />
@@ -179,7 +179,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-RequiredMaxRepFaction">RequiredMaxRepFaction</a></td>
+<td><a href="#requiredmaxrepfaction">RequiredMaxRepFaction</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td><br />
@@ -192,7 +192,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-RequiredMinRepValue">RequiredMinRepValue</a></td>
+<td><a href="#requiredminrepvalue">RequiredMinRepValue</a></td>
 <td>mediumint(8)</td>
 <td><br />
 </td>
@@ -206,7 +206,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-RequiredMaxRepValue">RequiredMaxRepValue</a></td>
+<td><a href="#requiredmaxrepvalue">RequiredMaxRepValue</a></td>
 <td>mediumint(8)</td>
 <td><br />
 </td>
@@ -220,7 +220,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><a href="#quest_template_addon-ProvidedItemCount">ProvidedItemCount</a></td>
+<td><a href="#provideditemcount">ProvidedItemCount</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -233,7 +233,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#quest_template_addon-SpecialFlags">SpecialFlags</a></td>
+<td><a href="#specialflags">SpecialFlags</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />

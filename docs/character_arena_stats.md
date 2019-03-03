@@ -31,7 +31,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_arena_stats-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_arena_stats-slot">slot</a></p></td>
+<td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_arena_stats-matchmakerRating">matchmakerRating</a></p></td>
+<td><p><a href="#matchmakerrating">matchmakerRating</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

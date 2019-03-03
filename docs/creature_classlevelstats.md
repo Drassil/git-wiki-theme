@@ -23,70 +23,70 @@ This table contains the base values for creature health, mana, armor, attack pow
 <td><p><strong>Default</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_classlevelstats-level">level</a></p></td>
+<td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_classlevelstats-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_classlevelstats-basehp0">basehp0</a></p></td>
+<td><p><a href="#basehp0">basehp0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_classlevelstats-basehp1">basehp1</a></p></td>
+<td><p><a href="#basehp1">basehp1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_classlevelstats-basehp2">basehp2</a></p></td>
+<td><p><a href="#basehp2">basehp2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_classlevelstats-basemana">basemana</a></p></td>
+<td><p><a href="#basemana">basemana</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_classlevelstats-basearmor">basearmor</a></p></td>
+<td><p><a href="#basearmor">basearmor</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p>NO</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_classlevelstats-attackpower">attackpower</a></td>
+<td><a href="#attackpower">attackpower</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td>NO</td>
 <td>0</td>
 </tr>
 <tr class="even">
-<td><a href="#creature_classlevelstats-rangedattackpower">rangedattackpower</a></td>
+<td><a href="#rangedattackpower">rangedattackpower</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
 <td>NO</td>
 <td>0</td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_classlevelstats-damage_base">damage_base</a></td>
+<td><a href="#damage_base">damage_base</a></td>
 <td>float</td>
 <td><br />
 </td>
@@ -94,7 +94,7 @@ This table contains the base values for creature health, mana, armor, attack pow
 <td>0</td>
 </tr>
 <tr class="even">
-<td><a href="#creature_classlevelstats-damage_exp1">damage_exp1</a></td>
+<td><a href="#damage_exp1">damage_exp1</a></td>
 <td>float</td>
 <td><br />
 </td>
@@ -102,7 +102,7 @@ This table contains the base values for creature health, mana, armor, attack pow
 <td>0</td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_classlevelstats-damage_exp2">damage_exp2</a></td>
+<td><a href="#damage_exp2">damage_exp2</a></td>
 <td>float</td>
 <td><br />
 </td>
@@ -110,7 +110,7 @@ This table contains the base values for creature health, mana, armor, attack pow
 <td>0</td>
 </tr>
 <tr class="even">
-<td><a href="#creature_classlevelstats-comment">comment</a></td>
+<td><a href="#comment">comment</a></td>
 <td>text</td>
 <td><br />
 </td>

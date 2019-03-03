@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_eventlog-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Guild Identificator</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_eventlog-LogGuid">LogGuid</a></p></td>
+<td><p><a href="#logguid">LogGuid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@
 <td><p>Log record identificator - auxiliary column</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_eventlog-TabId">TabID</a></p></td>
+<td><p><a href="#tabid">TabID</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@
 <td><p>Guild bank TabId</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_eventlog-EventType">EventType</a></p></td>
+<td><p><a href="#eventtype">EventType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td><p>Event type</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_eventlog-PlayerGuid">PlayerGuid</a></p></td>
+<td><p><a href="#playerguid">PlayerGuid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_eventlog-ItemOrMoney">ItemOrMoney</a></p></td>
+<td><p><a href="#itemormoney">ItemOrMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_eventlog-ItemStackCount">ItemStackCount</a></p></td>
+<td><p><a href="#itemstackcount">ItemStackCount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_eventlog-DestTabId">DestTabId</a></p></td>
+<td><p><a href="#desttabid">DestTabId</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@
 <td><p>Destination Tab Id</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_eventlog-TimeStamp">TimeStamp</a></p></td>
+<td><p><a href="#timestamp">TimeStamp</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

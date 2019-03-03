@@ -31,7 +31,7 @@ This table holds data about wrapped/gift items.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_gifts-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table holds data about wrapped/gift items.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_gifts-item_guid">item_guid</a></p></td>
+<td><p><a href="#item_guid">item_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds data about wrapped/gift items.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_gifts-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds data about wrapped/gift items.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_gifts-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

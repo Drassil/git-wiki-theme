@@ -31,7 +31,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#petition-ownerguid">ownerguid</a></p></td>
+<td><p><a href="#ownerguid">ownerguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#petition-petitionguid">petitionguid</a></p></td>
+<td><p><a href="#petitionguid">petitionguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#petition-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#petition-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

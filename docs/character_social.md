@@ -31,7 +31,7 @@ Contains data about characters' friends/ignored list.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_social-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Contains data about characters' friends/ignored list.
 <td><p>Character Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_social-friend">friend</a></p></td>
+<td><p><a href="#friend">friend</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Contains data about characters' friends/ignored list.
 <td><p>Friend Global Unique Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_social-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ Contains data about characters' friends/ignored list.
 <td><p>Friend Flags</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_social-note">note</a></p></td>
+<td><p><a href="#note">note</a></p></td>
 <td><p>varchar(48)</p></td>
 <td><p>signed</p></td>
 <td> </td>

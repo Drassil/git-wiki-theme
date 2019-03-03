@@ -31,7 +31,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spelldifficulty_dbc-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spelldifficulty_dbc-spellid0">spellid0</a></p></td>
+<td><p><a href="#spellid0">spellid0</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spelldifficulty_dbc-spellid1">spellid1</a></p></td>
+<td><p><a href="#spellid1">spellid1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spelldifficulty_dbc-spellid2">spellid2</a></p></td>
+<td><p><a href="#spellid2">spellid2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spelldifficulty_dbc-spellid3">spellid3</a></p></td>
+<td><p><a href="#spellid3">spellid3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

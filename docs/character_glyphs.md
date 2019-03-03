@@ -31,7 +31,7 @@ Contains all the individual glyph data for each character.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_glyphs-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_glyphs-spec">spec</a></p></td>
+<td><p><a href="#spec">spec</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_glyphs-glyph1-6">glyph1</a></p></td>
+<td><p><a href="#6">glyph1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_glyphs-glyph1-6">glyph2</a></p></td>
+<td><p><a href="#6">glyph2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_glyphs-glyph1-6">glyph3</a></p></td>
+<td><p><a href="#6">glyph3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_glyphs-glyph1-6">glyph4</a></p></td>
+<td><p><a href="#6">glyph4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_glyphs-glyph1-6">glyph5</a></p></td>
+<td><p><a href="#6">glyph5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_glyphs-glyph1-6">glyph6</a></p></td>
+<td><p><a href="#6">glyph6</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_formations-leaderGUID">leaderGUID</a></p></td>
+<td><p><a href="#leaderguid">leaderGUID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_formations-memberGUID">memberGUID</a></p></td>
+<td><p><a href="#memberguid">memberGUID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_formations-dist">dist</a></p></td>
+<td><p><a href="#dist">dist</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_formations-angle">angle</a></p></td>
+<td><p><a href="#angle">angle</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><a href="#creature_formations-groupAI">groupAI</a></td>
+<td><a href="#groupai">groupAI</a></td>
 <td>int(11)</td>
 <td>unsigned</td>
 <td> </td>
@@ -81,7 +81,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td> </td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_formations-point_1">point_1</a></td>
+<td><a href="#point_1">point_1</a></td>
 <td>int(11)</td>
 <td>unsigned</td>
 <td> </td>
@@ -91,7 +91,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_formations-point_2">point_2</a></p></td>
+<td><p><a href="#point_2">point_2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

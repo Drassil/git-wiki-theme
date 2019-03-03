@@ -31,7 +31,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo-race">race</a></p></td>
+<td><p><a href="#race">race</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo-class">class</a></p></td>
+<td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo-zone">zone</a></p></td>
+<td><p><a href="#zone">zone</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#playercreateinfo-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds the start positions of each class-race combinations for all new
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#playercreateinfo-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

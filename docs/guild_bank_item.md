@@ -31,7 +31,7 @@ This table holds all item information for items that are stored in the guild ban
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_item-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds all item information for items that are stored in the guild ban
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_item-TabId">TabId</a></p></td>
+<td><p><a href="#tabid">TabId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds all item information for items that are stored in the guild ban
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_bank_item-SlotId">SlotId</a></p></td>
+<td><p><a href="#slotid">SlotId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ This table holds all item information for items that are stored in the guild ban
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_bank_item-item_guid">item_guid</a></p></td>
+<td><p><a href="#item_guid">item_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

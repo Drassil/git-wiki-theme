@@ -21,7 +21,7 @@ This table contains the access requirements to enter an instance.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mapId">mapId</a></p></td>
+<td><p><a href="#mapid">mapId</a></p></td>
 <td><p>mediumint (8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -110,7 +110,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_done_A">quest_done_A</a></p></td>
+<td><p><a href="#quest_done_a">quest_done_A</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -123,7 +123,7 @@ This table contains the access requirements to enter an instance.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_done_H">quest_done_H</a></p></td>
+<td><p><a href="#quest_done_h">quest_done_H</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

@@ -27,7 +27,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p><strong>Extra</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_tele-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -36,7 +36,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>Auto increment</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_tele-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -45,7 +45,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_tele-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -54,7 +54,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_tele-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -63,7 +63,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_tele-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -72,7 +72,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_tele-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_tele-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

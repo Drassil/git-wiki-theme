@@ -31,7 +31,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_deserters-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -41,7 +41,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#battleground_deserters-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -51,7 +51,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#battleground_deserters-datetime">datetime</a></p></td>
+<td><p><a href="#datetime">datetime</a></p></td>
 <td><p>datetime</p></td>
 <td> </td>
 <td> </td>

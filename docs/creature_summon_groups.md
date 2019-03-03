@@ -31,7 +31,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_summon_groups-summo">summonerId</a></p></td>
+<td><p><a href="#summo">summonerId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_summon_groups-summonerType">summonerType</a></p></td>
+<td><p><a href="#summonertype">summonerType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><a href="#creature_summon_groups-groupId">groupId</a></td>
+<td><a href="#groupid">groupId</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td> </td>
@@ -61,7 +61,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_summon_groups-entry">entry</a></td>
+<td><a href="#entry">entry</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
 <td> </td>
@@ -71,7 +71,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_summon_groups-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_summon_groups-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_summon_groups-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_summon_groups-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><a href="#creature_summon_groups-summonType">summonType</a></td>
+<td><a href="#summontype">summonType</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td> </td>
@@ -121,7 +121,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_summon_groups-summonTime">summonTime</a></td>
+<td><a href="#summontime">summonTime</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
 <td> </td>

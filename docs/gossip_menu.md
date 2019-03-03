@@ -31,7 +31,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#gossip_menu-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gossip_menu-text_id">text_id</a></p></td>
+<td><p><a href="#text_id">text_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

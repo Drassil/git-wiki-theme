@@ -31,7 +31,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-guildid">guildid</a></p></td>
+<td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p>Guild Identificator</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>Unique</p></td>
@@ -51,7 +51,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-rank">rank</a></p></td>
+<td><p><a href="#rank">rank</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-pnote">pnote</a></p></td>
+<td><p><a href="#pnote">pnote</a></p></td>
 <td><p>varchar(31)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-offnote">offnote</a></p></td>
+<td><p><a href="#offnote">offnote</a></p></td>
 <td><p>varchar(31)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeMoney">BankResetTimeMoney</a></p></td>
+<td><p><a href="#bankresettimemoney">BankResetTimeMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemMoney">BankRemMoney</a></p></td>
+<td><p><a href="#bankremmoney">BankRemMoney</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab0</a></p></td>
+<td><p><a href="#5">BankResetTimeTab0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab0</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab1</a></p></td>
+<td><p><a href="#5">BankResetTimeTab1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -131,7 +131,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab1</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -141,7 +141,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab2</a></p></td>
+<td><p><a href="#5">BankResetTimeTab2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -151,7 +151,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab2</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -161,7 +161,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab3</a></p></td>
+<td><p><a href="#5">BankResetTimeTab3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -171,7 +171,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab3</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -181,7 +181,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab4</a></p></td>
+<td><p><a href="#5">BankResetTimeTab4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -191,7 +191,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab4</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -201,7 +201,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#guild_member-BankResetTimeTab0-5">BankResetTimeTab5</a></p></td>
+<td><p><a href="#5">BankResetTimeTab5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -211,7 +211,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guild_member-BankRemSlotsTab0-5">BankRemSlotsTab5</a></p></td>
+<td><p><a href="#5">BankRemSlotsTab5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ Table used by the core to group different ranks of spells (the gray text seen on
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_ranks-first_spell_id">first_spell_id</a></p></td>
+<td><p><a href="#first_spell_id">first_spell_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Table used by the core to group different ranks of spells (the gray text seen on
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_ranks-spell_id">spell_id</a></p></td>
+<td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Table used by the core to group different ranks of spells (the gray text seen on
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_ranks-rank">rank</a></p></td>
+<td><p><a href="#rank">rank</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

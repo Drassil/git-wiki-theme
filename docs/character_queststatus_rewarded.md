@@ -31,7 +31,7 @@ This table holds information of **every** rewarded quest to a player.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_queststatus_rewarded-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information of **every** rewarded quest to a player.
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_queststatus_rewarded-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table holds information of **every** rewarded quest to a player.
 <td><p>Quest Identifier</p></td>
 </tr>
 <tr class="even">
-<td><a href="#character_queststatus_rewarded-active">active</a></td>
+<td><a href="#active">active</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td> </td>

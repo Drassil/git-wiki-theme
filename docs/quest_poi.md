@@ -21,7 +21,7 @@ Comes from sniffs.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi-questid">QuestID</a></p></td>
+<td><p><a href="#questid">QuestID</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_poi-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi-objIndex">ObjectiveIndex</a></p></td>
+<td><p><a href="#objindex">ObjectiveIndex</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_poi-mapid">MapID</a></p></td>
+<td><p><a href="#mapid">MapID</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi-WorldMapAreaId">WorldMapAreaId</a></p></td>
+<td><p><a href="#worldmapareaid">WorldMapAreaId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -84,7 +84,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_poi-FloorId">Floor</a></p></td>
+<td><p><a href="#floorid">Floor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -97,7 +97,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi-unk3">Priority</a></p></td>
+<td><p><a href="#unk3">Priority</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -110,7 +110,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_poi-unk4">Flags</a></p></td>
+<td><p><a href="#unk4">Flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

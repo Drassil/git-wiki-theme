@@ -31,7 +31,7 @@ Table used for storing custom spell attributes.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_custom_attr-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>medium int(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Table used for storing custom spell attributes.
 <td><p>spell id</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_custom_attr-direct_bonus">a</a><a href="#spell_custom_attr-attributes">ttributes</a></p></td>
+<td><p><a href="#attributes">ttributes</a></p></td>
 <td><p>medium int(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

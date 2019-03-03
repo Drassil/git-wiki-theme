@@ -31,7 +31,7 @@ This table holds static information on all current instances that have not yet b
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance-resettime">resettime</a></p></td>
+<td><p><a href="#resettime">resettime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance-difficulty">difficulty</a></p></td>
+<td><p><a href="#difficulty">difficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#instance-completedEncounters">completedEncounters</a></p></td>
+<td><p><a href="#completedencounters">completedEncounters</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds static information on all current instances that have not yet b
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#instance-data">data</a></p></td>
+<td><p><a href="#data">data</a></p></td>
 <td><p>tinytext</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

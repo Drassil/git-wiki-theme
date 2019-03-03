@@ -33,7 +33,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 <td><p><strong>Comments</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger_involvedrelation-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 <td><p>Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger_involvedrelation-quest">quest</a></p></td>
+<td><p><a href="#quest">quest</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -33,7 +33,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#auctionhouse-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#auctionhouse-auctioneerguid">auctioneerguid</a></p></td>
+<td><p><a href="#auctioneerguid">auctioneerguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -53,7 +53,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#auctionhouse-itemguid">itemguid</a></p></td>
+<td><p><a href="#itemguid">itemguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>UNI</p></td>
@@ -63,7 +63,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#auctionhouse-itemowner">itemowner</a></p></td>
+<td><p><a href="#itemowner">itemowner</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -73,7 +73,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#auctionhouse-buyoutprice">buyoutprice</a></p></td>
+<td><p><a href="#buyoutprice">buyoutprice</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -83,7 +83,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#auctionhouse-time">time</a></p></td>
+<td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -93,7 +93,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#auctionhouse-buyguid">buyguid</a></p></td>
+<td><p><a href="#buyguid">buyguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -103,7 +103,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#auctionhouse-lastbid">lastbid</a></p></td>
+<td><p><a href="#lastbid">lastbid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -113,7 +113,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#auctionhouse-startbid">startbid</a></p></td>
+<td><p><a href="#startbid">startbid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -123,7 +123,7 @@ This table is used by Trinity while running and not a table that you would usual
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#auctionhouse-deposit">deposit</a></p></td>
+<td><p><a href="#deposit">deposit</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

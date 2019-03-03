@@ -31,7 +31,7 @@ Contains data about client account and settings.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#account_data-account">account</a></p></td>
+<td><p><a href="#account">account</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Contains data about client account and settings.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#account_data-type">type</a></p></td>
+<td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ Contains data about client account and settings.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#account_data-time">time</a></p></td>
+<td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ Contains data about client account and settings.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#account_data-data">data</a></p></td>
+<td><p><a href="#data">data</a></p></td>
 <td><p>blob</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

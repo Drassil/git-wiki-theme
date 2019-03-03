@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_enchant_proc_data-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_enchant_proc_data-customChance">customChance</a></p></td>
+<td><p><a href="#customchance">customChance</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spell_enchant_proc_data-PPMChance">PPMChance</a></p></td>
+<td><p><a href="#ppmchance">PPMChance</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#spell_enchant_proc_data-proxEx">proxEx</a></p></td>
+<td><p><a href="#proxex">proxEx</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

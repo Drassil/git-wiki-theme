@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_entrances-dungeonId">dungeonId</a></p></td>
+<td><p><a href="#dungeonid">dungeonId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p>Dungeon entry from dbc</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_entrances-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@
 <td><p>Dungeon name from dbc</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_entrances-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_entrances-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#lfg_entrances-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#lfg_entrances-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
 <td><p> </p></td>

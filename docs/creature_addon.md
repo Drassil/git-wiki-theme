@@ -25,7 +25,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_addon-guid/entry">guid/entry</a></p></td>
+<td><p><a href="#guid/entry">guid/entry</a></p></td>
 <td><p>int(10)/medumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -37,7 +37,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_addon-path_id">path_id</a></p></td>
+<td><p><a href="#path_id">path_id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -50,7 +50,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_addon-mount">mount</a></p></td>
+<td><p><a href="#mount">mount</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -63,7 +63,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_addon-bytes1">bytes1</a></p></td>
+<td><p><a href="#bytes1">bytes1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -76,7 +76,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_addon-bytes2">bytes2</a></p></td>
+<td><p><a href="#bytes2">bytes2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -89,7 +89,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature_addon-emote">emote</a></p></td>
+<td><p><a href="#emote">emote</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -102,7 +102,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#creature_addon-aiAnimKit/movementAnimKit/meleeAnimKit">aiAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">aiAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -115,7 +115,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_addon-aiAnimKit/movementAnimKit/meleeAnimKit">movementAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">movementAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -128,7 +128,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="even">
-<td><a href="#creature_addon-aiAnimKit/movementAnimKit/meleeAnimKit">meleeAnimKit</a></td>
+<td><a href="#aianimkit/movementanimkit/meleeanimkit">meleeAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -141,7 +141,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#creature_addon-visibilityDistanceType">visibilityDistanceType</a></td>
+<td><a href="#visibilitydistancetype">visibilityDistanceType</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -154,7 +154,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature_addon-auras">auras</a></p></td>
+<td><p><a href="#auras">auras</a></p></td>
 <td><p>text</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

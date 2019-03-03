@@ -31,7 +31,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_arena_seasons-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 <td><p>Entry of the game event.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_arena_seasons-season">season</a></p></td>
+<td><p><a href="#season">season</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

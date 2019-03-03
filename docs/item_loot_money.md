@@ -35,7 +35,7 @@ the player either removes the money or destroys the container item.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#item_loot_money-container_id">container_id</a></p></td>
+<td><p><a href="#container_id">container_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -45,7 +45,7 @@ the player either removes the money or destroys the container item.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#item_loot_money-money">money</a></p></td>
+<td><p><a href="#money">money</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

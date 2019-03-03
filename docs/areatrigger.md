@@ -21,7 +21,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>int (10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -45,7 +45,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger-x">x</a></p></td>
+<td><p><a href="#x">x</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger-y">y</a></p></td>
+<td><p><a href="#y">y</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#areatrigger-z">z</a></td>
+<td><a href="#z">z</a></td>
 <td>FLOAT</td>
 <td></td>
 <td><br />
@@ -84,7 +84,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger-radius">radius</a></p></td>
+<td><p><a href="#radius">radius</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -97,7 +97,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger-length">length</a></p></td>
+<td><p><a href="#length">length</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -110,7 +110,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger-width">width</a></p></td>
+<td><p><a href="#width">width</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -123,7 +123,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#areatrigger-height">height</a></p></td>
+<td><p><a href="#height">height</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -136,7 +136,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#areatrigger-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
 <td><p><br />

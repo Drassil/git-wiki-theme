@@ -31,7 +31,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#vehicle_template_accessory-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#vehicle_template_accessory-accessory_entry">accessory_entry</a></p></td>
+<td><p><a href="#accessory_entry">accessory_entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#vehicle_template_accessory-seat_id">seat_id</a></p></td>
+<td><p><a href="#seat_id">seat_id</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +61,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#vehicle_template_accessory-minion">minion</a></p></td>
+<td><p><a href="#minion">minion</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#vehicle_template_accessory-description">description</a></p></td>
+<td><p><a href="#description">description</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#vehicle_template_accessory-summontype">summontype</a></p></td>
+<td><p><a href="#summontype">summontype</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 <td><p>see enum TempSummonType</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#vehicle_template_accessory-summontimer">summontimer</a></p></td>
+<td><p><a href="#summontimer">summontimer</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

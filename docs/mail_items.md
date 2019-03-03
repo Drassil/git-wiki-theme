@@ -31,7 +31,7 @@ This table contains data regarding items from item\_instance which are being sen
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail_items-mail_id">mail_id</a></p></td>
+<td><p><a href="#mail_id">mail_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -41,7 +41,7 @@ This table contains data regarding items from item\_instance which are being sen
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#mail_items-item_guid">item_guid</a></p></td>
+<td><p><a href="#item_guid">item_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table contains data regarding items from item\_instance which are being sen
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#mail_items-receiver">receiver</a></p></td>
+<td><p><a href="#receiver">receiver</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -21,7 +21,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#points_of_interest-entry">entry</a></p></td>
+<td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#points_of_interest-x">x</a></p></td>
+<td><p><a href="#x">x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -46,7 +46,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#points_of_interest-y">y</a></p></td>
+<td><p><a href="#y">y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -59,7 +59,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#points_of_interest-icon">icon</a></p></td>
+<td><p><a href="#icon">icon</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -72,7 +72,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#points_of_interest-flags">flags</a></p></td>
+<td><p><a href="#flags">flags</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -85,7 +85,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#points_of_interest-Importance">Importance</a></p></td>
+<td><p><a href="#importance">Importance</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -98,7 +98,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#points_of_interest-icon_name">icon_name</a></p></td>
+<td><p><a href="#icon_name">icon_name</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />

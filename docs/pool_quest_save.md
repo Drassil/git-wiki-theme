@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#pool_quest_save-pool_id">pool_id</a></p></td>
+<td><p><a href="#pool_id">pool_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#pool_quest_save-quest_id">quest_id</a></p></td>
+<td><p><a href="#quest_id">quest_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

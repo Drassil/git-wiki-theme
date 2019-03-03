@@ -31,7 +31,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_save-event_id">event_id</a></p></td>
+<td><p><a href="#event_id">event_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_save-state">state</a></p></td>
+<td><p><a href="#state">state</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_save-next_start">next_start</a></p></td>
+<td><p><a href="#next_start">next_start</a></p></td>
 <td><p>bigint(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

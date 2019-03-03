@@ -31,7 +31,7 @@ This table is used to add a holiday to a battleground, for things like extra rep
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_battleground_holiday-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table is used to add a holiday to a battleground, for things like extra rep
 <td><p>Entry of the game event</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_battleground_holiday-bgflag">bgflag</a></p></td>
+<td><p><a href="#bgflag">bgflag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

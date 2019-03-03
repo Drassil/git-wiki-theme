@@ -31,7 +31,7 @@ Contains all the character inventory data, including the bank data.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_inventory-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>Unique</p></td>
@@ -41,7 +41,7 @@ Contains all the character inventory data, including the bank data.
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_inventory-bag">bag</a></p></td>
+<td><p><a href="#bag">bag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>Unique</p></td>
@@ -51,7 +51,7 @@ Contains all the character inventory data, including the bank data.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_inventory-slot">slot</a></p></td>
+<td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>Unique</p></td>
@@ -61,7 +61,7 @@ Contains all the character inventory data, including the bank data.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_inventory-item">item</a></p></td>
+<td><p><a href="#item">item</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>

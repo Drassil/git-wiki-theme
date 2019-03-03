@@ -31,7 +31,7 @@ This table holds security access level for any realm in [realmlist](realmlist) t
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#account_access-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds security access level for any realm in [realmlist](realmlist) t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#account_access-gmlevel">gmlevel</a></p></td>
+<td><p><a href="#gmlevel">gmlevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds security access level for any realm in [realmlist](realmlist) t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#account_access-RealmID">RealmID</a></p></td>
+<td><p><a href="#realmid">RealmID</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>

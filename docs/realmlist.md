@@ -21,7 +21,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -33,7 +33,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#realmlist-name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(32)</p></td>
 <td><p>signed</p></td>
 <td><p>UNI</p></td>
@@ -45,7 +45,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-address">address</a></p></td>
+<td><p><a href="#address">address</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -58,7 +58,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="odd">
-<td><a href="#realmlist-localAddress">localAddress</a></td>
+<td><a href="#localaddress">localAddress</a></td>
 <td>varchar(255)</td>
 <td>signed</td>
 <td><br />
@@ -71,7 +71,7 @@ This table sets up information on all available realms. Each row controls a diff
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-port">port</a></p></td>
+<td><p><a href="#port">port</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -84,7 +84,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#realmlist-icon">icon</a></p></td>
+<td><p><a href="#icon">icon</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -97,7 +97,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-flag">flag</a></p></td>
+<td><p><a href="#flag">flag</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -109,7 +109,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p>Updates population status or realm status</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#realmlist-timezone">timezone</a></p></td>
+<td><p><a href="#timezone">timezone</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -122,7 +122,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-allowedSecurityLevel">allowedSecurityLevel</a></p></td>
+<td><p><a href="#allowedsecuritylevel">allowedSecurityLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -135,7 +135,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#realmlist-population">population</a></p></td>
+<td><p><a href="#population">population</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -148,7 +148,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#realmlist-gamebuild">gamebuild</a></p></td>
+<td><p><a href="#gamebuild">gamebuild</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

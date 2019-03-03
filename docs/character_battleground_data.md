@@ -31,7 +31,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_battleground_data-instanceId">instanceId</a></p></td>
+<td><p><a href="#instanceid">instanceId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -51,7 +51,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p>Instance Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-team">team</a></p></td>
+<td><p><a href="#team">team</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_battleground_data-joinX">joinX</a></p></td>
+<td><p><a href="#joinx">joinX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-joinY">joinY</a></p></td>
+<td><p><a href="#joiny">joinY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_battleground_data-joinZ">joinZ</a></p></td>
+<td><p><a href="#joinz">joinZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -91,7 +91,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-joinO">joinO</a></p></td>
+<td><p><a href="#joino">joinO</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -101,7 +101,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_battleground_data-joinMapId">joinMapId</a></p></td>
+<td><p><a href="#joinmapid">joinMapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -111,7 +111,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-taxiStart">taxiStart</a></p></td>
+<td><p><a href="#taxistart">taxiStart</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -121,7 +121,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#character_battleground_data-taxiEnd">taxiEnd</a></p></td>
+<td><p><a href="#taxiend">taxiEnd</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -131,7 +131,7 @@ This table holds information for each character in a battleground. Also hold inf
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#character_battleground_data-mountSpell">mountSpell</a></p></td>
+<td><p><a href="#mountspell">mountSpell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

@@ -31,7 +31,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_condition-eventEntry">eventEntry</a></p></td>
+<td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p>Entry of the game event</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_condition-condition_id">condition_id</a></p></td>
+<td><p><a href="#condition_id">condition_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -51,7 +51,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_condition-req_num">req_num</a></p></td>
+<td><p><a href="#req_num">req_num</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -61,7 +61,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_condition-max_world_state_field">max_world_state_field</a></p></td>
+<td><p><a href="#max_world_state_field">max_world_state_field</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -71,7 +71,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#game_event_condition-done_world_state_field">done_world_state_field</a></p></td>
+<td><p><a href="#done_world_state_field">done_world_state_field</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -81,7 +81,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#game_event_condition-description">description</a></p></td>
+<td><p><a href="#description">description</a></p></td>
 <td><p>varchar(25)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

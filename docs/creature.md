@@ -29,7 +29,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-guid">guid</a></p></td>
+<td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -39,7 +39,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Global Unique Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-id">id</a></p></td>
+<td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -49,7 +49,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Creature Identifier</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-map">map</a></p></td>
+<td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -59,7 +59,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Map Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-spawnMask">spawnMask</a></p></td>
+<td><p><a href="#spawnmask">spawnMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -69,7 +69,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-phaseMask">phaseMask</a></p></td>
+<td><p><a href="#phasemask">phaseMask</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -79,7 +79,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-modelid">modelid</a></p></td>
+<td><p><a href="#modelid">modelid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -89,7 +89,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>0 core determined random model or model_id to prevent random model selection by core.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-equipment_id">equipment_id</a></p></td>
+<td><p><a href="#equipment_id">equipment_id</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -99,7 +99,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-position_x">position_x</a></p></td>
+<td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -109,7 +109,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-position_y">position_y</a></p></td>
+<td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -119,7 +119,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-position_z">position_z</a></p></td>
+<td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -129,7 +129,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-orientation">orientation</a></p></td>
+<td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -139,7 +139,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-spawntimesecs">spawntimesecs</a></p></td>
+<td><p><a href="#spawntimesecs">spawntimesecs</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -149,7 +149,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-spawndist">spawndist</a></p></td>
+<td><p><a href="#spawndist">spawndist</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -159,7 +159,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Dist in yards for random movement.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-currentwaypoint">currentwaypoint</a></p></td>
+<td><p><a href="#currentwaypoint">currentwaypoint</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -169,7 +169,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Storage used by core. &quot;Always set as 0&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-curhealth">curhealth</a></p></td>
+<td><p><a href="#curhealth">curhealth</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -179,7 +179,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Storage used by core. &quot;Always set as 1&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-curmana">curmana</a></p></td>
+<td><p><a href="#curmana">curmana</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -189,7 +189,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>Storage used by core. &quot;Always set as 0&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-MovementType">MovementType</a></p></td>
+<td><p><a href="#movementtype">MovementType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -199,7 +199,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>0 No movement, 1 random, 2 path</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-npcflag">npcflag</a></p></td>
+<td><p><a href="#npcflag">npcflag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -209,7 +209,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#creature-unit_flags">unit_flags</a></p></td>
+<td><p><a href="#unit_flags">unit_flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -219,7 +219,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#creature-dynamicflags">dynamicflags</a></p></td>
+<td><p><a href="#dynamicflags">dynamicflags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
