@@ -91,11 +91,11 @@ This table holds info about group members.
 
 #### guid
 
-GUID of the group. See [groups.guid](http://collab.kpsn.org/display/tc/Groups+tc2#Groupstc2-guid).
+GUID of the group. See [groups.guid](Groups+tc2#Groupstc2-guid).
 
 #### memberGuid
 
-GUID of the character member of the group. See [characters.guid](http://collab.kpsn.org/display/tc/Characters+tc2#Characterstc2-guid).
+GUID of the character member of the group. See [characters.guid](Characters+tc2#Characterstc2-guid).
 
 <table>
 <colgroup>

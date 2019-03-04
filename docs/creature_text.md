@@ -286,7 +286,7 @@ The text the creature will say.
 
 ### Language
 
-Value from [Languages.dbc](http://collab.kpsn.org/display/tc/Languages) (+ the wiki table from the dbc file). When set to 0, the current default language will be used.
+Value from [Languages.dbc](Languages) (+ the wiki table from the dbc file). When set to 0, the current default language will be used.
 
 ### Probability
 

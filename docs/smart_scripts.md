@@ -1427,8 +1427,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_EVENT_GOSSIP_SELECT</p></td>
 <td><p>62</p></td>
-<td><p><a href="http://collab.kpsn.org/display/tc/gossip_menu_option#gossip_menu_option-menu_id">menu_id</a></p></td>
-<td><p><a href="http://collab.kpsn.org/display/tc/gossip_menu_option#gossip_menu_option-id">id</a></p></td>
+<td><p><a href="gossip_menu_option#gossip_menu_option-menu_id">menu_id</a></p></td>
+<td><p><a href="gossip_menu_option#gossip_menu_option-id">id</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

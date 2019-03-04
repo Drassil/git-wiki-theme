@@ -703,7 +703,7 @@ The \`broadcast\_text\`.\`ID\` field value for the \`MaleText\` in the \`broadca
 
 ### lang0
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability0
 
@@ -747,7 +747,7 @@ The \`broadcast\_text\`.\`ID\` field value for the \`FemaleText\` in the \`broad
 
 ### lang1
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability1
 
@@ -791,7 +791,7 @@ The use of this field is unknown.
 
 ### lang2
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability2
 
@@ -835,7 +835,7 @@ The use of this field is unknown.
 
 ### lang3
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability3
 
@@ -879,7 +879,7 @@ The use of this field is unknown.
 
 ### lang4
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability4
 
@@ -923,7 +923,7 @@ The use of this field is unknown.
 
 ### lang5
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability5
 
@@ -967,7 +967,7 @@ The use of this field is unknown.
 
 ### lang6
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability6
 
@@ -1011,7 +1011,7 @@ The use of this field is unknown.
 
 ### lang7
 
-The language of the text in game. Refer to [this page](http://collab.kpsn.org/display/tc/Languages) for the available language IDs.
+The language of the text in game. Refer to [this page](Languages) for the available language IDs.
 
 ### Probability7
 

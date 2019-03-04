@@ -111,7 +111,7 @@ class spell_class_your_name_here : public SpellScriptLoader
         }
 };
 // this function call creates script loader object for us - seek that function at the end of the script file you're adding to
-// if there's no such function see http://collab.kpsn.org/display/tc/How-to_CustomScript
+// if there's no such function see How-to_CustomScript
 void AddSC_class_spell_scripts()
 {
     // an entry for our spell script loader, there may be other entries aswell

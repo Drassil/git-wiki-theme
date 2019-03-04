@@ -176,7 +176,7 @@ Group identificator, all creatures with the same [groupId](#creature_summon_grou
 
 ### entry
 
-Entry of summoned creature from [creature\_template.entry](http://collab.kpsn.org/display/tc/creature_template#entry)
+Entry of summoned creature from [creature\_template.entry](creature_template#entry)
 
 ### position\_x
 

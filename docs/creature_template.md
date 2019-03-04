@@ -155,7 +155,7 @@ Used to tell the player what kind of NPC this creature is.
 
 #### gossip\_menu\_id
 
-The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be &gt; 50000. This field is the link to [gossip\_menu.entry](http://collab.kpsn.org/display/tc/Gossip_menu#gossip_menu-entry).
+The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be &gt; 50000. This field is the link to [gossip\_menu.entry](Gossip_menu#gossip_menu-entry).
 
 #### minlevel
 
@@ -177,7 +177,7 @@ The expansion table the creatures health value is taken from. Values are from 0 
 
 #### faction
 
-The faction of the creature. See [FactionTemplate](http://collab.kpsn.org/display/tc/FactionTemplate). Just because more than one faction has the same name, the inter-faction relationships can be different.
+The faction of the creature. See [FactionTemplate](FactionTemplate). Just because more than one faction has the same name, the inter-faction relationships can be different.
 
 Note: This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
 

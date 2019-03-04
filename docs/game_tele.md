@@ -121,7 +121,7 @@ The direction that the player will face after arriving at the teleport location.
 
 ### map
 
-The map ID of the location. See the [Map DBC file](http://collab.kpsn.org/display/tc/Map) for the IDs of all of the zones.
+The map ID of the location. See the [Map DBC file](Map) for the IDs of all of the zones.
 
 ### name
 

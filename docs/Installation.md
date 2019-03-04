@@ -38,7 +38,7 @@ mkdir build
 cd build
 ```
 
-Before running the CMake command, replace `/home/youruser/azeroth-server/` with the path of the server installation (where you want to place the compiled binaries).
+Before running the CMake command, replace `$HOME/azeroth-server/` with the path of the server installation (where you want to place the compiled binaries).
 
 **CMAKE OPTIONS**
 
@@ -49,8 +49,10 @@ Check the options here if you know what you're doing: [CMake options](CMake-opti
 
 At this point, you must be in your "build/" directory.
 
+**Note**: in the follows command the variable `$HOME` is the path of the **current user**, so if you are logged as root, $HOME will be "/root".
+
 ```
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/youruser/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DTOOLS=0 -DSCRIPTS=1
+cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DTOOLS=0 -DSCRIPTS=1
 ```
 
 Then, replacing `4` with the number of threads that you want to execute, type:
@@ -62,8 +64,10 @@ make install
 
 **CMake on Mac OS X:**
 
+**Note**: in the follows command the variable `$HOME` is the path of the **current user**, so if you are logged as root, $HOME will be "/root".
+
 ```
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/youruser/azeroth-server/ -DTOOLS=0 -DSCRIPTS=1 -DMYSQL_ADD_INCLUDE_PATH=/usr/local/include -DMYSQL_LIBRARY=/usr/local/lib/libmysqlclient_r.dylib -DREADLINE_INCLUDE_DIR=/usr/local/opt/readline/include -DREADLINE_LIBRARY=/usr/local/opt/readline/lib/libreadline.dylib -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include -DOPENSSL_SSL_LIBRARIES=/usr/local/opt/openssl/lib/libssl.dylib -DOPENSSL_CRYPTO_LIBRARIES=/usr/local/opt/openssl/lib/libcrypto.dylib
+cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DTOOLS=0 -DSCRIPTS=1 -DMYSQL_ADD_INCLUDE_PATH=/usr/local/include -DMYSQL_LIBRARY=/usr/local/lib/libmysqlclient_r.dylib -DREADLINE_INCLUDE_DIR=/usr/local/opt/readline/include -DREADLINE_LIBRARY=/usr/local/opt/readline/lib/libreadline.dylib -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include -DOPENSSL_SSL_LIBRARIES=/usr/local/opt/openssl/lib/libssl.dylib -DOPENSSL_CRYPTO_LIBRARIES=/usr/local/opt/openssl/lib/libcrypto.dylib
 ```
 
 Then, replacing `4` with the number of threads that you want to execute, type:
@@ -201,4 +205,18 @@ Run `worldserver.exe` and `authserver.exe` from `CMAKE_INSTALL_PREFIX`.
 
 ## 8) Connecting to the server
 
-Edit your `realmlist.wtf` and add the IP you set in the realmlist table (and the port if needed). Then you can connect with a newly made account or the test accounts (`test1` to `test10`, with password `a`)
+Edit your `realmlist.wtf` and add the IP you set in the realmlist table (and the port if needed). Then you can connect with a newly made account or the test accounts (`test1` to `test10`, with password `a`).
+
+You can change all the passwords at once by pasting this into the worldserver console:
+```
+.account set password test1 new_pass new_pass
+.account set password test2 new_pass new_pass
+.account set password test3 new_pass new_pass
+.account set password test4 new_pass new_pass
+.account set password test5 new_pass new_pass
+.account set password test6 new_pass new_pass
+.account set password test7 new_pass new_pass
+.account set password test8 new_pass new_pass
+.account set password test9 new_pass new_pass
+.account set password test10 new_pass new_pass
+```

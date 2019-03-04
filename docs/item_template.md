@@ -2560,13 +2560,13 @@ In what slot the item can be equipped.
 
 Bitmask controlling which classes can use this item. Add ids together to combine class possibilities. Use -1 if all classes can use it.
 
-See the [ChrClasses DBC file](http://collab.kpsn.org/display/tc/ChrClasses) for the IDs of the classes.
+See the [ChrClasses DBC file](ChrClasses) for the IDs of the classes.
 
 ### AllowableRace
 
 Bitmask controlling which races can use this item. Add ids together to combine race possibilities. Use -1 for all races.
 
-See the [ChrRaces DBC file](http://collab.kpsn.org/display/tc/ChrRaces) for the IDs of the races.
+See the [ChrRaces DBC file](ChrRaces) for the IDs of the races.
 
 ### ItemLevel
 
@@ -2578,7 +2578,7 @@ The level that a player must be to equip the item.
 
 ### RequiredSkill
 
-The skill required to use this item. See the [SkillLine DBC file](http://collab.kpsn.org/display/tc/SkillLine) for IDs which can be used here.
+The skill required to use this item. See the [SkillLine DBC file](SkillLine) for IDs which can be used here.
 
 ### RequiredSkillRank
 
@@ -2600,7 +2600,7 @@ The honor rank the player needs to have to use this item.
 
 The faction template ID  of the faction that the player has to have a certain ranking with. If this value is 0, the faction of the seller of the item is used.
 
-See the [Faction DBC file](http://collab.kpsn.org/display/tc/Faction) for the IDs of all of the factions.
+See the [Faction DBC file](Faction) for the IDs of all of the factions.
 
 ### RequiredReputationRank
 
@@ -3099,13 +3099,13 @@ The ID referring to the text that the item will show (if it is a book or a lette
 
 The language that the item text is written in.
 
-See the [Languages DBC file](http://collab.kpsn.org/display/tc/Languages) for the IDs of all of the languages.
+See the [Languages DBC file](Languages) for the IDs of all of the languages.
 
 ### PageMaterial
 
 The background texture that appears in the page text window.
 
-See the [PageTextMaterial DBC file](http://collab.kpsn.org/display/tc/PageTextMaterial) for the IDs of all of the material types.
+See the [PageTextMaterial DBC file](PageTextMaterial) for the IDs of all of the material types.
 
 ### startquest
 
@@ -3115,7 +3115,7 @@ The ID of the quest that this item will start if right-clicked. See [quest\_temp
 
 The lock entry ID that this item (which serves as a key) is tied to. This field is used in key-door mechanics.
 
-See the [Lock DBC file](http://collab.kpsn.org/display/tc/Lock).
+See the [Lock DBC file](Lock).
 
 ### Material
 
@@ -3352,7 +3352,7 @@ If the item is a bag, this field is a bitmask controlling what types of items ca
 
 ### TotemCategory
 
-Corresponds to the ID in the [TotemCategory DBC file](http://collab.kpsn.org/display/tc/TotemCategory).
+Corresponds to the ID in the [TotemCategory DBC file](TotemCategory).
 
 <table>
 <colgroup>
@@ -3604,7 +3604,7 @@ Set ITEM\_FLAGS\_CU\_DURATION\_REAL\_TIME in *flagsCustom* for real time. In tha
 
 ### HolidayId
 
-See the [Holidays DBC file](http://collab.kpsn.org/display/tc/Holidays) for the IDs of all of the holidays.
+See the [Holidays DBC file](Holidays) for the IDs of all of the holidays.
 
 ### ScriptName
 

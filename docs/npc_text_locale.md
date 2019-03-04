@@ -150,4 +150,4 @@ This id must be the same as [npc\_text.ID](https://trinitycore.atlassian.net/wik
 ### Text\_loc
 
 Translated content for corresponding field [npc\_text.text0 \_0](https://trinitycore.atlassian.net/wiki/display/tc/npc_text#npc_text-text0_0) - [npc\_text-text7\_1](https://trinitycore.atlassian.net/wiki/display/tc/npc_text#npc_text-text7_1) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+See [localization languages](Localization+lang) list to know which value to use for X.

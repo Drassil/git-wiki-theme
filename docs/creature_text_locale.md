@@ -39,6 +39,6 @@ This entry must be the same as [creature\_text.id](https://trinitycore.atlassia
 ### text\_loc
 
 Translated content for [creature\_text.text](https://trinitycore.atlassian.net/wiki/display/tc/creature_text#creature_text-text) field for language X.
-See [localization languages](http://collab.kpsn.org/display/tc/Localization+lang) list to know which value to use for X.
+See [localization languages](Localization+lang) list to know which value to use for X.
 
  
