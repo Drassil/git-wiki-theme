@@ -83,6 +83,7 @@ mkdir vmaps
 **NOTE: This process will take up to a few hours, depending on your computer specs.**
 
 ```
+mkdir mmaps
 ./mmaps_generator
 ```
 
