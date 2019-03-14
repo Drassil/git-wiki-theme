@@ -4,10 +4,7 @@
 
 Follow the Installation instructions and install and setup AzerothCore Fresh Install (we will need this after the conversion).
 
-Instructions to setup AzerothCore can be found at the links below
-- http://www.azerothcore.org/wiki/Installation
-- http://www.azerothcore.org/wiki/Database-Setup
-- http://www.azerothcore.org/wiki/Update
+Instructions to setup AzerothCore can be found [here](http://www.azerothcore.org/wiki/Installation).
 
 Make sure you have a fresh installation completed and working with no additional modules before proceeding. 
 
@@ -24,7 +21,7 @@ Download the TC-AC character migration tool.
 
 Now you have your AzerothCore server tested and working we can migrate the characters.
 
-Download TC - AC Migration Tool:  https://github.com/azerothcore/tool-tc-migration.git
+Download TC - AC Migration Tool:  [azerothcorte/ool-tc-migration](https://github.com/azerothcore/tool-tc-migration)
 
 The following files must be run in order from 1 to 4 on your TrinityCore characters database:
 
