@@ -91,5 +91,5 @@ Do you have anything to share with the community? Do you feel like some informat
 
 Ask a question on StackOverflow and then **answer it yourself**! Is it allowed? Yes it is! Read this:
 
-https://stackoverflow.com/help/self-answer
+[https://stackoverflow.com/help/self-answer](https://stackoverflow.com/help/self-answer)
 
