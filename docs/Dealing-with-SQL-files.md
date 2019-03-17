@@ -10,6 +10,8 @@ Also remember to:
 
 - use [INSERT](http://www.w3schools.com/sql/sql_insert.asp) in order to insert **new rows only**, but be sure to avoid import errors using [DELETE](http://www.w3schools.com/sql/sql_delete.asp) before INSERT
 
+- whenever possible, try to make your query **re-executable** (the same query can run twice without error) e.g. deleting before inserting
+
 - surround any table or field name with `backticks`, and string values with `single quotes`, example:
 
 ```sql
