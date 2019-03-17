@@ -10,7 +10,11 @@ We just want you to ask for support in the **proper way**. Please read this docu
 
 ### Why is the "proper way" so important?
 
-Most of the questions asked by users are repetitive. So we need an efficient way to handle all the support requests. We use StackOverflow for support questions and GitHub for bug reports.
+If you ask a question directly in the chat, it can get easily lost and you might never be helped unless there is someone online in that specific moment that is able to help you.
+
+If you put your question on StackOverflow it will **stay** there and someone can help you at any moment. You can also link your question in the chat to give it more visibility. Doesn't make sense for you? Just keep reading.
+
+Also, most of the questions asked by users are repetitive. So we need an efficient way to handle all the support requests. We use StackOverflow for support questions and GitHub for bug reports.
 
 Sounds complicated? Not at all! **Just keep reading**.
 
