@@ -2433,8 +2433,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (the grid where the creature or object is located cannot be unloaded and other objects/creatures nearby also stay active).</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_ATTACK_START</p></td>
