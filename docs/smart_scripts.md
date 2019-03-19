@@ -3936,6 +3936,157 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
+<tr class="even">
+<td><p>SMART_ACTION_REMOVE_IMMUNITY</p></td>
+<td><p>209</p></td>
+<td><p>type</p></td>
+<td><p>id</p></td>
+<td><p>value</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_FALL</p></td>
+<td><p>210</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_SET_EVENT_FLAG_RESET</p></td>
+<td><p>211</p></td>
+<td><p>0/1</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_STOP_MOTION</p></td>
+<td><p>212</p></td>
+<td><p>stopMoving</p></td>
+<td><p>movementExpired</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_NO_ENVIRONMENT_UPDATE</p></td>
+<td><p>213</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_ZONE_UNDER_ATTACK</p></td>
+<td><p>214</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_LOAD_GRID</p></td>
+<td><p>215</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_MUSIC</p></td>
+<td><p>216</p></td>
+<td><p>SoundId</p></td>
+<td><p>onlySelf</p></td>
+<td><p>type</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Plays the specified sound file as music. Type can be one of these values:<br />
+0: Play music for the specified target(s)<br />
+1: Play music for all players in the entire zone<br />
+2: Play music for all players in the area</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_RANDOM_MUSIC</p></td>
+<td><p>217</p></td>
+<td><p>SoundId1</p></td>
+<td><p>SoundId2</p></td>
+<td><p>SoundId3</p></td>
+<td><p>SoundId4</p></td>
+<td><p>onlySelf</p></td>
+<td><p>type</p></td>
+<td><p>Plays randomly one of the specified sound files as music. Type can be one of these values:<br />
+0: Play music for the specified target(s)<br />
+1: Play music for all players in the entire zone<br />
+2: Play music for all players in the area</p></td>
+</tr>
 </tbody>
 </table>
 
