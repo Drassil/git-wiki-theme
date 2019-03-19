@@ -3802,6 +3802,140 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 <td>if avaliable, last used invoker will cast spellId with castFlags on targets</td>
 </tr>
+<tr class="even">
+<td><p>SMART_ACTION_MOVE_TO_POS_TARGET</p></td>
+<td><p>201</p></td>
+<td><p>pointId</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_SET_GO_STATE</p></td>
+<td><p>202</p></td>
+<td><p>state</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_EXIT_VEHICLE</p></td>
+<td><p>203</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_SET_UNIT_MOVEMENT_FLAGS</p></td>
+<td><p>204</p></td>
+<td><p>flags</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_SET_COMBAT_DISTANCE</p></td>
+<td><p>205</p></td>
+<td><p>combatDistance</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_SET_CASTER_COMBAT_DIST</p></td>
+<td><p>206</p></td>
+<td><p>followDistance</p></td>
+<td><p>resetToMax</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_SET_HOVER</p></td>
+<td><p>207</p></td>
+<td><p>0/1</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p>SMART_ACTION_ADD_IMMUNITY</p></td>
+<td><p>208</p></td>
+<td><p>type</p></td>
+<td><p>id</p></td>
+<td><p>value</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
 </tbody>
 </table>
 
