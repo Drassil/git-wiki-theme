@@ -79,7 +79,7 @@ make install
 
 ### Compiling on Windows
 
-Open CMake , press `Browse Source...` button and select the folder that you cloned earlier then press `Browse Build...` and select a folder where the CMake will generate the build files. Press the `Configure` button.
+Open CMake, press `Browse Source...` button and select the folder that you cloned earlier then press `Browse Build...` and select a folder where the CMake will generate the build files. Press the `Configure` button.
 
 CMake will ask you to select what compiler to use. For example you'll want to select `Visual Studio 15 2017` to compile binaries using Visual Studio 2017. If you want to build using x64 set `Optional platform for generator` to x64. Do not change the `Use default native compilers` option. Press `Finish` and wait until CMake is done checking for requires files.
 
@@ -128,24 +128,24 @@ _Please Read [How to edit .conf files](how-to-work-with-conf-files.md) article t
 Open both `authserver.conf` and `worldserver.conf` files and go to the `MYSQL SETTINGS` section, then set the variables:
 
 ```
-LoginDatabaseInfo     = "127.0.0.1;3306;root;your_password;auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;root;your_password;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;root;your_password;characters"
+LoginDatabaseInfo     = "127.0.0.1;3306;acore;acore;acore_auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;acore;acore;acore_world"
+CharacterDatabaseInfo = "127.0.0.1;3306;acore;acore;acore_characters"
 ```
 
-replacing `your_password` with the password of your MySQL server root user
+The default user is `acore` with password `acore`. If you would like to use another MySQL user, change the credentials here.
 (the `authserver.conf` has the `LoginDatabaseInfo` variable only).
 
 In the worldserver.conf file, also set:
 
 `DataDir = "/home/youruser/azeroth-server/data"`
 
-replacing `/home/youruser/azeroth-server` with the path where you installed the binaries.
+replacing `/home/youruser/azeroth-server` with `CMAKE_INSTALL_PREFIX`.
 
 
 ## 5) Download the data files
 
-Go to the directory of your azeroth server (e.g. `/home/youruser/azeroth-server`) and create a new directory named `data`
+Go to `CMAKE_INSTALL_PREFIX` and create a new directory named `data`
 
 Two options to choose from:
 
@@ -176,8 +176,8 @@ Follow these instructions: [Database Setup](Database-Setup).
 
 ### Configure your auth.realmlist table
 
-In the `auth` database, you must fill the `realmlist` table with your connection info.
-It must correspond with your configuration file (for realmid, flag and realmzone).
+In the `acore_auth` database, you must fill the `realmlist` table with your connection info.
+It must correspond with the values in `worldserver.conf` (for realmid, flag and realmzone).
 
 	Address: 127.0.0.1 OR <Your LOCAL NETWORK ip>  OR <Your PUBLIC NETWORK ip>
 	Port :	worldserver port

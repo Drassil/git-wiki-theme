@@ -44,7 +44,7 @@ Then use it to install the required packages:
 
 * [MySQL Server Community Edition](http://dev.mysql.com/downloads/mysql/5.6.html) ( 5.6 or higher )
 
-* [Mysql Development File](https://docs.google.com/uc?id=0B1fF5EIDoF1fWjYwQ1FCNUJmMWc&export=download)
+* [MySQL Development File](https://docs.google.com/uc?id=0B1fF5EIDoF1fWjYwQ1FCNUJmMWc&export=download)
   
   These files are shipped with MySQL Server but to make it easier we packed the libs and include files for both 32 bits and 64 bits.
 
@@ -61,7 +61,7 @@ Then use it to install the required packages:
     1. Example: **Win32 OpenSSL v1.0.1p**
 
 3. _Note #1: If you get a "Missing Microsoft Visual C++ 2008 Redistributables" error message while installing OpenSSL, download the ** [Microsoft Visual C++ 2008 Redistributable Package (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=29) ** (1.7MB Installer) and install it. If you need 32bit support, download and install the [ **Microsoft Visual C++ 2008 Redistributable Package (x86)** ](http://www.microsoft.com/en-us/download/details.aspx?id=15336)._
-4. _Note #2: While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory") when given the choice on where to copy the OpenSSL DLLs. These DLLs will need to be located easily for Core Installation
+4. _Note #2: While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory") when given the choice on where to copy the OpenSSL DLLs. These DLLs will need to be located easily for Core Installation._
 
 ***
 
