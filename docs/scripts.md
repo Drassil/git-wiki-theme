@@ -241,6 +241,7 @@ The type of action performed by the script after [delay](#scripts-delay) seconds
 | 32      | MODEL                  | Sets creature model.                                                     |
 | 33      | CLOSE\_GOSSIP          | Closes gossip window. This command is only used for Gossip Scripts.      |
 | 34      | PLAYMOVIE              | Plays movie.                                                             |
+| 35      | MOVEMENT               | Change movement type.                                                    |
 
 ### OtherFields
 
@@ -428,6 +429,13 @@ Depending on what command was used, the meaning and use for the following fields
 
 -   -   source: Player.
     -   datalong: movie ID.
+
+\***SCRIPT\_COMMAND\_MOVEMENT = 35**
+
+-   -   source: Creature.
+    -   datalong: MovementType.
+    -   datalong2: MovementDistance (e.g. spawndist for MovementType 1).
+    -   dataint: pathid (for MovementType 2, see [waypoint\_data.id](waypoint_data.md#id)).
 
 ### guid
 

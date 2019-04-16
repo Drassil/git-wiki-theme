@@ -132,6 +132,7 @@ NOTE: the DB documentation is still a work in progress. We need your help to mak
 - [reputation_reward_rate](reputation_reward_rate.md)
 - [reputation_spillover_template](reputation_spillover_template.md)
 - [script_waypoint](script_waypoint.md)
+- [scripts](scripts.md)
 - [skill_discovery_template](skill_discovery_template.md)
 - [skill_extra_item_template](skill_extra_item_template.md)
 - [skill_fishing_base_level](skill_fishing_base_level.md)
