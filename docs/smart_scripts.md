@@ -2020,8 +2020,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Set event phase 0-9 (the actual values, no bit mask!)</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_INC_EVENT_PHASE</p></td>
@@ -2311,7 +2310,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_FORCE_DESPAWN</p></td>
 <td><p>41</p></td>
 <td><p>Despawn timer &quot;ms&quot;</p></td>
-<td><p>Respawn timer &quot;sec&quot;</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2320,7 +2318,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Despawn Target after param1 in Milliseconds. If you want to set respawn time set param2 in seconds.</p></td>
+<td><p><br />
+</p></td>
+<td><p>Despawn Target after param1 in Milliseconds.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL</p></td>
@@ -2763,9 +2763,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>PointId is called by SMART_EVENT_MOVEMENTINFORM. Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z, target_o as the coordinates</p></td>
 </tr>
 <tr class="odd">
-<td><p>SMART_ACTION_ENABLE_TEMP_GOBJ</p></td>
+<td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
 <td><p>70</p></td>
-<td><p>Respawntime in seconds (The time which the gob remains spawned)</p></td>
+<td><p>Respawntime in seconds</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2776,8 +2776,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Always action_param1&gt;0</p>
-<p>For npcs use action_type=133</p></td>
+<td><p><br />
+</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_EQUIP</p></td>
@@ -3258,6 +3258,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_SET_HOME_POS</p></td>
 <td><p>101</p></td>
+<td><p>0: take position of target as new home position</p>
+<p>1: read home position from DB</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3270,7 +3272,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Use with SMART_TARGET_SELF or SMART_TARGET_POSITION</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_HEALTH_REGEN</p></td>
