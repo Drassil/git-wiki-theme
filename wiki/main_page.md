@@ -62,6 +62,9 @@ If you need to work on git-wiki locally before publish, then clone your wiki rep
 from official github article: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>
 Git wiki already contains the Gemfile for local installations.
 
+You can also use our **docker files** to run git-wiki under **docker**, 
+the easiest method is to run `docker-compose up` command in this folder
+
 ## Configuration and customization
 
 Read documentation about [Customization HERE](customize.md)
@@ -74,7 +77,8 @@ Read documentation about [Customization HERE](customize.md)
 
 ## Support & Collaboration
 
-You can open a public issue on [github](https://github.com/Drassil/git-wiki/issues) , send a private <a href="mailto:staff-drassil@googlegroups.com">email</a>  or create a PR to improve it.
+You can open a public issue on [github](https://github.com/Drassil/git-wiki/issues) , 
+send a private <a href="mailto:staff-drassil@googlegroups.com">email</a>  or create a PR to improve it.
 
 Thank you!
 
