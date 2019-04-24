@@ -47,6 +47,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 ## Installation instructions
 
 1. Fork or copy [this repository](https://github.com/drassil/git-wiki)
+If you choose to fork, you will have to remove the fork relationship and delete all branches except for the master.
 
 2. Use master branch of this repository to start instead of gh-pages that contains useless files for you! (you can delete that branch from your repository and re-create if you need)
 
@@ -54,8 +55,9 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 4. **rename** wiki/main_page.md.dist in wiki/main_page.md
 
-5. push your changes in your repository, then configure the github pages in your repository settings
+  If installing on gitlab, Create .gitlab-ci.yml with a Jenkyl template.
 
+5. push your changes in your repository, then configure the github pages in your repository settings
 6. Your wiki is ready!
 
 ### local development
