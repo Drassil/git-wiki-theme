@@ -6,7 +6,7 @@ redirect_from: "/"
 
 This is both documentation and [demo](Demo.md) of git-wiki theme for jekyll.
 
-it's a **modular and full featured wiki** powered by git, github pages and pull-requests!
+it's a **modular and full featured wiki** powered by git, github & [gitlab](https://gitlab.com/drassil/git-wiki/)  pages and pull-requests!
 
 It means: 
 
@@ -31,6 +31,8 @@ You can fork/copy the master branch now and start your wiki in just 1 minute*!
 
 **Note:**
 You can even include the [official github wiki](https://help.github.com/articles/about-github-wikis/) as a submodule and enable the option in our conf file to use github wiki pages in git-wiki system, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
+
+**GITLAB PORTING:** (https://gitlab.com/drassil/git-wiki/) 
 
 ## Who is using git-wiki
 
