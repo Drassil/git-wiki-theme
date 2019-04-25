@@ -146,7 +146,7 @@ The Map id from Map.dbc
 
 ### WorldMapAreaId
 
-The area ID from AreaTable.dbc
+The ID from <a href="https://wowdev.wiki/DB/WorldMapArea">WorldMapArea.dbc</a>.
 
 ### Floor
 
