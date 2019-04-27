@@ -1587,8 +1587,3 @@ If player can choose between chain A or B may be determined by faction status (a
 
 /table
 
-## Attachments:
-
-![](images/icons/bullet_blue.gif){width="8" height="8"} [111.xlsx](attachments/2130261/69271559.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [108.xlsx](attachments/2130261/69271560.xlsx) (application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)
-

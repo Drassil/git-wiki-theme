@@ -120,7 +120,7 @@ Maximum distance between group leader and member
 Angle between leader and member
 Note: Only degrees are used! Values should be between 0 and 360
 
-![](attachments/2129997/2130322.png)
+![angle](assets/images/angle.png)
 
 ## groupAI
 

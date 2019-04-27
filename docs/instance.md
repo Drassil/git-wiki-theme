@@ -110,7 +110,12 @@ The resettime of raid and heroic instances for every specific group is stored in
 
 ### difficulty
 
-The difficulty of the current instance. 0 = 10-man Normal, 1 = 25-man Normal, 2 = 10-man Heroic, 3 = 25-man Heroic.
+The difficulty of the current instance.
+
+- 0 = 10-man Normal
+- 1 = 25-man Normal
+- 2 = 10-man Heroic
+- 3 = 25-man Heroic.
 
 ### completedEncounters
 

@@ -97,17 +97,19 @@ The [RealmID](realmlist_2130016.html#realmlist-id) of the realm this log string 
 
 The type of log this is:
 
-LOG\_TYPE\_STRING = 0 — a normal informative string
-LOG\_TYPE\_ERROR = 1 — some sort of error
-LOG\_TYPE\_BASIC = 2 — basic information
-LOG\_TYPE\_DETAIL = 3 — detailed information
-LOG\_TYPE\_DEBUG = 4 — debugging information
-LOG\_TYPE\_CHAR = 5 — character-related
-LOG\_TYPE\_WORLD = 6 — world packet dump
-LOG\_TYPE\_RA = 7 — remote access logs
-LOG\_TYPE\_GM = 8 — gm command logs
-LOG\_TYPE\_CRASH = 9 — crash alarm logs
-LOG\_TYPE\_CHAT = 10 – chat/message logs
+| Values                 | Description                 |
+|------------------------|-----------------------------|
+| LOG_TYPE_STRING   = 0  | a normal informative string |
+| LOG_TYPE_ERROR    = 1  | some sort of error          |
+| LOG_TYPE_BASIC    = 2  | basic information           |
+| LOG_TYPE_DETAIL   = 3  | detailed information        |
+| LOG_TYPE_DEBUG    = 4  | debugging information       |
+| LOG_TYPE_CHAR     = 5  | character-related           |
+| LOG_TYPE_WORLD    = 6  | world packet dump           |
+| LOG_TYPE_RA       = 7  | remote access logs          |
+| LOG_TYPE_GM       = 8  | gm command logs             |
+| LOG_TYPE_CRASH    = 9  | crash alarm logs            |
+| LOG_TYPE_CHAT     = 10 | chat/message logs           |
 
 ### level
 

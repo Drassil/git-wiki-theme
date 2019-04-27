@@ -356,13 +356,15 @@ Maximum amount of health that the character has.
 
 ### maxpower
 
-1 - mana
-2 - rage
-3 - focus
-4 - energy
-5 - happiness
-6 - rune
-7 - runic power
+|||
+| -- | ---         |
+| 1  | mana        |
+| 2  | rage        |
+| 3  | focus       |
+| 4  | energy      |
+| 5  | happiness   |
+| 6  | rune        |
+| 7  | runic power |
 
 ### strength
 

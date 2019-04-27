@@ -275,14 +275,14 @@ The text the creature will say.
 
 ### Type
 
-| Value | Old value | Localization | Picture Example                      |
-|-------|-----------|--------------|--------------------------------------|
-| 12    | 0         | Say          | ![](attachments/2130007/7831561.png) |
-| 14    | 1         | Yell         | ![](attachments/2130007/7831564.png) |
-| 16    | 2         | Emote        | ![](attachments/2130007/7831565.png) |
-| 41    | 3         | Boss Emote   | ![](attachments/2130007/7831566.png) |
-| 15    | 4         | Whisper      | ![](attachments/2130007/7831567.png) |
-| 42    | 5         | Boss Whisper | ![](attachments/2130007/7831568.png) |
+| Value | Old value | Localization | Picture Example                               |
+|-------|-----------|--------------|-----------------------------------------------|
+| 12    | 0         | Say          | ![Say](assets/images/Say.png)                 |
+| 14    | 1         | Yell         | ![Yell](assets/images/Yell.png)               |
+| 16    | 2         | Emote        | ![Emote](assets/images/Emote.png)             |
+| 41    | 3         | Boss Emote   | ![BossEmote](assets/images/BossEmote.png)     |
+| 15    | 4         | Whisper      | ![Whisper](assets/images/Whisper.png)         |
+| 42    | 5         | Boss Whisper | ![BossWhisper](assets/images/BossWhisper.png) |
 
 ### Language
 
@@ -322,20 +322,4 @@ Id of the equivalent text found in [broadcast\_text](broadcast_text)
 ### comment
 
 This field allows you to label a text entry.
-
-## Attachments:
-
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831563.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831577.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Yell.png](attachments/2130007/7831578.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Emote.png](attachments/2130007/7831579.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [BossEmote.png](attachments/2130007/7831580.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Whisper.png](attachments/2130007/7831581.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [BossWhisper.png](attachments/2130007/7831582.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Say.png](attachments/2130007/7831561.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Yell.png](attachments/2130007/7831564.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Emote.png](attachments/2130007/7831565.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [BossEmote.png](attachments/2130007/7831566.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Whisper.png](attachments/2130007/7831567.png) (image/png)
-![](images/icons/bullet_blue.gif){width="8" height="8"} [BossWhisper.png](attachments/2130007/7831568.png) (image/png)
 

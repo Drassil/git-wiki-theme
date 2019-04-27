@@ -968,7 +968,14 @@ The class of the character: [ChrClasses.dbc](https://trinitycore.atlassian.net/
 
 ### gender
 
-The gender of the character. 0 = Male, 1 = Female, 2 = Unknown![(question)](images/icons/emoticons/help_16.png){.emoticon .emoticon-question}
+The gender of the character.
+
+|    |             |
+| -- | ---         |
+| 0  | Male        |
+| 1  | Female      |
+| 2  | Unknown (?) |
+
 
 ### level
 
@@ -1001,152 +1008,34 @@ data about facial hair
 
 A bitmask that represents what Player flags the player has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Flag</p></th>
-<th><p>Name</p></th>
-<th><p>Comment</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>0x00000001</p></td>
-<td><p>PLAYER_FLAGS_GROUP_LEADER</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>0x00000002</p></td>
-<td><p>PLAYER_FLAGS_AFK</p></td>
-</tr>
-<tr class="odd">
-<td><p>4</p></td>
-<td><p>0x00000004</p></td>
-<td><p>PLAYER_FLAGS_DND</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>0x00000008</p></td>
-<td><p>PLAYER_FLAGS_GM</p></td>
-</tr>
-<tr class="odd">
-<td><p>16</p></td>
-<td><p>0x00000010</p></td>
-<td><p>PLAYER_FLAGS_GHOST</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>0x00000020</p></td>
-<td><p>PLAYER_FLAGS_RESTING</p></td>
-</tr>
-<tr class="odd">
-<td><p>64</p></td>
-<td><p>0x00000040</p></td>
-<td><p>PLAYER_FLAGS_UNK7</p></td>
-</tr>
-<tr class="even">
-<td><p>128</p></td>
-<td><p>0x00000080</p></td>
-<td><p>PLAYER_FLAGS_UNK8</p></td>
-</tr>
-<tr class="odd">
-<td><p>256</p></td>
-<td><p>0x00000100</p></td>
-<td><p>PLAYER_FLAGS_CONTESTED_PVP</p></td>
-</tr>
-<tr class="even">
-<td><p>512</p></td>
-<td><p>0x00000200</p></td>
-<td><p>PLAYER_FLAGS_IN_PVP</p></td>
-</tr>
-<tr class="odd">
-<td><p>1024</p></td>
-<td><p>0x00000400</p></td>
-<td><p>PLAYER_FLAGS_HIDE_HELM</p></td>
-</tr>
-<tr class="even">
-<td><p>2048</p></td>
-<td><p>0x00000800</p></td>
-<td><p>PLAYER_FLAGS_HIDE_CLOAK</p></td>
-</tr>
-<tr class="odd">
-<td><p>4096</p></td>
-<td><p>0x00001000</p></td>
-<td><p>PLAYER_FLAGS_PLAYED_LONG_TIME</p></td>
-</tr>
-<tr class="even">
-<td><p>8192</p></td>
-<td><p>0x00002000</p></td>
-<td><p>PLAYER_FLAGS_TOO_LONG</p></td>
-</tr>
-<tr class="odd">
-<td><p>16384</p></td>
-<td><p>0x00004000</p></td>
-<td><p>PLAYER_FLAGS_IS_OUT_OF_BOUNDS</p></td>
-</tr>
-<tr class="even">
-<td><p>32768</p></td>
-<td><p>0x00008000</p></td>
-<td><p>PLAYER_FLAGS_DEVELOPER</p></td>
-</tr>
-<tr class="odd">
-<td><p>65536</p></td>
-<td><p>0x00010000</p></td>
-<td><p>PLAYER_FLAGS_UNK17</p></td>
-</tr>
-<tr class="even">
-<td><p>131072</p></td>
-<td><p>0x00020000</p></td>
-<td><p>PLAYER_FLAGS_TAXI_BENCHMARK</p></td>
-</tr>
-<tr class="odd">
-<td><p>262144</p></td>
-<td><p>0x00040000</p></td>
-<td><p>PLAYER_FLAGS_PVP_TIMER</p></td>
-</tr>
-<tr class="even">
-<td><p>524288</p></td>
-<td><p>0x00080000</p></td>
-<td><p>PLAYER_FLAGS_UNK20</p></td>
-</tr>
-<tr class="odd">
-<td><p>1048576</p></td>
-<td><p>0x00100000</p></td>
-<td><p>PLAYER_FLAGS_UNK21</p></td>
-</tr>
-<tr class="even">
-<td><p>2097152</p></td>
-<td><p>0x00200000</p></td>
-<td><p>PLAYER_FLAGS_UNK22</p></td>
-</tr>
-<tr class="odd">
-<td><p>4194304</p></td>
-<td><p>0x00400000</p></td>
-<td><p>PLAYER_FLAGS_COMMENTATOR2</p></td>
-</tr>
-<tr class="even">
-<td><p>8388608</p></td>
-<td><p>0x00800000</p></td>
-<td><p>PLAYER_ALLOW_ONLY_ABILITY</p></td>
-</tr>
-<tr class="odd">
-<td><p>16777216</p></td>
-<td><p>0x01000000</p></td>
-<td><p>PLAYER_FLAGS_UNK25</p></td>
-</tr>
-<tr class="even">
-<td><p>54432</p></td>
-<td><p>0x02000000</p></td>
-<td><p>PLAYER_FLAGS_NO_XP_GAIN</p></td>
-</tr>
-</tbody>
-</table>
+| Flag     |            | Name                          | Comment                                                                           |
+|----------|------------|-------------------------------|-----------------------------------------------------------------------------------|
+| 1        | 0x00000001 | PLAYER_FLAGS_GROUP_LEADER     |                                                                                   |
+| 2        | 0x00000002 | PLAYER_FLAGS_AFK              |                                                                                   |
+| 4        | 0x00000004 | PLAYER_FLAGS_DND              |                                                                                   |
+| 8        | 0x00000008 | PLAYER_FLAGS_GM               |                                                                                   |
+| 16       | 0x00000010 | PLAYER_FLAGS_GHOST            |                                                                                   |
+| 32       | 0x00000020 | PLAYER_FLAGS_RESTING          |                                                                                   |
+| 64       | 0x00000040 | PLAYER_FLAGS_UNK7             |                                                                                   |
+| 128      | 0x00000080 | PLAYER_FLAGS_UNK8             | pre-3.0.3 PLAYER_FLAGS_FFA_PVP flag for FFA PVP state                             |
+| 256      | 0x00000100 | PLAYER_FLAGS_CONTESTED_PVP    | Player has been involved in a PvP combat and will be attacked by contested guards |
+| 512      | 0x00000200 | PLAYER_FLAGS_IN_PVP           |                                                                                   |
+| 1024     | 0x00000400 | PLAYER_FLAGS_HIDE_HELM        |                                                                                   |
+| 2048     | 0x00000800 | PLAYER_FLAGS_HIDE_CLOAK       |                                                                                   |
+| 4096     | 0x00001000 | PLAYER_FLAGS_PLAYED_LONG_TIME | played long time                                                                  |
+| 8192     | 0x00002000 | PLAYER_FLAGS_TOO_LONG         | played too long time                                                              |
+| 16384    | 0x00004000 | PLAYER_FLAGS_IS_OUT_OF_BOUNDS |                                                                                   |
+| 32768    | 0x00008000 | PLAYER_FLAGS_DEVELOPER        | prefix for something?                                                             |
+| 65536    | 0x00010000 | PLAYER_FLAGS_UNK17            | pre-3.0.3 PLAYER_FLAGS_SANCTUARY flag for player entered sanctuary                |
+| 131072   | 0x00020000 | PLAYER_FLAGS_TAXI_BENCHMARK   | taxi benchmark mode (on/off) (2.0.1)                                              |
+| 262144   | 0x00040000 | PLAYER_FLAGS_PVP_TIMER        | 3.0.2, pvp timer active (after you disable pvp manually)                          |
+| 524288   | 0x00080000 | PLAYER_FLAGS_UNK20            |                                                                                   |
+| 1048576  | 0x00100000 | PLAYER_FLAGS_UNK21            |                                                                                   |
+| 2097152  | 0x00200000 | PLAYER_FLAGS_UNK22            |                                                                                   |
+| 4194304  | 0x00400000 | PLAYER_FLAGS_COMMENTATOR2     |                                                                                   |
+| 8388608  | 0x00800000 | PLAYER_ALLOW_ONLY_ABILITY     | used by bladestorm and killing spree                                              |
+| 16777216 | 0x01000000 | PLAYER_FLAGS_UNK25            | disabled all melee ability on tab include autoattack                              |
+| 33554432 | 0x02000000 | PLAYER_FLAGS_NO_XP_GAIN       |                                                                                   |
 
 ### position\_x
 
@@ -1271,62 +1160,16 @@ The global unique identifier of the transport this character was on when they we
 
 These flags control certain player specific attributes, mostly GM features
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Flag</p></th>
-<th><p>Name</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>0x00000001</p></td>
-<td><p>PLAYER_EXTRA_GM_ON</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>0x00000002</p></td>
-<td><p>PLAYER_EXTRA_GM_ACCEPT_TICKETS</p></td>
-</tr>
-<tr class="odd">
-<td><p>4</p></td>
-<td><p>0x00000004</p></td>
-<td><p>PLAYER_EXTRA_ACCEPT_WHISPERS</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>0x00000008</p></td>
-<td><p>PLAYER_EXTRA_TAXICHEAT</p></td>
-</tr>
-<tr class="odd">
-<td><p>16</p></td>
-<td><p>0x00000010</p></td>
-<td><p>PLAYER_EXTRA_GM_INVISIBLE</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>0x00000020</p></td>
-<td><p>PLAYER_EXTRA_GM_CHAT</p></td>
-</tr>
-<tr class="odd">
-<td><p>64</p></td>
-<td><p>0x00000040</p></td>
-<td><p>PLAYER_EXTRA_HAS_310_FLYER</p></td>
-</tr>
-<tr class="even">
-<td><p>256</p></td>
-<td><p>0x00000100</p></td>
-<td><p>PLAYER_EXTRA_PVP_DEATH</p></td>
-</tr>
-</tbody>
-</table>
+| Flag |            | Name                           | Description                                         |
+|------|------------|--------------------------------|-----------------------------------------------------|
+| 1    | 0x00000001 | PLAYER_EXTRA_GM_ON             | Defines GM state                                    |
+| 2    | 0x00000002 | PLAYER_EXTRA_GM_ACCEPT_TICKETS | NO LONGER USED Defines if tickets are accepted      |
+| 4    | 0x00000004 | PLAYER_EXTRA_ACCEPT_WHISPERS   | Defines if whispers are accepted                    |
+| 8    | 0x00000008 | PLAYER_EXTRA_TAXICHEAT         | Sets taxicheat                                      |
+| 16   | 0x00000010 | PLAYER_EXTRA_GM_INVISIBLE      | Defines GM visibility                               |
+| 32   | 0x00000020 | PLAYER_EXTRA_GM_CHAT           | Show GM badge in chat messages                      |
+| 64   | 0x00000040 | PLAYER_EXTRA_HAS_310_FLYER     | Marks if player already has 310% speed flying mount |
+| 256  | 0x00000100 | PLAYER_EXTRA_PVP_DEATH         | Store PvP death status until corpse creating        |
 
 ### stable\_slots
 
@@ -1336,16 +1179,16 @@ The Stable Slots available (bought) at the Stable Master.
 
 This field is a bitmask controlling different actions taken once a player logs in with the character.
 
-| Flag | Name | Description                    |
-|------|------|--------------------------------|
-| 1    | 0x01 | AT\_LOGIN\_RENAME              |
-| 2    | 0x02 | AT\_LOGIN\_RESET\_SPELLS       |
-| 4    | 0x04 | AT\_LOGIN\_RESET\_TALENTS      |
-| 8    | 0x08 | AT\_LOGIN\_CUSTOMIZE           |
-| 16   | 0x10 | AT\_LOGIN\_RESET\_PET\_TALENTS |
-| 32   | 0x20 | AT\_LOGIN\_FIRST               |
-| 64   | 0x40 | AT\_LOGIN\_CHANGE\_FACTION     |
-| 128  | 0x80 | AT\_LOGIN\_CHANGE\_RACE        |
+| Flag |      | Name                       | Description                          |
+|------|------|----------------------------|--------------------------------------|
+| 1    | 0x01 | AT_LOGIN_RENAME            | Force character to change name       |
+| 2    | 0x02 | AT_LOGIN_RESET_SPELLS      | Reset spells (professions as well)   |
+| 4    | 0x04 | AT_LOGIN_RESET_TALENTS     | Reset talents                        |
+| 8    | 0x08 | AT_LOGIN_CUSTOMIZE         | Customize Characters                 |
+| 16   | 0x10 | AT_LOGIN_RESET_PET_TALENTS | Reset pet talents                    |
+| 32   | 0x20 | AT_LOGIN_FIRST             | Set at and removed after first login |
+| 64   | 0x40 | AT_LOGIN_CHANGE_FACTION    | Faction change                       |
+| 128  | 0x80 | AT_LOGIN_CHANGE_RACE       | Race change                          |
 
 For multiple actions, add values together.
 
@@ -1533,36 +1376,12 @@ so the 29bit stores the title. This would be 2 ^ 29 = 536870912. This bit store
 
 A bitmask that contains visible actionbars for the player
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Flag</p></th>
-<th><p>Comment</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>0x00000001</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>0x00000002</p></td>
-</tr>
-<tr class="odd">
-<td><p>4</p></td>
-<td><p>0x00000004</p></td>
-</tr>
-<tr class="even">
-<td><p>8</p></td>
-<td><p>0x00000008</p></td>
-</tr>
-</tbody>
-</table>
+| Flag |            | Comment          |
+|------|------------|------------------|
+| 1    | 0x00000001 | Bottom Left Bar  |
+| 2    | 0x00000002 | Bottom Right Bar |
+| 4    | 0x00000004 | Rigth Bar        |
+| 8    | 0x00000008 | Right Bar 2      |
 
 ### grantableLevels
 

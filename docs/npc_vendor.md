@@ -106,8 +106,6 @@ The ID of the creature. See [creature\_template.entry](creature_template#creatur
 
 Position of the item when the vendor window opens. The image below explains how the vendor-inventory slots are numbered. To continue on past the first page just use numbers 10, 11, 12, etc...
 
-![](https://valkryst.com/blog/posts/How%20to%20Create%20a%20Vendor/ImageA.jpg){height="250"}
-
 ### item
 
 The item ID. See  [item\_template.entry](item_template#item_template-entry).
@@ -115,8 +113,6 @@ The item ID. See  [item\_template.entry](item_template#item_template-entry).
 ### maxcount
 
 The maximum number of items carried by the vendor at any time. If you want the vendor to carry an unlimited number of the item then set this to **0** else set it to any positive number. In the image below the maxcount value is circled.
-
-![](https://valkryst.com/blog/posts/How%20to%20Create%20a%20Vendor/ImageB.jpg){height="250"}
 
 ### incrtime
 

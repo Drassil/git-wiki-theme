@@ -99,7 +99,7 @@ The name of the rank that is displayed in-game.
 
 ### rights
 
-The rights a player with this rank has in the guild. The calculation of multiple rights is a bit different in this case as the rights do not all have 2^n values. To combine ranks, you must do the OR operation (|) on the two flags.
+The rights a player with this rank has in the guild. The calculation of multiple rights is a bit different in this case as the rights do not all have 2^n values. To combine ranks, you must do the OR operation (\|) on the two flags.
 
 <table>
 <colgroup>

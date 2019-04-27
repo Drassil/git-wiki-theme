@@ -29,38 +29,31 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 
 Unique ID, automatically incremented by 1
 
-### 
-type
+### type
 
 (ToDo: insert useful description here)
 
-### 
-data
+### data
 
 (ToDo: insert useful description here)
 
-### 
-str
+### str
 
 (ToDo: insert useful description here)
 
-### 
-address
+### address
 
 (ToDo: insert useful description here)
 
-### 
-length
+### length
 
 (ToDo: insert useful description here)
 
-### 
-result
+### result
 
 (ToDo: insert useful description here)
 
-### 
-comment
+### comment
 
 (ToDo: insert useful description here)
 
