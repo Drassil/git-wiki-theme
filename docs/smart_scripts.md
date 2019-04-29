@@ -2386,8 +2386,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>Set Data For Target, can be used with SMART_EVENT_DATA_SET</p></td>
 </tr>
 <tr class="odd">
-<td><p>SMART_ACTION_UNUSED_46</p></td>
+<td><p>SMART_ACTION_MOVE_FORWARD</p></td>
 <td><p>46</p></td>
+<td><p>distance</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2398,10 +2399,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>move self forward for the specified distance (point movement)</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_SET_VISIBILITY</p></td>
