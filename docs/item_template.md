@@ -2336,7 +2336,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td><p>134217728</p></td>
 <td>0x08000000</td>
-<td><p>Bind to Account (Also needs Quality = 7 set)</p></td>
+<td><p>Bind to Account (Set Quality = 7 for the corresponding color. Might require to set Bonding = 1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>268435456</p></td>
@@ -2356,7 +2356,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td><p>2147483648</p></td>
 <td>0x080000000</td>
-<td><p>Bind on Pickup tradeable</p></td>
+<td><p>Bind on Pickup tradeable (only few quest items have this flag and it doesn't seem to bind at all)</p></td>
 </tr>
 </tbody>
 </table>
@@ -2411,7 +2411,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="odd">
 <td>131072</td>
 <td>0x020000</td>
-<td>BNET_ACCOUNT_BOUND</td>
+<td>BNET_ACCOUNT_BOUND (seems useless on 3.3.5a)</td>
 </tr>
 <tr class="even">
 <td>2097152</td>
