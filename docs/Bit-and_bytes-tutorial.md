@@ -261,17 +261,14 @@ x << 2 would move all bits by 2 so x would become
 
 [Cheat sheet taken from this link](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)
 
-1. "&" (bitwise AND) Takes two numbers as operands and does AND on every bit of two numbers. The result of AND is 1 only if both bits are 
-
-2. "|" (bitwise OR) Takes two numbers as operands and does OR on every bit of two numbers. The result of OR is 1 any of the two bits is 
-
-3. "^" (bitwise XOR) Takes two numbers as operands and does XOR on every bit of two numbers. The result of XOR is 1 if the two bits are different.
-
-4. "<<" (left shift) Takes two numbers, left shifts the bits of the first operand, the second operand decides the number of places to shift.
-
-5. ">>" (right shift) Takes two numbers, right shifts the bits of the first operand, the second operand decides the number of places to shift.
-
-6. "~" (bitwise NOT) Takes one number and inverts all bits of it
+Character | Operation | Description
+-- | -- | --
+& | AND | Takes two numbers as operands and does AND on every bit of two numbers. The result of AND is 1 only if both bits are 
+\| | OR | Takes two numbers as operands and does OR on every bit of two numbers. The result of OR is 1 any of the two bits is 
+^ | XOR | Takes two numbers as operands and does XOR on every bit of two numbers. The result of XOR is 1 if the two bits are different.
+\<\< | left shift | Takes two numbers, left shifts the bits of the first operand, the second operand decides the number of places to shift.
+\>\> | right shift | Takes two numbers, right shifts the bits of the first operand, the second operand decides the number of places to shift.
+~ | NOT | Takes one number and inverts all bits of it
 
 # Credits
 
