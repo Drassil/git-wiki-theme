@@ -1805,7 +1805,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>React State. Can be Passive (0), Defensive (1), Aggressive (2), Assist (3).</p></td>
+<td><p>React State. Can be Passive (0), Defensive (1), Aggressive (2).</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_ACTIVATE_GOBJECT</p></td>
@@ -2604,13 +2604,11 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 </tr>
 <tr class="odd">
-<td><p>SMART_ACTION_SET_DISABLE_GRAVITY</p></td>
+<td><p>SMART_ACTION_SET_FLY</p></td>
 <td><p>60</p></td>
-<td><p>0 = On / 1 = Off</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>fly (0/1)</p></td>
+<td><p>speed</p></td>
+<td><p>disable gravity (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3492,7 +3490,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 </tr>
 <tr class="odd">
-<td>SMART_ACTION_SET_CORPSE_DELAY</td>
+<td>SMART_ACTION_SET_CORPSE_DELAY
+<p>(Not supported yet)</p></td>
 <td>116</td>
 <td>timer</td>
 <td><br />
@@ -3509,7 +3508,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 </tr>
 <tr class="even">
-<td>SMART_ACTION_DISABLE_EVADE</td>
+<td>SMART_ACTION_DISABLE_EVADE
+<p>(Not supported yet)</p></td>
 <td>117</td>
 <td>disable evade (1) / re-enable (0)</td>
 <td><br />
@@ -3526,7 +3526,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 </tr>
 <tr class="odd">
-<td>SMART_ACTION_GO_SET_GO_STATE</td>
+<td>SMART_ACTION_GO_SET_GO_STATE
+<p>(Not supported yet)</p></td>
 <td>118</td>
 <td>state</td>
 <td><br />
@@ -3543,7 +3544,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 </tr>
 <tr class="even">
-<td>SMART_ACTION_SET_CAN_FLY</td>
+<td>SMART_ACTION_SET_CAN_FLY
+<p>(Not supported yet)</p></td>
 <td>119</td>
 <td>0/1</td>
 <td><br />
@@ -3560,7 +3562,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </td>
 </tr>
 <tr class="odd">
-<td>SMART_ACTION_REMOVE_AURAS_BY_TYPE</td>
+<td>SMART_ACTION_REMOVE_AURAS_BY_TYPE
+<p>(Not supported yet)</p></td>
 <td>120</td>
 <td>Type</td>
 <td><br />
