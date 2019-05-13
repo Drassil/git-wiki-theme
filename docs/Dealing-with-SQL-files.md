@@ -76,18 +76,69 @@ DELETE FROM `table_1` WHERE `entry` IN (1000, 2000, 3000);
 
 ## How to create an sql update file
 
-This kind of procedure is pretty simple and allow any kind of dev, but also testers, to avoid multiple import of the same queries.
+This kind of procedure is pretty simple and allow not only developers, but also testers, to avoid multiple import of the same queries.
 
-We can proceed by steps:
+Always make sure you are up to date with the main repository by quickly doing this beforehand: [Update and sync your fork](http://www.azerothcore.org/wiki/Syncing-your-fork).
 
-1. Go into **data/sql/updates** and choose the **pending** folder corresponding to the database you apply your SQL to (pending_db_auth or pending_db_characters or pending_db_world).
+Then you need to create a new branch which will hold your SQL Update file:
 
-2. Run the create_sql.sh script with your bash console. On **Windows**: Use `git bash` (right click on the file). On **Unix/Linux/OSX**: run it from the terminal directly or with "bash create_sql.sh" or execute it with a double click.
+``` git
+## Pick our main branch so other branches can be 
+## up to date when being created based on master.
+git checkout master
 
-3. Now you'll have a file called **rev_[a_long_number].sql** , you can open it and add your queries into.
+## Create a new branch and checkout to start working on it
+git checkout -b this_will_fix_that_problem
+```
 
-4. Commit with Git and push to github. Follow our tutorial to create a Pull Request.
+Now that we are ready, generate the update file by:
 
+#### 1. Acessing the right folder
+
+Inside your local repository, you should have a folder in the path **data/sql/updates**. There we will find many **pending** folders:
+
+  - pending_db_auth 
+  - pending_db_characters
+  - pending_db_world
+  
+The one you pick depends on the Databases that needs correction. For example, our query will update `creature.npcflags` and, for this reason, we will create an update SQL file inside pending_db_world due to the table belonging to the world database.
+
+``` SQL
+UPDATE `creature_template` SET `npc_flag` = 128 WHERE `entry`= 1234;
+```
+
+#### 2. Run the create_sql.sh script with your bash console to generate the file.
+
+On **Windows**: 
+  Use `git bash here` (right click on the folder) to open up the git console and execute the shell script by typing __./create_sql.sh__.
+  Don't close this console yet so we can use it to commit and push to our remote later on.
+
+On **Unix/Linux/OSX**: 
+  run it from the terminal directly or with "bash create_sql.sh" or execute it with a double click.
+
+#### 3. Now you'll have a file called **rev_[a_long_number].sql**
+
+You can open it and add/type your queries into it.
+
+#### 4. Commit with Git and push to github
+
+On **Windows**: 
+  Remember when we said not to close the terminal on windows? Now you only need to type the following commands into the
+  terminal and you will be ready to open a pull request with your fix.
+
+``` git
+## Make sure you have your branch with the new fix checked out.
+## Select all your modified files
+git add .
+
+## Commit your changes (you can simply type "git commit -v" too)
+git commit -v -m "Commit message here"
+
+## origin = your git remote (the url of your fork)
+## Don't need to type git push origin this_will_fix_that_problem
+## Because origin is our default remote and the branch will be the current one
+git push
+```
 
 --------
 This feature grants you ( dev / tester / user ) to:
