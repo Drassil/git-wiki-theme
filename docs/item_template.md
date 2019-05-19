@@ -2236,7 +2236,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td>128</td>
 <td>0x080</td>
-<td>No default 30 seconds cooldown when equipped</td>
+<td>No default 30 seconds cooldown when equipped (for "On use" items)</td>
 </tr>
 <tr class="odd">
 <td>256</td>
