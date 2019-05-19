@@ -2296,7 +2296,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td><p>524288</p></td>
 <td>0x080000</td>
-<td><p>Unique equipped (player can only have one equipped at the same time but as many as he wants in his bags, if maxcount  = 1, it will still display Unique-Equipped)</p></td>
+<td><p>Unique equipped (player can only have one equipped at the same time but as many as he wants in his bags, if maxcount = 1, it will still display Unique-Equipped)</p></td>
 </tr>
 <tr class="odd">
 <td>1048576</td>
