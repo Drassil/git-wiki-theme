@@ -2236,7 +2236,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td>128</td>
 <td>0x080</td>
-<td>No default 30 seconds cooldown when equipped</td>
+<td>No default 30 seconds cooldown when equipped (for "On use" items)</td>
 </tr>
 <tr class="odd">
 <td>256</td>
@@ -2296,7 +2296,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="even">
 <td><p>524288</p></td>
 <td>0x080000</td>
-<td><p>Unique equipped (player can only have one equipped at the same time)</p></td>
+<td><p>Unique equipped (player can only have one equipped at the same time but as many as he wants in his bags, if maxcount = 1, it will still display Unique-Equipped)</p></td>
 </tr>
 <tr class="odd">
 <td>1048576</td>
@@ -2321,17 +2321,17 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="odd">
 <td>16777216</td>
 <td>0x01000000</td>
-<td> UNK10</td>
+<td>UNK10</td>
 </tr>
 <tr class="even">
 <td>54432</td>
 <td>0x02000000</td>
-<td> Profession recipes: can only be looted if you meet requirements and don't already know it</td>
+<td>Profession recipes: can only be looted if you meet requirements and don't already know it</td>
 </tr>
 <tr class="odd">
 <td>67108864</td>
 <td>0x04000000</td>
-<td> Item cannot be used in arena</td>
+<td>Item cannot be used in arena</td>
 </tr>
 <tr class="even">
 <td><p>134217728</p></td>
@@ -2351,7 +2351,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 <tr class="odd">
 <td>1073741824</td>
 <td>0x040000000</td>
-<td> UNK11</td>
+<td>UNK11</td>
 </tr>
 <tr class="even">
 <td><p>2147483648</p></td>
