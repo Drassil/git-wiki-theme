@@ -2467,7 +2467,7 @@ In what slot the item can be equipped.
 <td><p>0</p></td>
 <td><p>Non equipable</p></td>
 <td><p>15</p></td>
-<td><p>Ranged (Bows)</p></td>
+<td><p>Ranged (Bows) (see also Ranged right = 26)</p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
@@ -2495,9 +2495,9 @@ In what slot the item can be equipped.
 </tr>
 <tr class="even">
 <td><p>5</p></td>
-<td><p>Chest</p></td>
+<td><p>Chest (see also Robe = 20)</p></td>
 <td><p>20</p></td>
-<td><p>Robe</p></td>
+<td><p>Robe (see also Chest = 5)</p></td>
 </tr>
 <tr class="odd">
 <td><p>6</p></td>
@@ -2509,7 +2509,7 @@ In what slot the item can be equipped.
 <td><p>7</p></td>
 <td><p>Legs</p></td>
 <td><p>22</p></td>
-<td><p>Off hand</p></td>
+<td><p>Off hand (see also One-Hand = 13)</p></td>
 </tr>
 <tr class="odd">
 <td><p>8</p></td>
@@ -2533,7 +2533,7 @@ In what slot the item can be equipped.
 <td><p>11</p></td>
 <td><p>Finger</p></td>
 <td><p>26</p></td>
-<td><p>Ranged right (Wands, Guns)</p></td>
+<td><p>Ranged right (Wands, Guns) (see also Ranged = 15)</p></td>
 </tr>
 <tr class="odd">
 <td><p>12</p></td>
@@ -2543,7 +2543,7 @@ In what slot the item can be equipped.
 </tr>
 <tr class="even">
 <td><p>13</p></td>
-<td><p>Weapon</p></td>
+<td><p>One-Hand (not to confuse with Off-Hand = 22)</p></td>
 <td><p>28</p></td>
 <td><p>Relic</p></td>
 </tr>
