@@ -2509,13 +2509,13 @@ In what slot the item can be equipped.
 <td><p>7</p></td>
 <td><p>Legs</p></td>
 <td><p>22</p></td>
-<td><p>Off-hand weapons (see also One-Hand = 13)</p></td>
+<td><p>Off Hand weapons (see also One-Hand = 13)</p></td>
 </tr>
 <tr class="odd">
 <td><p>8</p></td>
 <td><p>Feet</p></td>
 <td><p>23</p></td>
-<td><p>Held in Off-Hand (tome, cane, flowers etc... See also Off-Hand = 22)</p></td>
+<td><p>Held in Off-Hand (tome, cane, flowers, torches, orbs etc... See also Off-Hand = 22)</p></td>
 </tr>
 <tr class="even">
 <td><p>9</p></td>
