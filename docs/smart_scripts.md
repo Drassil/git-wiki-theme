@@ -2750,13 +2750,13 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>69</p></td>
 <td><p>PointId</p></td>
 <td><p>isTransport (0 or 1)</p></td>
-<td><p>disablePathfinding (0 or 1)</p></td>
+<td><p>controlled (0 or 1)</p></td>
 <td><p>ContactDistance</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>PointId is called by SMART_EVENT_MOVEMENTINFORM. Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z, target_o as the coordinates</p></td>
+<td><p>PointId is called by SMART_EVENT_MOVEMENTINFORM. Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z as the coordinates; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
