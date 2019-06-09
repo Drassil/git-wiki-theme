@@ -91,7 +91,7 @@ This table contains all the equipment combinations that can be sent for each cre
 
 ### CreatureID
 
-The direct corresponding [id](creature_2130009.html#creature-id) in [creature](creature) table or [entry](creature_template_2130008.html#creature_template-entry) in [creature\_template](creature_template) table.
+The direct corresponding [id](http://www.azerothcore.org/wiki/creature#id) in [creature](creature) table or [entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) in [creature\_template](creature_template) table.
 
 ### ID
 
@@ -99,12 +99,12 @@ An additional identifier for each individual entry, enabling multiple equipment
 
 ### ItemID1
 
-This is the item number of the equipment used in the right hand from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).
+This is the item number of the equipment used in the right hand from [Item.dbc](Item).
 
 ### ItemID2
 
-This is the item number of the equipment used in the left hand from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).
+This is the item number of the equipment used in the left hand from [Item.dbc](Item).
 
 ### ItemID3
 
-This is the item number of the equipment used in the ranged slot from [Item.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Item).
+This is the item number of the equipment used in the ranged slot from [Item.dbc](Item).
