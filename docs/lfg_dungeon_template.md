@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [lfg_dungeon_template](lfg_dungeon_template)
+# lfg_dungeon_template
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---
