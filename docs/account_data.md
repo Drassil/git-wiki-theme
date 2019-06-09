@@ -77,7 +77,7 @@ Contains data about client account and settings.
 
 ### account
 
-[Account.id](account_2130004.html#account-id).
+[Account.id](http://www.azerothcore.org/wiki/account#id).
 
 ### type
 
