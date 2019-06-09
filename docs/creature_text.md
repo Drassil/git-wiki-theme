@@ -4,11 +4,11 @@
 
 **Short Description:**
 
-This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](https://trinitycore.atlassian.net/wiki/display/tc/smart_scripts) table and core scripts.
+This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](http://www.azerothcore.org/wiki/smart_scripts) table and core scripts.
 
 **Detailed Description:**
 
-Have you ever wondered how a boss like ***Sindragosa*** (→ [wowhead](http://www.wowhead.com/npc=36853/sindragosa)) is scripted? There is no need to wonder, you can see it for yourself! (→ [Sindragosa Script File](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp))
+Have you ever wondered how a boss like ***Sindragosa*** (→ [wowhead](http://www.wowhead.com/npc=36853/sindragosa)) is scripted? There is no need to wonder, you can see it for yourself! (→ [Sindragosa Script File](https://github.com/azerothcore/azerothcore-wotlk/blob/master/src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp))
 
 I know, I know - this looks incredibly complex, over 1600 lines of code! However there is no need to understand everything at one time. Let's focus on something simple, but still very important, shall we? 
 
@@ -77,7 +77,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 <td><p>0</p></td>
 <td><p><br />
 </p></td>
-<td><p><a href="https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry">creature_template entry</a></p></td>
+<td><p><a href="http://www.azerothcore.org/wiki/creature_template#creature_template-entry">creature_template entry</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="#groupid">GroupID</a></p></td>
@@ -240,7 +240,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 
 ### CreatureID
 
-This is the [creature\_template.entry](https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry) to which the script is linked to.
+This is the [creature\_template.entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) to which the script is linked to.
 
 ### GroupID
 
@@ -294,7 +294,7 @@ A value from 1-100 that represents the percentage chance that this text will be 
 
 ### Emote
 
-The emote that the creature plays when the text is executed. Value to use in this field can be obtained from the [emote](Emotes).dbc
+The emote that the creature plays when the text is executed. Value to use in this field can be obtained from the [emote.dbc](Emotes)
 
 ### Duration
 
