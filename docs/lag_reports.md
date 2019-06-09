@@ -111,7 +111,7 @@ Report ID
 
 ### guid
 
-Player guid. See [characters.guid](2129969.html#characters(table)-guid)
+Player guid. See [characters.guid](http://www.azerothcore.org/wiki/characters#guid)
 
 ### lagType
 
