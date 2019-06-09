@@ -209,7 +209,7 @@ This table holds information about menu options a gossip NPC can have. Example
 ### MenuID
 
 Gossip entry from Gossip\_menu.entry this option is associated with.
-If this is the default gossip option for the selected NPC, verify that the NPC has this value in it's [creature\_template.gossip\_menu\_id](https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-gossip_menu_id) .
+If this is the default gossip option for the selected NPC, verify that the NPC has this value in it's [creature\_template.gossip\_menu\_id](http://www.azerothcore.org/wiki/creature_template#creature_template-gossip_menu_id) .
 
 ### OptionID
 
@@ -392,11 +392,11 @@ This is the npcflag ([Creature\_template.npcflag](creature_template#creature_tem
 
 ### ActionMenuID
 
-If you want to create a sub-menu, this is the ID ([gossip\_menu.entry](https://trinitycore.atlassian.net/wiki/display/tc/gossip_menu#gossip_menu-entry) / [gossip\_menu\_option.menu\_id](https://trinitycore.atlassian.net/wiki/display/tc/gossip_menu_option#gossip_menu_option-menu_id)) to link to to create that sub-menu.
+If you want to create a sub-menu, this is the ID ([gossip\_menu.entry](http://www.azerothcore.org/wiki/gossip_menu#entry) / [gossip\_menu\_option.menu\_id](http://www.azerothcore.org/wiki/gossip_menu_option#menu_id)) to link to to create that sub-menu.
 
 ### ActionPoiID
 
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](Points+of+interest+tc2#entry)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](http://www.azerothcore.org/wiki/points_of_interest#entry)
 
 ### BoxCoded
 
@@ -414,7 +414,7 @@ If BoxBroadCastTextID contains a valid broadcast\_text.ID, it links to broadcast
 
 ### BoxBroadcastTextID
 
-The ID of the same text in [broadcast\_text.ID](https://trinitycore.atlassian.net/wiki/display/tc/broadcast_text#broadcast_text-ID).
+The ID of the same text in [broadcast\_text.ID](http://www.azerothcore.org/wiki/broadcast_text#broadcast_text-ID).
 
 ### VerifiedBuild
 
