@@ -610,14 +610,14 @@ The content of the data fields depends on the [gameobject type](#gameobject_temp
 **GAMEOBJECT\_TYPE\_CHEST = 3**
 
 -   data0: open (LockId from Lock.dbc)
--   data1: chestLoot ([gameobject\_loot\_template.entry](loot_template_2130202.html#loot_template-entry)) `WDB-fields`
+-   data1: chestLoot ([gameobject\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)) `WDB-fields`
 -   data2: chestRestockTime (time in seconds)
 -   data3: consumable (State: Boolean flag)
 -   data4: minRestock (Min successful loot attempts for Mining, Herbalism etc)
 -   data5: maxRestock (Max successful loot attempts for Mining, Herbalism etc)
 -   data6: lootedEvent (Event ID from table event\_scripts)
 -   data7: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
--   data8: questID ([quest\_template.id](quest_template_2130261.html#quest_template-entry) of completed quest)
+-   data8: questID ([quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) of completed quest)
 -   data9: level (minimal level required to open this gameobject)
 -   data10: losOK (Boolean flag)
 -   data11: leaveLoot (Boolean flag)
@@ -654,17 +654,17 @@ Object type not used
 -   data2: serverOnly? (Always 0)
 -   data3: large? (Boolean flag)
 -   data4: floatOnWater (Boolean flag)
--   data5: questID (Required active [quest\_template.id](quest_template_2130261.html#quest_template-entry) to work)
+-   data5: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
 -   data6: conditionID1
 -   data7: LargeAOI
 -   data8: UseGarrisonOwnerGuildColors
 
 **GAMEOBJECT\_TYPE\_TRAP = 6**
 
--   data0: open (LockId from [Lock.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Lock) )
+-   data0: open (LockId from [Lock.dbc](Lock) )
 -   data1: level (npc equivalent level for casted spell)
 -   data2: diameter (so radius \* 2)
--   data3: spell (Spell Id from [Spell.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Spell))
+-   data3: spell (Spell Id from [Spell.dbc](Spell))
 -   data4: type (0 trap with no despawn after cast. 1 trap despawns after cast. 2 bomb casts on spawn)
 -   data5: cooldown (time in seconds)
 -   data6:  ? (unknown flag)
@@ -695,7 +695,7 @@ Object type not used
 -   data1: diameter (so radius\*2)
 -   data2: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
 -   data3: serverOnly? (Always 0)
--   data4: questID (Required active [quest\_template.id](quest_template_2130261.html#quest_template-entry) to work)
+-   data4: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
 -   data5: large? (Boolean flag)
 -   data6: floatingTooltip (Boolean flag)
 -   data7: floatOnWater
@@ -704,22 +704,22 @@ Object type not used
 **GAMEOBJECT\_TYPE\_TEXT = 9**
 
 -   data0: pageID ([page\_text.entry](page_text_2130246.html#page_text-entry))
--   data1: language (from  [Languages.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Languages))
--   data2: pageMaterial ([PageTextMaterial.dbc](https://trinitycore.atlassian.net/wiki/display/tc/PageTextMaterial))
+-   data1: language (from  [Languages.dbc](Languages))
+-   data2: pageMaterial ([PageTextMaterial.dbc](PageTextMaterial))
 -   data3: allowMounted
 -   data4: conditionID1
 -   data5: NeverUsableWhileMounted
 
 **GAMEOBJECT\_TYPE\_GOOBER = 10**
 
--   data0: open (LockId from [Lock.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Lock))
--   data1: questID (Required active [quest\_template.id](quest_template_2130261.html#quest_template-entry) to work)
+-   data0: open (LockId from [Lock.dbc](Lock))
+-   data1: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
 -   data2: eventID (event\_script id)
 -   data3:  Time in ms before the initial state is restored
 -   data4: customAnim (unknown)
 -   data5: consumable (Boolean flag controling if gameobject will despawn or not)
 -   data6: cooldown (time is seconds)
--   data7: pageID ([page\_text.entry](page_text_2130246.html#page_text-entry))
+-   data7: pageID ([page\_text.entry](http://www.azerothcore.org/wiki/page_text#entry))
 -   data8: language (from Languages.dbc)
 -   data9: pageMaterial (PageTextMaterial.dbc)
 -   data10: spell (Spell Id from Spell.dbc)
@@ -783,8 +783,8 @@ Object type not used
 
 **GAMEOBJECT\_TYPE\_CAMERA = 13**
 
--   data0: open (LockId from Lock.dbc)
--   data1: camera (Cinematic entry from CinematicCamera.dbc)
+-   data0: open (LockId from [Lock.dbc](Lock))
+-   data1: camera (Cinematic entry from [CinematicCamera.dbc](CinematicCamera))
 -   data2: eventID
 -   data3: openTextID
 -   data4: conditionID1
@@ -795,7 +795,7 @@ No data used, all are always 0
 
 **GAMEOBJECT\_TYPE\_MOTRANSPORT = 15**
 
--   data0: taxiPathID (Id from TaxiPath.dbc)
+-   data0: taxiPathID (Id from [TaxiPath.dbc](TaxiPath))
 -   data1: moveSpeed
 -   data2: accelRate
 -   data3: startEventID
@@ -818,10 +818,10 @@ Only one Gameobject with this type (35591) and no data data
 **GAMEOBJECT\_TYPE\_RITUAL = 18**
 
 -   data0: casters?
--   data1: spell (Spell Id from Spell.dbc)
--   data2: animSpell (Spell Id from Spell.dbc)
+-   data1: spell (Spell Id from [Spell.dbc](Spell))
+-   data2: animSpell (Spell Id from [Spell.dbc](Spell))
 -   data3: ritualPersistent (Boolean flag)
--   data4: casterTargetSpell (Spell Id from Spell.dbc)
+-   data4: casterTargetSpell (Spell Id from [Spell.dbc](Spell))
 -   data5: casterTargetSpellTargets (Boolean flag)
 -   data6: castersGrouped (Boolean flag)
 -   data7: ritualNoTargetCheck
@@ -833,7 +833,7 @@ No data used, all are always 0
 
 **GAMEOBJECT\_TYPE\_AUCTIONHOUSE = 20**
 
--   data0: actionHouseID (From AuctionHouse.dbc ?)
+-   data0: actionHouseID (From [AuctionHouse.dbc](AuctionHouse) ?)
 
 **GAMEOBJECT\_TYPE\_GUARDPOST = 21**
 
@@ -842,7 +842,7 @@ No data used, all are always 0
 
 **GAMEOBJECT\_TYPE\_SPELLCASTER = 22**
 
--   data0: spell (Spell Id from Spell.dbc)
+-   data0: spell (Spell Id from [Spell.dbc](Spell))
 -   data1: charges
 -   data2: partyOnly (Boolean flag, need to be in group to use it)
 -   data3: allowMounted
@@ -855,15 +855,15 @@ No data used, all are always 0
 
 -   data0: minLevel
 -   data1: maxLevel
--   data2: areaID (From AreaTable.dbc)
+-   data2: areaID (From [AreaTable.dbc](AreaTable))
 
 **GAMEOBJECT\_TYPE\_FLAGSTAND = 24**
 
--   data0: open (LockId from Lock.dbc)
--   data1: pickupSpell (Spell Id from Spell.dbc)
+-   data0: open (LockId from [Lock.dbc](Lock))
+-   data1: pickupSpell (Spell Id from [Spell.dbc](Spell))
 -   data2: radius (distance)
--   data3: returnAura (Spell Id from Spell.dbc)
--   data4: returnSpell (Spell Id from Spell.dbc)
+-   data3: returnAura (Spell Id from [Spell.dbc](Spell))
+-   data4: returnSpell (Spell Id from [Spell.dbc](Spell))
 -   data5: noDamageImmune (Boolean flag)
 -   data6: openTextID
 -   data7: losOK (Boolean flag)
@@ -876,16 +876,16 @@ No data used, all are always 0
 **GAMEOBJECT\_TYPE\_FISHINGHOLE = 25**
 
 -   data0: radius (distance)
--   data1: chestLoot ([gameobject\_loot\_template.entry](loot_template_2130202.html#loot_template-entry))
+-   data1: chestLoot ([gameobject\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry))
 -   data2: minRestock
 -   data3: maxRestock
 -   data4: open
 
 **GAMEOBJECT\_TYPE\_FLAGDROP = 26**
 
--   data0: open (LockId from Lock.dbc)
+-   data0: open (LockId from [Lock.dbc](Lock))
 -   data1: eventID (Unknown Event ID)
--   data2: pickupSpell (Spell Id from Spell.dbc)
+-   data2: pickupSpell (Spell Id from [Spell.dbc](Spell))
 -   data3: noDamageImmune (Boolean flag)
 -   data4: openTextID
 -   data5: playerCast
@@ -898,7 +898,7 @@ No data used, all are always 0
 
 Object type not used. Reused in core for CUSTOM\_TELEPORT
 
--   data0: [areatrigger\_teleport.id](areatrigger_teleport_2129953.html#areatrigger_teleport-id)
+-   data0: [areatrigger\_teleport.id](http://www.azerothcore.org/wiki/areatrigger_teleport#id)
 
 **GAMEOBJECT\_TYPE\_LOTTERYKIOSK = 28**
 
@@ -938,7 +938,7 @@ Object type not used
 
 -   data0: startOpen (Boolean flag)
 -   data1: radius (Distance)
--   data2: auraID1 (Spell Id from Spell.dbc)
+-   data2: auraID1 (Spell Id from [Spell.dbc](Spell))
 -   data3: conditionID1 (Unknown ID)
 -   data4: auraID2
 -   data5: conditionID2
@@ -946,7 +946,7 @@ Object type not used
 
 **GAMEOBJECT\_TYPE\_DUNGEONDIFFICULTY = 31**
 
--   data0: mapID (From Map.dbc)
+-   data0: mapID (From [Map.dbc](Map))
 -   data1: difficulty
 -   data2: DifficultyHeroic
 -   data3: DifficultyEpic
