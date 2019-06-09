@@ -201,7 +201,7 @@ The global unique identifier for the game object. This field must be unique amon
 
 ### id
 
-The template ID of the gameobject. See [gameobject\_template.entry](https://trinitycore.atlassian.net/wiki/display/tc/gameobject_template#gameobject_template-entry)
+The template ID of the gameobject. See [gameobject\_template.entry](http://www.azerothcore.org/wiki/gameobject_template#entry)
 
 ### map
 
