@@ -2433,7 +2433,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 
 ### BuyCount
 
-The size of the item stack when sold by vendors. Also if a vendor has limited copies of this item available, everytime the vendor list is refreshed (See [npc\_vendor.incrtime](npc_vendor_2130245.html#npc_vendor-incrtime)), the number of copies increases by this number.
+The size of the item stack when sold by vendors. Also if a vendor has limited copies of this item available, everytime the vendor list is refreshed (See [npc\_vendor.incrtime](http://www.azerothcore.org/wiki/npc_vendor#incrtime)), the number of copies increases by this number.
 
 ### BuyPrice
 
@@ -3093,7 +3093,7 @@ The description that appears in orange letters at the bottom of the item tooltip
 
 ### PageText
 
-The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](page_text_2130246.html#page_text-entry)
+The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](http://www.azerothcore.org/wiki/page_text#entry)
 
 ### LanguageID
 
@@ -3109,7 +3109,7 @@ See the [PageTextMaterial DBC file](PageTextMaterial) for the IDs of all of the 
 
 ### startquest
 
-The ID of the quest that this item will start if right-clicked. See [quest\_template.id](quest_template_2130261.html#quest_template-entry)
+The ID of the quest that this item will start if right-clicked. See [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id)
 
 ### lockid
 
@@ -3241,11 +3241,11 @@ Controls how the item is put away on the character. Press the 'Z' hotkey to shea
 
 ### RandomProperty
 
-The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template_2130231.html#item_enchantment_template-entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](#item_template-RandomSuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](http://www.azerothcore.org/wiki/item_enchantment_template#entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](#item_template-RandomSuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### RandomSuffix
 
-The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template_2130231.html#item_enchantment_template-entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](#item_template-RandomProperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](http://www.azerothcore.org/wiki/item_enchantment_template#entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](#item_template-RandomProperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### block
 
@@ -3612,7 +3612,7 @@ The name of the script that the item should use. There is no 'internalitemhandle
 
 ### DisenchantID
 
-The disenchant loot template ID. See [disenchant\_loot\_template.entry](loot_template_2130202.html#loot_template-entry)
+The disenchant loot template ID. See [disenchant\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
 
 ### FoodType
 
