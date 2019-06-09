@@ -57,8 +57,8 @@ Holds game object quest giver relations. The game objects in this table should a
 
 ### id
 
-The template ID of the game object. See gameobject\_template.entry
+The template ID of the game object. See [gameobject\_template.entry](http://www.azerothcore.org/wiki/gameobject_template#entry)
 
 ### quest
 
-The quest ID that this game object starts. See quest\_template.entry
+The quest ID that this game object starts. See [quest\_template.entry](http://www.azerothcore.org/wiki/quest_template#id)
