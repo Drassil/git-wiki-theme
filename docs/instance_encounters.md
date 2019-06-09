@@ -87,7 +87,7 @@ Definitions of instance encounters. Used by LFG.
 
 ### entry
 
-Unique entry from DungeonEncounter.dbc
+Unique entry from [DungeonEncounter.dbc](DungeonEncounter)
 
 ### creditType
 
@@ -105,7 +105,7 @@ If creditType = 1, then value for this field is a spell. See Spell.dbc.
 
 ### lastEncounterDungeon
 
-Reference to LfgDungeon.dbc entry for the instance it which is this encounter last. If 0, encounter is not last one.
+Reference to [LfgDungeon.dbc](LfgDungeon) entry for the instance it which is this encounter last. If 0, encounter is not last one.
 
 ### comment
 
