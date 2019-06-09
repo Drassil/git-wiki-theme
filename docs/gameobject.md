@@ -252,7 +252,6 @@ Just like flags you can add them as you wish so 3 would be: Spawned in 10/25 man
 </tbody>
 </table>
 
-For 6.x read [spawnmask 6.x](spawnmask_6.x)
 
 ### phaseMask
 
