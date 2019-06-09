@@ -952,7 +952,7 @@ The character global unique identifier. This number must be unique and is the be
 
 ### account
 
-The account ID in which this character resides. See [account.id](account_2130004.html#account-id). in the auth database.
+The account ID in which this character resides. See [account.id](http://www.azerothcore.org/wiki/account#id). in the auth database.
 
 ### name
 
@@ -964,7 +964,7 @@ The race of the character. See [ChrRaces.dbc](ChrRaces)
 
 ### class
 
-The class of the character: [ChrClasses.dbc](https://trinitycore.atlassian.net/wiki/display/tc/ChrClasses)
+The class of the character: [ChrClasses.dbc](ChrClasses)
 
 ### gender
 
@@ -1326,7 +1326,7 @@ Bitmasks of explored zones (1 bit for explored, 0 bit for unexplored)
 
 ### ammoId
 
-[Template ID](item_template_2130222.html#item_template-entry) of the ammo item
+[Template ID](http://www.azerothcore.org/wiki/item_template#entry) of the ammo item
 
 ### knownTitles
 
