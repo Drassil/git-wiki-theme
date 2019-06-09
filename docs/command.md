@@ -4,7 +4,7 @@
 
 <p>Holds help and security information for commands. This table does NOT create new commands, it only sets / overrides security and provides help.</p>
 
-</p><strong>Structure</strong></p>
+<p><strong>Structure</strong></p>
 
 <table>
 <colgroup>
