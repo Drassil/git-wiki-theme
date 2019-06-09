@@ -255,7 +255,6 @@ Example:
 
 The creature will spawn in only the 10 and 25 man heroic versions of the map that the creature is spawned on.
 
-For 6.x read [spawnmask 6.x](spawnmask_6.x)
 
  
 
@@ -344,7 +343,7 @@ The maximum distance that the creature may spawn from its spawn point. Also cont
 
 ### currentwaypoint
 
-The current [waypoint](waypoint_data#waypoint_data-point)that the creature is on, if any.
+The current [waypoint](waypoint_data#waypoint_data-point) that the creature is on, if any.
 
 ### curhealth
 
@@ -378,4 +377,4 @@ Same as creature\_template.dynamicflags.
 
 Note:
 
-A creature.dynamicflags record will override a [creature\_template.dynamicflags](http://creature_template.dynamicflags) record.
+A creature.dynamicflags record will override a [creature\_template.dynamicflags](creature_template#creature_template-dynamicflags) record.
