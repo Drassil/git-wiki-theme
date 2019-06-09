@@ -57,8 +57,8 @@ Holds NPC quest giver relations on which NPCs start which quests.
 
 ### id
 
-The ID of the creature. See creature\_template.entry
+The ID of the creature. See [creature\_template.entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry)
 
 ### quest
 
-The quest ID that the creature starts. See quest\_template.id
+The quest ID that the creature starts. See [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id)
