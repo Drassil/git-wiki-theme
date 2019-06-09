@@ -175,7 +175,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 ### guid/entry
 
 For creature\_addon, this field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
-For creature\_template\_addon, this field signifies the [creature\_template.entry](https://trinitycore.atlassian.net/wiki/display/tc/creature_template#creature_template-entry). It will affect all spawned creatures using that template entry.
+For creature\_template\_addon, this field signifies the [creature\_template.entry](creature_template#creature_template-entry). It will affect all spawned creatures using that template entry.
 
 ### path\_id
 
