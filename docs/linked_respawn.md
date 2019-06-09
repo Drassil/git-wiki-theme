@@ -68,11 +68,11 @@ Gameobjects can be linked too!
 
 ### guid
 
-This is the guid of the [creature](creature_2130009.html#creature-guid) or [gameobject](gameobject_2130146.html#gameobject-guid) you want to link.
+This is the guid of the [creature](http://www.azerothcore.org/wiki/creature#guid) or [gameobject](http://www.azerothcore.org/wiki/gameobject#guid) you want to link.
 
 ### linkedGuid
 
-This is the guid of the [creature](creature_2130009.html#creature-guid) or [gameobject](gameobject_2130146.html#gameobject-guid) (boss most likely) that you want to link to.
+This is the guid of the [creature](http://www.azerothcore.org/wiki/creature#guid) or [gameobject](http://www.azerothcore.org/wiki/gameobject#guid) (boss most likely) that you want to link to.
 
 ### linkedType
 
