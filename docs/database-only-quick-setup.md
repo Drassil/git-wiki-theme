@@ -46,3 +46,12 @@ If you want to chance those values, run the following:
 ```
 DB_EXTERNAL_PORT=9000 DB_ROOT_PASSWORD=root docker-compose up ac-database
 ```
+
+### Destroy the docker instance of the AC Database
+
+You can destroy the containers created with docker-compose using:
+
+```
+docker-compose down
+```
+
