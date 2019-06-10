@@ -21,9 +21,8 @@ You can find the links to setup Docker for your operating system in the "Softwar
 You need to clone the AC sources somewhere in your machine and cd into it:
 
 ```
-git clone https://github.com/azerothcore/azerothcore-wotlk.git
+git clone https://github.com/azerothcore/azerothcore-wotlk.git;
 cd azerothcore-wotlk;
-
 ```
 
 ### How to quickly spin up an AzerothCore Database instance
