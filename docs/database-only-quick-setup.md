@@ -41,7 +41,7 @@ docker-compose up -id ac-database
 
 The default password will be `password` and the default port will be `3306`.
 
-If you want to chance those values, run the following:
+If you want to chance those values, run the following instead:
 
 ```
 DB_EXTERNAL_PORT=9000 DB_ROOT_PASSWORD=root docker-compose up ac-database
