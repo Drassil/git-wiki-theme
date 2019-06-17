@@ -43,7 +43,7 @@ If **(and only if)** the bug hasn't been reported yet, you can [open an issue](h
 
 Official GitHub tutorial [here](https://help.github.com/articles/creating-a-pull-request/).
 
-In order to create a Pull Request (PR), you have to fork the AzerothCore repository (via your web browser, using the top-right Fork button) and clone your fork locally with `git clone https://github.com/YOUR_USERNAME/azerothcore-wotlk.git`.
+In order to create a Pull Request (PR), you have to fork the [AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk) (via your web browser, using the top-right Fork button) and clone your fork locally with `git clone https://github.com/YOUR_USERNAME/azerothcore-wotlk.git`.
 
 If you already have a local fork, remember to [sync it](Syncing-your-fork) before creating a new Pull Request to avoid conflicts.
 
