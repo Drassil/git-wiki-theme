@@ -27,11 +27,12 @@ This table contains the description of creatures. Each spawned creature is an in
 | [speed\_run](#creature_template-speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
 | [scale](#creature_template-scale)                                 | float                 | NO   |     | 1       |       |                                      |
 | [rank](#creature_template-rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [mindmg](#creature_template-mindmg)                               | float                 | NO   |     | 0       |       |                                      |
+| [maxdmg](#creature_template-maxdmg)                               | float                 | NO   |     | 0       |       |                                      |
 | [dmgschool](#creature_template-dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [attackpower](#creature_template-attackpower)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [BaseAttackTime](#creature_template-BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [RangeAttackTime](#creature_template-RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [BaseVariance](#creature_template-BaseVariance)                   | float                 | NO   |     | 1       |       |                                      |
-| [RangeVariance](#creature_template-RangeVariance)                 | float                 | NO   |     | 1       |       |                                      |
 | [unit\_class](#creature_template-unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [unit\_flags](#creature_template-unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [unit\_flags2](#creature_template-unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
@@ -41,6 +42,9 @@ This table contains the description of creatures. Each spawned creature is an in
 | [trainer\_spell](#creature_template-trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [trainer\_class](#creature_template-trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [trainer\_race](#creature_template-trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [minrangedmg](#creature_template-minrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
+| [maxrangedmg](#creature_template-maxrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
+| [rangedattackpower](#creature_template-rangedattackpower)         | smallint(5)           | NO   |     | 0       |       |                                      |
 | [type](#creature_template-type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [type\_flags](#creature_template-type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [lootid](#creature_template-lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
@@ -243,6 +247,16 @@ The rank of the creature:
 
 **Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type\_flags](http://www.azerothcore.org/wiki/creature_template#creature_template-type_flags) to 4.
 
+#### mindmg
+
+This is the minimum melee damage. 
+Modified by DamageModifier. mindmg = mindmg * DamageModifier.
+
+#### maxdmg
+
+This is the maximum melee damage.
+Modified by DamageModifier. maxdmg = maxdmg * DamageModifier.
+
 #### dmgschool
 
 Creature's melee damage school.
@@ -256,6 +270,10 @@ Creature's melee damage school.
 | 4  | SPELL\_SCHOOL\_FROST  |
 | 5  | SPELL\_SCHOOL\_SHADOW |
 | 6  | SPELL\_SCHOOL\_ARCANE |
+
+#### attackpower
+
+Melee attack power used for spells?
 
 #### BaseAttackTime
 
@@ -409,6 +427,20 @@ If the NPC is a class trainer or a pet trainer ([trainer\_type](http://www.azero
 #### trainer\_race
 
 If the NPC is a mount trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](http://www.azerothcore.org/wiki/characters#race)
+
+#### minrangedmg
+
+This is the minimum ranged damage. 
+Modified by DamageModifier. minrangedmg = minrangedmg * DamageModifier.
+
+#### maxrangedmg
+
+This is the maximum ranged damage.
+Modified by DamageModifier. maxrangedmg = maxrangedmg * DamageModifier.
+
+#### rangeattackpower
+
+Range attack power used for spells?
 
 #### type
 
