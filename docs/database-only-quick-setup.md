@@ -36,7 +36,7 @@ docker-compose up ac-database
 Alternatively, you can pass the `-d` parameter to run this command in detach mode:
 
 ```
-docker-compose up -id ac-database
+docker-compose up -d ac-database
 ```
 
 The default password will be `password` and the default port will be `3306`.
