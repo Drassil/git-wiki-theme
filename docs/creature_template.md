@@ -1,30 +1,30 @@
-# creature\_template
+# creature_template
 
 This table contains the description of creatures. Each spawned creature is an instance of a template present in this table, this means every creature MUST be defined in this table.
 
 | Field                                                             | Type                  | Null | Key | Default | Extra | Comment                              |
 |-------------------------------------------------------------------|-----------------------|------|-----|---------|-------|--------------------------------------|
 | [entry](#entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
-| [difficulty\_entry\_1](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_2](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_3](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_1](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_2](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_3](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [KillCredit1](#KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [KillCredit2](#KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [modelid1](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid2](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid3](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid4](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid1](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid2](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid3](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid4](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [name](#name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
 | [subname](#subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
 | [IconName](#IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [gossip\_menu\_id](#gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [gossip_menu_id](#gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [minlevel](#minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
 | [maxlevel](#maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
 | [exp](#exp)                                     | smallint(6)           | NO   |     | 0       |       |                                      |
 | [faction](#faction)                             | smallint(5) unsigned  | NO   |     | 0       |       |                                      |
 | [npcflag](#npcflag)                             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [speed\_walk](#speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
-| [speed\_run](#speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
+| [speed_walk](#speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
+| [speed_run](#speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
 | [scale](#scale)                                 | float                 | NO   |     | 1       |       |                                      |
 | [rank](#rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [mindmg](#mindmg)                               | float                 | NO   |     | 0       |       |                                      |
@@ -33,37 +33,37 @@ This table contains the description of creatures. Each spawned creature is an in
 | [attackpower](#attackpower)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [BaseAttackTime](#BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [RangeAttackTime](#RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [unit\_class](#unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [unit\_flags](#unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [unit\_flags2](#unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [unit_class](#unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [unit_flags](#unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [unit_flags2](#unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [dynamicflags](#dynamicflags)                   | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [family](#family)                               | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_type](#trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_spell](#trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [trainer\_class](#trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [trainer\_race](#trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [trainer_type](#trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [trainer_spell](#trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [trainer_class](#trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [trainer_race](#trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [minrangedmg](#minrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
 | [maxrangedmg](#maxrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
 | [rangedattackpower](#rangedattackpower)         | smallint(5)           | NO   |     | 0       |       |                                      |
 | [type](#type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [type\_flags](#type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [type_flags](#type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [lootid](#lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [pickpocketloot](#pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [skinloot](#skinl)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [resistance1](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance2](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance3](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance4](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance5](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance6](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [spell1](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell2](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell3](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell4](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell5](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell6](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell7](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell8](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [skinloot](#skinloot)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [resistance1](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance2](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance3](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance4](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance5](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance6](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [spell1](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell2](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell3](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell4](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell5](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell6](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell7](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell8](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [PetSpellDataId](#PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [VehicleId](#VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [mingold](#mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
@@ -80,8 +80,8 @@ This table contains the description of creatures. Each spawned creature is an in
 | [RacialLeader](#RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [movementId](#movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
 | [RegenHealth](#RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [mechanic\_immune\_mask](#mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [flags\_extra](#flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [mechanic_immune_mask](#mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [flags_extra](#flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [ScriptName](#ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
 | [VerifiedBuild](#VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
 
@@ -93,9 +93,9 @@ This table contains the description of creatures. Each spawned creature is an in
 
 Creature's unique id.
 
-#### difficulty\_entry\_X
+#### difficulty_entry_X
 
-| name                                                      | entry | difficulty\_entry\_1 | difficulty\_entry\_2 | difficulty\_entry\_3 |
+| name                                                      | entry | difficulty_entry_1 | difficulty_entry_2 | difficulty_entry_3 |
 |-----------------------------------------------------------|-------|----------------------|----------------------|----------------------|
 | [Anomalus](http://www.wowhead.com/npc=26763/anomalus)     | 26763 | 30529                | 0                    | 0                    |
 | [Sindragosa](http://www.wowhead.com/npc=36853/sindragosa) | 36853 | 38265                | 38266                | 38267                |
@@ -106,13 +106,13 @@ Another important case of that would be Sindragosa. Boss located in the Icecrown
 
 If you look at database you will notice a very characteristic pattern which is summarized in table below:
 
-| name             | entry             | difficulty\_entry\_1 | difficulty\_entry\_2 | difficulty\_entry\_3 |
+| name             | entry             | difficulty_entry_1 | difficulty_entry_2 | difficulty_entry_3 |
 |------------------|-------------------|----------------------|----------------------|----------------------|
 | Normal Creature  | Different than 0  | 0                    | 0                    | 0                    |
 | Dungeon Creature | Normal Dungeon    | Heroic Dungeon       | 0                    | 0                    |
 | Raid Creature    | 10man Normal Raid | 25man Normal Raid    | 10man Heroic Raid    | 25man Heroic Raid    |
 
-**KillCredit1**
+#### KillCredit1
 
 If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first [entry](http://www.azerothcore.org/wiki/creature_template#entry) of the creature that could be killed to give quest credit.
 
@@ -122,7 +122,7 @@ If this is a kill credit template -- one that is a dummy template that is used w
 
 #### modelidX
 
-A random graphical model that the client applies on this creature. Of course if you specify only one modelid and the rest will be equal to 0, model you have set won't be chosen randomly. This is a [creature\_model\_info.modelid](creature_model_info)
+A random graphical model that the client applies on this creature. Of course if you specify only one modelid and the rest will be equal to 0, model you have set won't be chosen randomly. This is a [creature_model_info.modelid](creature_model_info)
 
 #### name
 
@@ -156,9 +156,9 @@ Used to tell the player what kind of NPC this creature is.
 
 **Attention!** This is not required to make the NPC function unless you are using scripts or gossip options. Names are case sensitive, If in doubt use an example above.
 
-#### gossip\_menu\_id
+#### gossip_menu_id
 
-The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be &gt; 50000. This field is the link to [gossip\_menu.entry](http://www.azerothcore.org/wiki/gossip_menu#entry).
+The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be &gt; 50000. This field is the link to [gossip_menu.entry](http://www.azerothcore.org/wiki/gossip_menu#entry).
 
 #### minlevel
 
@@ -170,7 +170,7 @@ The maximum level of the creature if the creature has a level range. When added 
 
 #### exp
 
-The expansion table the creatures health value is taken from. Values are from 0 to 2. See creature\_classlevelstats.
+The expansion table the creatures health value is taken from. Values are from 0 to 2. See creature_classlevelstats.
 
 | exp | name                   |
 |-----|------------------------|
@@ -217,11 +217,11 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 
 So if you want a NPC that is a quest giver(2), a vendor(128) and can repair(4096) you just add specific flags together: 2+128+4096=4226                                                                              
 
-#### speed\_walk
+#### speed_walk
 
 Controls how fast the creature can walk. For vehicles: increases fly speed.
 
-#### speed\_run
+#### speed_run
 
 Controls how fast the creature can run. For vehicles: increases ground movement speed.
 
@@ -245,7 +245,7 @@ The rank of the creature:
 
 **Note 2:** Respawn times can be modified in two other places: [Creature.spawntimesecs](http://www.azerothcore.org/wiki/creature#spawntimesecs) (only for that single GUID of the creature) and in the worldserver.conf file under the "Corpse.Decay" settings (for ALL creatures of the same rank). The default \`spawntimesecs\` for all spawned creatures is 300 seconds (5 minutes). For example, using the ".npc add" command to spawn a "Normal" NPC will give it a default respawn time of 6 minutes (spawntimesecs + Corpse.Decay time). Also, the creature must decay first before it can respawn. For this reason, the Corpse Decay Time of the creature is also it's minimum respawn time, since setting the creature's Creature.spawntimesecs = 0 will remove the Default Respawn Time. In the example above, setting our Normal NPC's spawntimesecs = 0 will mean the creature's respawn time decreases from 6 minutes to 60 seconds.
 
-**Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type\_flags](http://www.azerothcore.org/wiki/creature_template#type_flags) to 4.
+**Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type_flags](http://www.azerothcore.org/wiki/creature_template#type_flags) to 4.
 
 #### mindmg
 
@@ -263,13 +263,13 @@ Creature's melee damage school.
 
 | ID | Name                  |
 |----|-----------------------|
-| 0  | SPELL\_SCHOOL\_NORMAL |
-| 1  | SPELL\_SCHOOL\_HOLY   |
-| 2  | SPELL\_SCHOOL\_FIRE   |
-| 3  | SPELL\_SCHOOL\_NATURE |
-| 4  | SPELL\_SCHOOL\_FROST  |
-| 5  | SPELL\_SCHOOL\_SHADOW |
-| 6  | SPELL\_SCHOOL\_ARCANE |
+| 0  | SPELL_SCHOOL_NORMAL |
+| 1  | SPELL_SCHOOL_HOLY   |
+| 2  | SPELL_SCHOOL_FIRE   |
+| 3  | SPELL_SCHOOL_NATURE |
+| 4  | SPELL_SCHOOL_FROST  |
+| 5  | SPELL_SCHOOL_SHADOW |
+| 6  | SPELL_SCHOOL_ARCANE |
 
 #### attackpower
 
@@ -283,18 +283,18 @@ This is the base time that determines how long a creature must wait between mele
 
 This is the base time that determines how long a creature must wait between ranged attacks. This time is in milliseconds.
 
-#### unit\_class
+#### unit_class
 
-This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to [exp](http://www.azerothcore.org/wiki/creature_template#exp), [HealthModifier](http://www.azerothcore.org/wiki/creature_template#HealthModifier), and [ManaModifier](http://www.azerothcore.org/wiki/creature_template#ManaModifier). Not setting this value will report a minor warning in the "DB\_Errors.log".
+This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to [exp](http://www.azerothcore.org/wiki/creature_template#exp), [HealthModifier](http://www.azerothcore.org/wiki/creature_template#HealthModifier), and [ManaModifier](http://www.azerothcore.org/wiki/creature_template#ManaModifier). Not setting this value will report a minor warning in the "DB_Errors.log".
 
 | Value | Name           | Power Shown                                            |
 |-------|----------------|--------------------------------------------------------|
-| 1     | CLASS\_WARRIOR | health only (equal to rogue)                           |
-| 2     | CLASS\_PALADIN | health & mana (more health than mage but less mana)    |
-| 4     | CLASS\_ROGUE   | Health only (equal to warrior)                         |
-| 8     | CLASS\_MAGE    | health & mana (less health than paladin but more mana) |
+| 1     | CLASS_WARRIOR | health only (equal to rogue)                           |
+| 2     | CLASS_PALADIN | health & mana (more health than mage but less mana)    |
+| 4     | CLASS_ROGUE   | Health only (equal to warrior)                         |
+| 8     | CLASS_MAGE    | health & mana (less health than paladin but more mana) |
 
-#### unit\_flags
+#### unit_flags
 
 Allows the manual application of unit flags to creatures. Again this is a bitmask field and to apply more than one flag, just add the different numbers. Some possible flags are:
 
@@ -333,7 +333,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE               |                                                                                                            |
 | 2147483648 | 0x80000000 | UNIT_FLAG_UNK_31                |                                                                                                            |
 
-#### unit\_flags2
+#### unit_flags2
 
 Allows additional application of unit flags to creatures. Again, this is a bitmask field and to apply more than one flag, just add the different numbers. Some possible flags are:
 
@@ -405,28 +405,28 @@ The family this creature belongs to.
 | 24. | Bat          | 45. | Core Hound     |
 | 25. | Hyena        | 46. | Spirit Beast   |
 
-#### trainer\_type
+#### trainer_type
 
 If the NPC is a trainer (has the trainer flag), then this field controls what kind of trainer it is. Both this field and the related field must be filled in for a trainer to work correctly.
 
 | ID | Type                       | Related Field                                                                         | Comments            |
 |----|----------------------------|---------------------------------------------------------------------------------------|---------------------|
-| 0  | TRAINER\_TYPE\_CLASS       | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains class spells |
-| 1  | TRAINER\_TYPE\_MOUNTS      | [trainer\_race](http://www.azerothcore.org/wiki/creature_template#trainer_race)   | Trains riding skill |
-| 2  | TRAINER\_TYPE\_TRADESKILLS | [trainer\_spell](http://www.azerothcore.org/wiki/creature_template#trainer_spell) | Trains professions  |
-| 3  | TRAINER\_TYPE\_PETS        | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains pet skills   |
+| 0  | TRAINER_TYPE_CLASS       | [trainer_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains class spells |
+| 1  | TRAINER_TYPE_MOUNTS      | [trainer_race](http://www.azerothcore.org/wiki/creature_template#trainer_race)   | Trains riding skill |
+| 2  | TRAINER_TYPE_TRADESKILLS | [trainer_spell](http://www.azerothcore.org/wiki/creature_template#trainer_spell) | Trains professions  |
+| 3  | TRAINER_TYPE_PETS        | [trainer_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains pet skills   |
 
-#### trainer\_spell
+#### trainer_spell
 
-If the NPC is a trainer that teaches professions ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 2), then the player must already know the spell ID specified here to be able to talk to this NPC.
+If the NPC is a trainer that teaches professions ([trainer_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 2), then the player must already know the spell ID specified here to be able to talk to this NPC.
 
-#### trainer\_class
+#### trainer_class
 
-If the NPC is a class trainer or a pet trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 0 or 3), then the player's class must be the same as the value specified here to talk to this trainer. For pet trainers, this value must be 3 (hunter). See [characters.class](http://archive.trinitycore.info/Characters_tc2#class "Characters tc2")
+If the NPC is a class trainer or a pet trainer ([trainer_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 0 or 3), then the player's class must be the same as the value specified here to talk to this trainer. For pet trainers, this value must be 3 (hunter). See [characters.class](http://archive.trinitycore.info/Characters_tc2#class "Characters tc2")
 
-#### trainer\_race
+#### trainer_race
 
-If the NPC is a mount trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](http://www.azerothcore.org/wiki/characters#race)
+If the NPC is a mount trainer ([trainer_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](http://www.azerothcore.org/wiki/characters#race)
 
 #### minrangedmg
 
@@ -463,9 +463,9 @@ The type of the creature.
 | 12 | Non-Combat Pet |
 | 13 | Gas Cloud      |
 
-#### type\_flags
+#### type_flags
 
-This field can control whether a mob is minable or herbable or lootable by engineer. If it is either of those three, then the loot given when it is skinned/mined will be stored in the [skinning\_loot\_template](http://www.azerothcore.org/wiki/loot_template) table. It also controls, whether this mob can be tamed by a hunter. Other fields have no special meaning on the serverside. The entire field will be send to the client in SMSG\_CREATURE\_QUERY\_RESPONSE
+This field can control whether a mob is minable or herbable or lootable by engineer. If it is either of those three, then the loot given when it is skinned/mined will be stored in the [skinning_loot_template](http://www.azerothcore.org/wiki/loot_template) table. It also controls, whether this mob can be tamed by a hunter. Other fields have no special meaning on the serverside. The entire field will be send to the client in SMSG_CREATURE_QUERY_RESPONSE
 
 | Flag      |            | Name                                                 | Comments                                                                                   |
 |-----------|------------|------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -497,15 +497,15 @@ This field can control whether a mob is minable or herbable or lootable by engin
 
 #### lootid
 
-The ID of the loot template ID that this creature should use to generate loots. See [creature\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
+The ID of the loot template ID that this creature should use to generate loots. See [creature_loot_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
 
 #### pickpocketloot
 
-The ID of the pickpocketing loot template that this creature should use to generate pickpocketing loots. See [pickpocketing\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
+The ID of the pickpocketing loot template that this creature should use to generate pickpocketing loots. See [pickpocketing_loot_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
 
 #### skinloot
 
-The ID of the skinning loot template that this creature should use to generate skinning loots. See [skinning\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
+The ID of the skinning loot template that this creature should use to generate skinning loots. See [skinning_loot_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
 
 **resistanceX**
 
@@ -529,7 +529,7 @@ ID, found in CreatureSpellData.dbc, that displays what spells the pet has in the
 
 #### VehicleId
 
-Entry of vehicle if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown. For example, a vehicleID of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow forwards/backwards), and will show the vehicle action bar spells (which are defined in [spell1-8](http://trinitycore.atlassian.net#spell)). An npc\_spellclick\_spells entry must be made for this creature entry in order for this to work.
+Entry of vehicle if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown. For example, a vehicleID of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow forwards/backwards), and will show the vehicle action bar spells (which are defined in [spell1-8](http://trinitycore.atlassian.net#spell)). An npc_spellclick_spells entry must be made for this creature entry in order for this to work.
 
 #### mingold
 
@@ -582,7 +582,7 @@ Controls where the creature can move and attack.
 
 #### HoverHeight
 
-Distance above the ground that the creature will hover if it has MOVEMENTFLAG\_DISABLE\_GRAVITY enabled. Value taken from sniffs.
+Distance above the ground that the creature will hover if it has MOVEMENTFLAG_DISABLE_GRAVITY enabled. Value taken from sniffs.
 
 #### HealthModifier
 
@@ -629,9 +629,9 @@ We have no idea what this field does. It is passed directly to the client.
 
 Boolean '1' or '0' controlling whether the creature should regenerate it's health or not.
 
-#### mechanic\_immune\_mask
+#### mechanic_immune_mask
 
-This makes the creature immune to specific spell natures. See Spell.dbc at row effect\_X\_mechanic\_id.
+This makes the creature immune to specific spell natures. See Spell.dbc at row effect_X_mechanic_id.
 
 Uses references from SpellMechanic.dbc.
 
@@ -671,7 +671,7 @@ Uses references from SpellMechanic.dbc.
 
 To combine immunities just add values. Immune to everything corresponds to the value 2147483647 (0x3FFF FFFF).
 
-#### flags\_extra
+#### flags_extra
 
 These flags control certain creature specific attributes. Flags can be added together to apply more than one.
 
