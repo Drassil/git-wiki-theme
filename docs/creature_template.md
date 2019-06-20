@@ -5,15 +5,15 @@ This table contains the description of creatures. Each spawned creature is an in
 | Field                                                             | Type                  | Null | Key | Default | Extra | Comment                              |
 |-------------------------------------------------------------------|-----------------------|------|-----|---------|-------|--------------------------------------|
 | [entry](#entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
-| [difficulty_entry_1](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty_entry_2](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty_entry_3](#difficulty_entry_X)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_1](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_2](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty_entry_3](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [KillCredit1](#KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [KillCredit2](#KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [modelid1](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid2](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid3](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid4](#modelidX)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid1](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid2](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid3](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid4](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [name](#name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
 | [subname](#subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
 | [IconName](#IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
@@ -50,20 +50,20 @@ This table contains the description of creatures. Each spawned creature is an in
 | [lootid](#lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [pickpocketloot](#pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [skinloot](#skinloot)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [resistance1](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance2](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance3](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance4](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance5](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance6](#resistanceX)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [spell1](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell2](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell3](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell4](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell5](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell6](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell7](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell8](#spellX)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [resistance1](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance2](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance3](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance4](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance5](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance6](#resistancex)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [spell1](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell2](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell3](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell4](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell5](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell6](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell7](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell8](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [PetSpellDataId](#PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [VehicleId](#VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [mingold](#mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
@@ -93,7 +93,7 @@ This table contains the description of creatures. Each spawned creature is an in
 
 Creature's unique id.
 
-#### difficulty_entry_X
+#### difficulty_entry_x
 
 | name                                                      | entry | difficulty_entry_1 | difficulty_entry_2 | difficulty_entry_3 |
 |-----------------------------------------------------------|-------|----------------------|----------------------|----------------------|
@@ -120,7 +120,7 @@ If this is a kill credit template -- one that is a dummy template that is used w
 
 If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second [entry](http://www.azerothcore.org/wiki/creature_template#entry) of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
 
-#### modelidX
+#### modelidx
 
 A random graphical model that the client applies on this creature. Of course if you specify only one modelid and the rest will be equal to 0, model you have set won't be chosen randomly. This is a [creature_model_info.modelid](creature_model_info)
 
@@ -507,9 +507,9 @@ The ID of the pickpocketing loot template that this creature should use to gener
 
 The ID of the skinning loot template that this creature should use to generate skinning loots. See [skinning_loot_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
 
-**resistanceX**
+**resistancex**
 
-| resistanceX | school |
+| resistancex | school |
 |-------------|--------|
 | 1           | Holy   |
 | 2           | Fire   |
@@ -518,7 +518,7 @@ The ID of the skinning loot template that this creature should use to generate s
 | 5           | Shadow |
 | 6           | Arcane |
 
-#### spellX
+#### spellx
 
 Spell ID that can be used for Mind Control of this creature. 
 For vehicle creatures: spell on action bar with position X.
