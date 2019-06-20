@@ -4,86 +4,86 @@ This table contains the description of creatures. Each spawned creature is an in
 
 | Field                                                             | Type                  | Null | Key | Default | Extra | Comment                              |
 |-------------------------------------------------------------------|-----------------------|------|-----|---------|-------|--------------------------------------|
-| [entry](#creature_template-entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
-| [difficulty\_entry\_1](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_2](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [difficulty\_entry\_3](#creature_template-difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [KillCredit1](#creature_template-KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [KillCredit2](#creature_template-KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [modelid1](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid2](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid3](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [modelid4](#creature_template-modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [name](#creature_template-name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
-| [subname](#creature_template-subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [IconName](#creature_template-IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [gossip\_menu\_id](#creature_template-gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [minlevel](#creature_template-minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [maxlevel](#creature_template-maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [exp](#creature_template-exp)                                     | smallint(6)           | NO   |     | 0       |       |                                      |
-| [faction](#creature_template-faction)                             | smallint(5) unsigned  | NO   |     | 0       |       |                                      |
-| [npcflag](#creature_template-npcflag)                             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [speed\_walk](#creature_template-speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
-| [speed\_run](#creature_template-speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
-| [scale](#creature_template-scale)                                 | float                 | NO   |     | 1       |       |                                      |
-| [rank](#creature_template-rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [mindmg](#creature_template-mindmg)                               | float                 | NO   |     | 0       |       |                                      |
-| [maxdmg](#creature_template-maxdmg)                               | float                 | NO   |     | 0       |       |                                      |
-| [dmgschool](#creature_template-dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [attackpower](#creature_template-attackpower)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [BaseAttackTime](#creature_template-BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [RangeAttackTime](#creature_template-RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [unit\_class](#creature_template-unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [unit\_flags](#creature_template-unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [unit\_flags2](#creature_template-unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [dynamicflags](#creature_template-dynamicflags)                   | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [family](#creature_template-family)                               | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_type](#creature_template-trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
-| [trainer\_spell](#creature_template-trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [trainer\_class](#creature_template-trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [trainer\_race](#creature_template-trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [minrangedmg](#creature_template-minrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
-| [maxrangedmg](#creature_template-maxrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
-| [rangedattackpower](#creature_template-rangedattackpower)         | smallint(5)           | NO   |     | 0       |       |                                      |
-| [type](#creature_template-type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [type\_flags](#creature_template-type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [lootid](#creature_template-lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [pickpocketloot](#creature_template-pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [skinloot](#creature_template-skinl)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [resistance1](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance2](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance3](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance4](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance5](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [resistance6](#creature_template-resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
-| [spell1](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell2](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell3](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell4](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell5](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell6](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell7](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [spell8](#creature_template-spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [PetSpellDataId](#creature_template-PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [VehicleId](#creature_template-VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [mingold](#creature_template-mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [maxgold](#creature_template-maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [AIName](#creature_template-AIName)                               | char(64)              | NO   |     |         |       |                                      |
-| [MovementType](#creature_template-MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [InhabitType](#creature_template-InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
-| [HoverHeight](#creature_template-HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
-| [HealthModifier](#creature_template-HealthModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ManaModifier](#creature_template-ManaModifier)                   | float                 | NO   |     | 1       |       |                                      |
-| [ArmorModifier](#creature_template-ArmorModifier)                 | float                 | NO   |     | 1       |       |                                      |
-| [DamageModifier](#creature_template-DamageModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ExperienceModifier](#creature_template-ExperienceModifier)       | float                 | NO   |     | 1       |       |                                      |
-| [RacialLeader](#creature_template-RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [movementId](#creature_template-movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
-| [RegenHealth](#creature_template-RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
-| [mechanic\_immune\_mask](#creature_template-mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [flags\_extra](#creature_template-flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [ScriptName](#creature_template-ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
-| [VerifiedBuild](#creature_template-VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
+| [entry](#entry)                                 | mediumint(8) unsigned | NO   | PRI | 0       |       |                                      |
+| [difficulty\_entry\_1](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty\_entry\_2](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [difficulty\_entry\_3](#difficulty_entry)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [KillCredit1](#KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [KillCredit2](#KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [modelid1](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid2](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid3](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [modelid4](#modelid)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [name](#name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
+| [subname](#subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
+| [IconName](#IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
+| [gossip\_menu\_id](#gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [minlevel](#minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [maxlevel](#maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [exp](#exp)                                     | smallint(6)           | NO   |     | 0       |       |                                      |
+| [faction](#faction)                             | smallint(5) unsigned  | NO   |     | 0       |       |                                      |
+| [npcflag](#npcflag)                             | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [speed\_walk](#speed_walk)                      | float                 | NO   |     | 1       |       | Result of 2.5/2.5, most common value |
+| [speed\_run](#speed_run)                        | float                 | NO   |     | 1.14286 |       | Result of 8.0/7.0, most common value |
+| [scale](#scale)                                 | float                 | NO   |     | 1       |       |                                      |
+| [rank](#rank)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [mindmg](#mindmg)                               | float                 | NO   |     | 0       |       |                                      |
+| [maxdmg](#maxdmg)                               | float                 | NO   |     | 0       |       |                                      |
+| [dmgschool](#dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [attackpower](#attackpower)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [BaseAttackTime](#BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [RangeAttackTime](#RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [unit\_class](#unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [unit\_flags](#unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [unit\_flags2](#unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [dynamicflags](#dynamicflags)                   | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [family](#family)                               | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [trainer\_type](#trainer_type)                  | tinyint(4)            | NO   |     | 0       |       |                                      |
+| [trainer\_spell](#trainer_spell)                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [trainer\_class](#trainer_class)                | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [trainer\_race](#trainer_race)                  | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [minrangedmg](#minrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
+| [maxrangedmg](#maxrangedmg)                     | float                 | NO   |     | 0       |       |                                      |
+| [rangedattackpower](#rangedattackpower)         | smallint(5)           | NO   |     | 0       |       |                                      |
+| [type](#type)                                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [type\_flags](#type_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [lootid](#lootid)                               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [pickpocketloot](#pickpocketloot)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [skinloot](#skinl)                              | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [resistance1](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance2](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance3](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance4](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance5](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [resistance6](#resistance)                      | smallint(6)           | NO   |     | 0       |       |                                      |
+| [spell1](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell2](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell3](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell4](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell5](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell6](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell7](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [spell8](#spell)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [PetSpellDataId](#PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [VehicleId](#VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [mingold](#mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [maxgold](#maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [AIName](#AIName)                               | char(64)              | NO   |     |         |       |                                      |
+| [MovementType](#MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [InhabitType](#InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
+| [HoverHeight](#HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
+| [HealthModifier](#HealthModifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ManaModifier](#ManaModifier)                   | float                 | NO   |     | 1       |       |                                      |
+| [ArmorModifier](#ArmorModifier)                 | float                 | NO   |     | 1       |       |                                      |
+| [DamageModifier](#DamageModifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ExperienceModifier](#ExperienceModifier)       | float                 | NO   |     | 1       |       |                                      |
+| [RacialLeader](#RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [movementId](#movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
+| [RegenHealth](#RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [mechanic\_immune\_mask](#mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [flags\_extra](#flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [ScriptName](#ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
+| [VerifiedBuild](#VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
 
 ---
 
@@ -114,11 +114,11 @@ If you look at database you will notice a very characteristic pattern which is s
 
 **KillCredit1**
 
-If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first [entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) of the creature that could be killed to give quest credit.
+If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first [entry](http://www.azerothcore.org/wiki/creature_template#entry) of the creature that could be killed to give quest credit.
 
 #### KillCredit2
 
-If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second [entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
+If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second [entry](http://www.azerothcore.org/wiki/creature_template#entry) of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
 
 #### modelidX
 
@@ -245,7 +245,7 @@ The rank of the creature:
 
 **Note 2:** Respawn times can be modified in two other places: [Creature.spawntimesecs](http://www.azerothcore.org/wiki/creature#spawntimesecs) (only for that single GUID of the creature) and in the worldserver.conf file under the "Corpse.Decay" settings (for ALL creatures of the same rank). The default \`spawntimesecs\` for all spawned creatures is 300 seconds (5 minutes). For example, using the ".npc add" command to spawn a "Normal" NPC will give it a default respawn time of 6 minutes (spawntimesecs + Corpse.Decay time). Also, the creature must decay first before it can respawn. For this reason, the Corpse Decay Time of the creature is also it's minimum respawn time, since setting the creature's Creature.spawntimesecs = 0 will remove the Default Respawn Time. In the example above, setting our Normal NPC's spawntimesecs = 0 will mean the creature's respawn time decreases from 6 minutes to 60 seconds.
 
-**Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type\_flags](http://www.azerothcore.org/wiki/creature_template#creature_template-type_flags) to 4.
+**Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type\_flags](http://www.azerothcore.org/wiki/creature_template#type_flags) to 4.
 
 #### mindmg
 
@@ -285,7 +285,7 @@ This is the base time that determines how long a creature must wait between rang
 
 #### unit\_class
 
-This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to [exp](http://www.azerothcore.org/wiki/creature_template#creature_template-exp), [HealthModifier](http://www.azerothcore.org/wiki/creature_template#creature_template-HealthModifier), and [ManaModifier](http://www.azerothcore.org/wiki/creature_template#creature_template-ManaModifier). Not setting this value will report a minor warning in the "DB\_Errors.log".
+This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to [exp](http://www.azerothcore.org/wiki/creature_template#exp), [HealthModifier](http://www.azerothcore.org/wiki/creature_template#HealthModifier), and [ManaModifier](http://www.azerothcore.org/wiki/creature_template#ManaModifier). Not setting this value will report a minor warning in the "DB\_Errors.log".
 
 | Value | Name           | Power Shown                                            |
 |-------|----------------|--------------------------------------------------------|
@@ -411,22 +411,22 @@ If the NPC is a trainer (has the trainer flag), then this field controls what ki
 
 | ID | Type                       | Related Field                                                                         | Comments            |
 |----|----------------------------|---------------------------------------------------------------------------------------|---------------------|
-| 0  | TRAINER\_TYPE\_CLASS       | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_class) | Trains class spells |
-| 1  | TRAINER\_TYPE\_MOUNTS      | [trainer\_race](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_race)   | Trains riding skill |
-| 2  | TRAINER\_TYPE\_TRADESKILLS | [trainer\_spell](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_spell) | Trains professions  |
-| 3  | TRAINER\_TYPE\_PETS        | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_class) | Trains pet skills   |
+| 0  | TRAINER\_TYPE\_CLASS       | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains class spells |
+| 1  | TRAINER\_TYPE\_MOUNTS      | [trainer\_race](http://www.azerothcore.org/wiki/creature_template#trainer_race)   | Trains riding skill |
+| 2  | TRAINER\_TYPE\_TRADESKILLS | [trainer\_spell](http://www.azerothcore.org/wiki/creature_template#trainer_spell) | Trains professions  |
+| 3  | TRAINER\_TYPE\_PETS        | [trainer\_class](http://www.azerothcore.org/wiki/creature_template#trainer_class) | Trains pet skills   |
 
 #### trainer\_spell
 
-If the NPC is a trainer that teaches professions ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_type) = 2), then the player must already know the spell ID specified here to be able to talk to this NPC.
+If the NPC is a trainer that teaches professions ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 2), then the player must already know the spell ID specified here to be able to talk to this NPC.
 
 #### trainer\_class
 
-If the NPC is a class trainer or a pet trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_type) = 0 or 3), then the player's class must be the same as the value specified here to talk to this trainer. For pet trainers, this value must be 3 (hunter). See [characters.class](http://archive.trinitycore.info/Characters_tc2#class "Characters tc2")
+If the NPC is a class trainer or a pet trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 0 or 3), then the player's class must be the same as the value specified here to talk to this trainer. For pet trainers, this value must be 3 (hunter). See [characters.class](http://archive.trinitycore.info/Characters_tc2#class "Characters tc2")
 
 #### trainer\_race
 
-If the NPC is a mount trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#creature_template-trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](http://www.azerothcore.org/wiki/characters#race)
+If the NPC is a mount trainer ([trainer\_type](http://www.azerothcore.org/wiki/creature_template#trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](http://www.azerothcore.org/wiki/characters#race)
 
 #### minrangedmg
 
@@ -578,7 +578,7 @@ Controls where the creature can move and attack.
 
 (This is a bitmask. You can add values together: 1+4=5 would make the creature walk on ground and fly.)
 
-**Note:** If your vehicle is a flying vehicle then your accessory **MUST** have it's [InhabitType](http://www.azerothcore.org/wiki/creature_template#creature_template-InhabitType) set to (4 - Flying). This being if you set it for both ground and flying it will spawn on the ground if the vehicle is initially spawned on the ground.
+**Note:** If your vehicle is a flying vehicle then your accessory **MUST** have it's [InhabitType](http://www.azerothcore.org/wiki/creature_template#InhabitType) set to (4 - Flying). This being if you set it for both ground and flying it will spawn on the ground if the vehicle is initially spawned on the ground.
 
 #### HoverHeight
 
