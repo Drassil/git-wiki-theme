@@ -25,7 +25,7 @@
 * [Creature_queststarter](creature_queststarter)
 * [Creature_summon_groups](creature_summon_groups)
 * [Creature_template](creature_template)
-* [Creature_template_addon](creature_template_addon)
+* [Creature_template_addon](creature_addon)
 * [Creature_template_locale](creature_template_locale)
 * [Creature_text](creature_text)
 * [Db_script_string](db_script_string)
