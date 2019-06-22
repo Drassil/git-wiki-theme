@@ -2,116 +2,62 @@
 ## **How to add a module**
 
 
-- Get the Module From this website [http://www.azerothcore.org/modules-catalogue/](http://www.azerothcore.org/modules-catalogue/)
-- Clone it, or download.
-- I'll use this for Exmple: [http://www.azerothcore.org/modules-catalogue/details.html?id=177019524](http://www.azerothcore.org/modules-catalogue/details.html?id=177019524).
-- Once you downloaded it or cloned: ( Extract it, you will have than Folder looks like this :
+1. Get the Module From this website [http://www.azerothcore.org/modules-catalogue/](http://www.azerothcore.org/modules-catalogue/)
+2. Clone it, or download.
+3. I'll use this for Exmple: [http://www.azerothcore.org/modules-catalogue/details.html?id=177019524](http://www.azerothcore.org/modules-catalogue/details.html?id=177019524).
+4. Once you downloaded it or cloned: ( Extract it, you will have than Folder looks like this :
 [[images/1.png]]
 
 
-### **The Basis**
+5. Copy this folder you will have to paste it in next steps:
+[[images/2.png]]
 
-1. Create a folder inside modules/ directory
+6. Now go in your AzerothCore folder in my case it's: C:\azerothcore-wotlk-master
 
-2. Create a CMakeLists.txt file in the root path of your module
-it will be automatically detected by cmake when you [re]configure your project.
+7. When you are there, you will see there folder named modules like on this image:
+[[images/3.png]]
 
-3. Now you can develop add anything to the main project, such as some scripts or 
-even an entire library
+8. Open that folder modules -> It will look like this :
+[[images/4.png]]
 
-Note: we suggest to use the [directory structure](Directory-Structure) standards of AzerothCore to better organize your modules and be familiar with main project.
+9. Paste there your downloaded module ( That we use in step 4., in my case we use : NPC Services Module
+And it will look like this when you paste it there :
+[[images/5.png]]
 
-### **Add the first script**
+10. Than, open Cmake -> Press Configure
+[[images/6.png]]
 
-1. Before continue, we suggest you to follow our guide on how to create a script for AzerothCore
+11. Than press Generate :
+[[images/7.png]]
 
-2. After you’ve created your script you’ve to create a .h file to handle the script loading.
+12. And you are done. P.S You have also to check in the module folder (SQL folder) if there is any .sql file required to be executed in your database ( Like on this image ) :
+[[images/8.png]]
 
-  For example ( Assuming you’ve created an src folder ):
+ than World :
+[[images/9.png]]
 
-  **src/loader.h**
+- Yes, this module have SQL which need to be executed in your World Database :
+[[images/10.png]]
 
-     `void AddMyCustomScripts();`
-
-  NOTE: AddMyCustomScripts is composed by: 
-
-  Add (Prefix)
-
-  MyCustom (An unique name identifier for your script to avoid function collisions)
-
-  Scripts ( Suffix )
-
-3. Now you’ve to include your loader in your cmake using a simple MACRO ( Assuming that your script is called MyCustom.cpp ):
-
-```
-AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/MyCustom.cpp")
-AC_ADD_SCRIPT_LOADER("MyCustom" "${CMAKE_CURRENT_LIST_DIR}/src/loader.h")
-```
-
-First parameter is your module identifier
-
-Second parameter is the path of your loader header. 
-
-Now you can add all scripts you want to your server just creating their instances inside AddMyCustomScripts() function, or using cmake macro above.
-
-### **Create a custom configuration file**
-
-if you need to add a custom configuration file to your module that will be installed with server, the steps are very simple.
-
-Before starting, you should have created the loader files described previously.
-
-1. Create a world script with this basic structure:
-
+- Let's do it :
+13. Open it with any text editor, or run it directly : ( I'll use Editor )
+This is what i have there :
 
 ```
-    #include "Configuration/Config.h"
-    #include "ScriptMgr.h"
+DELETE FROM `creature_template` WHERE `entry` = 55003;
+Set @NpcName = "Visual Weapon NPC",
+	@NpcSubname = "AzerothCore",
+	@NpcEntry = 55003,
+	@NpcDisplayID = 31833,
+	@NpcLevel = 80;
 
-    class MyWorldScript : public WorldScript
-
-    {
-    public:
-
-        MyWorldScript() : WorldScript("MyWorldScript") { }
-
-        void OnBeforeConfigLoad(bool reload) override
-        {
-            if (!reload) {
-                std::string conf_path = _CONF_DIR;
-                std::string cfg_file = conf_path + "/my_custom.conf";
-                sConfigMgr->LoadMore(cfg_file.c_str());
-            }
-        }
-    };
-
-    void AddMyWorldScripts()
-    {
-        new MyWorldScript();
-    }
+INSERT INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `minlevel`, `maxlevel`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `dmgschool`, `BaseAttackTime`, `RangeAttackTime`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `trainer_type`, `trainer_spell`, `trainer_class`, `trainer_race`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `resistance1`, `resistance2`, `resistance3`, `resistance4`, `resistance5`, `resistance6`, `spell1`, `spell2`, `spell3`, `spell4`, `spell5`, `spell6`, `spell7`, `spell8`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `mechanic_immune_mask`, `flags_extra`, `ScriptName`, `VerifiedBuild`) VALUES 
+(@NpcEntry, @NpcDisplayID, @NpcName, @NpcSubname, @NpcLevel, @NpcLevel, 35, 1, 1, 1.14286, 1, 1, 0, 2000, 2000, 2, 0, 2048, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 50, 50, 1, 0, 0, 1, 0, 0, 'npc_visualweapon', 12340);
 ```
 
-2. Add your AddMyWorldScripts to your CMakeLists.txt created before
+14. So, We have to run this query in the Database, Let's do it.
+Open your DB Program ( Example : Navicat, HeidiSQL ) and run our code there, in this way :
+[[images/11.png]]
 
-3. Create a cmake file that must be loaded after binary installation and add this to your module CMakeLists.txt:
-
-  ```
-  ADD_HOOK(AFTER_WORLDSERVER_CMAKE "${CMAKE_CURRENT_LIST_DIR}/after_ws_install.cmake")
-  ```
-
-  of course you can call your file as you want , the AFTER_WORLDSERVER_CMAKE hook will be launched as soon as AzerothCore prepare the worldserver installation.
-
-4. Inside this new cmake file you’ve to put this instructions:
-
-```
-install(FILES "${CMAKE_SOURCE_DIR}/your_path/my_custom.conf.dist" DESTINATION ${CONF_DIR})
-```
-
-Change "your_path" part with path to your conf file, for example:
-
-/modules/my_module/conf/my_custom.conf.dist
-
-### **Add your db files to db_assembler**
-
-you are able to create base, updates and custom sql that will be automatically loaded in our db_assembler
-
-**work in progress….**
+15. We are done now. Go in game and spawn this NPC with command .npc add 55003
+@NpcEntry = 55003 <---- This is our NPC ENTRY
