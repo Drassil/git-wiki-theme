@@ -6,7 +6,7 @@
 2. Clone it, or download.
 3. I'll use this for Exmple: [http://www.azerothcore.org/modules-catalogue/details.html?id=177019524](http://www.azerothcore.org/modules-catalogue/details.html?id=177019524).
 4. Once you downloaded it or cloned: ( Extract it, you will have than Folder looks like this :
-[[images/1.png]]
+[[/images/1.png]]
 
 
 5. Copy this folder you will have to paste it in next steps:
