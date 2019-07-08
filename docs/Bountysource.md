@@ -11,9 +11,14 @@ I want to underline that solving the issue and claiming the bounty **is NOT rest
 This is how Bountysource works:
 
 1) Users fund bounties on open issues or feature requests they want to see addressed.
+
 2) Developers create solutions which closes the issues and claim the corresponding bounties on Bountysource.
+
 3) Backers can accept or reject the claims.
+
 4) If accepted, Bountysource pays the bounties to the developer.
+
+**Big thanks to our [top backers](https://www.bountysource.com/teams/azerothcore/backers) of Bountysource.**
 
 ## Other resources
 
