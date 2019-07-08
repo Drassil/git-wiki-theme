@@ -18,6 +18,23 @@ You can open a bounty and if developers are interested by the job, they might do
 
 Read this carefully: [How to ask help](How-to-ask-for-help.md)
 
+#### 5 - Why is it better to ask on Stackoverflow for support questions?
+
+- because your question (and its solutions) **stays there** and you or other users **can find it later**, even using **google**
+
+- because your question can easily **get lost in the chat**, and asking in the chat can only get answers by the users who are **currently online**
+
+- because it's **super easy** (you can log in Stackoverflow using your **Google** or **Facebook** account - **NO NEED TO CREATE A NEW ACCOUNT**)
+
+- because by posting questions or answers you can earn **points** (a profile with many points Stackoverflow can help A LOT when you want to find a job as a developer)
+
+- because you can add common **tags** to your questions (like `c++`, `sql`, `docker`, `lua`, etc...) and have the chance to  **get helped by many more users** than you would find in the AC discord chat
+
+- because gives extra **visibility** to our project
+
+- because it helps to **avoid duplicate questions**
+
+
 
 ## COMMON ERRORS
 
