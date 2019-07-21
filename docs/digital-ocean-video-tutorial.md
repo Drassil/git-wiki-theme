@@ -1,4 +1,5 @@
 ## Introduction
+
 This tutorial will walk you through the entire AzerothCore server setup process, and will help get you familiar with using Debian and Command Line Interfaces (CLI). In this tutorial, we'll be going over the following:
 - Looking at various tools to help you get your server up and running, such as MySQL Clients, SSH Clients, SFTP Clients, and powerful file editors. 
 - Configuring a Droplet on DigitalOcean from scratch
