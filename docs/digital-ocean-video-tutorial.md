@@ -36,7 +36,7 @@ There is a Step-by-Step YouTube Video which walks you through this entire proces
 - Choose Region
 - Enable Monitoring
 - One-time Password
-- Name Droplet | AzerothCore
+- Name the Droplet anything you'd like, in this tutorial we're calling it `AzerothCore`
 
 ## Droplet Initial Configuration
 #### Change your Time Zone
