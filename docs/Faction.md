@@ -1,14 +1,11 @@
 # Faction
 
-`Back-to:DBC`
-
 **Faction.dbc**
 
 This dbc contains information on all of the base factions. These factions are unique and represent a faction with which a player can gain reputation.
 
 **IMPORTANT:** These values are used for **ALL** tables **EXCEPT** the [creature\_template](creature_template) and [gameobject\_template](gameobject_template) tables.
 
-**Version is : 3.3.5a**
 
 ## Structure
 

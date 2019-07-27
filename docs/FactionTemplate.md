@@ -1,12 +1,10 @@
 # FactionTemplate
 
-`Back-to:DBC`
-
 **FactionTemplate.dbc**
 
 This DBC contains information on all of the individual factions. A faction entry from this DBC contains all of the needed data to calculate hostility, friendliness, or neutrality to any other faction in this DBC.
 
-**IMPORTANT: These values are only used for the [creature\_template](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130008/creature+template) and [gameobject\_template](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130143/gameobject+template) tables.**
+**IMPORTANT: These values are only used for the [creature\_template](creature_template) and [gameobject\_template](gameobject\_template) tables.**
 
 ## **Structure**
 
@@ -14,7 +12,7 @@ This DBC contains information on all of the individual factions. A faction entry
 |--------------|-----------------------------------------------------------------------------------------------------|------------------|
 | **Field Nb** | **Name**                                                                                            | **Type**         |
 | 1            | ID                                                                                                  | Int              |
-| 2            | Name (Ref to [Faction.dbc](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130168/Faction)) | Int              |
+| 2            | Name (Ref to [Faction.dbc](Faction.dbc)) | Int              |
 | 4            | ourMask                                                                                             | Bitmask (4 bits) |
 | 5            | friendlyMask                                                                                        | Bitmask (4 bits) |
 | 6            | hostileMask                                                                                         | Bitmask (4 bits) |

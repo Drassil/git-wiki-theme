@@ -1,12 +1,7 @@
 # Emotes
 
-`Back-to:DBC`
-
- 
-
 This DBC contains emotes which can be used by NPCs.
 
-**Version is : 3.3.5a**
 
 ## Structure
 
