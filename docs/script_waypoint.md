@@ -1,134 +1,50 @@
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [script_waypoint](script_waypoint)
+
 # script\_waypoint
 
-[<-Back-to:World](database-world.md)
+###### **Used by [CreatureAI](https://github.com/azerothcore/azerothcore-wotlk/blob/master/src/server/game/AI/ScriptedAI/ScriptedCreature.h#L159)**
 
-**The \`script\_waypoint\` table**
+### Information
 
-`table-no-description`
+Used for CreatureAI waypoint movement. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
 
-**Structure**
+### Structure
 
-<table>
-<colgroup>
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Field</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Attributes</strong></p></td>
-<td><p><strong>Key</strong></p></td>
-<td><p><strong>Null</strong></p></td>
-<td><p><strong>Default</strong></p></td>
-<td><p><strong>Extra</strong></p></td>
-<td><p><strong>Comment</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#entry">entry</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p>PRI</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p>creature_template entry</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#point_id">point_id</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p>PRI</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#location_x">location_x</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#location_y">location_y</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#location_z">location_z</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#waittime">waittime</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#point_comment">point_comment</a></p></td>
-<td><p>text</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p> </p></td>
-<td><p>waittime in millisecs</p></td>
-</tr>
-</tbody>
-</table>
-
-**Description of the fields**
+| Field                            | Type         | Attributes | Key | Null | Default |
+|----------------------------------|--------------|------------|-----|------|---------|
+| [entry](creature_template#entry) | mediumint(8) | unsigned   | PRI | NO   | 0       |
+| [pointid](#pointid)              | mediumint(8) | unsigned   | PRI | NO   | 0       |
+| [location_x](#location_x)        | float        |            |     | NO   | 0       |
+| [location_y](#location_y)        | float        |            |     | NO   | 0       |
+| [location_z](#location_z)        | float        |            |     | NO   | 0       |
+| [waittime](#waittime)            | int(10)      | unsigned   |     | NO   | 0       |
+| [point_comment](#point_comment)  | text         |            |     | YES  | NULL    |
 
 ### entry
 
-`field-no-description|1`
+Entry of the creature, see [creature\_template.entry](creature_template#entry).
 
 ### pointid
 
-`field-no-description|2`
+Unique ID for each waypoint. Starts at 1 and increases with each waypoint.
 
 ### location\_x
 
-`field-no-description|3`
+The X coordinate of the destination waypoint.
 
 ### location\_y
 
-`field-no-description|4`
+The Y coordinate of the destination waypoint.
 
 ### location\_z
 
-`field-no-description|5`
+The Z coordinate of the destination waypoint.
 
 ### waittime
 
-`field-no-description|6`
+Wait time in milliseconds.
 
 ### point\_comment
 
-`field-no-description|7`
+Text comment.
+

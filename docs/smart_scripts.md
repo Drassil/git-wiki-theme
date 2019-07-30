@@ -1,3 +1,5 @@
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [smart_scripts](smart_scripts)
+
 # smart\_scripts
 
 **Table Structure**
@@ -868,7 +870,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_EVENT_RECEIVE_EMOTE</p></td>
 <td><p>22</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId</a></p></td>
+<td><p><a href="Emotes">EmoteId</a></p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p></p></td>
@@ -1295,8 +1297,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_EVENT_TEXT_OVER</p></td>
 <td><p>52</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_text#groupid">creature_text.GroupID</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature#id">creature.id</a> (0 any)</p></td>
+<td><p><a href="creature_text#groupid">creature_text.GroupID</a></p></td>
+<td><p><a href="creature#id">creature.id</a> (0 any)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1428,15 +1430,15 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_EVENT_GOSSIP_SELECT</p></td>
 <td><p>62</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gossip_menu_option#menuid">gossip_menu_option.MenuID</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gossip_menu_option#optionid">gossip_menu_option.OptionID</a></p></td>
+<td><p><a href="gossip_menu_option#menuid">gossip_menu_option.MenuID</a></p></td>
+<td><p><a href="gossip_menu_option#optionid">gossip_menu_option.OptionID</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td>On gossip clicked (<a href="http://www.azerothcore.org/wiki/gossip_menu_option">gossip_menu_option</a>).</td>
+<td>On gossip clicked (<a href="gossip_menu_option">gossip_menu_option</a>).</td>
 </tr>
 <tr class="even">
 <td><p>SMART_EVENT_JUST_CREATED</p></td>
@@ -1518,7 +1520,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_EVENT_GAME_EVENT_START</p></td>
 <td><p>68</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/game_event#evententry">game_event.eventEntry</a></p></td>
+<td><p><a href="game_event#evententry">game_event.eventEntry</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1527,12 +1529,12 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td>On <a href="http://www.azerothcore.org/wiki/game_event">game_event</a> started.</td>
+<td>On <a href="game_event">game_event</a> started.</td>
 </tr>
 <tr class="even">
 <td><p>SMART_EVENT_GAME_EVENT_END</p></td>
 <td><p>69</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/game_event#evententry">game_event.eventEntry</a></p></td>
+<td><p><a href="game_event#evententry">game_event.eventEntry</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1541,7 +1543,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td>On <a href="http://www.azerothcore.org/wiki/game_event">game_event</a> ended.</td>
+<td>On <a href="game_event">game_event</a> ended.</td>
 </tr>
 <tr class="odd">
 <td><p>SMART_EVENT_GO_STATE_CHANGED</p></td>
@@ -1689,7 +1691,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_TALK</p></td>
 <td><p>1</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_text#groupid">creature_text.GroupID</a></p></td>
+<td><p><a href="creature_text#groupid">creature_text.GroupID</a></p></td>
 <td><p>Duration to wait before SMART_EVENT_TEXT_OVER is triggered.</p></td>
 <td>0 It will try to trigger talk of the target
 <p>1 Set target as talk target (used for $vars in texts and whisper target)</p></td>
@@ -1704,7 +1706,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SET_FACTION</p></td>
 <td><p>2</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/FactionTemplate">FactionID</a> (or 0 for default)</p></td>
+<td><p><a href="FactionTemplate">FactionID</a> (or 0 for default)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1720,8 +1722,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL</p></td>
 <td><p>3</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a>(param1)</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#modelidx">creature_template.modelidx</a>(param2)</p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a>(param1)</p></td>
+<td><p><a href="creature_template#modelidx">creature_template.modelidx</a>(param2)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1750,7 +1752,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_PLAY_EMOTE</p></td>
 <td><p>5</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId</a></p></td>
+<td><p><a href="Emotes">EmoteId</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1782,7 +1784,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_OFFER_QUEST</p></td>
 <td><p>7</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></p></td>
+<td><p><a href="quest_template#id">quest_template.id</a></p></td>
 <td><p>directAdd (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -1830,12 +1832,12 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_RANDOM_EMOTE</p></td>
 <td><p>10</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId1</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId2</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId3</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId4</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId5</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId6</a></p></td>
+<td><p><a href="Emotes">EmoteId1</a></p></td>
+<td><p><a href="Emotes">EmoteId2</a></p></td>
+<td><p><a href="Emotes">EmoteId3</a></p></td>
+<td><p><a href="Emotes">EmoteId4</a></p></td>
+<td><p><a href="Emotes">EmoteId5</a></p></td>
+<td><p><a href="Emotes">EmoteId6</a></p></td>
 <td><p>Play Random Emote</p></td>
 </tr>
 <tr class="even">
@@ -1897,7 +1899,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS</p></td>
 <td><p>15</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></p></td>
+<td><p><a href="quest_template#id">quest_template.id</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1931,7 +1933,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_SET_EMOTE_STATE</p></td>
 <td><p>17</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Emotes">EmoteId</a></p></td>
+<td><p><a href="Emotes">EmoteId</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1949,8 +1951,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>18</p></td>
 <td><p>(may be more than one field OR'd together)</p></td>
 <td><p>type</p>
-<p>If false set <a href="http://www.azerothcore.org/wiki/creature_template#unit_flags">creature_template.unit_flags</a></p>
-<p>If true set <a href="http://www.azerothcore.org/wiki/creature_template#unit_flags2">creature_template.unit_flags2</a></p></td>
+<p>If false set <a href="creature_template#unit_flags">creature_template.unit_flags</a></p>
+<p>If true set <a href="creature_template#unit_flags2">creature_template.unit_flags2</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1966,8 +1968,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>19</p></td>
 <td><p>(may be more than one field OR'd together)</p></td>
 <td><p>type</p>
-<p>If false set  <a href="http://www.azerothcore.org/wiki/creature_template#unit_flags">creature_template.unit_flags</a></p>
-<p>If true set <a href="http://www.azerothcore.org/wiki/creature_template#unit_flags2">creature_template.unit_flags2</a></p></td>
+<p>If false set  <a href="creature_template#unit_flags">creature_template.unit_flags</a></p>
+<p>If true set <a href="creature_template#unit_flags2">creature_template.unit_flags2</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2077,7 +2079,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_CALL_GROUPEVENTHAPPENS</p></td>
 <td><p>26</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></p></td>
+<td><p><a href="quest_template#id">quest_template.id</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2130,7 +2132,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>29</p></td>
 <td><p>Distance (0 = Default value)</p></td>
 <td><p>Angle (0 = Default value)</p></td>
-<td><p>End <a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a></p></td>
+<td><p>End <a href="creature_template#entry">creature_template.entry</a></p></td>
 <td><p>credit</p></td>
 <td><p>creditType (0 monsterkill, 1 event)</p></td>
 <td><p><br />
@@ -2185,7 +2187,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_CALL_KILLEDMONSTER</p></td>
 <td><p>33</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a></p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2196,7 +2198,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>This is the ID from <a href="http://www.azerothcore.org/wiki/quest_template#requirednpcorgo">quest_template.RequiredNpcOrGo</a></p></td>
+<td><p>This is the ID from <a href="quest_template#requirednpcorgo">quest_template.RequiredNpcOrGo</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_INST_DATA</p></td>
@@ -2232,7 +2234,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_UPDATE_TEMPLATE</p></td>
 <td><p>36</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a></p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a></p></td>
 <td><p>Update Level</p></td>
 <td><p><br />
 </p></td>
@@ -2346,7 +2348,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL</p></td>
 <td><p>43</p></td>
 <td><p>creature_template.entry</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#modelidx">creature_template.modelidx</a></p></td>
+<td><p><a href="creature_template#modelidx">creature_template.modelidx</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2360,7 +2362,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SET_INGAME_PHASE_MASK</p></td>
 <td><p>44</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature#phasemask">creature.phaseMask</a></p></td>
+<td><p><a href="creature#phasemask">creature.phaseMask</a></p></td>
 <td><p>mask</p></td>
 <td><p><br />
 </p></td>
@@ -2456,7 +2458,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SUMMON_GO</p></td>
 <td><p>50</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template#entry">gameobject_template.entry</a></p></td>
+<td><p><a href="gameobject_template#entry">gameobject_template.entry</a></p></td>
 <td><p>De-spawn time in seconds.</p></td>
 <td><p>targetSummon (0/1)</p></td>
 <td><p><br />
@@ -2504,12 +2506,12 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_WP_START</p></td>
 <td><p>53</p></td>
 <td><p>0 = walk / 1 = run</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/waypoints#entry">waypoints.entry</a></p></td>
+<td><p><a href="waypoints#entry">waypoints.entry</a></p></td>
 <td><p>canRepeat</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></p></td>
+<td><p><a href="quest_template#id">quest_template.id</a></p></td>
 <td><p>despawntime</p></td>
 <td><p>reactState</p></td>
-<td><p>Creature starts Waypoint Movement. Use <a href="http://www.azerothcore.org/wiki/waypoints#entry">waypoints</a> table to create movement.</p></td>
+<td><p>Creature starts Waypoint Movement. Use <a href="waypoints#entry">waypoints</a> table to create movement.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_WP_PAUSE</p></td>
@@ -2531,7 +2533,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_WP_STOP</p></td>
 <td><p>55</p></td>
 <td><p>despawnTime</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></p></td>
+<td><p><a href="quest_template#id">quest_template.id</a></p></td>
 <td><p>fail (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -2544,7 +2546,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_ADD_ITEM</p></td>
 <td><p>56</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/item_template#entry">item_template.entry</a></p></td>
+<td><p><a href="item_template#entry">item_template.entry</a></p></td>
 <td><p>count</p></td>
 <td><p><br />
 </p></td>
@@ -2559,7 +2561,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_REMOVE_ITEM</p></td>
 <td><p>57</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/item_template#entry">item_template.entry</a></p></td>
+<td><p><a href="item_template#entry">item_template.entry</a></p></td>
 <td><p>count</p></td>
 <td><p><br />
 </p></td>
@@ -2639,7 +2641,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_TELEPORT</p></td>
 <td><p>62</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/Map">MapID</a></p></td>
+<td><p><a href="Map">MapID</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2780,11 +2782,11 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_EQUIP</p></td>
 <td><p>71</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_equip_template#creatureid">creature_equip_template.CreatureID</a></p></td>
+<td><p><a href="creature_equip_template#creatureid">creature_equip_template.CreatureID</a></p></td>
 <td><p>Slotmask</p></td>
-<td><p>Slot1 (<a href="http://www.azerothcore.org/wiki/item_template#entry">item_template.entry</a>)</p></td>
-<td><p>Slot2 (<a href="http://www.azerothcore.org/wiki/item_template#entry">item_template.entry</a>)</p></td>
-<td><p>Slot3 (<a href="http://www.azerothcore.org/wiki/item_template#entry">item_template.entry</a>)</p></td>
+<td><p>Slot1 (<a href="item_template#entry">item_template.entry</a>)</p></td>
+<td><p>Slot2 (<a href="item_template#entry">item_template.entry</a>)</p></td>
+<td><p>Slot3 (<a href="item_template#entry">item_template.entry</a>)</p></td>
 <td><p><br />
 </p></td>
 <td><p>only slots with mask set will be sent to client, bits are 1, 2, 4, leaving mask 0 is defaulted to mask 7 (send all), Slots1-3 are only used if no Param1 is set</p></td>
@@ -2943,7 +2945,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_SET_NPC_FLAG</p></td>
 <td><p>81</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#npcflag">creature_template.npcflag</a></p></td>
+<td><p><a href="creature_template#npcflag">creature_template.npcflag</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2960,7 +2962,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_ADD_NPC_FLAG</p></td>
 <td><p>82</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#npcflag">creature_template.npcflag</a></p></td>
+<td><p><a href="creature_template#npcflag">creature_template.npcflag</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2977,7 +2979,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_REMOVE_NPC_FLAG</p></td>
 <td><p>83</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#npcflag">creature_template.npcflag</a></p></td>
+<td><p><a href="creature_template#npcflag">creature_template.npcflag</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2994,7 +2996,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SIMPLE_TALK</p></td>
 <td><p>84</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_text#groupid">creature_text.GroupID</a></p></td>
+<td><p><a href="creature_text#groupid">creature_text.GroupID</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3140,7 +3142,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SET_DYNAMIC_FLAG</p></td>
 <td><p>94</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
+<td><p><a href="creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3157,7 +3159,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_ADD_DYNAMIC_FLAG</p></td>
 <td><p>95</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
+<td><p><a href="creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3174,7 +3176,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_REMOVE_DYNAMIC_FLAG</p></td>
 <td><p>96</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
+<td><p><a href="creature_template#dynamicflags">creature_template.dynamicflags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3205,9 +3207,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SEND_GOSSIP_MENU</p></td>
 <td><p>98</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gossip_menu#entry">gossip_menu.entry</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gossip_menu#text_id">gossip_menu.text_id</a><br />
-(same value as <a href="http://www.azerothcore.org/wiki/npc_text#id">npc_text.ID</a>)</p></td>
+<td><p><a href="gossip_menu#entry">gossip_menu.entry</a></p></td>
+<td><p><a href="gossip_menu#text_id">gossip_menu.text_id</a><br />
+(same value as <a href="npc_text#id">npc_text.ID</a>)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3304,7 +3306,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_SET_GO_FLAG</p></td>
 <td><p>104</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
+<td><p><a href="gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3320,7 +3322,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_ADD_GO_FLAG</p></td>
 <td><p>105</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
+<td><p><a href="gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3336,7 +3338,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_REMOVE_GO_FLAG</p></td>
 <td><p>106</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
+<td><p><a href="gameobject_template_addon#flags">gameobject_template_addon.flags</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3352,7 +3354,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_SUMMON_CREATURE_GROUP</p></td>
 <td><p>107</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_summon_groups#groupid">creature_summon_groups.groupId</a></p></td>
+<td><p><a href="creature_summon_groups#groupid">creature_summon_groups.groupId</a></p></td>
 <td><p>attackInvoker (0/1)</p></td>
 <td><p>attackScriptOwner (0/1)</p></td>
 <td><p><br />
@@ -3414,7 +3416,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_GAME_EVENT_STOP</p></td>
 <td><p>111</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/game_event#evententry">game_event.eventEntry</a></p></td>
+<td><p><a href="game_event#evententry">game_event.eventEntry</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3431,7 +3433,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_ACTION_GAME_EVENT_START</p></td>
 <td><p>112</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/game_event#evententry">game_event.eventEntry</a></p></td>
+<td><p><a href="game_event#evententry">game_event.eventEntry</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4370,7 +4372,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_TARGET_CREATURE_RANGE</p></td>
 <td><p>9</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a> (0 any)</p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a> (0 any)</p></td>
 <td><p>minDist</p></td>
 <td><p>maxDist</p></td>
 <td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
@@ -4387,8 +4389,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_TARGET_CREATURE_GUID</p></td>
 <td><p>10</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature#guid">creature.guid</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a></p></td>
+<td><p><a href="creature#guid">creature.guid</a></p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a></p></td>
 <td><p>getFromHashMap (0/1, this does not work in instances!)</p></td>
 <td><p><br />
 </p></td>
@@ -4405,7 +4407,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_TARGET_CREATURE_DISTANCE</p></td>
 <td><p>11</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a> (0 any)</p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a> (0 any)</p></td>
 <td><p>maxDist</p></td>
 <td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
 <td><p><br />
@@ -4443,7 +4445,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_TARGET_GAMEOBJECT_RANGE</p></td>
 <td><p>13</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
+<td><p><a href="gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
 <td><p>minDist</p></td>
 <td><p>maxDist</p></td>
 <td><p><br />
@@ -4461,8 +4463,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_TARGET_GAMEOBJECT_GUID</p></td>
 <td><p>14</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject#guid">gameobject.guid</a></p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template#entry">gameobject_template.entry</a></p></td>
+<td><p><a href="gameobject#guid">gameobject.guid</a></p></td>
+<td><p><a href="gameobject_template#entry">gameobject_template.entry</a></p></td>
 <td><p>getFromHashMap (0/1, this does not work in instances!)</p></td>
 <td><p><br />
 </p></td>
@@ -4479,7 +4481,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_TARGET_GAMEOBJECT_DISTANCE</p></td>
 <td><p>15</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
+<td><p><a href="gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
 <td><p>maxDist</p></td>
 <td><p><br />
 </p></td>
@@ -4557,7 +4559,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_TARGET_CLOSEST_CREATURE</p></td>
 <td><p>19</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#entry">creature_template.entry</a> (0 any)</p></td>
+<td><p><a href="creature_template#entry">creature_template.entry</a> (0 any)</p></td>
 <td><p>maxDist (Can be from 0-100 yards)</p></td>
 <td><p>dead? (0/1)</p></td>
 <td><p><br />
@@ -4575,7 +4577,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="odd">
 <td><p>SMART_TARGET_CLOSEST_GAMEOBJECT</p></td>
 <td><p>20</p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
+<td><p><a href="gameobject_template#entry">gameobject_template.entry</a> (0 any)</p></td>
 <td><p>maxDist (Can be from 0-100 yards)</p></td>
 <td><p><br />
 </p></td>
@@ -4914,5 +4916,4 @@ SMART\_EVENT\_INSTANCE\_PLAYER\_ENTER
 SMART\_EVENT\_TRANSPORT\_ADDCREATURE
 
 SMART\_EVENT\_DATA\_SET
-
 

@@ -1,33 +1,26 @@
+[Database Structure](Database-Structure) > [World-Database](World-Database) > [waypoint_data](waypoint_data)
+
 # waypoint\_data
-
-[<-Back-to:World](database-world.md)
-
-## **Version 3.3.5a**
 
 ### Information
 
-This table contains all the path data for creatures that use waypoints.
-
-|         |                       |
-|---------|-----------------------|
-| Collate | *'utf8\_general\_ci'* |
-| Engine  | MyISAM                |
+This table contains all the path data for creatures that use waypoints and waypoint scripts directly in their creature addon definition. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
 
 ### Structure
 
-| Field                                          | Type         | Attributes | Key | Null | Default | Comment       |
-|------------------------------------------------|--------------|------------|-----|------|---------|---------------|
-| [id](#waypoint_data-id)                        | INT(10)      | UNSIGNED   | PRI | NO   | 0       | Creature GUID |
-| [point](#waypoint_data-point)                  | MEDIUMINT(8) | UNSIGNED   | PRI | NO   | 0       | -             |
-| [position\_x](#waypoint_data-position)         | FLOAT        | -          | -   | NO   | 0       | -             |
-| [position\_y](#waypoint_data-position)         | FLOAT        | -          | -   | NO   | 0       | -             |
-| [position\_z](#waypoint_data-position)         | FLOAT        | -          | -   | NO   | 0       | -             |
-| [orientation](#waypoint_data-orientation)      | FLOAT        | -          | -   | NO   | 0       | -             |
-| [delay](#waypoint_data-delay)                  | INT(10)      | UNSIGNED   | -   | NO   | 0       | -             |
-| [move\_type](#waypoint_data-move_type)         | TINYINT(1)   | -          | -   | NO   | 0       | -             |
-| [action](#waypoint_data-action)                | INT(11)      | -          | -   | NO   | 0       | -             |
-| [action\_chance](#waypoint_data-action_chance) | SMALLINT(3)  | -          | -   | NO   | 100     | -             |
-| [wpguid](#waypoint_data-wpguid)                | INT(11)      | -          | -   | NO   | 0       | -             |
+| Field                            | Type         | Attributes   | Key | Null | Default |
+|----------------------------------|--------------|--------------|-----|------|---------|
+| [id](#id)                        | int(10)      | unsigned     | PRI | NO   | 0       |
+| [point](#point)                  | mediumint(8) | unsigned     | PRI | NO   | 0       |
+| [position\_x](#position_x)       | float        |              |     | NO   | 0       |
+| [position\_y](#position_y)       | float        |              |     | NO   | 0       |
+| [position\_z](#position_z)       | float        |              |     | NO   | 0       |
+| [orientation](#orientation)      | float        |              |     | NO   | 0       |
+| [delay](#delay)                  | int(10)      | unsigned     |     | NO   | 0       |
+| [move\_type](#move_type)         | int(11)      |              |     | NO   | 0       |
+| [action](#action)                | int(11)      |              |     | NO   | 0       |
+| [action\_chance](#action_chance) | smallint(6)  |              |     | NO   | 100     |
+| [wpguid](#wpguid)                | int(11)      | unsigned     |     | NO   | 0       |
 
 #### id
 
@@ -73,7 +66,7 @@ Time to wait (in ms) between each point.
 
 #### action
 
-ID of the action to be performed. See [waypoint\_scripts.id](https://trinitycore.atlassian.net/wiki/display/tc/scripts#scripts-id).
+ID of the action to be performed. See [waypoint\_scripts.id](waypoint_scripts).
 
 #### action\_chance
 
@@ -91,5 +84,4 @@ This field holds the GUID of the waypoint visual when you enable the visual mode
 |-------|-------|-------------|-------------|-------------|-------------|-------|------------|--------|----------------|--------|
 | 20160 | 1     | -4998       | -1167       | 501657      | 0           | 10000 | 0          | 0      | 100            | 0      |
 | 20160 | 2     | -4958.38    | -1199.34    | 501659      | 0           | 0     | 0          | 0      | 100            | 0      |
-
 
