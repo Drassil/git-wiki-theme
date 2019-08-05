@@ -80,6 +80,8 @@ If you want to submit code written by someone else, you can give credits to the 
 
 `git commit --author="AuthorName <authoremail@address.com>" -am "Commit message here"`
 
+Update: unfortunately, when merging a PR by squashing the commit, GitHub automatically sets the author of the resulting commit as the person who opened the PR. Because of this reason, please mention the original author (and commit, if applicable) in the PR description.
+
 ## Improve the Wiki
 
 Do you want to improve or add a page to our wiki? Good! Let's discuss it using [our chat](https://discord.gg/PaqQRkd).
