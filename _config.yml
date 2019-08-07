@@ -23,7 +23,7 @@ git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
 logo_url: http://www.azerothcore.org/images/logo.png
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
-google_analytics: 
+google_analytics:
 # (string) folder where wiki pages are stored, it's needed for tool buttons
 wiki_folder: docs
 # (boolean) if you're using github wiki as submodule then this config
@@ -41,7 +41,7 @@ use_prose_io: false
 search_engine : "js"
 # Setting google custom search engine for google
 # cse search bar (https://cse.google.it/cse/)
-google_cse_token: 
+google_cse_token:
 
 #
 # Jekyll configurations
@@ -60,7 +60,7 @@ kramdown:
   syntax_highlighter: rouge
 
 defaults:
- - 
+ -
     scope:
       path: "docs"
     values:
@@ -69,13 +69,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "git-wiki-bs-united"
+      layout: "azerothcore"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-bs-united"
+      layout: "azerothcore"
  -
     scope:
       path: ""
@@ -105,26 +105,26 @@ plugins:
 # Check wiki documentation to learn how they work
 #
 
-inc_before_toc : 
-inc_after_toc : 
-inc_before_content : 
-inc_after_content : 
-inc_before_footer : 
-inc_after_footer : 
-inc_before_head : 
+inc_before_toc :
+inc_after_toc :
+inc_before_content :
+inc_after_content :
+inc_before_footer :
+inc_after_footer :
+inc_before_head :
 inc_after_head : "azerothcore/afterhead.html"
-inc_before_meta : 
-inc_after_meta : 
-inc_before_scripts : 
-inc_after_scripts : 
-inc_before_styles : 
-inc_after_styles : 
-inc_before_header : 
-inc_after_header : 
-inc_before_tail : 
-inc_after_tail : 
-inc_before_tools : 
-inc_after_tools : 
+inc_before_meta :
+inc_after_meta :
+inc_before_scripts :
+inc_after_scripts :
+inc_before_styles :
+inc_after_styles :
+inc_before_header :
+inc_after_header :
+inc_before_tail :
+inc_after_tail :
+inc_before_tools :
+inc_after_tools :
 
 inc_before_page_list : "azerothcore/sidebar.html"
 inc_after_page_list :
