@@ -27,37 +27,31 @@
 
 <body>
     <div class="wrapper">
-        <div class="row">
-            <div class="col-lg-2">
-                {% include git-wiki/sections/header/header.html %}
+        {% include git-wiki/sections/header/header.html %}
+        <div class="git-wiki-page">
+            {% include git-wiki/sections/tools/tools.html %}
+
+            {% if site.inc_before_toc %}
+            {% include {{ site.inc_before_toc }} %}
+            {% endif %}
+
+            <div id="git-wiki-toc"></div>
+
+            {% if site.inc_after_toc %}
+            {% include {{ site.inc_after_toc }} %}
+            {% endif %}
+
+            {% if site.inc_before_content %}
+            {% include {{ site.inc_before_content }} %}
+            {% endif %}
+
+            <div id="git-wiki-content">
+                {{ content }}
             </div>
-            <div class="col-lg-10">
-                <div class="git-wiki-page">
-                    {% include git-wiki/sections/tools/tools.html %}
 
-                    {% if site.inc_before_toc %}
-                    {% include {{ site.inc_before_toc }} %}
-                    {% endif %}
-
-                    <div id="git-wiki-toc"></div>
-
-                    {% if site.inc_after_toc %}
-                    {% include {{ site.inc_after_toc }} %}
-                    {% endif %}
-
-                    {% if site.inc_before_content %}
-                    {% include {{ site.inc_before_content }} %}
-                    {% endif %}
-
-                    <div id="git-wiki-content">
-                        {{ content }}
-                    </div>
-
-                    {% if site.inc_after_content %}
-                    {% include {{ site.inc_after_content }} %}
-                    {% endif %}
-                </div>
-            </div>
+            {% if site.inc_after_content %}
+            {% include {{ site.inc_after_content }} %}
+            {% endif %}
         </div>
         <div class="row">
             <div class="col">
