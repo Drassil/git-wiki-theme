@@ -150,9 +150,10 @@ Go to `CMAKE_INSTALL_PREFIX` and create a new directory named `data`
 Two options to choose from:
 
 #### A) [Extract Client Data](http://www.azerothcore.org/wiki/Extract-Client-Data) from your own WOW client using the AzerothCore extractors
-#### B) (Easier) Download directly from mega with the links below:
+#### B) (Easier) Download directly using one of the links below:
 
-- [From 03/01/19 to now](https://mega.nz/#F!Am4DBKCR!o9Qj_xFLfsg4sczqg0xq2A) (choose this version if you are installing AzerothCore for the first time)
+- [From 13/08/19 to now](https://github.com/wowgaming/client-data/releases/tag/v7) ( RECOMMENDED - choose this version if you are installing AzerothCore for the first time)
+- [From 03/01/19 to 13/08/19](https://mega.nz/#F!Am4DBKCR!o9Qj_xFLfsg4sczqg0xq2A)
 - [From 07/18/18 to 03/01/19](https://mega.nz/#!utg3hKJL!TtSzcWxVkvxF4HJvor8LFWhrBwwpH2pHpI-xHGr-HZo) (before commit [59d4e1d3a806a4f2f48f535be366bde1b24d737e](https://github.com/azerothcore/azerothcore-wotlk/commit/59d4e1d3a806a4f2f48f535be366bde1b24d737e)) 
 - For older versions, check out this page's history.
 
