@@ -46,15 +46,15 @@ Type the following commands (replacing 4 with the number of threads that you wan
 
 **Linux**
 ```
-cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DTOOLS=1 -DSCRIPTS=1
-make -j 4
+cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DTOOLS=1 -DSCRIPTS=0
+make -j 6
 make install
 ```
 
 **Mac**
 ```
-cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DTOOLS=1 -DSCRIPTS=1 -DMYSQL_ADD_INCLUDE_PATH=/usr/local/include -DMYSQL_LIBRARY=/usr/local/lib/libmysqlclient_r.dylib -DREADLINE_INCLUDE_DIR=/usr/local/opt/readline/include -DREADLINE_LIBRARY=/usr/local/opt/readline/lib/libreadline.dylib -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include -DOPENSSL_SSL_LIBRARIES=/usr/local/opt/openssl/lib/libssl.dylib -DOPENSSL_CRYPTO_LIBRARIES=/usr/local/opt/openssl/lib/libcrypto.dylib
-make -j 4
+cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DTOOLS=1 -DSCRIPTS=0 -DMYSQL_ADD_INCLUDE_PATH=/usr/local/include -DMYSQL_LIBRARY=/usr/local/lib/libmysqlclient_r.dylib -DREADLINE_INCLUDE_DIR=/usr/local/opt/readline/include -DREADLINE_LIBRARY=/usr/local/opt/readline/lib/libreadline.dylib -DOPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include -DOPENSSL_SSL_LIBRARIES=/usr/local/opt/openssl/lib/libssl.dylib -DOPENSSL_CRYPTO_LIBRARIES=/usr/local/opt/openssl/lib/libcrypto.dylib
+make -j 6
 make install
 ```
 
@@ -75,7 +75,7 @@ make install
 ```
 5. Next, we need to assembly **vmaps** through the **vmap4assembler**, so type in your terminal the follows command. Same thing, you must wait until this process is completed..
 ```
-mkdir vmaps
+mkdir vmaps;
 ./vmap4assembler Buildings vmaps
 ```
 
@@ -83,7 +83,7 @@ mkdir vmaps
 **NOTE: This process will take up to a few hours, depending on your computer specs.**
 
 ```
-mkdir mmaps
+mkdir mmaps;
 ./mmaps_generator
 ```
 
