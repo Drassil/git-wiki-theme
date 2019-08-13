@@ -149,7 +149,7 @@ Go to `CMAKE_INSTALL_PREFIX` and create a new directory named `data`
 
 Two options to choose from:
 
-#### A) [[Extract Client Data]] from your own WOW client with AzerothCore extractors
+#### A) [Extract Client Data](http://www.azerothcore.org/wiki/Extract-Client-Data) from your own WOW client using the AzerothCore extractors
 #### B) (Easier) Download directly from mega with the links below:
 
 - [From 03/01/19 to now](https://mega.nz/#F!Am4DBKCR!o9Qj_xFLfsg4sczqg0xq2A) (choose this version if you are installing AzerothCore for the first time)
