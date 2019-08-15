@@ -41,38 +41,7 @@ If **(and only if)** the bug hasn't been reported yet, you can [open an issue](h
 
 ## How to create a Pull Request
 
-Official GitHub tutorial [here](https://help.github.com/articles/creating-a-pull-request/).
-
-In order to create a Pull Request (PR), you have to fork the [AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk) (via your web browser, using the top-right Fork button) and clone your fork locally with `git clone https://github.com/YOUR_USERNAME/azerothcore-wotlk.git`.
-
-If you already have a local fork, remember to [sync it](Syncing-your-fork) before creating a new Pull Request to avoid conflicts.
-
-Open a terminal and move to your local clone of the fork, then create a new branch by typing:
-
-`git checkout -b my-branch` (Note: **my-branch** is an arbitrary name, choose whatever you want here)
-
-Now add your changes to the code.
-
-**IMPORTANT:** If you are going to add some database contents or structure changes, read [how to deal with SQL files](Dealing-with-SQL-files) first.
-
-Then you can commit your changes and push them:
-
-```
-## Select all your modified files
-git add .
-## Commit your changes (you can simply type "git commit -v" too)
-git commit -v -m "Commit message here"
-## origin = your git remote (the url of your fork)
-git push origin my-branch
-```
-
-Now via web open your repository, switch to your new branch and click on _New pull request_ and compare our original repo/master branch with your fork/my-branch.
-
-**IMPORTANT:** remember to create **one separate PR for each feature/fix (use a separate branch for each PR)**
-
-### Describe the testing steps
-
-Please describe how other users should test your PR. This way people can easily check it and it will be faster to be merged.
+- Read [How to test a PR](How-to-create-a-PR).
 
 ### Giving credit to the author of code
 
