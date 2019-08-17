@@ -1,3 +1,5 @@
+# NOTE: CURRENTLY DISABLED
+
 At AzerothCore, changes are submitted via PRs that are **first tested** and then merged to the `master`branch.
 
 However, some PRs can be hard to test. For example when a PR contains changes that potentially can affect many things. To improve our QA and make sure such modifications don't introduce bugs in the master branch, we created the `staging` branch.
