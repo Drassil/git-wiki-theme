@@ -829,10 +829,6 @@ Level of quest. Player receives full experience amount only if their level is le
 
 Minimum level at which a player can get the quest.
 
-### MaxLevel
-
-Maximum level at which a player can get the quest.
-
 ### QuestSortID
 
 This field defines under what category the quest falls in the quest log.
@@ -880,15 +876,6 @@ Examples:
 
 18875469 (16777216 + 2097152 + 1024 + 64 + 8 + 4 + 1) = Alliance
 
-### RequiredSkillId
-
-Skill required to know to accept the quest. See SkillIne.dbc
-0 means no skill is required.
-
-### RequiredSkillPoints
-
-Skill points required to have in order to accept the quest.
-
 ### RepObjectiveFaction
 
 Faction ID for an objective to achieve a certain reputation value with. See Faction.dbc
@@ -896,50 +883,6 @@ Faction ID for an objective to achieve a certain reputation value with. See Fact
 ### RepObjectiveValue
 
 Reputation value that the player must achieve with the faction in [RepObjectiveFaction](#quest_template-RepObjectiveFaction) as part of the quest objectives.
-
-### RequiredMinRepFaction
-
-Faction ID for reputation requirement. See Faction.dbc
-
-### RequiredMinRepValue
-
-Players must have this reputation or higher in order to receive the quest.
-
-### RequiredMaxRepFaction
-
-The Faction ID for the faction that controls the maximum reputation value that the player can have and still get the quest. See Faction.dbc
-
-### RequiredMaxRepValue
-
-The maximum reputation value that the player can have with a faction and still get the quest. If the player has more reputation than the value in this field, the quest will not be able to be taken anymore.
-
-### PrevQuestId
-
-**if value &gt; 0:** Contains the previous quest id, that must be completed before this quest can be started.
-
-**If value &lt; 0:** Contains the parent quest id, that must be active before this quest can be started.
-
-See the [examples section](#quest_template-Examples) for examples.
-
-### NextQuestId
-
-**If value &gt; 0:** Contains the next quest id, if PrevQuestId of that quest is not sufficient.
-
-**If value &lt; 0:** Contains the sub quest id, if PrevQuestId of that quest is not sufficient. If quest have many alternative next quests (class specific quests lead from single not class specific quest) field PrevQuestId in next quests can used for setting this dependence.
-
-See the [examples section](#quest_template-Examples) for examples.
-
-### ExclusiveGroup
-
-**if ExclusiveGroup &gt; 0**
-
-Allows to define a group of quests of which only one may be chosen and completed. E.g. if from quests 1200, 1201 and 1202 only one should be allowed to be chosen, insert 1200 into ExclusiveGroup of all 3 quests.
-
-**if ExclusiveGroup &lt; 0**
-
-Allows to define a group of quests of which all must be completed and rewarded to start next quest. E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this quests have same negative exclusive group then all this quest must be completed and rewarded before quest 1000 can be started.
-
-Note: All quests that use an ExclusiveGroup must also have entries in pool\_template and pool\_quest in order for the core to choose one randomly. See the [examples section](#quest_template-Examples) for examples.
 
 ### RewardNextQuest
 
@@ -983,14 +926,6 @@ Spell that will always be casted at player when completing the quest. This can b
 
 NOTE: This field comes straight from the WDB and should not be changed.
 
-### RewardMailTemplateId
-
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper loot template in [quest\_mail\_loot\_template](loot_template). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
-
-### RewardMailDelay
-
-How many seconds to wait until the mail is sent to the character that turned in a quest rewarding items from a loot template defined in [RewardMailTemplateId](#quest_template-RewardMailTemplateId)
-
 ### RewardHonor
 
 Number of honorable kill honor rewarded for completing this quest.
@@ -1006,10 +941,6 @@ Multiplies [RewardHonor](#quest_template-RewardHonor), so if value is 2, it will
 ### StartItem
 
 Items given by the quest giver at beginning of the quest. Items will be deleted when quest is abandoned.
-
-### SourceSpellId
-
-Spell cast on player when quest is started. Can be a buff or a learning spell.
 
 ### Flags
 
@@ -1205,24 +1136,6 @@ This flag field defines more specifically the type of quest it is. Aside from th
 Like all flag based fields, **QuestFlags** can be added for the different types of quest.
 
 Note that some flags may not be supported by core.
-
-### SpecialFlags
-
-This field is a bitmask and is for controlling server side quest functions. This data blizz keeps serverside, and is not sent to the client, so we have to populate the field manually.
-
--   0: No extra requirements
-
-<!-- -->
-
--   1: Makes the quest repeatable.
--   2: Makes the quest only completable by some external event (an entry in [areatrigger\_involvedrelation](areatrigger_involvedrelation), spell effect quest complete or an entry in [spell\_scripts](scripts) with command 7 as some examples)
--   4: Make quest auto-accept. As of patch 3.3.5a only quests in the starter area need this flag.
-
-<!-- -->
-
--   8: Only used for Dungeon Finder quests
--   16: Makes the quest monthly
--   32: The quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast)
 
 ### RewardTitleId
 
