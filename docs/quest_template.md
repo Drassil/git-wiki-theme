@@ -1271,14 +1271,6 @@ field-no-description|69
 
 Emote delay in ms
 
-### EmoteOnIncomplete
-
-field-no-description|71
-
-### EmoteOnComplete
-
-Emote played by the related NPC at the time all quest objects are completed.
-
 ### OfferRewardEmote
 
 Emote played by the NPC at the time the character is rewarded for the quest.
