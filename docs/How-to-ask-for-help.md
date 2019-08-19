@@ -84,6 +84,8 @@ Remember to:
 
 - Link your question in the #support-general channel of our [Discord chat](https://discordapp.com/channels/217589275766685707/284406375495368704)
 
+- Read: [stackoverflow.com/help/how-to-ask](https://stackoverflow.com/help/how-to-ask)
+
 
 ### Share your knowledge!
 
