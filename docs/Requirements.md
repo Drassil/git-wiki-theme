@@ -42,7 +42,7 @@ Then use it to install the required packages:
 
 * Install latest version of [Git Extensions](https://git-scm.com/download/win)
 
-* [MySQL Server Community Edition](http://dev.mysql.com/downloads/mysql/5.6.html) ( 5.6 or higher )
+* [MySQL Server Community Edition](http://dev.mysql.com/downloads/mysql/5.6.html) (version 5.6 or 5.7, anything later is not supported)
 
 * [MySQL Development File](https://docs.google.com/uc?id=0B1fF5EIDoF1fWjYwQ1FCNUJmMWc&export=download)
   
