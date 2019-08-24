@@ -2363,7 +2363,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SET_INGAME_PHASE_MASK</p></td>
 <td><p>44</p></td>
 <td><p><a href="creature#phasemask">creature.phaseMask</a></p></td>
-<td><p>mask</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
