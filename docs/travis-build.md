@@ -5,5 +5,6 @@ Travis build
 - id 2 is clang 7
 
 This is the script where the compiler is specified: 
-https://github.com/azerothcore/azerothcore-wotlk/blob/master/apps/ci/ci-before_install.sh
+
+[apps/ci/ci-before_install.sh](https://github.com/azerothcore/azerothcore-wotlk/blob/master/apps/ci/ci-before_install.sh)
 
