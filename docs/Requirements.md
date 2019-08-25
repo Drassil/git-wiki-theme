@@ -18,7 +18,7 @@ To configure MySQL in Ubuntu 18.04 and similar (set `root` password and other se
 
 `clang --version`
 
-Your `clang` version **MUST** to be `6` or higher ([here](http://www.azerothcore.org/wiki/travis-build) you can check the versions that run in our Travis CI pipeline, we recommend to use one of those versions).
+Your `clang` version **MUST** be `6` or higher ([here](http://www.azerothcore.org/wiki/travis-build) you can check the versions that run in our Travis CI pipeline, we recommend to use one of those versions).
 
 For example, if you are using an older version of Ubuntu like 16.04, you need to install clang using:
 
