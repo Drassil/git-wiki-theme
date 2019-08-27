@@ -125,7 +125,7 @@ git will ask to specify which remote branch you want to push to.
 So you should give:
 
 ```
-git push ---set-upstream origin fix-issue-xxxx
+git push --set-upstream origin fix-issue-xxxx
 ```
 
 (of course replace `fix-issue-xxxx` with the actual name of your branch)
