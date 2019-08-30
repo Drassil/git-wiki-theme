@@ -15,6 +15,7 @@ git_branch: gh-pages
 theme: 
 use_github_wiki: false
 use_prose_io: true
+service: github
 search_engine : "js"
 google_cse_token: 007197903287787072094:8rbvkeqo6qw
 wiki_folder : "wiki"
