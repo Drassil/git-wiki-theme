@@ -2594,7 +2594,7 @@ The honor rank the player needs to have to use this item.
 
 ### RequiredCityRank
 
-`field-no-description|22`
+Its use is unknown. All items have 0.
 
 ### RequiredReputationFaction
 
@@ -2655,7 +2655,7 @@ The rank the player has to have with the faction from [RequiredReputationFaction
 
 ### maxcount
 
-Maximum number of copies of this item a player can have. Use 0 for infinite.
+Maximum number of copies of this item which a player can have. Use 0 for infinite.
 
 ### stackable
 
