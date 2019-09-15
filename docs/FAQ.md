@@ -6,9 +6,9 @@
 - You can put bounties (money) on issues and suggestions by using bountysource. Read this: [Bountysource](Bountysource.md)
 - If you're a developer, check out this page: Contribute
 
-#### 2 - Why is AzerothCore using more ram than TrinityCore?
+#### 2 - Why is AzerothCore using more RAM than TrinityCore?
 
-AzerothCore is based on SunwellCore (a fork from TC). SunwellCore was a public server with 4000 players online and they made sure their core could handle that amount of player easily. Reading data from the ram is much faster than reading from the hard disk (there are entire systems based on this principle). That's one of the reason there is a bigger ram usage.
+See [Memory Usage](Memory-Usage.md)
 
 #### 3 - I want this fixed or this feature or this module. How can I proceed?
 

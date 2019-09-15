@@ -594,7 +594,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <th><p>Param2</p></th>
 <th><p>Param3</p></th>
 <th><p>Param4</p></th>
-<th>Param5</th>
+<th><p>Param5</p></th>
 <th>Comment</th>
 </tr>
 </thead>
@@ -4176,7 +4176,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <th><p>target_param1</p></th>
 <th><p>target_param2</p></th>
 <th><p>target_param3</p></th>
-<th>target_param4</th>
+<th><p>target_param4</p></th>
 <th><p>target_x</p></th>
 <th><p>target_y</p></th>
 <th><p>target_z</p></th>
