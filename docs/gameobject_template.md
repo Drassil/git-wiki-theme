@@ -559,7 +559,7 @@ Shows unique text in the object's casting bar when the object is used. `WDB-fiel
 
 Object's size must be set because graphic models can be resample. `WDB-fields`
 
-### data0-32
+### data0-23
 
 The content of the data fields depends on the [gameobject type](#gameobject_template-type)
 
@@ -633,15 +633,6 @@ The content of the data fields depends on the [gameobject type](#gameobject_temp
 -   data21: Group Xp
 -   data22: Damage Immune
 -   data23: trivialSkillLow
--   data24: trivialSkillHigh
--   data25: Dungeon Encounter
--   data26: spell
--   data27: GiganticAOI
--   data28: LargeAOI
--   data29: spawnVignette
--   data30: chestPersonalLoot
--   data31: turnpersonallootsecurityoff
--   data32: Chestproperties
 
 **GAMEOBJECT\_TYPE\_BINDER = 4**
 
@@ -734,14 +725,6 @@ Object type not used
 -   data21: floatOnWater
 -   data22: conditionID1
 -   data23: playerCast
--   data24: SpawnVignette
--   data25: startOpen
--   data26: DontPlayOpenAnim
--   data27: IgnoreBoundingBox
--   data28: NeverUsableWhileMounted
--   data29: SortFarZ
--   data30: SyncAnimationtoObjectLifetime
--   data31: NoFuzzyHit
 
 **GAMEOBJECT\_TYPE\_TRANSPORT = 11**
 
@@ -930,9 +913,6 @@ Object type not used
 -   data21: unidirectional
 -   data22: killbonustime
 -   data23: speedWorldState1
--   data24: speedWorldState2
--   data25: UncontestedTime
--   data26: FrequentHeartbeat
 
 **GAMEOBJECT\_TYPE\_AURAGENERATOR = 30**
 
