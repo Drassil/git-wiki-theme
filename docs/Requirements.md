@@ -39,6 +39,13 @@ Your `cmake` version **MUST** be `3.8` or higher.
 If you are using an older version of Ubuntu like 16.04, you need to follow the instructions here in order to install the latest version:
 https://apt.kitware.com/
 
+### Ensure that the gcc-7 headers are installed
+
+This is an issue if for example using an older version of Ubuntu like 16.04. There you have to add the PPA "Toolchain test builds":
+https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test
+
+After `sudo apt-get update` you can install gcc-7: `sudo apt-get install g++-7 gcc-7`
+
 
 # Mac OS X
 
