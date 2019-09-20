@@ -30,6 +30,15 @@ For example, if you are using an older version of Ubuntu like 16.04, you need to
 
 If you use another distro or version, search on google for how to install the right clang version for your system.
 
+### Check your cmake version
+
+`cmake --version`
+
+Your `cmake` version **MUST** be `3.8` or higher.
+
+If you are using an older version of Ubuntu like 16.04, you need to follow the instructions here in order to install the latest version:
+https://apt.kitware.com/
+
 
 # Mac OS X
 
