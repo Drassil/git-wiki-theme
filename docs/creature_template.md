@@ -68,7 +68,7 @@ This table contains the description of creatures. Each spawned creature is an in
 | [VehicleId](#VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [mingold](#mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [maxgold](#maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [AIName](#AIName)                               | char(64)              | NO   |     |         |       |                                      |
+| [AIName](#ainame)                               | char(64)              | NO   |     |         |       |                                      |
 | [MovementType](#MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [InhabitType](#InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
 | [HoverHeight](#HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
@@ -543,17 +543,21 @@ Maximum money that the creature drops when killed, in copper.
 
 This field is overridden by ScriptName field if both are set.
 
-| Name        | Description                                                    |
-|-------------|----------------------------------------------------------------|
-| Name        | Description                                                    |
-| NullAI      | Empty AI, creature does nothing.                               |
-| AggressorAI | Creature attacks as soon as something is in aggro range.       |
-| ReactorAI   | Creature attacks only if aggroed by attack, spell etc.         |
-| GuardAI     |                                                                |
-| PetAI       | Creature is a pet.                                             |
-| TotemAI     | Creature casts spell from field spell1, otherwise like NullAI. |
-| EventAI     | Creature uses event based AI.                                  |
-| SmartAI     | Creature uses new smart AI.                                    |
+| Name            | Description                                                    |
+|-----------------|----------------------------------------------------------------|
+| NullCreatureAI  | Empty AI, creature does nothing.                               |
+| TriggerAI       |                                                                |
+| AggressorAI     | Creature attacks as soon as something is in aggro range.       |
+| PassiveAI       |                                                                |
+| CritterAI       |                                                                |
+| GuardAI         |                                                                |
+| PetAI           | Creature is a pet.                                             |
+| TotemAI         | Creature casts spell from field spell1.                        |
+| CombatAI        |                                                                |
+| ArcherAI        |                                                                |
+| TurretAI        |                                                                |
+| VehicleAI       |                                                                |
+| SmartAI         | Creature uses Smart AI                                         |
 
 #### MovementType
 
