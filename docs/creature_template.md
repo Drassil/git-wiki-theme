@@ -8,15 +8,15 @@ This table contains the description of creatures. Each spawned creature is an in
 | [difficulty_entry_1](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [difficulty_entry_2](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [difficulty_entry_3](#difficulty_entry_x)       | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [KillCredit1](#KillCredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [KillCredit2](#KillCredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [KillCredit1](#killcredit1)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [KillCredit2](#killcredit2)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [modelid1](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [modelid2](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [modelid3](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [modelid4](#modelidx)                            | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [name](#name)                                   | char(100)             | NO   | MUL | 0       |       |                                      |
 | [subname](#subname)                             | char(100)             | YES  |     | (NULL)  |       |                                      |
-| [IconName](#IconName)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
+| [IconName](#iconname)                           | char(100)             | YES  |     | (NULL)  |       |                                      |
 | [gossip_menu_id](#gossip_menu_id)             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [minlevel](#minlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
 | [maxlevel](#maxlevel)                           | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
@@ -31,8 +31,8 @@ This table contains the description of creatures. Each spawned creature is an in
 | [maxdmg](#maxdmg)                               | float                 | NO   |     | 0       |       |                                      |
 | [dmgschool](#dmgschool)                         | tinyint(4)            | NO   |     | 0       |       |                                      |
 | [attackpower](#attackpower)                     | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [BaseAttackTime](#BaseAttackTime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [RangeAttackTime](#RangeAttackTime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [BaseAttackTime](#baseattacktime)               | int(10) unsigned      | NO   |     | 0       |       |                                      |
+| [RangeAttackTime](#rangeattacktime)             | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [unit_class](#unit_class)                      | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [unit_flags](#unit_flags)                      | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [unit_flags2](#unit_flags2)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
@@ -64,26 +64,26 @@ This table contains the description of creatures. Each spawned creature is an in
 | [spell6](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [spell7](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [spell8](#spellx)                                | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [PetSpellDataId](#PetSpellDataId)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
-| [VehicleId](#VehicleId)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [PetSpellDataId](#petspelldataid)               | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
+| [VehicleId](#vehicleid)                         | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [mingold](#mingold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [maxgold](#maxgold)                             | mediumint(8) unsigned | NO   |     | 0       |       |                                      |
 | [AIName](#ainame)                               | char(64)              | NO   |     |         |       |                                      |
-| [MovementType](#MovementType)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [InhabitType](#InhabitType)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
-| [HoverHeight](#HoverHeight)                     | float                 | NO   |     | 1       |       |                                      |
-| [HealthModifier](#HealthModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ManaModifier](#ManaModifier)                   | float                 | NO   |     | 1       |       |                                      |
-| [ArmorModifier](#ArmorModifier)                 | float                 | NO   |     | 1       |       |                                      |
-| [DamageModifier](#DamageModifier)               | float                 | NO   |     | 1       |       |                                      |
-| [ExperienceModifier](#ExperienceModifier)       | float                 | NO   |     | 1       |       |                                      |
-| [RacialLeader](#RacialLeader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
-| [movementId](#movementId)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
-| [RegenHealth](#RegenHealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
+| [MovementType](#movementtype)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [InhabitType](#inhabittype)                     | tinyint(3) unsigned   | NO   |     | 3       |       |                                      |
+| [HoverHeight](#hoverheight)                     | float                 | NO   |     | 1       |       |                                      |
+| [HealthModifier](#healthmodifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ManaModifier](#manamodifier)                   | float                 | NO   |     | 1       |       |                                      |
+| [ArmorModifier](#armormodifier)                 | float                 | NO   |     | 1       |       |                                      |
+| [DamageModifier](#damagemodifier)               | float                 | NO   |     | 1       |       |                                      |
+| [ExperienceModifier](#experiencemodifier)       | float                 | NO   |     | 1       |       |                                      |
+| [RacialLeader](#racialleader)                   | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
+| [movementId](#movementid)                       | int(11) unsigned      | NO   |     | 0       |       |                                      |
+| [RegenHealth](#regenhealth)                     | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |
 | [mechanic_immune_mask](#mechanic_immune_mask) | int(10) unsigned      | NO   |     | 0       |       |                                      |
 | [flags_extra](#flags_extra)                    | int(10) unsigned      | NO   |     | 0       |       |                                      |
-| [ScriptName](#ScriptName)                       | char(64)              | NO   |     |         |       |                                      |
-| [VerifiedBuild](#VerifiedBuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
+| [ScriptName](#scriptname)                       | char(64)              | NO   |     |         |       |                                      |
+| [VerifiedBuild](#verifiedbuild)                 | smallint(5)           | YES  |     | 0       |       |                                      |
 
 ---
 
@@ -600,11 +600,11 @@ Used to modify the base Level/Class mana of a creature. This field comes from WD
 
 Used to modify the base Level/Class armor of a creature.
 
-**DamageModifier**
+#### DamageModifier
 
 TODO!
 
-**ExperienceModifier**
+#### ExperienceModifier
 
 TODO!
 
