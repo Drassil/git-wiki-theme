@@ -19,7 +19,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#menu_id">MenuID</a></p></td>
+<td><p><a href="#menuid">MenuID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -43,7 +43,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#option_icon">OptionIcon</a></p></td>
+<td><p><a href="#optionicon">OptionIcon</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -55,7 +55,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#option_text">OptionText</a></p></td>
+<td><p><a href="#optiontext">OptionText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -83,7 +83,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#option_id">OptionType</a></p></td>
+<td><p><a href="#optionid">OptionType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -96,7 +96,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#npc_option_npcflag">OptionNpcFlag</a></p></td>
+<td><p><a href="#npcoptionnpcflag">OptionNpcFlag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -109,7 +109,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#action_menu_id">ActionMenuID</a></p></td>
+<td><p><a href="#actionmenuid">ActionMenuID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -122,7 +122,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#action_poi_id">ActionPoiID</a></p></td>
+<td><p><a href="#actionpoiid">ActionPoiID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -135,7 +135,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#box_coded">BoxCoded</a></p></td>
+<td><p><a href="#boxcoded">BoxCoded</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -148,7 +148,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#box_money">BoxMoney</a></p></td>
+<td><p><a href="#boxmoney">BoxMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -161,7 +161,7 @@ This table holds information about menu options a gossip NPC can have. Example
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#box_text">BoxText</a></p></td>
+<td><p><a href="#boxtext">BoxText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -243,148 +243,30 @@ The ID of the same text in broadcast\_text.ID.
 
 ### OptionType
 
-<table>
-<thead>
-<tr class="header">
-<th>option_id Name</th>
-<th>Value</th>
-<th>npcflag Name (&amp; comment)</th>
-<th>npcflag value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>GOSSIP_OPTION_NONE</td>
-<td>0</td>
-<td>UNIT_NPC_FLAG_NONE</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_GOSSIP</td>
-<td>1</td>
-<td>UNIT_NPC_FLAG_GOSSIP</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_QUESTGIVER</td>
-<td>2</td>
-<td>UNIT_NPC_FLAG_QUESTGIVER</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_VENDOR</td>
-<td>3</td>
-<td><p>UNIT_NPC_FLAG_VENDOR (Make sure there is npc_vendor data for this creature)</p></td>
-<td>128</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_TAXIVENDOR</td>
-<td>4</td>
-<td>UNIT_NPC_FLAG_TAXIVENDOR</td>
-<td>8192</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_TRAINER</td>
-<td>5</td>
-<td><p>UNIT_NPC_FLAG_TRAINER (Remember to set trainer_class in creature_template) </p></td>
-<td>16</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_SPIRITHEALER</td>
-<td>6</td>
-<td>UNIT_NPC_FLAG_SPIRITHEALER</td>
-<td>16384</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_SPIRITGUIDE</td>
-<td>7</td>
-<td>UNIT_NPC_FLAG_SPIRITGUIDE</td>
-<td>32768</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_INNKEEPER</td>
-<td>8</td>
-<td>UNIT_NPC_FLAG_INNKEEPER</td>
-<td>65536</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_BANKER</td>
-<td>9</td>
-<td>UNIT_NPC_FLAG_BANKER</td>
-<td>131072</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_PETITIONER</td>
-<td>10</td>
-<td>UNIT_NPC_FLAG_PETITIONER</td>
-<td>262144</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_TABARDDESIGNER</td>
-<td>11</td>
-<td>UNIT_NPC_FLAG_TABARDDESIGNER</td>
-<td>524288</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_BATTLEFIELD</td>
-<td>12</td>
-<td>UNIT_NPC_FLAG_BATTLEFIELDPERSON</td>
-<td>1048576</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_AUCTIONEER</td>
-<td>13</td>
-<td>UNIT_NPC_FLAG_AUCTIONEER</td>
-<td>2097152</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_STABLEPET</td>
-<td>14</td>
-<td>UNIT_NPC_FLAG_STABLE</td>
-<td>4194304</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_ARMORER</td>
-<td>15</td>
-<td>UNIT_NPC_FLAG_ARMORER (not used)</td>
-<td>4096</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_UNLEARNTALENTS</td>
-<td>16</td>
-<td>UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)</td>
-<td>16</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_UNLEARNPETTALENTS</td>
-<td>17</td>
-<td>UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)</td>
-<td>16</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_LEARNDUALSPEC</td>
-<td>18</td>
-<td>UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)</td>
-<td>16</td>
-</tr>
-<tr class="even">
-<td>GOSSIP_OPTION_OUTDOORPVP</td>
-<td>19</td>
-<td>Added by code (option for outdoor PvP creatures)</td>
-<td><br />
-</td>
-</tr>
-<tr class="odd">
-<td>GOSSIP_OPTION_MAX</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td><br />
-</td>
-</tr>
-</tbody>
-</table>
+|option_id Name|Value|npcflag Name (& comment)|npcflag value|
+|--- |--- |--- |--- |
+|GOSSIP_OPTION_NONE|0|UNIT_NPC_FLAG_NONE|0|
+|GOSSIP_OPTION_GOSSIP|1|UNIT_NPC_FLAG_GOSSIP|1|
+|GOSSIP_OPTION_QUESTGIVER|2|UNIT_NPC_FLAG_QUESTGIVER|2|
+|GOSSIP_OPTION_VENDOR|3|UNIT_NPC_FLAG_VENDOR (Make sure there is npc_vendor data for this creature)|128|
+|GOSSIP_OPTION_TAXIVENDOR|4|UNIT_NPC_FLAG_TAXIVENDOR|8192|
+|GOSSIP_OPTION_TRAINER|5|UNIT_NPC_FLAG_TRAINER (Remember to set trainer_class in creature_template)|16|
+|GOSSIP_OPTION_SPIRITHEALER|6|UNIT_NPC_FLAG_SPIRITHEALER|16384|
+|GOSSIP_OPTION_SPIRITGUIDE|7|UNIT_NPC_FLAG_SPIRITGUIDE|32768|
+|GOSSIP_OPTION_INNKEEPER|8|UNIT_NPC_FLAG_INNKEEPER|65536|
+|GOSSIP_OPTION_BANKER|9|UNIT_NPC_FLAG_BANKER|131072|
+|GOSSIP_OPTION_PETITIONER|10|UNIT_NPC_FLAG_PETITIONER|262144|
+|GOSSIP_OPTION_TABARDDESIGNER|11|UNIT_NPC_FLAG_TABARDDESIGNER|524288|
+|GOSSIP_OPTION_BATTLEFIELD|12|UNIT_NPC_FLAG_BATTLEFIELDPERSON|1048576|
+|GOSSIP_OPTION_AUCTIONEER|13|UNIT_NPC_FLAG_AUCTIONEER|2097152|
+|GOSSIP_OPTION_STABLEPET|14|UNIT_NPC_FLAG_STABLE|4194304|
+|GOSSIP_OPTION_ARMORER|15|UNIT_NPC_FLAG_ARMORER (not used)|4096|
+|GOSSIP_OPTION_UNLEARNTALENTS|16|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
+|GOSSIP_OPTION_UNLEARNPETTALENTS|17|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
+|GOSSIP_OPTION_LEARNDUALSPEC|18|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
+|GOSSIP_OPTION_OUTDOORPVP|19|Added by code (option for outdoor PvP creatures)||
+|GOSSIP_OPTION_MAX||||
+
 
 ### OptionNpcFlag
 
