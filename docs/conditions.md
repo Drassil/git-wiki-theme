@@ -371,8 +371,8 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <tr class="odd">
 <td>CONDITION_SOURCE_TYPE_GOSSIP_MENU</td>
 <td>14</td>
-<td><a href="http://www.azerothcore.org/wiki/gossip_menu#entry">gossip_menu.entry</a> (gossip menu entry)</td>
-<td><a href="http://www.azerothcore.org/wiki/gossip_menu#text_id">gossip_menu.text_id</a> (points to npc_text.ID)</td>
+<td><a href="http://www.azerothcore.org/wiki/gossip_menu#MenuID">gossip_menu.MenuID</a></td>
+<td><a href="http://www.azerothcore.org/wiki/gossip_menu#TextID">gossip_menu.TextID</a> (points to npc_text.ID)</td>
 <td>Always 0</td>
 <td><p>0 = Player<br />
 1 = WorldObject</p></td>
@@ -382,8 +382,8 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <tr class="even">
 <td>CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</td>
 <td>15</td>
-<td><a href="http://www.azerothcore.org/wiki/gossip_menu_option#menu_id">gossip_menu_option.menu_id</a> (menu entry)</td>
-<td><a href="http://www.azerothcore.org/wiki/gossip_menu_option#id">gossip_menu_option.id</a></td>
+<td><a href="http://www.azerothcore.org/wiki/gossip_menu_option#MenuID">gossip_menu_option.MenuID</a></td>
+<td><a href="http://www.azerothcore.org/wiki/gossip_menu_option#OptionID">gossip_menu_option.OptionID</a></td>
 <td>Always 0</td>
 <td><p>0 = Player<br />
 1 = WorldObject</p></td>
@@ -1156,16 +1156,16 @@ Notes:
 
 \***CONDITION\_SOURCE\_TYPE\_GOSSIP\_MENU = 14**
 
--   -   SourceGroup: gossip menu entry ([gossip\_menu.entry](http://www.azerothcore.org/wiki/gossip_menu#entry))
-    -   SourceEntry: gossip menu text id ([gossip\_menu.text\_id](http://www.azerothcore.org/wiki/gossip_menu#text_id))
+-   -   SourceGroup: gossip menu entry ([gossip\_menu.MenuID](http://www.azerothcore.org/wiki/gossip_menu#MenuID))
+    -   SourceEntry: gossip menu text id ([gossip\_menu.TextID](http://www.azerothcore.org/wiki/gossip_menu#TextID))
     -   ConditionTarget:
         -   0 - Player for which gossip text is shown
         -   1 - WorldObject providing gossip
 
 \***CONDITION\_SOURCE\_TYPE\_GOSSIP\_MENU\_OPTION = 15**
 
--   -   SourceGroup: gossip menu entry ([gossip\_menu\_option.menu\_id](http://www.azerothcore.org/wiki/gossip_menu_option#menu_id))
-    -   SourceEntry: gossip menu option id ([gossip\_menu\_option.id](http://www.azerothcore.org/wiki/gossip_menu_option#id))
+-   -   SourceGroup: gossip menu entry ([gossip\_menu\_option.MenuID](http://www.azerothcore.org/wiki/gossip_menu_option#MenuID))
+    -   SourceEntry: gossip menu option id ([gossip\_menu\_option.OptionID](http://www.azerothcore.org/wiki/gossip_menu_option#OptionID))
     -   ConditionTarget:
         -   0 - Player for which gossip text is shown
         -   1 - WorldObject providing gossip
