@@ -2783,7 +2783,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_EQUIP</p></td>
 <td><p>71</p></td>
-<td><p><a href="creature_equip_template#creatureid">creature_equip_template.CreatureID</a></p></td>
+<td><p><a href="creature_equip_template#id">creature_equip_template.ID</a></p></td>
 <td><p>Slotmask</p></td>
 <td><p>Slot1 (<a href="item_template#entry">item_template.entry</a>)</p></td>
 <td><p>Slot2 (<a href="item_template#entry">item_template.entry</a>)</p></td>
