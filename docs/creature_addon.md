@@ -141,8 +141,8 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#visibilitydistancetype">visibilityDistanceType</a></td>
-<td>tinyint(3)</td>
+<td><a href="#isLarge">isLarge</a></td>
+<td>tinyint(1)</td>
 <td>unsigned</td>
 <td><br />
 </td>
@@ -225,21 +225,13 @@ List of often used emote IDs and what they do can be found [here](Emotes).
 
 AnimKit ID from AnimKit.db2 that is applied on creature when spawned.
 
-### visibilityDistanceType
+### isLarge
 
 This field controls the visibility distance for creatures:
 
-Normal = 0,  100.0f  // default visible distance, 100 yards on continents
+0 = Normal, standard visible distance from worldserver.conf (default 90 yards)
 
-Tiny = 1,  25.0f
-
-Small = 2,  50.0f
-
-Large = 3, 200.0f
-
-Gigantic = 4, 400.0f
-
-Infinite = 5, SIZE\_OF\_GRIDS // max distance for visible objects
+1 = Large, maximum visibility distance (250 yards)
 
 ### auras
 
