@@ -33,8 +33,6 @@
     </script>
     <style>
         #footer {
-            position: absolute;
-            bottom: 0;
             text-align: center;
         }
 
@@ -155,9 +153,11 @@
                     <div id="content">{{content}}</div>
                 </div>
             </div>
+            <div class="mdl-layout__header" id="footer">
+                {% include git-wiki/sections/footer/footer.html %}
+            </div>
         </main>
+ 
     </div>
-    <div class="mdl-layout__header mdl-layout__header--scroll" id="footer">
-        {% include git-wiki/sections/footer/footer.html %}
-    </div>
+
 </body>
