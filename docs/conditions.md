@@ -1060,11 +1060,11 @@ CONDITION_STAND_STATE</p></td>
 <td>Always 0</td>
 </tr>
 <tr class="odd">
-<td>CONDITION_QUEST_OBJECTIVE_COMPLETE (6.x / 7.x only)</td>
+<td>CONDITION_QUEST_OBJECTIVE_PROGRESS</td>
 <td>48</td>
-<td>Quest Objective ID - see quest_objectives</td>
-<td>Always 0</td>
-<td>Always 0</td>
+<td>Quest ID - see <a href="http://www.azerothcore.org/wiki/quest_template#id">quest_template.id</a></td>
+<td>Quest Objective ID - see <a href="http://www.azerothcore.org/wiki/quest_template#requirednpcorgo">quest_template.RequiredNpcOrGo</a></td>
+<td>Quest Objective Count</td>
 </tr>
 <tr class="even">
 <td><p>CONDITION_MAX</p></td>
