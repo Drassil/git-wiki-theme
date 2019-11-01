@@ -112,11 +112,18 @@ git add data/sql/updates/pending_db_world/rev_XXXXXXXXXXXX.sql
 
 ### 6. Commit & Push your changes
 
-First of all, commit your changes using:
+First of all make sure to use the AC commit template (this should only be necessary once):
+```
+git config --local commit.template ".git_commit_template.txt"
+```
+
+Then commit your changes using:
 
 ```
-git commit -m "fix: write a short commit message here"
+git commit
 ```
+
+You are then prompted to specify an appropriate commit message (please follow the format guidelines here).
 
 Now it's time to push them remotely. 
 If you use the `git push` command for the first time in this branch, 
