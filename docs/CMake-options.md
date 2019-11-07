@@ -10,7 +10,7 @@ If you want to enable extra logs, add this flag: `-DENABLE_EXTRAS=1 -DENABLE_EXT
 
 Totally disable PCH:
 
-`-DNOPCH=0`
+`-DNOPCH=1`
 
 Or one by one:
 ```
