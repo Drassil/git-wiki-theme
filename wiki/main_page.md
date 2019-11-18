@@ -26,33 +26,4 @@ Follow the example http://ieeemadc.org/app-submission/
 Open Source ? Submit via Github :
 Create a folder with team name including the above mentioned files and DESCRIPTION on REAMDME.MD
 
-**Note:**
-You can even include the [official github wiki](https://help.github.com/articles/about-github-wikis/) as a submodule and enable the option in our conf file to use github wiki pages in git-wiki system, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
-
-### [share your wiki with us!](wiki/examples.md) and keep the "Power by Git-Wiki" footer link please. It will help both of us!
-
-## Configuration and customization
-
-Read documentation about [Customization HERE](customize.md)
-
-
-## Current known limitations
-
-* You can't use the wiki internal link format: [[example]]. Please, use gh-pages links instead: \[example\](example) . It's a known jekyll limitation: <https://jekyllrb.com/docs/templates/>
-
-
-## Support & Collaboration
-
-You can open a public issue on [github](https://github.com/Drassil/git-wiki/issues) , 
-send a private <a href="mailto:staff-drassil@googlegroups.com">email</a>  or create a PR to improve it.
-
-Thank you!
-
-## Components used
-
-- [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
-
-- [jQuery](https://jquery.com/) for DOM manipulation
-
-
 [MIT LICENSE](LICENSE)
