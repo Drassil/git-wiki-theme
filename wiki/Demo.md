@@ -1,4 +1,4 @@
-# IEEE Connected Learning (example app page)
+# IEEE Connected Learning (Example)
 # <a href="http://sangramchavan.github.io/IEEEConnectedLearning./"> App Presentation </a> 
 
 ## Features:
@@ -30,7 +30,7 @@
 
 
 
-##License
+## License
 
 BSD License
 
