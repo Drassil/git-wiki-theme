@@ -1,6 +1,6 @@
-# (string) Title of your wiki
-title: git-wiki
-description: Git-Wiki demo and documentation
+# (string) Title of your App
+title: IEEEmadC 
+description: Mobile Application Developement Contest
 show_downloads: true
 show_wiki_pages: true
 show_wiki_pages_limit: 10
