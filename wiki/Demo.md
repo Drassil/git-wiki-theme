@@ -1,6 +1,5 @@
-# IEEE Connected Learning (example app page)
 
-# <a href="http://sangramchavan.github.io/IEEE-Connected-Learning/"> IEEE-Connected-Learning </a>
+# <a href="http://sangramchavan.github.io/IEEEConnectedLearning./"> IEEE-Connected-Learning </a> (example app page)
 
 ## Features:
 
