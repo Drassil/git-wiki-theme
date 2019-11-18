@@ -4,7 +4,7 @@ redirect_from: "/"
 
 # Welcome to IEEEmadC-wiki 
 
-This is both documentation and [demo](Demo.md) of git-wiki theme for jekyll.
+ [Demo](Demo.md) example submission
 
 Apps-2017
 These apps are built by students for IEEEmadC 2017 submittion http://ieeemadc.org/app-submission/
