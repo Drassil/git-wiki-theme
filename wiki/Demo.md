@@ -1,5 +1,5 @@
-
-# <a href="http://sangramchavan.github.io/IEEEConnectedLearning./"> IEEE-Connected-Learning </a> (example app page)
+# IEEE Connected Learning (example app page)
+# <a href="http://sangramchavan.github.io/IEEEConnectedLearning./"> App Presentation </a> 
 
 ## Features:
 
@@ -8,15 +8,15 @@
 3. IEEE Xplorer Digital Library
 4. myIEEE
 5. IEEE Publication
-  - Publication & Standards
-  - Author resources
+   - Publication & Standards
+   - Author resources
 6. IEEE Digital Tool box
-  - Preparing your article
-  - Preparing your graphics and multimedia materials
-  - Guidelines for article submission
-  - Post-acceptance procedures
-  - Post-publication procedures
-  - Frequently asked questions
+   - Preparing your article
+   - Preparing your graphics and multimedia materials
+   - Guidelines for article submission
+   - Post-acceptance procedures
+   - Post-publication procedures
+   - Frequently asked questions
 7. Publish with Computer Society
 8. Spectrum
 9. Safari Direct Access (Computer Society members: To access the mobile feature no longer required to follow any steps.)
