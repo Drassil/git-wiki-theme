@@ -29,7 +29,7 @@ Now submit the Readme.md similar to the example file linking to your repository.
 
 # Format:
 
-## Title can be your app name
+## Title (your app name)
 ## Graphics 
 ## Short discription 
 ## Team
