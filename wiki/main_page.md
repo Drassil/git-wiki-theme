@@ -2,11 +2,9 @@
 redirect_from: "/"
 ---
 
-# Welcome to IEEEmadC-wiki 
+# Apps Submission
 
- 
 
-Apps Submission
 These apps are built by students for IEEEmadC 2019 
 
 Contact at IEEEmadC@ieee.org with your team name if you face any issues.
@@ -29,7 +27,7 @@ Include all this in one Repository below are ideal submissitions:
 
 Now submit the Readme.md similar to the example file linking to your repository.
 
-Format:
+# Format:
 
 ## Title can be your app name
 ## Graphics 
@@ -41,6 +39,6 @@ Format:
 ## Screenshots 
 ## Disclaimer
 ## License
-[Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
+# [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
 
 Note: You do not require to publish apps on store. 
