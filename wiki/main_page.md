@@ -4,7 +4,7 @@ redirect_from: "/"
 
 # Welcome to IEEEmadC-wiki 
 
- [Demo](Demo.md) example submission
+ 
 
 Apps Submission
 These apps are built by students for IEEEmadC 2019 
@@ -22,5 +22,7 @@ For submittion kindly include following in your GitHub repository:
 - Step 4: DESCRIPTION UPTO 4000 CHARACTERS SHOULD INCLUDE PROMO VIDEO 2MIN YOUTUBE/VIMEO EMBED LINK - ONLY TXT AND VIDEO LINK
 
 - Step 5: UPLOAD CODE AND APP. Include a Licence.
+
+Include all this in one [README](https://github.com/Marton-Zeisler/Voluny/blob/master/README.md)
 
 [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
