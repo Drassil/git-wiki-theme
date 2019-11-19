@@ -23,6 +23,8 @@ For submittion kindly include following in your GitHub repository:
 
 - Step 5: UPLOAD CODE AND APP. Include a Licence.
 
-Include all this in one [README](https://github.com/Marton-Zeisler/Voluny/blob/master/README.md)
+Include all this in one README.md
+[Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC)
+[Example 2](https://github.com/Marton-Zeisler/Voluny/blob/master/README.md)
 
 [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
