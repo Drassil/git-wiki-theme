@@ -23,7 +23,7 @@ For submittion kindly include following in your GitHub repository:
 
 - Step 5: UPLOAD CODE AND APP. Include a Licence.
 
-Include all this in one README.md
+Include all this in one Repository
 [Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC)
 [Example 2](https://github.com/Marton-Zeisler/Voluny/blob/master/README.md)
 
