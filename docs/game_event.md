@@ -51,7 +51,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>NULL</p></td>
 <td><p><br />
 </p></td>
-<td><p>Absolute end date, the event will never start after</p></td>
+<td><p>Absolute end date, the event will never start after; if NULL it will be implicitly set to 2 years in the future on each server start</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="http://collab.kpsn.org#occurrence">occurrence</a></p></td>
