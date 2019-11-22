@@ -3,12 +3,13 @@ GM commands can be entered mainly in 2 ways. Either by typing it directly into t
 Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the world console.
 
 # GM Commands 3.x
+
 |Command|Security|Description|
 |-------|--------|-----------|
 |account create|4|Syntax: .account create $account $password Create account and set password to it.|
 |account delete|4|Syntax: .account delete $account Delete account with all characters.|
-|account lock|0|Syntax: .account lock [on\off] Allow login from account only from current used IP or remove this requirement.|
-|account lock country|0|Syntax: .account lock country [on|off]. Allow login from account only from current used Country or remove this requirement.|
+|account lock|0|Syntax: .account lock [on/off] Allow login from account only from current used IP or remove this requirement.|
+|account lock country|0|Syntax: .account lock country [on/off]. Allow login from account only from current used Country or remove this requirement.|
 |account onlinelist|4|Syntax: .account onlinelist Show list of online accounts.|
 |account password|0|Syntax: .account password $old_password $new_password $new_password Change your account password.|
 |account set addon|3|Syntax: .account set addon [$account] #addon Set user (possible targeted) expansion addon level allowed. Addon values: 0 - normal, 1 - tbc, 2 - wotlk.|
@@ -52,11 +53,11 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |damage|3|Syntax: .damage $damage_amount [$school [$spellid]] Apply $damage to target. If not $school and $spellid provided then this flat clean melee damage without any modifiers. If $school provided then damage modified by armor reduction (if school physical), and target absorbing modifiers and result applied as melee damage to target. If spell provided then damage modified and applied as spell damage. $spellid can be shift-link.|
 |debug arena|3|Syntax: .debug arena Toggle debug mode for arenas. In debug mode GM can start arena with single player.|
 |debug bg|3|Syntax: .debug bg Toggle debug mode for battlegrounds. In debug mode GM can start battleground with single player.|
-|debug getitemstate|3|Syntax: .debug getitemstate [unchanged|changed|new|removed|queue|check_all]. Get specified item state of the items of the selected player.|
+|debug getitemstate|3|Syntax: .debug getitemstate [unchanged\|changed\|new\|removed\|queue\|check_all]. Get specified item state of the items of the selected player.|
 |debug getitemvalue|3|Syntax: .debug getitemvalue $guid $index. Get value from item with $guid at $index.|
 |debug setitemvalue|3|Syntax: .debug getitemvalue $guid $index $value. Set $value for item with $guid at $index.|
-|debug getvalue|3|Syntax: .debug $field [1|0]: 1: get uint32 value of $field of the selected unit; 0: get float value of $field of the selected unit|
-|debug setvalue|3|Syntax: .debug $field $value [1|0]: 1: set uint32 $value for $field of the selected unit; 0: set float $value for $field of the selected unit|
+|debug getvalue|3|Syntax: .debug $field [1\|0]: 1: get uint32 value of $field of the selected unit; 0: get float value of $field of the selected unit|
+|debug setvalue|3|Syntax: .debug $field $value [1\|0]: 1: set uint32 $value for $field of the selected unit; 0: set float $value for $field of the selected unit|
 |debug entervehicle|3|Enter targeted vehicle.|
 |debug hostil|1|Get hostile reference list of the selected unit.|
 |debug itemexpire|3|Syntax: .debug itemexpire $guid. Delete the item with $guid.|
@@ -94,7 +95,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |event start|2|Syntax: .event start #event_id Start event #event_id. Set start time for event to current moment (change not saved in DB).|
 |event stop|2|Syntax: .event stop #event_id Stop event #event_id. Set start time for event to time in past that make current moment is event stop time (change not saved in DB).|
 |event|2|Syntax: .event #event_id Show details about event with #event_id.|
-|explorecheat|3|Syntax: .explorecheat [1|0]. 1: Set all zones to explored; 0: Set all zones to unexplored|
+|explorecheat|3|Syntax: .explorecheat [1\|0]. 1: Set all zones to explored; 0: Set all zones to unexplored|
 |cheat cooldown|2|Syntax: .cheat cooldown [on/off] Enables or disables your character's spell cooldowns.|
 |cheat power|2|Syntax: .cheat power [on/off] Enables or disables your character's spell cost (e.g mana).|
 |flusharenapoints|3|Syntax: .flusharenapoints Use it to distribute arena points based on arena team ratings, and start a new week.|
