@@ -47,11 +47,11 @@ IDs from Languages.dbc
 
 ### MaleText
 
-The text that the male creature will broadcast.
+The text that the male creature will broadcast, or male characters can read from gossip menu.
 
 ### FemaleText
 
-The text that the female creature will broadcast.
+The text that the female creature will broadcast, or female characters can read from gossip menu.
 
 ### EmoteID\[1-3\]
 
