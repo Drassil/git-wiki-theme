@@ -45,3 +45,7 @@ Example:
 # [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
 
 Note: You do not require to publish apps on store. 
+
+FAQ:
+How to set up github ? [Play](https://www.youtube.com/watch?v=7Inc0G0wutk&list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL&index=11)
+How to ?? [Tutorial](https://www.youtube.com/watch?v=WxMFZncm12s&list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL&index=9) 
