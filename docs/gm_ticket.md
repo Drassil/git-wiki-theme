@@ -368,5 +368,3 @@ Requests further GM interaction on a ticket to which a GM has already responded.
 ### resolvedBy
 
 GUID of GM who resolved the ticket.
-
-td class=
