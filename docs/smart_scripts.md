@@ -568,12 +568,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>0x100</p></td>
 <td><p>Event will not reset in SmartScript::OnReset()</p></td>
 </tr>
-<tr class="even">
-<td><p>❌ SMART_EVENT_FLAG_WHILE_CHARMED</p></td>
-<td><p>512</p></td>
-<td><p>0x200</p></td>
-<td><p>Event can occur while player controlled (not yet implemented, see https://github.com/azerothcore/azerothcore-wotlk/pull/1431)</p></td>
-</tr>
 </tbody>
 </table>
 
