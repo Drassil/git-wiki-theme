@@ -1,3 +1,5 @@
+show_in_nav: false
+
 # Theme: Git-Wiki Default
 
 
