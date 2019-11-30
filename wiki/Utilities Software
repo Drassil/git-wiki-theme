@@ -1,1 +1,36 @@
-Utilities     
+Utilities 
+Description  : Utilities app for connection customers and protable water providers in countries suffer from lack of portable water.
+the customer can order protable water from his provider or any other provider in his area 
+using this app makes the proccess of getting clean water easier and faster !
+Team : MOhammad Isleem , Basel Hadrous 
+promo video: https://www.youtube.com/watch?v=HGZ7x6tDYKo&feature=youtu.be
+Description :Overall function of the app: deliver basic utilities like water and gas to customers.
+What we used in development:
+-	BLoC state management
+-	Shared preferences
+-	SQLite DBMS
+-	Firebase
+-	Google maps
+How did we use them?
+-	The state management solution was present at the very beginning of the app, 
+since it will handle all the API requests and database queries for now (will be changed later).
+-	Shared preferences is primarily used for caching the user and app settings.
+-	SQLite is used to store the orders locally so that the user can check them even when offline.
+-	Firebase, we used it for storage, real time notifications and providing authentication for the users, 
+we only used the authentication by e-mail and password for the time being, we may add logging in using google account or even Facebook. 
+Real time notifications are triggered from the customer app and are delivered to the providers phone using the unique id that the provider have.
+The storage part holds the user’s info (customers or providers) and the orders for the providers.
+-	Google maps are used to show the customer where the providers are and help him to choose where to deliver his order.
+User Journey:
+-	Users start by creating a new account which will be transferred to firebase to get handled, 
+all error codes from firebase are handled inside the app, after that the home screen pops up automatically, 
+or Users can login straight away if they already have an account, 
+the app remembers if the user is logged in or not using the shared preferences from there they can find a list of providers 
+as long as they are not subscribed to any provider, once they subscribe to a provider, 
+he will be displayed on the main screen when the user open the app again.
+-	Inside the provider screen the user can find the new order button, the repeat last order button and a list of previous orders 
+with their details (quantity ordered, date, price), also the user can find contact information of the provider which will automatically get copied to the dialer app to make the process faster.
+-	Past orders screen displays all orders of the customer from all the providers sorted using the date, speaking of sorting, 
+the providers list will display providers sorted using their location starting from the nearest.
+NOTE: the application in its current state sends a notification to every provider on the platform since we made a category called providers in firebase and made the provider subscribe to it, 
+after the submission this will be changed.
