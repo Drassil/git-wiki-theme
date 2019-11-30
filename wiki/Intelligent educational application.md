@@ -1,3 +1,4 @@
+## Android Learning Children App
 
 Note : The application targets the Arab world, so the application will be in Arabic .
 The App is based on the idea of discovering and devising intelligence and developing    thinking, which targets the students from the age of seven to the age of twelve years, the     application contains more than 25,000 questions and exercises in more than 300 educational skills from the first to the sixth primary grade.
