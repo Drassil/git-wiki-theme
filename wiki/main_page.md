@@ -41,7 +41,8 @@ Now submit the Readme.md similar to the example file linking to your repository.
 ## License
 ## Table 
 Example:
- No. | [Voluny](https://drive.google.com/uc?export=download&id=1zHikbY5PuwYGUCoc4V14TX5YO0BnkTfu) | [Marton-Zeisler](https://github.com/Marton-Zeisler/Voluny) | Simple volunteering app | MIT | UK | [Marton-Zeisler](https://github.com/Marton-Zeisler) |
+ [Voluny](link to executable file) | [Marton-Zeisler](link to repo) | Simple volunteering app(short description of app in few words) | MIT (Licence)| UK (Location )| [Marton-Zeisler](Github profiles that contributed to the project) |
+
 # [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
 
 Note: You do not require to publish apps on store. 
