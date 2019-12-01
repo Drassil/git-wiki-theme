@@ -8,942 +8,87 @@ This table holds vital static information for each character. This information l
 
 **Structure**
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><strong>Field</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Attributes</strong></p></td>
-<td><p><strong>Key</strong></p></td>
-<td><p><strong>Null</strong></p></td>
-<td><p><strong>Default</strong></p></td>
-<td><p><strong>Extra</strong></p></td>
-<td><p><strong>Comment</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#guid">guid</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p>PRI</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p>Unique</p></td>
-<td><p>Global Unique Identifier</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#account">account</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p>Account Identifier</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#name">name</a></p></td>
-<td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#race">race</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#class">class</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#gender">gender</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#level">level</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#xp">xp</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#money">money</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#playerbytes">playerBytes</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#playerbytes2">playerBytes2</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#playerflags">playerFlags</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#position_x">position_x</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#position_y">position_y</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#position_z">position_z</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#map">map</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p>Map Identifier</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#instance_id">instance_id</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#instance_mode_mask">instance_mode_mask</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#orientation">orientation</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#taximask">taximask</a></p></td>
-<td><p>text</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#online">online</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#cinematic">cinematic</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#totaltime">totaltime</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#leveltime">leveltime</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#logout_time">logout_time</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#is_logout_resting">is_logout_resting</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#rest_bonus">rest_bonus</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#resettalents_cost">resettalents_cost</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#resettalents_time">resettalents_time</a></p></td>
-<td><p>int(0)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#trans_x">trans_x</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#trans_y">trans_y</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#trans_z">trans_z</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#trans_o">trans_o</a></p></td>
-<td><p>float</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#transguid">transguid</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#extra_flags">extra_flags</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#stable_slots">stable_slots</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#at_login">at_login</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#zone">zone</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#death_expire_time">death_expire_time</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#taxi_path">taxi_path</a></p></td>
-<td><p>text</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#arenapoints">arenaPoints</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#totalhonorpoints">totalHonorPoints</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#todayhonorpoints">todayHonorPoints</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#yesterdayhonorpoints">yesterdayHonorPoints</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#totalkills">totalKills</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#todaykills">todayKills</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#yesterdaykills">yesterdayKills</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#chosentitle">chosenTitle</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#knowncurrencies">knownCurrencies</a></p></td>
-<td><p>bigint(20)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#watchedfaction">watchedFaction</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#drunk">drunk</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#health">health</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#power">power1</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#power">power2</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#power">power3</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#power">power4</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#power">power5</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#power">power6</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#power">power7</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#latency">latency</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#speccount">speccount</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>1</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#url=confluenceTdpec</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#exploredzones">exploredZones</a></p></td>
-<td><p>longtext</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#equipmentcache">equipmentCache</a></p></td>
-<td><p>longtext</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#ammoid">ammoId</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#knowntitles">knownTitles</a></p></td>
-<td><p>longtext</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#actionbars">actionBars</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#grantablelevels">grantableLevels</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#deleteinfos_account">deleteInfos_Account</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#deleteinfos_name">deleteInfos_Name</a></p></td>
-<td><p>varchar(12)</p></td>
-<td><p>unsigned</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#deletedate">deleteDate</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-</tbody>
-</table>
-
+| Field                       | Type         | Attributes | Key | Null | Default | Extra | Comment |
+|-----------------------------|--------------|------------|-----|------|---------|-------|---------|
+|[guid](#guid)                |int(10)       |unsigned    |PRI  |NO    |0        |Unique |Global Unique Identifier|
+|[account](#account)          |int(10)       |unsigned    |     |NO    |0        |       |Account Identifier|
+|[name](#name)                |varchar(12)   |signed      |     |NO    |NULL     |       ||
+|[race](#race)                |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[class](#class)              |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[gender](#gender)            |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[level](#level)              |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[xp](#xp)                    |int(10)       |unsigned    |     |NO    |0        |       ||
+|[money](#money)              |int(10)       |unsigned    |     |NO    |0	     |       ||
+|[skin](#skin)			      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[face](#face)			      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[hairStyle](#hairStyle)	  |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[hairColor](#hairColor)	  |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[facialStyle](#facialStyle)  |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[bankSlots](#bankSlots)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[restState](#restState)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[playerflags](#playerflags)  |int(10)       |unsigned    |     |NO    |0        |       ||
+|[position_x](#position_x)    |float         |signed      |     |NO    |0        |       ||
+|[position_y](#position_y)    |float         |signed      |     |NO    |0        |       ||
+|[position_z](#position_z)    |float         |signed      |     |NO    |0        |       ||
+|[map](#map)    			  |smallint(5)   |signed      |     |NO    |0        |       |Map Identifier|
+|[instance_id](#instance_id)  |int(10)       |unsigned    |     |NO    |0        |       ||
+|[instance_mode_mask](#instance_mode_mask)|tinyint(3)|unsigned| |NO    |0        |       ||
+|[orientation](#orientation)  |float         |signed	  |     |NO    |0        |       ||
+|[taximask](#taximask)        |text          |signed      |     |NO    |0        |       ||
+|[online](#online)            |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[cinematic](#cinematic)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[totaltime](#totaltime)      |int(10)       |unsigned    |     |NO    |0        |       ||
+|[leveltime](#leveltime)      |int(10)       |unsigned    |     |NO    |0        |       ||
+|[logout_time](#logout_time)  |int(10)       |unsigned    |     |NO    |0        |       ||
+|[is_logout_resting](#is_logout_resting)|tinyint(3)|unsigned|   |NO    |0        |       ||
+|[rest_bonus](#rest_bonus)    |float         |signed      |     |NO    |0        |       ||
+|[resettalents_cost](#resettalents_cost)|int(10)|unsigned |     |NO    |0        |       ||
+|[resettalents_time](#resettalents_time)|int(10)|unsigned |     |NO    |0        |       ||
+|[trans_x](#trans_x)          |float         |signed      |     |NO    |0        |       ||
+|[trans_y](#trans_y)          |float         |signed      |     |NO    |0        |       ||
+|[trans_z](#trans_z)          |float         |signed      |     |NO    |0        |       ||
+|[trans_o](#trans_o)          |float         |signed      |     |NO    |0        |       ||
+|[transguid](#transguid)      |mediumint(8)  |unsigned    |     |NO    |0        |       ||
+|[extra_flags](#extra_flags)  |smallint(5)   |unsigned    |     |NO    |0        |       ||
+|[extra_flags](#extra_flags)  |smallint(5)   |unsigned    |     |NO    |0        |       ||
+|[stable_slots](#stable_slots)|tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[at_login](#at_login)        |smallint(5)   |unsigned    |     |NO    |0        |       ||
+|[zone](#zone)                |smallint(5)   |unsigned    |     |NO    |0        |       ||
+|[death_expire_time](#death_expire_time)|int(10)|unsigned |     |NO    |0        |       ||
+|[taxi_path](#taxi_path)      |text          |signed      |     |YES   |NULL     |       ||
+|[arenaPoints](#arenaPoints)  |int(10)       |unsigned    |     |NO    |0        |       ||
+|[totalhonorpoints](#totalhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
+|[todayhonorpoints](#todayhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
+|[yesterdayhonorpoints](#yesterdayhonorpoints)|int(10)|unsigned ||NO   |0        |       ||
+|[totalkills](#totalkills)    |int(10)       |unsigned    |     |NO    |0        |       ||
+|[todayKills](#todaykills)    |smallint(5)   |unsigned    |     |NO    |0        |       ||
+|[yesterdayKills](#yesterdayKills)|smallint(5)|unsigned   |     |NO    |0        |       ||
+|[chosenTitle](#chosenTitle)  |int(10)       |unsigned    |     |NO    |0        |       ||
+|[knownCurrencies](#knownCurrencies)|bigint(20)|unsigned  |     |NO    |0        |       ||
+|[watchedFaction](#watchedFaction)|int(10)   |unsigned    |     |NO    |0        |       ||
+|[drunk](#drunk)              |tinyint(3)    |unsigned    |     |NO    |0        |       ||
+|[health](#health)            |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power1)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power2)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power3)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power4)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power5)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power6)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[power](#power7)             |int(10)       |unsigned    |     |NO    |0        |       ||
+|[latency](#latency)          |mediumint(8)  |unsigned    |     |NO    |0        |       ||
+|[talentGroupsCount](#talentGroupsCount)|tinyint(3)|unsigned|   |NO    |1        |       ||
+|[activeTalentGroup](#activeTalentGroup)|tinyint(3)|unsigned|   |NO    |0        |       ||
+|[exploredzones](#exploredzones)|longtext    |signed      |     |YES   |NULL     |       ||
+|[equipmentcache](#equipmentcache)|longtext  |signed      |     |YES   |NULL     |       ||
+|[ammoid](#ammoid)            |int(10)       |unsigned    |     |NO    |0        |       ||
+|[knownTitles](#knownTitles)  |longtext      |signed      |     |YES   |NULL     |       ||
+|[actionbars](#actionbars)    |longtext      |unsigned    |     |NO    |0        |       ||
+|[grantableLevels](#grantablelevels)|longtext|unsigned    |     |NO    |0        |       ||
+|[creation_date](#creation_date)|timestamp   |signed      |     |NO    |CURRENT_TIMESTAMP|||
+|[deleteInfos_Account](#deleteInfos_Account)|int(10)|unsigned|  |YES   |NULL     |       ||
+|[deleteInfos_Name](#deleteInfos_Name)|varchar(12)|unsigned|    |YES   |NULL     |       ||
+|[deleteDate](#deleteDate)    |int(10)       |unsigned    |     |YES   |NULL     |       ||
+  
 **Description of the fields**
 
 ### guid
@@ -989,20 +134,32 @@ The amount of experience this character has earned towards the next level.
 
 The amount of copper this character has.
 
-### playerBytes
+### skin
 
-contains data about the skincolor,facestyle,hairstyle and haircolor of the character
+Contains data about the skincolor of the character.
+skinColor = playerbytes  % 256
 
--   skinColor = playerbytes  % 256
--   faceStyle = (playerbytes &gt;&gt; 8) % 256
--   hairStyle = (playerbytes &gt;&gt; 16) % 256
--   hairColor = (playerbytes &gt;&gt; 24) % 256
+### face
 
-### playerBytes2
+Contains data about the facestyle of the character.
+faceStyle = (playerbytes &gt;&gt; 8) % 256
 
-data about facial hair
+### hairStyle
+Contains data about the hairStyle of the character.
+hairStyle = (playerbytes &gt;&gt; 16) % 256
 
--   facialHair = playerBytes2 % 256
+### hairColor
+Contains data about the haircolor of the character.
+hairColor = (playerbytes &gt;&gt; 24) % 256
+
+### facialStyle
+
+Contains data about facial hair of the character.
+facialHair = playerBytes2 % 256
+
+### bankSlots
+
+### restState
 
 ### playerFlags
 
@@ -1308,11 +465,11 @@ Current character powers (snapshot from when the character was saved)
 
 This characters latency, or ping, in milliseconds, as of the last update.
 
-### speccount
+### talentGroupsCount
 
 The number of specs this character has access to. Default value is 1. Maximum currently supported value is 2. Should never be 0 (this is a sign of a character created before the dual spec system.)
 
-### activespec
+### activeTalentGroup
 
 The currently activated spec for this character, spec = 0 is the first spec, spec = 1 is the second spec.
 
@@ -1322,7 +479,7 @@ Bitmasks of explored zones (1 bit for explored, 0 bit for unexplored)
 
 ### equipmentCache
 
-`field-no-description|58`
+Character's equipment and bag cache. `field-no-description|58`
 
 ### ammoId
 
@@ -1385,7 +542,11 @@ A bitmask that contains visible actionbars for the player
 
 ### grantableLevels
 
+Recruit A Friend stuff.
 
+### creation_date
+
+Character's creation date and time. Format YYY-MM-DD HH:MM:SS according to server's time.
 
 ### deleteInfos\_Account
 
@@ -1398,5 +559,3 @@ Stores the name of character if the character is deleted and CharDelete.Method i
 ### deleteDate
 
 Stores the date when the character was deleted and CharDelete.Method in worldserver.conf is set to 1. Will be checked by worldserver against CharDelete.KeepDays in worldserver.conf. If this value is lower than deleteDate + CharDelete.KeepDays the character will be purged.
-
-/ptr data-emoticon-name=/tdconfluenceTd/pp
