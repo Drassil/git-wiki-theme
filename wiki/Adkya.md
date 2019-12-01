@@ -1,5 +1,5 @@
 # Adkya
-![alt text]https://2.top4top.net/p_14290n8au1.png
+![alt text](https://2.top4top.net/p_14290n8au1.png)
 
 # Intelligent educational application
 
@@ -32,15 +32,15 @@ The second section is the educational material section: contain four educational
 
 # Screenshots
 ![alt text](https://6.top4top.net/p_1429m0tro2.jpg)
-![alt text]https://5.top4top.net/p_1429rkwd81.jpg 
-![alt text]https://1.top4top.net/p_14298079y3.jpg
-![alt text]https://2.top4top.net/p_1429xohw64.jpg
-![alt text]https://3.top4top.net/p_142936if55.jpg
-![alt text]https://4.top4top.net/p_1429s0y4k6.jpg
-![alt text]https://5.top4top.net/p_1429ce1oz7.jpg
-![alt text]https://6.top4top.net/p_1429byzrv8.jpg
-![alt text]https://1.top4top.net/p_1429rs79w9.jpg
-![alt text]https://2.top4top.net/p_1429f76wu10.jpg
+![alt text](https://5.top4top.net/p_1429rkwd81.jpg) 
+![alt text](https://1.top4top.net/p_14298079y3.jpg)
+![alt text](https://2.top4top.net/p_1429xohw64.jpg)
+![alt text](https://3.top4top.net/p_142936if55.jpg)
+![alt text](https://4.top4top.net/p_1429s0y4k6.jpg)
+![alt text](https://5.top4top.net/p_1429ce1oz7.jpg)
+![alt text](https://6.top4top.net/p_1429byzrv8.jpg)
+![alt text](https://1.top4top.net/p_1429rs79w9.jpg)
+![alt text](https://2.top4top.net/p_1429f76wu10.jpg)
 
 [GitHub link](https://github.com/alex8530/IEEE_MADC_2019_Android_Learning_Children_App/)
  
