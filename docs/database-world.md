@@ -159,7 +159,7 @@ NOTE: the DB documentation is still a work in progress. We need your help to mak
 - [spell_threat](spell_threat.md)
 - [spelldifficulty_dbc](spelldifficulty_dbc.md)
 - [transports](transports.md)
-- [trinity_string](trinity_string.md)
+- [acore_string](acore_string.md)
 - [vehicle_accessory](vehicle_accessory.md)
 - [vehicle_template_accessory](vehicle_template_accessory.md)
 - [version](version.md)

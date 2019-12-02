@@ -1043,7 +1043,7 @@ The use of this field is unknown.
 
 ### VerifiedBuild
 
-This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
+This field was used to determine whether a template has been verified from WDB files.
 
 If value is 0 then it has not been parsed yet.
 

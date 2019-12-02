@@ -148,7 +148,7 @@
 * [Spell_threat](spell_threat)
 * [Spelldifficulty_dbc](spelldifficulty_dbc)
 * [Transports](transports)
-* [Trinity_string](trinity_string)
+* [Acore_string](acore_string)
 * [Vehicle_accessory](vehicle_accessory)
 * [Vehicle_template_accessory](vehicle_template_accessory)
 * [Version](version)

@@ -1,8 +1,8 @@
-# trinity\_string
+# acore_string
 
 [<-Back-to:World](database-world.md)
 
-**The \`trinity\_string\` table**
+**The \`acore_string\` table**
 
 This table holds all of the strings used internally by the server. This table is provided with the main purpose of translation in mind.
 

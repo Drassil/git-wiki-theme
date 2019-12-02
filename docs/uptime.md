@@ -4,7 +4,7 @@
 
 **The \`uptime\` table**
 
-This table holds the server's uptime. Trinity will automatically update the latest entry's value until it crashes and a new record is added.
+This table holds the server's uptime. The core will automatically update the latest entry's value until it crashes and a new record is added.
 
 **Structure**
 
@@ -76,7 +76,7 @@ This table holds the server's uptime. Trinity will automatically update the late
 <td><p>signed</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>TrinityCore</p></td>
+<td><p>AzerothCore</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
