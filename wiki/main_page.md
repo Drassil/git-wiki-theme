@@ -21,9 +21,11 @@ For submittion kindly include following in your GitHub repository:
 
 - Step 5: UPLOAD CODE AND APP. Include a Licence.
 
-Include all this in one Repository below are ideal submissitions:
-[Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC) [Code in Readme.md](https://raw.githubusercontent.com/JobGetabu/Darasa-IEEEMadC/master/README.md)
-[Example 2](https://github.com/Marton-Zeisler/Voluny)[Code in Readme.md](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/README.md)
+Include all this in one Repository.
+
+Below are ideal submissitions: </br>
+[Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC) [Code in Readme.md](https://raw.githubusercontent.com/JobGetabu/Darasa-IEEEMadC/master/README.md) </br>
+[Example 2](https://github.com/Marton-Zeisler/Voluny) [Code in Readme.md](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/README.md)
 
 Now submit the Readme.md similar to the example file linking to your repository.
 
