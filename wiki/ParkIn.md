@@ -186,6 +186,6 @@ The server side processing will be enabled using PHP and MySQL. The administrato
 </p>
 
 # Disclaimer
- --
+ ---
 # License
- --
+ ---
