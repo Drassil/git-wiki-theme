@@ -29,7 +29,7 @@ NOTE: the DB documentation is still a work in progress. We need your help to mak
 - [creature_queststarter](creature_queststarter.md)
 - [creature_summon_groups](creature_summon_groups.md)
 - [creature_template](creature_template.md)
-- [creature_template_addon](creature_template_addon.md)
+- [creature_template_addon](creature_addon.md)
 - [creature_template_locale](creature_template_locale.md)
 - [creature_text](creature_text.md)
 - [creature_text_locale](creature_text_locale.md)
