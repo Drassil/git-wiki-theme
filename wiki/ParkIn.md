@@ -1,4 +1,4 @@
-# Title :
+# Title : 
 
 ### ParkIn: A Smart Parking App
 
@@ -24,11 +24,11 @@ parking slot through Android Application.User can pay after completion of parkin
 received. “**ParkIn**” Application relieves the user from the hassle of manually searching and
 waiting for empty slots to park the vehicle.
 
-# Team :
+# Team : "Heisenberg"
 
-#### Raihanul Alam Hridoy | Student ID: 1505010
-#### Ahnaf Faisal | Student ID: 1505005
-#### Md.Rajibul Islam | Student ID: 1505001
+#### Raihanul Alam Hridoy | Student ID: 1505010 | raihanul.hridoy100@gmail.com
+#### Ahnaf Faisal | Student ID: 1505005 | ahnaffaisalalavi@gmail.com
+#### Md.Rajibul Islam | Student ID: 1505001 | 1505001.mri@ugrad.cse.buet.ac.bd
 
 # Installation Guidelines (if applicable) :
 
@@ -36,7 +36,9 @@ Download the apk and install. [Download](https://github.com/hridoy100/ParkIn.apk
 
 # Promotional Video :
 
-[![Watch the video](https://cms-assets.tutsplus.com/uploads/users/69/posts/26743/image/basic-video-styles.jpg)](https://youtu.be/o5scMmDP22I)
+[![Watch the video](https://cms-assets.tutsplus.com/uploads/users/69/posts/26743/image/basic-video-styles.jpg)](https://youtu.be/joPjNBvLcaE)
+
+[App Walkthrough Video] (https://youtu.be/V9bc9IKWU8M)
 
 # Description & Screenshots :
 
@@ -184,6 +186,11 @@ The server side processing will be enabled using PHP and MySQL. The administrato
   Figure 16: Server Running
   <br>
 </p>
+
+# Github Repository:
+
+Get Full Code from here, 
+https://github.com/hridoy100/ParkInAndroid
 
 # Disclaimer
  ---
