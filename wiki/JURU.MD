@@ -37,9 +37,11 @@ This software is yet to be licensed by Institute of Electrical and Electronics E
 
 
 ## Screenshots
-<img   hspace="20" src="https://drive.google.com/file/d/1VTbQQNQUygf0wQiDo9QDwaZi0I505F8U/view?usp=drivesdk" width="400" height="600"/><img src="https://drive.google.com/file/d/1DbOo5aOtF0vuTP8v7-pl7XjJ8OX9yYVW/view?usp=drivesdk" width="400" height="600"/>
+<img src="https://drive.google.com/file/d/1VTbQQNQUygf0wQiDo9QDwaZi0I505F8U/view?usp=drivesdk" width="400" height="600"/>
+<img src="https://drive.google.com/file/d/1DbOo5aOtF0vuTP8v7-pl7XjJ8OX9yYVW/view?usp=drivesdk" width="400" height="600"/>
 
-<img   hspace="20" src="https://drive.google.com/file/d/1O0QjEjKdEv2wBqoEDK-xv0GY-kK1BbgE/view?usp=drivesdk" width="400" height="600"/><img src="https://drive.google.com/file/d/1uB9DZPcfveRDWYWpB-PTo9se8Dehv9ZO/view?usp=drivesdk" width="400" height="600"/>
+<img src="https://drive.google.com/file/d/1O0QjEjKdEv2wBqoEDK-xv0GY-kK1BbgE/view?usp=drivesdk" width="400" height="600"/>
+<img src="https://drive.google.com/file/d/1uB9DZPcfveRDWYWpB-PTo9se8Dehv9ZO/view?usp=drivesdk" width="400" height="600"/>
 
 ## Disclaimer
 JURis a product designed and developed by Odii Chinedu and Odii Marshall.
