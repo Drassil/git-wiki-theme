@@ -43,19 +43,7 @@ Below are ideal submissitions: </br>
 
 Now submit the Readme.md similar to the example file linking to your repository.
 
-# Format:
-
-## Title (your app name)
-## Graphics 
-## Short discription 
-## Team
-## Installation Guidelines (if applicable)
-## Promotional Video
-## Description
-## Screenshots 
-## Disclaimer
-## License
-## Table 
+Don't forget to add the Table. 
 Example:
 App Name (Hyperlink to executable file) | Repo name (Hyperlink to repo) | description (short description of app in few words) | Choose any licence e.g. MIT (Hyperlink to Licence)| UK (Location)| Name of members (Hyperlink to Github profiles that contributed to the project) |
 
