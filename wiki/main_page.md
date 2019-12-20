@@ -25,24 +25,19 @@ Include all this in one Repository.
 
 Step 1:
 <p  align="center" >
-<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png" 
+![Open link]<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png" 
    width="80%"   />
   </p>
 
 Step 2:
 Enter the details 
-<p  align="center" >
-<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png" 
-   width="80%"   />
-  </p>
+![Add content](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png)
 
 Scroll down you see Commit new file
 
 Step 3:
-<p  align="center" >
-<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png" 
-   width="80%"   />
-  </p>
+![Submit](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png)
+
 A pull request will be created on our end and that's it if there is anything missing we will mention it in the issue section of your repo.
 Below are ideal submissitions: </br>
 [Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC) [Code in Readme.md](https://raw.githubusercontent.com/JobGetabu/Darasa-IEEEMadC/master/README.md) </br>
