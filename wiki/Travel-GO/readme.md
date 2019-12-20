@@ -58,9 +58,9 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
 
 # Business Model
 
-1.Will act as social media for Travellers and influencers.
-2.Will help in local promotions via Ads
-3.It’s same as we use LinkedIn for professionals.
+1.Will act as social media for Travellers and influencers. <br>
+2.Will help in local promotions via Ads. <br>
+3.It’s same as we use LinkedIn for professionals. <br>
 4.Education Purpose
 
 # Membership Chart
