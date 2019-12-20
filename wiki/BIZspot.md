@@ -2,7 +2,7 @@
 
 <p  align="center" >
 <img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Primary.png" 
-   width="80%"   />
+   width="80%"/>
   </p>
 
 ## Team
@@ -15,9 +15,8 @@
 ## Short description
 
 BIZspot is a mobile application that serves as a network of business owners and service providers, built in order to ease their access to the community as well as providing individuals just what they need & in no time.
-<p  align="center" >
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Secondary.png" />
- </p>
+
+![banner](https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Secondary.png)
 
 
 
