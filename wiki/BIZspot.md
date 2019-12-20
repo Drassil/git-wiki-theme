@@ -57,7 +57,7 @@ And finally they can submit a request to create a thread for your business, afte
 <img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/categories.png"  width="24%"   />
 <img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/intro.png" width="24%"   />
 <img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/details.png" width="24%"   />
-<div>
+</div>
 
   
 ## Licence
