@@ -1,0 +1,33 @@
+title :Vague Law App
+no poster 
+No team
+Objective: This application aims to make the laws and legislation opaque when the Syrian people in a simplified and easy to access in any place can access any law or legislation and the consequences of the violations through research and in a simplified, easy and elegant way to the user in addition to all new laws and legislation will be added to Application with notice to the user
+
+the target audience
+  1) Syrian people from the age of 18 to 60
+2) Foreign tourists from the age of 18 to 60
+Advantages Applying
+1) The application is characterized by its ability to work on various operating systems
+This is because the first part was built using MVC Asp.Net Core (web platform)
+2) Part 2: will be built using Android Studio (native)
+ Works briefly: We tried during the process of building the user experience taking into account the ease of use where we saw that the application has a main interface contains clear classifications and understandable addresses explain the main section of each ministry, including come classifications and legislation and then laws with a full explanation clear and easy where the user will be able to leave a question in case The written explanation shall be sufficient and sufficient and will be ad hoc or general response to the question by a competent team
+2) Alerts always and never issued some laws or general amnesty surprisingly, we saw that through the notifications feature we will be able to access the pocket of each of the targeted segments in a simple way to see the new law issued in a quick (clear - easy -)
+
+Algorithms used: Search algorithms and smart algorithms we'll talk about later
+
+Application Benefits:
+Often we see citizens facing inadvertent ignorance in dealing with government departments
+Because::
+First, it is because of the awe they face from legal counsel at the lawyer
+Second: Because of the bad ethics of some brokers and their exploitation there is no means available to explain and clarify laws and legislation
+
+
+
+
+
+
+
+
+
+
+
