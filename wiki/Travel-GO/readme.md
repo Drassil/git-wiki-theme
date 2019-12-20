@@ -97,5 +97,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Summary
 
-All the Problem related traveller is solved ppt link [https://docs.google.com/presentation/d/12sF6oUmr0xCrxxnufkWowjg3Mgmxb1oeJJaVVRcXnes/edit#slide=id.g638f059ab9_4_511]
-Github (https://github.com/MANI14011998/madC)
+All the Problem related traveller is solved ppt link:
+[https://docs.google.com/presentation/d/12sF6oUmr0xCrxxnufkWowjg3Mgmxb1oeJJaVVRcXnes/edit#slide=id.g638f059ab9_4_511]
+
+
+Github Repository: (https://github.com/MANI14011998/madC)
