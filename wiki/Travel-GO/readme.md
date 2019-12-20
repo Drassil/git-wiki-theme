@@ -31,7 +31,6 @@ So we Build Fun Learning Travelling App.
 2.They visit and Get Redeemable coins.<br>
 3.Using this they will get local Communities Discount Coupon(like Taj Mahal Famous for Local Stole)<br>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
 
 # Features
 1.Places Description,360 view<br>
@@ -42,9 +41,6 @@ So we Build Fun Learning Travelling App.
 6.Feasibility give the closing time of monument so that traveller don't waste there time. <br>
 7.Fast food Immediately feature no waiting time <br>
 8.Complete AR Development For more Interactive <br>
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=n-J2_IvNDvw)
-
 
 # PointSystem
 
