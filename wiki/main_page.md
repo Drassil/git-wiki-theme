@@ -24,19 +24,25 @@ For submittion kindly include following in your GitHub repository:
 Include all this in one Repository.
 
 Step 1:
-
-![Screenshot 2019-11-30 at 11.25.11 AM.png|456x204](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png)
+<p  align="center" >
+<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png" 
+   width="80%"   />
+  </p>
 
 Step 2:
 Enter the details 
-![Screenshot 2019-11-29 at 8.40.25 AM|690x284](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png) 
+<p  align="center" >
+<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png" 
+   width="80%"   />
+  </p>
 
 Scroll down you see Commit new file
 
 Step 3:
-
-![Screenshot 2019-11-29 at 8.43.27 AM.png|456x206](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png)
-
+<p  align="center" >
+<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png" 
+   width="80%"   />
+  </p>
 A pull request will be created on our end and that's it if there is anything missing we will mention it in the issue section of your repo.
 Below are ideal submissitions: </br>
 [Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC) [Code in Readme.md](https://raw.githubusercontent.com/JobGetabu/Darasa-IEEEMadC/master/README.md) </br>
