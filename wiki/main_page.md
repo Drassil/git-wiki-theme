@@ -24,10 +24,8 @@ For submittion kindly include following in your GitHub repository:
 Include all this in one Repository.
 
 Step 1:
-<p  align="center" >
+
 ![Open link]<img src="https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png" 
-   width="80%"   />
-  </p>
 
 Step 2:
 Enter the details 
