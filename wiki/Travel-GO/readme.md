@@ -61,6 +61,11 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
 
 # Membership Chart
 
+<p  align="center" >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" 
+   width="80%"   />
+  </p>
+
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" width="50%"   >
 
 # Screenshots
