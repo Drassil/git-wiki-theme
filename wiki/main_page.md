@@ -33,7 +33,7 @@ Step 2:
 Enter the details 
 ![Add content](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png?raw=true)
 
-Scroll down you see Commit new file
+Scroll down you see propose the file. Then send a pull request by Commit new file.
 
 Step 3:
 ![Submit](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png?raw=true)
