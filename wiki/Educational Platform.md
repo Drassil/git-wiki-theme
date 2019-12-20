@@ -42,30 +42,30 @@ their courses and their targeted student’s ages.
 
 ### Or see some screenshots:
 
-![ScreenShot](sceenshots/1.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/1.PNG)
 
-![ScreenShot](sceenshots/2.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/2.PNG)
 
-![ScreenShot](sceenshots/3.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/3.PNG)
 
-![ScreenShot](sceenshots/4.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/4.PNG)
 
-![ScreenShot](sceenshots/5.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/5.PNG)
 
-![ScreenShot](sceenshots/6.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/6.PNG)
 
-![ScreenShot](sceenshots/7.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/7.PNG)
 
-![ScreenShot](sceenshots/8.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/8.PNG)
 
-![ScreenShot](sceenshots/9.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/9.PNG)
 
-![ScreenShot](sceenshots/10.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/10.PNG)
 
-![ScreenShot](sceenshots/11.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/11.PNG)
 
-![ScreenShot](sceenshots/12.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/12.PNG)
 
-![ScreenShot](sceenshots/13.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/13.PNG)
 
-![ScreenShot](sceenshots/14.PNG)
+![ScreenShot](https://github.com/AQaddora/EducationalPlatform/raw/master/sceenshots/14.PNG)
