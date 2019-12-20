@@ -20,7 +20,7 @@ TravelGO
 
 About 9.6 million travellers visit India.27% increase in travellers in world from 2016.Eventually I live in Delhi and I dont know Good places  to visit in Delhi. 
 So we Build Fun Learning Travelling App.
- [![](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)](https://www.youtube.com/watch?v=YKQZ-_8ZWIw)
+
 # [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
@@ -28,17 +28,22 @@ So we Build Fun Learning Travelling App.
 
 # Description/Solution
 1.Plot Check Points on monument , hotel.
-2.They visit and Get Redeemable coins .https://youtu.be/O1qPHr9ugkQ
+2.They visit and Get Redeemable coins.
 3.Using this they will get local Communities Discount Coupon(like Taj Mahal Famous for Local Stole)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
+
 # Features
 1.Places Description,360 view
 2.Social Media For Travellers & Influencers like Tiktok , LinkedIn
 3.Streak, Check-In,Saved Places,MayorShip,Followers,Visited Places
-4.User can see the foreign monument and experience  through AR portal.(https://youtu.be/n-J2_IvNDvw)
+4.User can see the foreign monument and experience  through AR portal.
 5.Pre Booking of monument
 6.Feasibility give the closing time of monument so that traveller don't waste there time. 
 7.Fast food Immediately feature no waiting time
 8.Complete AR Development For more Interactive
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=n-J2_IvNDvw)
 
 
 # PointSystem
