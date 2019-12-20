@@ -25,16 +25,16 @@ Include all this in one Repository.
 
 Step 1:
 
-![Open link](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png)
+![Open link](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png?raw=true)
 
 Step 2:
 Enter the details 
-![Add content](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png)
+![Add content](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.40.25%20AM.png?raw=true)
 
 Scroll down you see Commit new file
 
 Step 3:
-![Submit](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png)
+![Submit](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-29%20at%208.43.27%20AM.png?raw=true)
 
 A pull request will be created on our end and that's it if there is anything missing we will mention it in the issue section of your repo.
 Below are ideal submissitions: </br>
