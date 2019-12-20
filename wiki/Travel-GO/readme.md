@@ -72,10 +72,11 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
 <div style="display : inline-block;margin : 3% 3% 3% 3%">
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/1%20(2).jpg"  width="24%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/2%20(2).jpg"  width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.12.21%20AM.png" width="24%"   >
+   <br>
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/9e5795b8-d4cb-48dc-883a-2d89c4335251.jpeg" width="24%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-12%20at%2011.51.00%20PM.png" width="24%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="24%"   >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.12.21%20AM.png" width="24%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.08.23%20AM.png" width="24%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="24%"   >
 
