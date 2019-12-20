@@ -21,11 +21,13 @@ For submittion kindly include following in your GitHub repository:
 
 - Step 5: UPLOAD CODE AND APP. Include a Licence.
 
-Include all this in one Repository.
+Include all this in one Repository. Now [visit](https://ieeemadc.github.io/IEEEmadC-wiki/main_page)
 
 Step 1:
 
 ![Open link](https://github.com/IEEEmadC/IEEEmadC-wiki/blob/gh-pages/assets/images/Screenshot%202019-11-30%20at%2011.25.11%20AM.png?raw=true)
+
+Note: You need to fork to add your pull request.
 
 Step 2:
 Enter the details 
