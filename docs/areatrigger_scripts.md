@@ -57,7 +57,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 
 ### entry
 
-This is the trigger identifier from [AreaTrigger.dbc](AreaTrigger)
+This is the trigger identifier from [AreaTrigger.dbc](DBC-AreaTrigger)
 
 ### ScriptName
 

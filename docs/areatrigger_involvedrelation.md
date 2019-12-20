@@ -59,7 +59,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 
 ### id
 
-This is the trigger ID from [AreaTrigger.dbc](AreaTrigger)
+This is the trigger ID from [AreaTrigger.dbc](DBC-AreaTrigger)
 
 ### quest
 

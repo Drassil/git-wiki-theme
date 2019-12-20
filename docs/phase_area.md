@@ -60,7 +60,7 @@ Each line holds one Zone or Area with one phaseId and a description.  Each line
 
 ### AreaId
 
-This is the Zone or Area identifier, see [AreaTrigger.dbc](AreaTrigger)
+This is the Zone or Area identifier, see [AreaTrigger.dbc](DBC-AreaTrigger)
 
 ### PhaseId
 

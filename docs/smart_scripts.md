@@ -411,8 +411,6 @@
 
 **Description of the fields**
 
-Please note: ❌ means that the feature/option is not (yet) implemented.
-
 ### entryorguid
 
 -   EntryOrGuid &gt; 0: entry of the creature / game object / etc.
@@ -434,12 +432,6 @@ Please note: ❌ means that the feature/option is not (yet) implemented.
     | SMART\_SCRIPT\_TYPE\_CREATURE                                       | 0     |
     | SMART\_SCRIPT\_TYPE\_GAMEOBJECT                                     | 1     |
     | SMART\_SCRIPT\_TYPE\_AREATRIGGER                                    | 2     |
-    | ❌ SMART\_SCRIPT\_TYPE\_EVENT                                       | 3     |
-    | ❌ SMART\_SCRIPT\_TYPE\_GOSSIP                                      | 4     |
-    | ❌ SMART\_SCRIPT\_TYPE\_QUEST                                       | 5     |
-    | ❌ SMART\_SCRIPT\_TYPE\_SPELL                                       | 6     |
-    | ❌ SMART\_SCRIPT\_TYPE\_TRANSPORT                                   | 7     |
-    | ❌ SMART\_SCRIPT\_TYPE\_INSTANCE                                    | 8     |
     | SMART\_SCRIPT\_TYPE\_TIMED\_ACTIONLIST                              | 9     |
 
 ### id
@@ -1104,91 +1096,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>On Creature Waypoint ID Reached</td>
 </tr>
 <tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_TRANSPORT_ADDPLAYER</p>
-</div></td>
-<td><p>41</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_TRANSPORT_ADDCREATURE</p>
-</div></td>
-<td><p>42</p></td>
-<td><p>Entry (0 any)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_TRANSPORT_REMOVE_PLAYER</p>
-</div></td>
-<td><p>43</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_TRANSPORT_RELOCATE</p>
-</div></td>
-<td><p>44</p></td>
-<td><p>PointId</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_INSTANCE_PLAYER_ENTER</p>
-</div></td>
-<td><p>45</p></td>
-<td><p>Team (0 any)</p></td>
-<td><p>CooldownMin</p></td>
-<td><p>CooldownMax</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
 <td><p>SMART_EVENT_AREATRIGGER_ONTRIGGER</p></td>
 <td><p>46</p></td>
 <td><p>TriggerId (0 any)</p></td>
@@ -1202,91 +1109,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-</tr>
-<tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_QUEST_ACCEPTED</p>
-</div></td>
-<td><p>47</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>On Target Quest Accepted</td>
-</tr>
-<tr class="odd">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_QUEST_OBJ_COMPLETION</p>
-</div></td>
-<td><p>48</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>On Target Quest Objective Completed</td>
-</tr>
-<tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_QUEST_COMPLETION</p>
-</div></td>
-<td><p>49</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>On Target Quest Completed</td>
-</tr>
-<tr class="odd">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_QUEST_REWARDED</p>
-</div></td>
-<td><p>50</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>On Target Quest Rewarded</td>
-</tr>
-<tr class="even">
-<td><div class="content-wrapper">
-<p>❌ SMART_EVENT_QUEST_FAIL</p>
-</div></td>
-<td><p>51</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>On Target Quest Field</td>
 </tr>
 <tr class="odd">
 <td><p>SMART_EVENT_TEXT_OVER</p></td>
@@ -3483,91 +3305,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 </tr>
 <tr class="odd">
-<td><p>❌ SMART_ACTION_SET_CORPSE_DELAY</p></td>
-<td><p>116</p></td>
-<td><p>timer</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_DISABLE_EVADE</p></td>
-<td><p>117</p></td>
-<td><p>disable evade (1) / re-enable (0)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p>❌ SMART_ACTION_GO_SET_GO_STATE</p></td>
-<td><p>118</p></td>
-<td><p>state</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_SET_CAN_FLY</p></td>
-<td><p>119</p></td>
-<td><p>0/1</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p>❌ SMART_ACTION_REMOVE_AURAS_BY_TYPE</p></td>
-<td><p>120</p></td>
-<td><p>Type</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
 <td><p>SMART_ACTION_SET_SIGHT_DIST</p></td>
 <td><p>121</p></td>
 <td><p>SightDistance</p></td>
@@ -3584,7 +3321,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>SMART_ACTION_FLEE</p></td>
 <td><p>122</p></td>
 <td><p>FleeTime</p></td>
@@ -3601,7 +3338,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>SMART_ACTION_ADD_THREAT</p></td>
 <td><p>123</p></td>
 <td><p>+threat</p></td>
@@ -3617,7 +3354,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>SMART_ACTION_LOAD_EQUIPMENT</p></td>
 <td><p>124</p></td>
 <td><p>Id</p></td>
@@ -3633,7 +3370,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT</p></td>
 <td><p>125</p></td>
 <td><p>id min range</p></td>
@@ -3649,7 +3386,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>SMART_ACTION_REMOVE_ALL_GAMEOBJECTS</p></td>
 <td><p>126</p></td>
 <td><p><br />
@@ -3666,115 +3403,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_REMOVE_MOVEMENT</p></td>
-<td><p>127</p></td>
-<td><p>movementType</p></td>
-<td><p>Forced</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>see SMART_ACTION_STOP_MOTION (212)</p></td>
-</tr>
-<tr class="odd">
-<td><p>❌ SMART_ACTION_PLAY_ANIMKIT</p></td>
-<td><p>128</p></td>
-<td><p>AnimKit ID</p></td>
-<td><p>type:</p>
-<p>1- PlayOneShotAnimKitId</p>
-<p>2- SetAIAnimKitId</p>
-<p>3- SetMeleeAnimKitId</p>
-<p>4- SetMovementAnimKitId</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>// don't use on 3.3.5a</p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_SCENE_PLAY</p></td>
-<td><p>129</p></td>
-<td><p>SceneId</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>// don't use on 3.3.5a</p></td>
-</tr>
-<tr class="odd">
-<td><p>❌ SMART_ACTION_SCENE_CANCEL</p></td>
-<td><p>130</p></td>
-<td><p>SceneId</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>// don't use on 3.3.5a</p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_SPAWN_SPAWNGROUP</p></td>
-<td><p>131</p></td>
-<td><p>groupId</p></td>
-<td><p>minDelay</p></td>
-<td><p>maxDelay</p></td>
-<td><p>spawnflags</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p>❌ SMART_ACTION_DESPAWN_SPAWNGROUP</p></td>
-<td><p>132</p></td>
-<td><p>groupId</p></td>
-<td><p>minDelay</p></td>
-<td><p>maxDelay</p></td>
-<td><p>spawnflags</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p>❌ SMART_ACTION_RESPAWN_BY_SPAWNID</p></td>
-<td><p>133</p></td>
-<td><p>spawnType (0 npc/ 1 gob)</p></td>
-<td><p>spawnId (DB Guid)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Use to respawn npcs and gobs, the target in this case is always=1 and only a single unit could be a target via the spawnId (action_param1, action_param2)</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_MOVE_TO_POS_TARGET</p></td>
@@ -4708,27 +4336,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>Any friendly unit (creature, player or pet) within maxDist</td>
 </tr>
 <tr class="even">
-<td>❌ SMART_TARGET_LOOT_RECIPIENTS</td>
-<td>27</td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>All tagging players</td>
-</tr>
-<tr class="odd">
 <td>SMART_TARGET_FARTHEST</td>
 <td>28</td>
 <td>maxDist</td>
@@ -4745,26 +4352,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 <td><p>Farthest unit on the threat list</p></td>
-</tr>
-<tr class="even">
-<td>❌ SMART_TARGET_VEHICLE_ACCESSORY</td>
-<td>29</td>
-<td>seat</td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td>Vehicle can target unit in given seat</td>
 </tr>
 </tbody>
 </table>
@@ -4799,9 +4386,6 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 |----------------------------------------------------------------|------|------|-------------------------------------------------------------------------|
 | SMARTCAST\_INTERRUPT\_PREVIOUS                                 | 1    | 0x01 | Interrupt any spell casting                                             |
 | SMARTCAST\_TRIGGERED                                           | 2    | 0x02 | Triggered (this makes spell cost zero mana and have no cast time)       |
-| ❌ CAST\_FORCE\_CAST                                           | 4    | 0x04 | Forces cast even if creature is out of mana or out of range             |
-| ❌ CAST\_NO\_MELEE\_IF\_OOM                                    | 8    | 0x08 | Prevents creature from entering melee if out of mana or out of range    |
-| ❌ CAST\_FORCE\_TARGET\_SELF                                   | 16   | 0x10 | Forces the target to cast this spell on itself                          |
 | CAST\_AURA\_NOT\_PRESENT                                       | 32   | 0x20 | Only casts the spell if the target does not have an aura from the spell |
 | SMARTCAST\_COMBAT\_MOVE                                        | 64   | 0x40 | Prevent combat movement on cast, allow on fail range, mana, LOS         |
 

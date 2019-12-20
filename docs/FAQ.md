@@ -34,6 +34,10 @@ Read this carefully: [How to ask help](How-to-ask-for-help.md)
 
 - because it helps to **avoid duplicate questions**
 
+#### 6 - Why does AzerothCore not mimic blizzlike bugs or exploits?
+
+Although we strive to provide blizzlike content we also value user experience. This means that we sometimes fix bugs or exploits which existed during retail at the time to provide a better overall experience for the players.
+
 
 
 ## COMMON ERRORS
