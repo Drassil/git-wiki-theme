@@ -1,4 +1,6 @@
-## Empathy - iOS & Android App for the 2019 IEEEmadC Mobile Application Development Contest
+## Empathy 
+
+## iOS & Android App for the 2019 IEEEmadC Mobile Application Development Contest
 
 # [=> Github Link <=](https://github.com/ozandndar/Empathy/tree/master)
 
