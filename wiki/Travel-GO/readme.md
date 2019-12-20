@@ -21,7 +21,9 @@ TravelGO
 About 9.6 million travellers visit India.27% increase in travellers in world from 2016.Eventually I live in Delhi and I dont know Good places  to visit in Delhi. 
 So we Build Fun Learning Travelling App.
  [![](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)](https://www.youtube.com/watch?v=YKQZ-_8ZWIw)
-# [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)(https://youtu.be/O1qPHr9ugkQ)(https://youtu.be/n-J2_IvNDvw)
+# [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O1qPHr9ugkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 
 # Description/Solution
