@@ -76,9 +76,7 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
    <br>
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/1%20(2).jpg"  width="40%"   >
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/2%20(2).jpg"  width="40%"   >
-   <br>
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="40%"   >
-   <br>
    
 <img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.12.21%20AM.png" width="40%"   >
 
