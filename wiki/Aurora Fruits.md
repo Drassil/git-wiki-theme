@@ -7,10 +7,10 @@ Aurora Fruit provides safety and confidence based on the relevance of the recomm
 [GitHub link](https://github.com/aurora-soft/aurora-fruts)
 
 # Banner
-![alt text](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/banner.png)
+![banner](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/banner.png)
 
 # Logo Aurora Fruits
-![alt text](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/aurora.png)
+![Logo](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/aurora.png)
 
 # Installation Guidelines
 
@@ -35,7 +35,7 @@ There are three ways to test BookShoot:
 ![alt text](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/splash.jpg)
 
 ### Home Page
-![alt text](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/home.jpg)
+![home page](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/home.jpg)
 
 ### Categories Page
 ![alt text](https://github.com/aurora-soft/aurora-fruts/blob/master/logos/categories.jpg)
