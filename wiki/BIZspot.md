@@ -1,7 +1,7 @@
 ## BIZspot
 
 <p  align="center" >
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Primary.png" 
+<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Primary.png?raw=true" 
    width="80%"/>
   </p>
 
@@ -16,7 +16,7 @@
 
 BIZspot is a mobile application that serves as a network of business owners and service providers, built in order to ease their access to the community as well as providing individuals just what they need & in no time.
 
-![banner](https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Secondary.png)
+![banner](https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Secondary.png?raw=true)
 
 
 
@@ -52,10 +52,10 @@ And finally they can submit a request to create a thread for your business, afte
 ## Screenshots
 
 <div style="display : inline-block;margin : 3% 3% 3% 3%">
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/home.png"  width="24%"   />
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/categories.png"  width="24%"   />
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/intro.png" width="24%"   />
-<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/details.png" width="24%"   />
+<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/home.png?raw=true"  width="24%"   />
+<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/categories.png?raw=true"  width="24%"   />
+<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/intro.png?raw=true" width="24%"   />
+<img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Screenshots/details.png?raw=true" width="24%"   />
 </div>
 
   
