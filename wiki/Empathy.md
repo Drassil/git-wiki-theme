@@ -1,9 +1,9 @@
 ## Empathy - iOS & Android App for the 2019 IEEEmadC Mobile Application Development Contest
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Logos/Feature-Graphic-Default.jpg" with="600" height="400" /></p>
+# [=> Github Link <=](https://github.com/ozandndar/Empathy/tree/master)
 
-![alt text](http://empati.ozandundar.com/contents/1.png)
+<p align="center"> 
+<img src="http://empati.ozandundar.com/contents/empati.jpeg" with="600" height="400" /></p>
 The aim of the application we want to do is to teach the Turkish Sign Language.
 
 ## FlipProjects Team
@@ -24,7 +24,7 @@ The aim of the application we want to do is to teach the Turkish Sign Language.
 
 
 ## Promotional Video
-We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmeow9-_WEWX-lfuzhImFMPpE6umYfKAWiXpweh5RmSXKtdQm6)](https://www.youtube.com/watch?v=IniI7lXsI2c)
 
 
 ## Description
@@ -34,16 +34,16 @@ The aim of the application we want to do is to teach the Turkish Sign Language. 
 
 ## Screenshots
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_1.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_2.jpg" width="231" height="500"/></p>
+<img src="http://empati.ozandundar.com/contents/tanitim/1.jpeg" width="231" height="500"/> <img src="http://empati.ozandundar.com/contents/tanitim/2.jpeg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="231" height="500"/></p>
+<img src="http://empati.ozandundar.com/contents/tanitim/3.jpeg" width="231" height="500"/> <img src="http://empati.ozandundar.com/contents/tanitim/4.jpeg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_5.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_6.jpg" width="231" height="500"/></p>
+<img src="http://empati.ozandundar.com/contents/tanitim/5.jpeg" width="231" height="500"/> <img src="http://empati.ozandundar.com/contents/tanitim/6.jpeg" width="231" height="500"/></p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_7.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_8.jpg" width="231" height="500"/></p>
+<img src="http://empati.ozandundar.com/contents/tanitim/7.jpeg" width="231" height="500"/> <img src="http://empati.ozandundar.com/contents/tanitim/8.jpeg" width="231" height="500"/></p>
 
 ## Disclaimer
 Empathy is a product designed and developed by Ozan Dundar, Utku Erdemir and Furkan Aydin.
