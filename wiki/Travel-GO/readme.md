@@ -23,7 +23,7 @@ So we Build Fun Learning Travelling App.
  [![](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)](https://www.youtube.com/watch?v=YKQZ-_8ZWIw)
 # [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O1qPHr9ugkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
  
 
 # Description/Solution
