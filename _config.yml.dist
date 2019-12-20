@@ -19,7 +19,7 @@ permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
 # (string) specify git-wiki host. (github or gitlab)
-service: "gitlab"
+service: "github"
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
