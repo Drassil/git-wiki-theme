@@ -53,7 +53,7 @@ Now submit the Readme.md similar to the example file linking to your repository.
 ## License
 ## Table 
 Example:
- App Name(Hyprelink to executable file) | Repo name( Hyprelink to repo) | description (short description of app in few words) | Choose any licence e.g. MIT (Hyprelink to Licence)| UK (Location)| Name of members (Hyprelink to Github profiles that contributed to the project) |
+ App Name(Hyperlink to executable file) | Repo name(Hyperlink to repo) | description (short description of app in few words) | Choose any licence e.g. MIT (Hyperlink to Licence)| UK (Location)| Name of members (Hyperlink to Github profiles that contributed to the project) |
 
 # [Submittion](https://github.com/IEEEmadC/IEEEmadC-wiki/new/gh-pages?filename=wiki/)
 
