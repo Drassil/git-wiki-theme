@@ -72,4 +72,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Summary
 
-| [Bizspot app's Apk](https://github.com/JihedChalghaf/Biz-Spot/blob/master/Apk/BizspotApp.apk) | [BIZspot repository (https://github.com/JihedChalghaf/Biz-Spot) | Team Name: 4INSAT | BIZspot is a mobile application that serves as a network of business owners and service providers, built in order to ease their access to the community as well as providing individuals just what they need & in no time.| Licence: MIT | Country: Tunisia | Collaborators: [Jihed Chalghaf](https://github.com/jihedchalghaf) |
+| [Bizspot app's Apk](https://github.com/JihedChalghaf/Biz-Spot/blob/master/Apk/BizspotApp.apk) | [BIZspot repository](https://github.com/JihedChalghaf/Biz-Spot) | Team Name: 4INSAT | BIZspot is a mobile application that serves as a network of business owners and service providers, built in order to ease their access to the community as well as providing individuals just what they need & in no time.| Licence: MIT | Country: Tunisia | Collaborators: [Jihed Chalghaf](https://github.com/jihedchalghaf) |
