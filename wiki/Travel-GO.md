@@ -23,8 +23,7 @@ So we Build Fun Learning Travelling App.
 
 # [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
- 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8pRm6eQW168/0.jpg)](https://www.youtube.com/watch?v=8pRm6eQW168)
 
 # Description/Solution
 1.Plot Check Points on monument , hotel.<br>
@@ -43,7 +42,7 @@ So we Build Fun Learning Travelling App.
 7.Fast food Immediately feature no waiting time <br>
 8.Complete AR Development For more Interactive <br>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=n-J2_IvNDvw)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n-J2_IvNDvw/0.jpg)](https://www.youtube.com/watch?v=n-J2_IvNDvw)
 
 
 # PointSystem
