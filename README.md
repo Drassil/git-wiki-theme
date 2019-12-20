@@ -37,7 +37,7 @@ Below are ideal submissitions: </br>
 [Example 1](https://github.com/JobGetabu/Darasa-IEEEMadC) [Code in Readme.md](https://raw.githubusercontent.com/JobGetabu/Darasa-IEEEMadC/master/README.md) </br>
 [Example 2](https://github.com/Marton-Zeisler/Voluny) [Code in Readme.md](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/README.md)
 
-Now submit the Readme.md similar to the example file linking to your repository.
+Now propose the Readme.md similar to the example file linking to your repository. Then send a pull request.
 
 # Format:
 
