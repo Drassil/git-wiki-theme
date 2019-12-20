@@ -1,4 +1,4 @@
-## BIZspot - Hybrid App for the 2019 IEEEmadC Mobile Application Development Contest
+## BIZspot
 
 <p  align="center" >
 <img src="https://github.com/JihedChalghaf/Biz-Spot/blob/master/Assets/Featured%20graphic%20Primary.png" 
