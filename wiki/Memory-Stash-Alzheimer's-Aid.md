@@ -1,4 +1,6 @@
-# Memory Stash Alzheimer’s Aid - Android App for the 2019 IEEEmadC Mobile Application Development Contest
+# Memory Stash Alzheimer’s Aid
+
+Android App for the 2019 IEEEmadC Mobile Application Development Contest
 
 Alzheimer's is the most common cause of dementia, a general term for memory loss and other cognitive abilities serious enough to interfere with daily life. Our idea is to develop an application (Memory Stash Alzheimer Aid) that helps them in their daily routine tasks, focusing on the problems they face in every stage.
 
