@@ -23,14 +23,14 @@ So we Build Fun Learning Travelling App.
 
 # [Promotional Video](https://www.youtube.com/watch?v=8pRm6eQW168&feature=youtu.be)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
- 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8pRm6eQW168/0.jpg)](https://www.youtube.com/watch?v=8pRm6eQW168)
 
 # Description/Solution
 1.Plot Check Points on monument , hotel.<br>
 2.They visit and Get Redeemable coins.<br>
 3.Using this they will get local Communities Discount Coupon(like Taj Mahal Famous for Local Stole)<br>
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/O1qPHr9ugkQ/0.jpg)](https://www.youtube.com/watch?v=O1qPHr9ugkQ)
 
 # Features
 1.Places Description,360 view<br>
@@ -41,6 +41,9 @@ So we Build Fun Learning Travelling App.
 6.Feasibility give the closing time of monument so that traveller don't waste there time. <br>
 7.Fast food Immediately feature no waiting time <br>
 8.Complete AR Development For more Interactive <br>
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n-J2_IvNDvw/0.jpg)](https://www.youtube.com/watch?v=n-J2_IvNDvw)
+
 
 # PointSystem
 
@@ -61,23 +64,23 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
 
 # Membership Chart
 
-<p  align="center" >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" 
-   width="80%"   />
-  </p>
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" width="50%"   >
 
 # Screenshots
 
 <div style="display : inline-block;margin : 3% 3% 3% 3%">
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/9e5795b8-d4cb-48dc-883a-2d89c4335251.jpeg" width="40%"   >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-12%20at%2011.51.00%20PM.png" width="40%"   >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="40%"   >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.08.23%20AM.png" width="40%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/9e5795b8-d4cb-48dc-883a-2d89c4335251.jpeg" width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-12%20at%2011.51.00%20PM.png" width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.08.23%20AM.png" width="24%"   >
    <br>
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/1%20(2).jpg"  width="40%"   >
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/2%20(2).jpg"  width="40%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/1%20(2).jpg"  width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/2%20(2).jpg"  width="24%"   >
+   <br>
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.06.42%20AM.png" width="24%"   >
+   <br>
    
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.12.21%20AM.png" width="40%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-11-13%20at%2012.12.21%20AM.png" width="24%"   >
 
 
 <div>
