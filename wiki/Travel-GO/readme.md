@@ -63,9 +63,9 @@ No one can Visit More than 4 Places in a Day and It will increace According to S
 3.It’s same as we use LinkedIn for professionals.
 4.Education Purpose
 
-# Member ShiP Chart
+# Membership Chart
 
-<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" width="24%"   >
+<img src="https://github.com/MANI14011998/madC/blob/master/ss2/Screenshot%202019-12-21%20at%203.26.09%20AM.png" width="50%"   >
 
 # Screenshots
 
