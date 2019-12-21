@@ -266,6 +266,8 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |pet|2|Syntax: .pet $subcommand Type .pet to see the list of possible subcommands or .help pet $subcommand to see info on subcommands|
 |pinfo|2|Syntax: .pinfo [$player_name/#GUID] Output account information for selected player or player find by $player_name or #GUID.|
 |playall|2|Syntax: .playall #soundid Player a sound to whole server.|
+|player learn|2|Syntax: .player learn #playername #spell [all]. Learn spell #spell for the specified player. If 'all' is added then all ranks are learned.|
+|player unlearn|2|Syntax: .player unlearn #playername #spell [all]. Unlearn spell #spell for the specified player. If 'all' is added then all ranks are unlearned.|
 |possess|3|Syntax: .possess Possesses indefinitely the selected creature.|
 |quest add|3|Syntax: .quest add #quest_id Add to character quest log quest #quest_id. Quest started from item can't be added by this command but correct .additem call provided in command output.|
 |quest complete|3|Syntax: .quest complete #questid Mark all quest objectives as completed for target character active quest. After this target character can go and get quest reward.|
