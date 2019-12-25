@@ -27,7 +27,7 @@ It means:
 
 You can fork/copy the master branch now and start your wiki in just 1 minute*!
 
-Git-wiki can be used as [theme for jekyll](http://jekyllthemes.org/themes/git-wiki-for-documentation/)
+Git-wiki can be used as [theme for jekyll](https://jekyll-themes.com/git-wiki/)
 
  *Github pages takes about 10 minutes to show up the first time you configure it
 
