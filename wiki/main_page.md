@@ -4,7 +4,7 @@ redirect_from: "/"
 
 # Welcome to git-wiki demo
 
-This is both documentation and [demo](Demo.md) of git-wiki theme for jekyll.
+This is both documentation and [demo](Demo.md) of git-wiki.
 
 it's a **modular and full featured wiki** powered by git, github & [gitlab](https://gitlab.com/drassil/git-wiki/)  pages and pull-requests!
 
@@ -26,6 +26,8 @@ It means:
 * You can download the entire wiki for **offline** usage and even navigate directly using a markdown reader
 
 You can fork/copy the master branch now and start your wiki in just 1 minute*!
+
+Git-wiki can be used as [theme for jekyll](http://jekyllthemes.org/themes/git-wiki-for-documentation/)
 
  *Github pages takes about 10 minutes to show up the first time you configure it
 
