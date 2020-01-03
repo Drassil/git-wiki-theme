@@ -543,21 +543,22 @@ Maximum money that the creature drops when killed, in copper.
 
 This field is overridden by ScriptName field if both are set.
 
-| Name            | Description                                                    |
-|-----------------|----------------------------------------------------------------|
-| NullCreatureAI  | Empty AI, creature does nothing.                               |
-| TriggerAI       |                                                                |
-| AggressorAI     | Creature attacks as soon as something is in aggro range.       |
-| PassiveAI       |                                                                |
-| CritterAI       |                                                                |
-| GuardAI         |                                                                |
-| PetAI           | Creature is a pet.                                             |
-| TotemAI         | Creature casts spell from field spell1.                        |
-| CombatAI        |                                                                |
-| ArcherAI        |                                                                |
-| TurretAI        |                                                                |
-| VehicleAI       |                                                                |
-| SmartAI         | Creature uses Smart AI                                         |
+| Name            | Description                                                                                                         |
+|-----------------|---------------------------------------------------------------------------------------------------------------------|
+| NullCreatureAI  | Empty AI, creature does nothing; cannot be charmed.                                                                 |
+| TriggerAI       | Same as "NullCreatureAI", except that the creature casts the spell from field spell1 when summoned.                 |
+| AggressorAI     | Creature attacks when entering aggro radius; uses only melee attacks.                                               |
+| ReactorAI       | Creature attacks only if aggroed; uses only melee attacks.                                                          |
+| PassiveAI       | Creature behaves passive, cannot attack.                                                                            |
+| CritterAI       | Critter which flees if attacked.                                                                                    |
+| GuardAI         | Creature is a zone guard.                                                                                           |
+| PetAI           | Creature is a pet.                                                                                                  |
+| TotemAI         | Creature casts spell from field spell1; does not move.                                                              |
+| CombatAI        | Creature attacks as soon as something is in aggro range; uses also spells.                                          |
+| ArcherAI        | Creature casts spell from field spell1; chases the victim.                                                          |
+| TurretAI        | Creature attacks using spell from field spell1; does not move.                                                      |
+| VehicleAI       | Creature acts as player vehicle.                                                                                    |
+| SmartAI         | Creature uses the "[smart_scripts](smart_scripts.md)" table to specify it's behaviour. |
 
 #### MovementType
 
