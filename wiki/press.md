@@ -1,8 +1,8 @@
 # Press
 
-it's a list of references or articles that talks about us:
+feel free to add references or articles that talks about us:
 
-* [Wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software#Ruby-based)
+* (add here!)
 
 # Contacts
 
