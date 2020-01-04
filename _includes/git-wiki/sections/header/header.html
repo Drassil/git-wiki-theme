@@ -1,7 +1,9 @@
 <div class=" w3-xlarge w3-hide-large" id="git-wiki-mobile-header">
   <button class="w3-button w3-teal" onclick="sidebar_toggle()">&#9776;</button>
   <a href="{{ '/' | relative_url }}">
+    {% if site.logo_url %}
     <img src="{{ site.logo_url }}" width="20px">
+    {% endif %}
     {{ site.title }}
   </a>
 </div>
