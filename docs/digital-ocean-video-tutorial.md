@@ -57,7 +57,7 @@ There is a Step-by-Step YouTube Video which walks you through this entire proces
 #### Installing Key Libraries & Additional Apps
 - Next we need to install a bunch of important libraries, applications, and tools needed to Azerothcore. Run the following command: 
 ```
-sudo apt-get update && sudo apt-get install git cmake make gcc g++ clang default-libmysqlclient-dev libssl1.0-dev libbz2-dev libreadline-dev libncurses-dev mysql-server libace-6.* libace-dev
+sudo apt-get update && sudo apt-get install git make gcc g++ clang default-libmysqlclient-dev libssl1.0-dev libbz2-dev libreadline-dev libncurses-dev mysql-server libace-6.* libace-dev g++-7
 ```
 - Choose 'Y' for any prompts asking for additional space for the installation.
 - Let's refresh our App List once again before we continue `sudo apt-get update`
@@ -65,6 +65,30 @@ sudo apt-get update && sudo apt-get install git cmake make gcc g++ clang default
 - Next up is curl - we'll be using this to get the VMAP, MMAP, and other required data for the server `sudo apt install curl`
 - Let's install the unzip utility, so we can unzip the data files `sudo apt install unzip`
 - Finally, let's wrap up with `sudo apt install`
+
+#### Installing CMake
+- Let's make sure that the no version of CMake exists by removing any previous installations of CMake. `sudo apt remove --purge --auto-remove cmake`
+- Next, we'll begin the process to install CMake. Copy this entire block and paste it into your terminal. If you wish to install a different version of CMake, you can update the version and build number to a different CMake version, which can be found on https://cmake.org/download/
+```
+version=3.16
+build=2
+mkdir ~/temp
+cd ~/temp
+wget https://cmake.org/files/v$version/cmake-$version.$build.tar.gz
+tar -xzvf cmake-$version.$build.tar.gz
+cd cmake-$version.$build/
+```
+- After a bunch of text, hit 'Return' or 'Enter' once on your keyboard.
+- Now let's install CMake. Copy this entire block and paste it into your terminal.
+```
+./bootstrap
+make -j$(nproc)
+sudo make install
+```
+- After the building is complete (and you get the command line back), hit 'Return' or 'Enter' once on your keyboard to install CMake
+- Let's verify that you're running the correct version of CMake by using the `cmake --version` command. Note: If CMake Version doesn't work, close your terminal, reconnect, and try the version command again.
+- Navigate back to your primary directory by typing `cd`.
+- Let's clean up the install of CMake with `rm -rf temp`. Now let's take a look at configuring the database.
 
 #### Complete the MariaDB Secure Installation
 - Let's begin the process `sudo mysql_secure_installation`
@@ -108,21 +132,20 @@ GRANT ALL ON *.* TO 'dbadmin'@'%' IDENTIFIED BY 'password1' WITH GRANT OPTION;
 ```
 cmake ../ -DCMAKE_INSTALL_PREFIX=$HOME/azeroth-server/ -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DTOOLS=0 -DSCRIPTS=1
 ```
-- Now we compile AzerothCore - this can take some time, depending on the number of cpu cores your Droplet has. This tutorial is based on the 4 cpu core Droplet. Enter the following command to compile the core and place the assembled items in their new home:
+- Now we compile AzerothCore - this can take some time depending on the number of CPU cores your Droplet has. This tutorial is based on the 4 CPU core Droplet, which compiles in about 8 minutes. Enter the following command to compile the core and place the assembled items in their new home:
 ```
 MTHREADS=`grep -c ^processor /proc/cpuinfo`; MTHREADS=$(($MTHREADS + 2));
 make -j $MTHREADS;
 make install -j $MTHREADS;
 ```
+- After the terminal says `make install -j $MTHREADS` after compiling, hit 'Return' or 'Enter' on your Keyboard to install and finish the compiling process.
 
 #### Data Files
-- Let's navigate back to the home directory `cd`
+- As the `azcore` user, let's navigate back to the home directory `cd`
 - Now we need to go to the compile server folder `cd azeroth-server`
+- We need to make a folder for our data files and navigate to it `mkdir data;cd data`
 - Let's download the data files required. `curl https://wow.heyaapl.com/data.zip --output data.zip`
 - Let's unzip the main data directory `unzip data.zip`
-- We need to navigate to the data folder to continue unzipping the child folders `cd data`
-- No we will unzip all child zip files `unzip '*.zip'`
-
 
 #### Set up the server config files
 - Using SFTP, navigate to `/home/azcore/azeroth-server/etc` and download the authserver.conf.dist and worldserver.conf.dist to your local machine.
