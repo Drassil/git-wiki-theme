@@ -12,7 +12,7 @@ show_wiki_posts_limit: 5
 logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png
 google_analytics:
 git_branch: gh-pages
-theme: 
+theme: git-wiki
 use_github_wiki: false
 use_prose_io: true
 service: github
