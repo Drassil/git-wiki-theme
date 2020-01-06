@@ -1,3 +1,4 @@
+{% capture site.git_branch %}{{site.git_branch | default: master}}{% endcapture %}
 {% assign version = "2.3.1" %}
 {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
 {% capture url %}
