@@ -15,7 +15,7 @@
         {% if page.is_wiki_page != false and page.sitemap != false %}
         <li class="page-list-item">
             {% assign title = page.title | default: page.name %}
-            <a href="{{ page.url | relative_url }}">{{title}}</a>
+            <a href="{{ page.url | relative_url }}">{{title | escape}}</a>
         </li>
         {% assign numPages = numPages | plus: 1 %}
         {% endif %}

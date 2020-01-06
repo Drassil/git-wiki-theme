@@ -15,7 +15,7 @@
 
         {% if post.layout != "null" and post.sitemap != false and post.title %}
         <li class="post-list-item">
-            <a href="{{ post.url | relative_url }}">{{ post.title}}</a>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
         {% assign numPages = numPages | plus: 1 %}
         {% endif %}
