@@ -1,5 +1,7 @@
-{% assign assign site.git_branch = site.git_branch | default: master %}
-{{ site.git_branch }}
+{% assign site.git_branch = site.git_branch | default: master %}
+branch: {{ site.git_branch | default: master }}
+{% capture site.git_branch %}{{ site.git_branch | default: master }}{% endcapture %}
+branch: {{ site.git_branch }}
 {% assign version = "2.3.1" %}
 {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
 {% capture url %}
