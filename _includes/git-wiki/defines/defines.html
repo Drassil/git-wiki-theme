@@ -1,7 +1,4 @@
-branch: {{ testempty | default: "master" }}
-{% assign site.git_branch = {{site.git_branch | default: master}} %}
-branch: {{site.git_branch | default: master}}
-{% capture site.git_branch %}{{site.git_branch | default: master}}{% endcapture %}
+{% unless site.git_branch %}{% assign site.git_branch = "master" %}{% endif %}
 branch: {{site.git_branch}}
 {% assign version = "2.3.1" %}
 {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
