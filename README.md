@@ -18,7 +18,7 @@ It means:
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
 * Integrated **Blogging** feature thanks to jekyll!
 
-You can fork/copy the master branch now and start your wiki in just 1 minute.
+You can use it with jekyll ["remote_theme"](https://github.com/benbalter/jekyll-remote-theme) feature or fork/copy the master branch now and start your wiki in just 1 minute.
 
 
 Instructions and documentation: (http://drassil.github.io/git-wiki)
