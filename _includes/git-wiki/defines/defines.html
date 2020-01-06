@@ -1,4 +1,5 @@
-{% assign site.git_branch = {{site.git_branch}} | default: master %}
+branch: {{site.git_branch | default: master}}
+{% assign site.git_branch = {{site.git_branch | default: master}} %}
 branch: {{site.git_branch | default: master}}
 {% capture site.git_branch %}{{site.git_branch | default: master}}{% endcapture %}
 branch: {{site.git_branch}}
