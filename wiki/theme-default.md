@@ -21,5 +21,5 @@ defaults:
       layout: "git-wiki-default"
 ```
 
-**NOTE:** it's the default configuration available in _config.yml.dist
+**NOTE:** it's the default configuration available in _config.yml
 

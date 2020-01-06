@@ -52,13 +52,9 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 2. Use master branch of this repository to start instead of gh-pages that contains useless files for you! (you can delete that branch from your repository and re-create if you need)
 
-3. **copy and rename** _config.yml.dist in _config.yml changing settings inside
+3. push your changes in your repository, then configure the github pages in your repository settings
 
-4. **rename** wiki/main_page.md.dist in wiki/main_page.md
-
-5. push your changes in your repository, then configure the github pages in your repository settings
-
-6. Your wiki is ready!
+4. Your wiki is ready!
 
 ### Local development
 

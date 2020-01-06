@@ -8,7 +8,7 @@ There are various methods to costumize and extends git-wiki, starting from the e
 
 ## Configuration changes
 
-First thing to do during git-wiki installation is copy and rename _config.yml.dist in _config.yml and changing its values.
+First thing to do during git-wiki installation is and changing values in _config.yml.
 
 If you like our theme as is you just need to set following configurations:
 
@@ -106,4 +106,4 @@ replacing **layout: "git-wiki-default"** with name of your custom layout.
 
 ## Configuration keys:
   
-Read _config.yml.dist file of your git-wiki installation for detailed list of configuration values (commented)
+Read _config.yml file of your git-wiki installation for detailed list of configuration values (commented)
