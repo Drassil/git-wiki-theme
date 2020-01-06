@@ -1,5 +1,3 @@
-{% unless site.git_branch %}{% assign site.git_branch = "master" %}{% endunless %}
-branch: {{site.git_branch}}
 {% assign version = "2.3.1" %}
 {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
 {% capture url %}

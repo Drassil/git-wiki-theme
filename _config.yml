@@ -1,6 +1,5 @@
 # (string) Title of your wiki
 title: 
-theme: jekyll-theme-git-wiki
 # (string) Description of your wiki
 description: 
 # (boolean) Enable/disable wiki page list in sidebar
