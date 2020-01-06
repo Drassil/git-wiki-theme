@@ -18,7 +18,7 @@ It means:
 * **Multiple free search engines!** on a static site!
 * **History, revision comparison** and everything you need from a wiki platform.
 * You can **edit your pages** with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
-* Non-existent wiki page links are "[red](wiki/red.md)", you can **click on them to automatically create a new page**!
+* Non-existent wiki page links are "[red](red.md)", you can **click on them to automatically create a new page**!
 * [External links](http://www.google.it) get the right icon automatically
 * **Component system with hooks** that allows you to totally customize your wiki UI. (see customization section below) 
 * Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
@@ -43,7 +43,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 [List of forked repository](https://github.com/Drassil/git-wiki/network/members)
 
 
-### [share your wiki with us!](wiki/examples.md) and keep the "Power by Git-Wiki" footer link please. It will help both of us!
+### [Share your wiki with us!](examples) and keep the "Powered by Git-Wiki" footer link please. It will help both of us!
 
 
 ## Installation instructions
@@ -60,7 +60,7 @@ You can even include the [official github wiki](https://help.github.com/articles
 
 6. Your wiki is ready!
 
-### local development
+### Local development
 
 If you need to work on git-wiki locally before publish, then clone your wiki repo and follow this instructions 
 from official github article: <https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>
