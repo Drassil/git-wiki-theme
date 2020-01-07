@@ -89,6 +89,11 @@ defaults:
       path: blog
     values:
       layout: "git-wiki-blog"
+ -
+    scope:
+      path: 404.html
+    values:
+      layout: "git-wiki-404"
 sass:
     style: compressed
 plugins:
