@@ -1,12 +1,22 @@
-This tutorial explains how to compile and install AzerothCore in your host system.
+# DOCKER INSTALLATION
 
-Alternatively, it is also possible to [use AzerothCore with Docker](Install-with-Docker.md).
+This page describes how to use [AzerothCore with Docker](Install-with-Docker.md).
 
-For macOS users: the build on mac is currently broken (see [this issue](https://github.com/azerothcore/azerothcore-wotlk/issues/122)), but you can still use AzerothCore on macOS with Docker.
+# AWS INSTALLATION
 
-## 1) Installing the requirements
+This page describes how to use [AzerothCore with AWS](aws-tutorial.md)
 
-Make sure your system fits with the [Requirements](Requirements.md).
+# DIGITALOCEAN CLOUD
+
+This page describes how to use [AzerothCore on a Digital Ocean droplet](digital-ocean-video-tutorial.md)
+
+# CLASSIC INSTALLATION
+
+/!\ For **macOS** users: the build on mac is currently broken (see [this issue](https://github.com/azerothcore/azerothcore-wotlk/issues/122)), but you can still use AzerothCore on macOS with Docker.
+
+## 1) Requirements
+
+Make sure your system fits the [Requirements](Requirements.md).
 
 
 ## 2) Getting the source files
