@@ -19,7 +19,7 @@
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename=_posts/">Add
             new post</a></span>
     {% endif %}
-    {% if site.use_prose_io and site.hostname == "github.com" %}
+    {% if site.use_prose_io and site.hostname != "gitlab.com" %}
     <br>
     Prose.io:
     <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}/{{ site.wiki_folder | default: 'wiki' }}">Add
