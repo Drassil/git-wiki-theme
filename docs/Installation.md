@@ -161,17 +161,26 @@ Go to `CMAKE_INSTALL_PREFIX` and create a new directory named `data`
 
 Two options to choose from:
 
-#### A) [Extract Client Data](http://www.azerothcore.org/wiki/Extract-Client-Data) from your own WOW client using the AzerothCore extractors
+#### A) [Extract Client Data](http://www.azerothcore.org/wiki/Extract-Client-Data) from your own WOW client using the AzerothCore extractors (required for custom maps)
 #### B) (Easier) Download directly using one of the links below:
 
-- [From 13/08/19 to now](https://github.com/wowgaming/client-data/releases/tag/v7) ( RECOMMENDED - choose this version if you are installing AzerothCore for the first time)
+Github links:
+
+[Full data (v8) - from 13/08/19 to now](https://github.com/wowgaming/client-data/releases/tag/v7) (Used in the automatic downloader script in `/apps/`)
+
+
+Mega links:
+- [DBC & maps for all versions](https://mega.nz/#F!pyYlkK6b!pNz-zhThXQIg0_rO5L_RsQ)
+- [Vmaps & mmaps only (v8) - from 13/08/19 to now](https://mega.nz/#F!xqYxDQ5K!PesmFvXRSqiCRcknVxBn5g)
+
+
+Old versions links (< v8):
 - [From 03/01/19 to 13/08/19](https://mega.nz/#F!Am4DBKCR!o9Qj_xFLfsg4sczqg0xq2A)
 - [From 07/18/18 to 03/01/19](https://mega.nz/#!utg3hKJL!TtSzcWxVkvxF4HJvor8LFWhrBwwpH2pHpI-xHGr-HZo) (before commit [59d4e1d3a806a4f2f48f535be366bde1b24d737e](https://github.com/azerothcore/azerothcore-wotlk/commit/59d4e1d3a806a4f2f48f535be366bde1b24d737e)) 
 - For older versions, check out this page's history.
 
 
-
-Extract all the archives and place the extracted `dbc`, `maps`, `mmaps`, `vmaps` directories inside the data directory.
+Then, extract all the archives and place the extracted `dbc`, `maps`, `mmaps`, `vmaps` directories inside the `data` directory.
 
 
 ## 6) Setting up the database
