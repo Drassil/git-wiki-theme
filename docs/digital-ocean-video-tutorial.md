@@ -19,7 +19,7 @@ There is a Step-by-Step YouTube Video which walks you through this entire proces
 #### SSH Clients:
 - DigitalOcean’s Console
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
-- [Terminus](https://termius.com/) (Paid)
+- [Termius](https://termius.com/) (Paid)
 
 #### FTP Clients:
 - [Filezilla](https://filezilla-project.org/)
