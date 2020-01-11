@@ -18,17 +18,6 @@
 </script>
 {% endif %}
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#git-wiki-toc').toc({
-            title: '<i>Contents</i>',
-            showSpeed: 0,
-            headers: '#git-wiki-content h1, #git-wiki-content h2, #git-wiki-content h3, #git-wiki-content h4, #git-wiki-content h5, #git-wiki-content h6'
-        });
-        $(document.body).redLinks();
-    });
-</script>
-
 {% if site.inc_after_tail %}
 {% include {{ site.inc_after_tail }} %}
 {% endif %}
