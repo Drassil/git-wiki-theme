@@ -33,15 +33,7 @@
                 <div class="git-wiki-page">
                     {% include git-wiki/sections/tools/tools.html %}
 
-                    {% if site.inc_before_toc %}
-                    {% include {{ site.inc_before_toc }} %}
-                    {% endif %}
-
-                    <div id="git-wiki-toc"></div>
-
-                    {% if site.inc_after_toc %}
-                    {% include {{ site.inc_after_toc }} %}
-                    {% endif %}
+                    {% include git-wiki/components/toc/toc.html %}
 
                     {% if site.inc_before_content %}
                     {% include {{ site.inc_before_content }} %}
