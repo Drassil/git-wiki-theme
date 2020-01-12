@@ -1,8 +1,7 @@
 (function ($) {
     //
     // RED LINK FEATURE (Hacky)
-    // TODO: filter external links
-    $.fn.redLinks = function () {
+    $.fn.checkLinks = function (staticPages) {
         setTimeout(
             function () {
                 $('a').each(function () {
@@ -13,12 +12,25 @@
                         return;
                     }
 
-                    var ext = this.href.split('.').pop().split(/\#|\?/)[0];
+                    for (var k in staticPages) {
+                        var page = staticPages[k];
+                        var link = document.createElement("a");
+                        link.href = page;
 
-                    // [Performance tip] pessimistic condition based on the fact that
+                        if (this.href === link.href) {
+                            return;
+                        }
+                    }
+
+                    var ext = this.pathname.split('.').pop().split(/\#|\?/)[0];
+
+                    // pessimistic condition based on the fact that
                     // markdown files are automatically converted in html
                     // if they are part of the wiki (the real check is right below)
-                    if (ext.toLowerCase() == "md" || ext.toLowerCase() == "markdown")
+                    var lExt = ext && ext.toLowerCase();
+                    var isRed = lExt == "md" || lExt == "markdown";
+
+                    if (isRed)
                         $(this).css('color', 'red');
 
                     var that = this;
