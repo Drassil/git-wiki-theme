@@ -98,6 +98,8 @@ plugins:
  - jemoji
  - jekyll-mentions
 
+exclude: ['wiki']
+
 
 #
 # INCLUDING HOOKS
