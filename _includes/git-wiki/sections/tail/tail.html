@@ -18,9 +18,15 @@
 </script>
 {% endif %}
 
+{% assign items = site.html_pages %}
+{% for page in items %}
+{% assign url = page.url | relative_url %}
+{% assign urls = urls | append: url | append: "," %}
+{% endfor %}
+
 <script type="text/javascript">
     $(document).ready(function () {
-        $(document.body).redLinks();
+        $(document.body).checkLinks("{{ urls }}".split(","));
     });
 </script>
 
