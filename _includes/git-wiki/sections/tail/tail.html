@@ -18,6 +18,12 @@
 </script>
 {% endif %}
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(document.body).redLinks();
+    });
+</script>
+
 {% if site.inc_after_tail %}
 {% include {{ site.inc_after_tail }} %}
 {% endif %}
