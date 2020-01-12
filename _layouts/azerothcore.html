@@ -35,10 +35,7 @@
             {% include {{ site.inc_before_toc }} %}
             {% endif %}
             
-            <div>
-                <p>Contents:</p>
-                {% include git-wiki/components/toc/toc-lib.html html=content sanitize=true class="inline_toc" id="git-wiki-toc" h_min=1 h_max=2 %}
-            </div>
+            {% include git-wiki/components/toc/toc-lib.html minHeaders=3 html=content sanitize=true class="inline_toc" id="git-wiki-toc" h_min=1 h_max=2 %}
             
             {% if site.inc_after_toc %}
             {% include {{ site.inc_after_toc }} %}
