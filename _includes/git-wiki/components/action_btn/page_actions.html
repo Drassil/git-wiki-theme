@@ -5,7 +5,7 @@
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_history">History</a></span>
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
     {% else %}
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.site_root | default: '/' }}{{ site.wiki_folder | default: 'wiki' }}/">Add
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.site_root | default: '/' }}{{ site.wiki_folder }}/">Add
             new</a></span>
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Edit</a></span>
     {% if site.github.hostname == "gitlab.com" %}
@@ -22,7 +22,7 @@
     {% if site.use_prose_io and site.github.hostname != "gitlab.com" %}
     <br>
     Prose.io:
-    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{ site.wiki_folder | default: 'wiki' }}">Add
+    <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{ site.wiki_folder }}">Add
             new</a></span>
     <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Edit</a></span>
     {% if site.blog_feature %}
