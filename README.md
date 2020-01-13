@@ -14,8 +14,6 @@ The easier and faster way to use git-wiki is the "skeleton" method.
 
 **Done**! now wait that your page will be published and you're ready **_to wiki_**!
 
-For more installation options see the [Installation instructions](#installation-instructions)
-
 ## Features 
 
 * Improvements in the **cooperative** aspect: forks, pull-requests and roles.
