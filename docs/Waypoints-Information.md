@@ -1,3 +1,5 @@
+# Waypoints and pathes
+
 ### Different kinds of waypoint paths
 
 - Waypoint paths directly attached to a creature via [creature_addon.path_id](creature_addon#path_id) use the tables [waypoint_data](waypoint_data) and [waypoint_scripts](waypoint_scripts). They can be added and manipulated using the GM '.wp' commands.
