@@ -2253,7 +2253,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (the grid where the creature or object is located cannot be unloaded and other objects/creatures nearby also stay active).</p></td>
+<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active).</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_ATTACK_START</p></td>
@@ -2474,8 +2474,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_SET_COUNTER</p></td>
 <td><p>63</p></td>
-<td>counterID</td>
-<td>value</td>
+<td><p>counterID</p></td>
+<td><p>value</p></td>
 <td><p>reset (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -2483,8 +2483,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>If reset is 0 the counter with the specified ID is increased by the given value; if reset is 1 the counter is set to the value.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_STORE_TARGET_LIST</p></td>
