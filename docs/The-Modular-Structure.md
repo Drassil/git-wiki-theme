@@ -1,43 +1,40 @@
 # The Modular Structure
 
-The project of AzerothCore is based on a fully modular structure that is composed by:
+The project of AzerothCore allows you to add and extend game features by adding custom isolated modules, without patching the core directly.
 
-- Custom Modules
-- Core Modules
+This results in always having a clean core that is easy to maintain and to keep it in sync with the latest AzerothCore updates.
 
-**CUSTOM MODULES:**
+## Hooks
 
-The main purpose of AzerothCore modules is to add/extend functionalities to your server avoiding as much possible the modification of AzerothCore code ( patching ).
+### Script hooks
 
-Currently you are able to:
+In order to change game features, modules use **script hooks**, which are a collection of functions [implemented into the core](https://github.com/azerothcore/azerothcore-wotlk/blob/master/src/server/game/Scripting/ScriptMgr.h) and are able to operate from the very beginning of the server (as soon as the World initialization starts).
 
-Create scripts that don’t need any patches for CMake / ScriptLoader
+The list of the script hooks is available [here](Hooks-Script.md).
 
-Use script hooks that can operate from the very first start of the server ( as soon as the World initialization starts ) In this way you can handle / overwrite the server configurations.
+Sometimes you need to add new hooks for your custom module, it's absolutely possible to add them to the core. There are just a few steps needed in order to create a new hook, you can see an example [here](https://github.com/azerothcore/azerothcore-wotlk/commit/15b1a99b55bf01cd6975cc4da3994778d36edb35) 
 
-Use cmake special hooks, allowing you to inject your instructions during specific events ( e.g. after/before game library configuration )
+When you add new hooks, don't forget to [create a PR](http://www.azerothcore.org/wiki/How-to-create-a-PR) with them. This way, they will be reviewed by the AzerothCore developers and included in the official repo.
 
-Create, Install and load your custom .conf files during the server startup, avoiding worldserver.conf.dist patching.
+### Cmake hooks
 
-Install other module dependencies using udw/joiner , a special bash script used by AzerothCore to maintain deps.
+CMake hooks allow modules to execute operations during the AzerothCore compilation phase. This can be used, for example, to install and load custom `*.conf` files during the server startup.
 
-Create and use include.sh in your root directory to interact with our bash system ( extend db_assembler, runner, compiler etc )
+So modules can have their own configuration files and you can **avoid patching** the `worldserver.conf.dist` file.
 
-*NOTE: *Even if core file modification is not suggested by AzerothCore project, developing as much as possible under your module and patching the core with small rows of code could be a good practice. You can eventually provide an install/uninstall script that can automatically patch/unpatch the core using our bash system.
+The list of the CMake hooks is available [here](Hooks-Cmake.md).
 
+### Bash hooks
 
-Read guide on [how to create a module](Create-a-Module)
+Bash hooks allow modules to interact with the AzerothCore bash dashboard. With it, you can add automated operations whenever the module is added or removed using the AzerothCore bash console.
 
-**CORE MODULES:**
+This can be used, for example, to automatically execute SQL code that would add extra tables in the DB when installing a module, and removing them when uninstalling it.
 
-Core modules instead are composed by following projects: 
+To interact with our bash system, create and use `include.sh` in your root directory.
 
-- AzerothCore: The platform that includes all shared tools and sources to develop a WoW Server
-- World Engine: Our MMO framework on which the AzerothCore is based
-- HW-Core: Generic Libraries for c++
-- UWD: Generic tools used by our project
+The list of the CMake hooks is available [here](Hooks-Bash.md).
 
-You can see a model of the Software Layers here:
+## How to create a module
 
-![](https://docs.google.com/drawings/d/1shtfCXLg_IRezf3XeUJ0fF5u6cVkMcmjEyA6wURwvME/pub?w=1440&h=1080)
+You can get started with creating your first module by reading [how to create a module](Create-a-Module)
 
