@@ -446,7 +446,7 @@ Spell ID from <a href="http://www.azerothcore.org/wiki/Spell">Spell.dbc</a></td
 </td>
 </tr>
 <tr class="even">
-<td>CONDITION_SOURCE_TYPE_QUEST_AVAILABLE</td>
+<td>CONDITION_SOURCE_TYPE_QUEST_ACCEPT</td>
 <td>19</td>
 <td>Always 0</td>
 <td><a href="http://www.azerothcore.org/wiki/quest_template#id">Quest ID</a></td>
@@ -455,17 +455,13 @@ Spell ID from <a href="http://www.azerothcore.org/wiki/Spell">Spell.dbc</a></td
 <td>Condition must be met for quest to be available to player.</td>
 </tr>
 <tr class="odd">
-<td>UNUSED</td>
+<td>CONDITION_SOURCE_TYPE_QUEST_SHOW_MARK</td>
 <td>20</td>
-<td><br />
-</td>
-<td></td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td><br />
-</td>
+<td>Always 0</td>
+<td><a href="http://www.azerothcore.org/wiki/quest_template#id">Quest ID</a></td>
+<td>Always 0</td>
+<td>Always 0</td>
+<td>Condition must be met for the quest mark to show.</td>
 </tr>
 <tr class="even">
 <td><br />
