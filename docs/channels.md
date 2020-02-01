@@ -81,7 +81,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#bannedlist">bannedList</a></p></td>
+<td><p><a href="#bannedlist">bannedList</a> (NOT IMPLEMENTED FOR NOW)</p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -143,7 +143,7 @@ Alliance -&gt; 469
 
 Empty, or a standard string-based password (no spaces allowed)
 
-### bannedList
+### bannedList (NOT IMPLEMENTED FOR NOW)
 
 **Channel banlist**
 List of banned player names, separated by spaces
