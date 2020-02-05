@@ -1,3 +1,5 @@
+# Bits and bytes
+
 ## Intro
 
 In computing, numbers are internally represented in binary. This means, when you use an integer type for a variable, this will internally be represented as a summation or concatenation of zeros and ones.
