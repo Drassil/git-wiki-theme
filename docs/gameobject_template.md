@@ -996,7 +996,8 @@ No data data used, all are always 0
 
 ### AIName
 
-This field is overridden by ScriptName field if both are set. Only 'SmartGameObjectAI' can be used.
+This field is overridden by ScriptName field if both are set.
+Note: Only `SmartGameObjectAI` can be used in this field, do not use `SmartAI`
 
 ### ScriptName
 
