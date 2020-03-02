@@ -83,7 +83,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |debug unitstate|3|Syntax: .debug unitstate [#unitstate]. Set #unitstate for the selected unit. If no parameter is specified show the unit state and the react state of the unit.|
 |debug uws|3|Syntax: .debug uws #worldstate #value. Send update world state for #worldstate and #value to the current player.|
 |debug|3|Syntax: .debug $subcommand Type .debug to see the list of possible subcommands or .help debug $subcommand to see info on subcommands|
-|demorph|2|Syntax: .demorph Demorph the selected player.|
 |deserter bg add|3|Syntax: .deserter bg add $time. Adds the bg deserter debuff to your target with $time duration.|
 |deserter bg remove|3|Syntax: .deserter bg remove. Removes the bg deserter debuff from your target.|
 |deserter instance add|3|Syntax: .deserter instance add $time. Adds the instance deserter debuff to your target with $time duration.|
@@ -492,6 +491,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |group remove|3|Syntax: .group remove [$characterName] Removes the given character from his group.|
 |debug moveflags|3|Syntax: .debug moveflags [$newMoveFlags [$newMoveFlags2]] No params given will output the current moveflags of the target|
 |morph|2|Syntax: .morph #displayid Change your current model id to #displayid.|
+|morph reset|2|Syntax: .morph reset Reset the original model for the selected target.|
 |modify arenapoints|1|Syntax: .modify arenapoints #value Add $amount arena points to the selected player.|
 |npc set data|3|Syntax: .npc set data $field $data Sets data for the selected creature. Used for testing Scripting|
 |disable add quest|3|Syntax: .disable add quest $entry $flag $comment|
