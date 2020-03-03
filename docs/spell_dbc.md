@@ -6,8 +6,6 @@
 
 This table contains data regarding serverside spells which are not to be found in Client DBC files.
 
-**Note: **Not longer used since Warlords of Draenor Expansion (see [Hotfixes](https://trinitycore.atlassian.net/wiki/display/tc/Hotfixes))
-
 **Structure**
 
 <table>

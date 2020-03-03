@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [player_factionchange_quests](player_factionchange_quests)
+# player_factionchange_quest
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

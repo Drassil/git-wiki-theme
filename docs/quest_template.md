@@ -1,5 +1,7 @@
 # quest\_template
 
+[<-Back-to:World](database-world.md)
+
 **Table: quest\_template**
 
 Contains all basic definitions of available quests.
@@ -801,9 +803,6 @@ Contains all basic definitions of available quests.
 </tbody>
 </table>
 
-**
-**
-
 **Description of the fields**
 
 ### ID
@@ -839,7 +838,7 @@ if **value &lt; 0** then (**-value**) is quest sort id: (in general profession o
 
 ### QuestInfoID
 
-These values are ID taken from QuestInfo.dbc
+These values are ID taken from [QuestInfo.dbc](QuestInfo)
 
 ### SuggestedGroupNum
 
@@ -851,8 +850,7 @@ Time in seconds that the player has to complete this quest.
 
 ### ~~RequiredClasses~~
 
-~~Classes required to get the quest. 0 means the quest is available for all classes.~~
-~~This field is a bitmask, you can combine class values. See [ChrClasses.dbc](https://trinitycore.atlassian.net/wiki/display/tc/ChrRaces)~~
+~~This field is a bitmask, you can combine class values. See [ChrClasses.dbc](ChrClasses)~~
 
 ### AllowableRaces
 
@@ -869,12 +867,6 @@ Examples:
 690 (2 + 16 + 32 + 128 + 512) = Horde Quest
 
 1101 (1 + 4 + 8 + 64 + 1024) = Alliance Quest
-
-**Mist of Pandaria and all Expansions after:**
-
-55378 (54432 + 256 + 128 + 32 + 16 + 2 + 512)  = Horde
-
-18875469 (16777216 + 2097152 + 1024 + 64 + 8 + 4 + 1) = Alliance
 
 ### RepObjectiveFaction
 
@@ -963,7 +955,7 @@ This flag field defines more specifically the type of quest it is. Aside from th
 <tr class="even">
 <td><p>1</p></td>
 <td><p>QUEST_FLAGS_STAY_ALIVE</p></td>
-<td><p>If the player dies, the quest is failed.<img src="images/icons/emoticons/help_16.png" title="(question)" alt="(question)" class="emoticon emoticon-question" /></p></td>
+<td><p>If the player dies, the quest is failed.</p></td>
 </tr>
 <tr class="odd">
 <td><p>2</p></td>
@@ -1139,7 +1131,7 @@ Note that some flags may not be supported by core.
 
 ### RewardTitleId
 
-The title the character will receive upon completion of the quest. See CharTitles.dbc
+The title the character will receive upon completion of the quest. See [CharTitles.dbc](CharTitles)
 
 ### RequiredPlayerKills
 
@@ -1147,7 +1139,7 @@ Displays how much players you need to kill betd class=td class=a class=/td data-
 
 ### RewardTalents
 
-Will give X bonus talents to the player completed the quest. Leave'"0"for No Bonus Talent Points.''
+Will give X bonus talents to the player completed the quest. Leave"0"for No Bonus Talent Points.''
 
 ### RewardArenaPoints
 
@@ -1164,20 +1156,20 @@ Will choose how many items will be added for reward. E.g "RewardChoiceItemId" is
 
 ### RewardItemId
 
-[item Id](item_template_2130222.html#item_template-entry) given for reward (no choice).
+[item Id](item_template#entry) given for reward (no choice).
 
 ### RewardItemCount
 
-field-no-description|46
+`field-no-description|46`
 
 ### RewardFactionId
 
-Faction Id (from Faction.dbc) for which the quest give reputation points.
+Faction Id (from [Faction.dbc](Faction)) for which the quest give reputation points.
 Number of gain or lost reputation points for Faction at quest completion. This is special reputation rewarding. Normal reputation reward to quest rewarding creature faction calculated and added automatically.
 
 ### RewardFactionValueId
 
-This field is used for reputation lookup in QuestFactionReward.dbc if [RewardFactionValueId](#quest_template-RewardFactionValueId) is 0. Value X in this field indicates RepX column of QuestFactionReward.dbc. If RewardRepValueId is positive, reputation from the first row of QuestFactionReward.dbc will be used, for negative values the second row is used.
+This field is used for reputation lookup in [QuestFactionReward.dbc](QuestFactionReward) if [RewardFactionValueId](#quest_template-RewardFactionValueId) is 0. Value X in this field indicates RepX column of [QuestFactionReward.dbc](QuestFactionReward). If RewardRepValueId is positive, reputation from the first row of QuestFactionReward.dbc will be used, for negative values the second row is used.
 
 ### RewardFactionValueIdOverride
 
@@ -1211,10 +1203,6 @@ Objectives of the quest. If empty, quest is an auto-complete quest that can be i
 
 The quest text. You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
 
-### EndText
-
-field-no-description|57
-
 ### OfferRewardText
 
 First text send to the player by the NPC when completing the quest. You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
@@ -1222,10 +1210,6 @@ First text send to the player by the NPC when completing the quest. You can use 
 ### RequestItemsText
 
 Text sent to player when the player tries to talk to the NPC with the quest active but incomplete. (The text under the "Progress" title in Wowhead.) You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
-
-### CompletedText
-
-field-no-description|59
 
 ### RequiredNpcOrGo
 
@@ -1247,7 +1231,7 @@ Item ID that is needed indirectly by the quest. For example, the quests asks for
 The maximum number of copies of the item in RequiredSourceItemId that can be picked up (and dropped by the core).
 
 ### RequiredItemId
-Item\_template tc2
+[Item\_template](item_template#id) 
 
 Id of required item to complete the quest.
 
@@ -1257,7 +1241,7 @@ Amount of required items
 
 ### RequiredSpell
 
-Spell Id required to cast on [RequiredNpcOrGo](#quest_template-RequiredNpcOrGo) to update Objective.
+Spell Id required to cast on [RequiredNpcOrGo](quest_template#RequiredNpcOrGo) to update Objective.
 
 ### ObjectiveText
 
@@ -1265,7 +1249,7 @@ Used to define non-standard objective texts, that show up in the questlog. Examp
 
 ### DetailsEmote
 
-field-no-description|69
+`field-no-description|69`
 
 ### DetailsEmoteDelay
 
@@ -1491,4 +1475,3 @@ Note:
 If player can choose between chain A or B may be determined by faction status (aldor or scryer), using ReqMinRepFaction = 1. Player should not be able to be neutral+1 with both at the same time. This may be the common threshold to obtain aldor or scryer quests (this is unsure). If that is the case, only the unlock of C, D and E after complete A2 *or* B2 is the impossible part.\_Note 2: With the [Conditions](conditions) table now every quest chain is possible.''
 
 /table
-

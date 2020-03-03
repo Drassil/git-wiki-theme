@@ -111,7 +111,7 @@ This is for easy item name identifying. Comment style should be name(ItemLevel)
 
 Not implemented.
 
-See item\_template.AllowableRace
+See [item\_template.AllowableRace](item_template#allowablerace)
 
 ### horde\_id
 

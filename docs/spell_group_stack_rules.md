@@ -18,7 +18,7 @@ Notes: The table doesn't affect persistent area auras stacking or passive auras 
 
 ### group\_id
 
-Id of group in [spell\_group](spell_group_2130135.html#spell_group-id) table. The spell\_group may contain another spell\_groups inside, if so stacking rule needs to be defined for these groups separately.
+Id of group in [spell\_group](spell_group#id) table. The spell\_group may contain another spell\_groups inside, if so stacking rule needs to be defined for these groups separately.
 
 ### stack\_rule
 

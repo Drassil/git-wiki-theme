@@ -1,6 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [waypoint_data](waypoint_data)
-
 # waypoint\_data
+
+[<-Back-to:World](database-world.md)
 
 ### Information
 

@@ -4,7 +4,7 @@
 
 **The \`vehicle\_template\_accessory\` table**
 
-Records in this table can be overwritten by [vehicle\_accessory](https://trinitycore.atlassian.net/wiki/display/tc/vehicle_accessory) table
+Records in this table can be overwritten by [vehicle\_accessory](vehicle_accessory) table
 
 **Structure**
 
@@ -107,15 +107,15 @@ Records in this table can be overwritten by [vehicle\_accessory](https://trinity
 
 ### entry
 
-Entry of creature to be used as Vehicle. Entry from creature\_template.
+Entry of creature to be used as Vehicle. Entry from [creature_template](creature_template#entry).
 
 ### accessory\_entry
 
-Entry from creature\_template to be used as the rider/turret/addon to the main vehicle. ID from creature\_template.
+Entry from [creature_template](creature_template#entry) to be used as the rider/turret/addon to the main vehicle. ID from creature\_template.
 
 ### seat\_id
 
-Vehicle seat in witch the accessory should be spawned. See VehicleSeat.dbc.
+Vehicle seat in witch the accessory should be spawned. See [VehicleSeat.dbc](VehicleSeat).
 
 ### minion
 

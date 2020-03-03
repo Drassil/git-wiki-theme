@@ -86,7 +86,7 @@ Mask required to receive mail.
 
 ### mailTemplateId
 
-Mail ID to be send. See MailTemplate.dbc
+Mail ID to be send. See [MailTemplate.dbc](MailTemplate)
 
 ### senderEntry
 

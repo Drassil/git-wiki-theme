@@ -1,6 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [waypoints](waypoints)
-
 # waypoints
+
+[<-Back-to:World](database-world.md)
 
 ###### **Used by [SAI](smart_scripts)**
 

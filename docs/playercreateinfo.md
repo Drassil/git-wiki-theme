@@ -127,11 +127,11 @@ The character's class.
 
 ### map
 
-The map ID. See Map.dbc
+The map ID. See [Map.dbc](Map)
 
 ### zone
 
-The zone ID. See AreaTable.dbc
+The zone ID. See [AreaTable.dbc](AreaTable)
 
 ### position\_x
 

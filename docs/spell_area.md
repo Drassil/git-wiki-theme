@@ -161,7 +161,7 @@ Some examples:
 
 ### spell
 
-The spell ID of the spell to be casted on the player. See Spell.dbc.
+The spell ID of the spell to be casted on the player. See [Spell.dbc](Spell).
 
 ### area
 
@@ -169,11 +169,11 @@ The area ID. Type ".gps" in-game and find the "Area:" number to use for this cel
 
 ### quest\_start
 
-The entry of the quest which the player must have in the state defined by **quest\_start\_status**. See [quest\_template.id](quest_template_2130261.html#quest_template-id).
+The entry of the quest which the player must have in the state defined by **quest\_start\_status**. See [quest\_template.id](quest_template#id).
 
 ### quest\_end
 
-The entry of the quest which the player must not have in the state defined by **quest\_end\_status**. See [quest\_template.id](quest_template_2130261.html#quest_template-id). Setting both **quest\_start** and **quest\_end** to the same value is useless.
+The entry of the quest which the player must not have in the state defined by **quest\_end\_status**. See [quest\_template.id](quest_template#id). Setting both **quest\_start** and **quest\_end** to the same value is useless.
 
 ### aura\_spell
 
@@ -187,7 +187,7 @@ The value has the following effect:
 
 ### racemask
 
-This ID is automatically called from [ChrRaces.dbc](https://trinitycore.atlassian.net/wiki/display/tc/ChrRaces). The bitmask is entered here.
+This ID is automatically called from [ChrRaces.dbc](ChrRaces). The bitmask is entered here.
 
 MASTER:
 
@@ -250,7 +250,10 @@ You should have the spell 92237 when entering the cavern IF :
 
 Here is the SQL for this example : 
 
-INSERT INTO spell\_area (spell, area, quest\_start, quest\_end, autocast, quest\_start\_status, quest\_end\_status) VALUES (92237, 257, 28725, 28727, 1, 74, 11);
+```sql
+INSERT INTO spell_area (spell, area, quest_start, quest_end, autocast, quest_start_status, quest_end_status) VALUES 
+(92237, 257, 28725, 28727, 1, 74, 11);
+```
 
 | Quest Status                       | Flag          | Explanation                                                                         |
 |------------------------------------|---------------|-------------------------------------------------------------------------------------|
@@ -267,10 +270,5 @@ Example for a SQL
  For a \`quest\_end\_status\` that should contain QUEST\_STATUS\_NONE (1), QUEST\_STATUS\_COMPLETE (2) and QUEST\_STATUS\_INCOMPLETE (8):
 
 ``` sql
- UPDATE `spell_area` SET `quest_end_status`= (1|2|8) WHERE `spell`=XXXXX AND `area`=YYYY; -- equivalent to `quest_end_status`= 11
+UPDATE `spell_area` SET `quest_end_status`= (1|2|8) WHERE `spell`=XXXXX AND `area`=YYYY; -- equivalent to `quest_end_status`= 11
 ```
-
-## Attachments:
-
-![](images/icons/bullet_blue.gif){width="8" height="8"} [spell\_custom\_attr.html](../2130105/) (text/html)
-

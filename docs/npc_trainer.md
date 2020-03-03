@@ -22,11 +22,11 @@ This table contains all the spells that each trainer can teach.
 
 ### ID
 
-Usually, this would be an entry of a creature referring to [creature\_template.entry](creature_template_2130008.html#creature_template-entry). However, Biohazard included several trainer lists by refering to their id. For more information, see  [Reference\_list](Trainer_reference).
+Usually, this would be an entry of a creature referring to [creature\_template.entry](creature_template#creature_template-entry). However, Biohazard included several trainer lists by refering to their id. For more information, see [Reference\_list](Trainer_reference).
 
 ### SpellID
 
-The spell ID from Spell.dbc. If the ID is negative, it's pointing to a reference template.
+The spell ID from [Spell.dbc](Spell). If the ID is negative, it's pointing to a reference template.
 
 ### MoneyCost
 

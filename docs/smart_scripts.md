@@ -1,6 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [smart_scripts](smart_scripts)
-
 # smart\_scripts
+
+[<-Back-to:World](database-world.md)
 
 **Table Structure**
 
@@ -4411,9 +4411,13 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 
 ### Invoker:
 
-|                                                                      |
-|----------------------------------------------------------------------|
-| // white list of events that actually have an invoker passed to them |
+<table>
+<thead>
+<tr class="header">
+<th><p>// white list of events that actually have an invoker passed to them</p></th>
+</tr>
+</thead>
+</table>
 
 Actions like SMART\_ACTION\_INVOKER\_CAST and targets like SMART\_TARGET\_ACTION\_INVOKER will work only if the event is in this list:
 

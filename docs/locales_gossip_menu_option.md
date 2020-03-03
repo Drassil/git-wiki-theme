@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [locales_gossip_menu_option](locales_gossip_menu_option)
+# locales_gossip_menu_option
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [playercreateinfo_spell](playercreateinfo_spell)
+# playercreateinfo_spell
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

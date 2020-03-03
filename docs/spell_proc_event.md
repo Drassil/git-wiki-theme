@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_proc_event](spell_proc_event)
+# spell_proc_event
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

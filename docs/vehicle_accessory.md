@@ -4,7 +4,7 @@
 
 **The \`vehicle\_accessory\` table**
 
-    This table is used to tell the server to spawn an additional NPC with this vehicle.
+This table is used to tell the server to spawn an additional NPC with this vehicle.
 
 **Structure**
 
@@ -116,7 +116,7 @@ Flying vehicles must have InhabitType set to (4 - Flying).
 
 ### seat\_id
 
-Vehicle seat in witch the accessory should be spawned. See VehicleSeat.dbc
+Vehicle seat in witch the accessory should be spawned. See [VehicleSeat.dbc](VehicleSeat)
 
 ### minion
 
@@ -130,8 +130,6 @@ Note: When making detachable vehicles you will always want to use value 0, other
 Comment
 
 ### summontype
-
-Note: This is unknown past 3.3.5a. Cata versions may support this table.
 
 <table>
 <colgroup>

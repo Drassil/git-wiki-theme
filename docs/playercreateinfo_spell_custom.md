@@ -1,6 +1,6 @@
 # playercreateinfo\_spell\_custom
 
-# playercreateinfo\_spell\_custom table
+[<-Back-to:World](database-world.md)
 
 This table holds information on what spells newly created characters should start out with if the PlayerStart.AllSpells setting in enabled in TrinityCore.conf. A character in this table is defined by his/her race and class combination.
 
@@ -77,15 +77,15 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 
 ### racemask
 
-One or more character's race. See [ChrRaces](ChrRaces).
+One or more character's race. See [ChrRaces.dbc](ChrRaces).
 
 ### classmask
 
-One or more character's class. See ChrClasses.
+One or more character's class. See [ChrClasses.dbc](ChrClasses)
 
 ### Spell
 
-Spell id. See Spell.dbc
+Spell id. See [Spell.dbc](Spell)
 
 ### Note
 

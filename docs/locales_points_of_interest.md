@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [locales_points_of_interest](locales_points_of_interest)
+# locales_points_of_intrest
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

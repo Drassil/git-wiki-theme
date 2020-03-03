@@ -129,8 +129,7 @@ Comes from sniffs.
 
 ### QuestID
 
-The Quest Id from quest\_template.id
-.
+The Quest Id from [quest\_template.id](quest_template#id)
 
 ### id
 
@@ -142,11 +141,11 @@ if -1 than position of npc where you can complete quest
 
 ### MapID
 
-The Map id from Map.dbc
+The Map id from [Map.dbc](Map)
 
 ### WorldMapAreaId
 
-The ID from <a href="https://wowdev.wiki/DB/WorldMapArea">WorldMapArea.dbc</a>.
+The ID from [WorldMapArea.dbc](WorldMapArea).
 
 ### Floor
 

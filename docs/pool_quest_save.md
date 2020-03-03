@@ -57,8 +57,8 @@
 
 ### pool\_id
 
-[pool\_quest.entry](Pool+quest+tc2#Poolquesttc2-pool_entry)
+[pool\_quest.entry](pool_quest#id)
 
 ### quest\_id
 
-[quest\_template.id](Quest+template+tc2#Questtemplatetc2-Id)
+[quest\_template.id](quest_template#id)

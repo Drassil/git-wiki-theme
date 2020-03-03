@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [locales_achievement_reward](locales_achievement_reward)
+# locales_achievement_reward
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---

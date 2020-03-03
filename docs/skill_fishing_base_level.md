@@ -57,7 +57,7 @@ This table controls the minimum skill level required in fishing to fish in a cer
 
 ### entry
 
-The area ID see AreaTable.dbc.
+The area ID see [AreaTable.dbc](AreaTable).
 
 ### skill
 

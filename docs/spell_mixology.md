@@ -1,4 +1,6 @@
-[Database Structure](Database-Structure) > [World-Database](World-Database) > [spell_mixology](spell_mixology)
+# spell_mixology
+
+[<-Back-to:World](database-world.md)
 
 Column | Type | Description
 --- | --- | ---
