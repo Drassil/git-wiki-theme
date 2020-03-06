@@ -14,9 +14,8 @@ Loot templates define only items in the loot. See comments about money drop in c
 
 ## Structure
 
-|                                              |                    |          |         |             |           |
-|----------------------------------------------|--------------------|----------|---------|-------------|-----------|
 | **Field**                                    | **Type**           | **Null** | **Key** | **Default** | **Extra** |
+|----------------------------------------------|--------------------|----------|---------|-------------|-----------|
 | [Entry](#loot_template-Entry)                | mediumint unsigned | NO       | PRI     | 0           |           |
 | [Item](#loot_template-Item)                  | mediumint unsigned | NO       | PRI     | 0           |           |
 | Reference                                    | mediumint unsigned | NO       |         | 0           |           |
@@ -361,7 +360,7 @@ VALUES
 
 ### Creature having in the pocket single quest item
 
-``` cpp
+``` sql
 -- creature_template: entry=6846, name='Defias Dockmaster', pickpocketloot=6846
 -- Note: link with pickpocketing_loot_template is on `pickpocketloot` field (which is equal to `entry` field in this case)
 DELETE `pickpocketing_loot_template` WHERE `Entry`=6846;
