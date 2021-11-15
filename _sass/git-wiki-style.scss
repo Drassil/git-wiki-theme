@@ -384,3 +384,8 @@ screen and (max-width: 480px) {
   background-image: linear-gradient(transparent, transparent), url("../images/external.svg");
   padding-right: 13px;
 }
+
+/* https://darkmodejs.learn.uno/#debug */
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
