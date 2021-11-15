@@ -13,7 +13,7 @@
 
     new Darkmode(options).showWidget();
   }
-  window.addEventListener('load', addDarkmodeWidget);
+  document.events.on('bodyloaded', () => { addDarkmodeWidget });
 </script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
