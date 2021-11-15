@@ -3,6 +3,15 @@
 {% endif %}
 
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/checkLinks.js' | relative_url }}"></script>
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 <script>
   function addDarkmodeWidget() {
 
@@ -13,15 +22,9 @@
 
     new Darkmode(options).showWidget();
   }
-  document.events.on('bodyloaded', () => { addDarkmodeWidget });
-</script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-<script src="{{ '/assets/js/checkLinks.js' | relative_url }}"></script>
-<!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  $.ready(addDarkmodeWidget);
+</script>
 
 {% if site.inc_after_scripts %}
 {% include {{ site.inc_after_scripts }} %}
