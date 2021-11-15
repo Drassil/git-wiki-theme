@@ -955,3 +955,8 @@ body>.wrapper .pl-11 {
 body>.wrapper .pl-12 {
     padding-left: 128px !important;
 }
+
+/* https://darkmodejs.learn.uno/#debug */
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+}
