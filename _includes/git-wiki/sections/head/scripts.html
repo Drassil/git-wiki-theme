@@ -12,6 +12,21 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+<!-- Dark mode -->
+<style>
+  body {
+    visibility: hidden;
+    opacity: 0;
+  }
+</style>
+<noscript>
+  <style>
+    body {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</noscript>
 <script>
   function addDarkmodeWidget() {
 
@@ -21,6 +36,9 @@
     }
 
     new Darkmode(options).showWidget();
+
+    document.body.style.visibility = 'visible';
+    document.body.style.opacity = 1;
   }
 
   $(document).ready(addDarkmodeWidget);
