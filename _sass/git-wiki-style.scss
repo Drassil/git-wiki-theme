@@ -389,3 +389,8 @@ screen and (max-width: 480px) {
 .darkmode-layer, .darkmode-toggle {
   z-index: 500;
 }
+
+/* disable dark mode on images */
+body.darkmode--activated img, body.darkmode--activated .darkmode-ignore {
+  mix-blend-mode: difference;
+}
