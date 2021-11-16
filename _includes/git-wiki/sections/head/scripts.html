@@ -32,6 +32,8 @@
     if (localStorage.getItem('darkmode')==="true") {
       console.log("darkmode activated");
       document.body.style.backgroundColor = "black !important";
+    } else {
+      document.body.style.backgroundColor = ""; // reset background color
     }
   }
 
