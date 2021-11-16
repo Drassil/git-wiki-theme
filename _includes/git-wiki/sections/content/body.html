@@ -1,10 +1,7 @@
-<body>
+<body onload="darkModeSetBodyBg()">
     <!-- dark mode -->
     <script>
-        if (localStorage.getItem('darkmode')==="true") {
-            console.log("darkmode activated");
-            document.body.style.backgroundColor = "black !important";
-        }
+        darkModeSetBodyBg()
     </script>
     
     {% include git-wiki/sections/content/wrapper.html %}

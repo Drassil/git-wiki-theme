@@ -28,6 +28,13 @@
   </style>
 </noscript>
 <script>
+  function darkModeSetBodyBg() {
+    if (localStorage.getItem('darkmode')==="true") {
+      console.log("darkmode activated");
+      document.body.style.backgroundColor = "black !important";
+    }
+  }
+
   function addDarkmodeWidget() {
 
     const options = {
