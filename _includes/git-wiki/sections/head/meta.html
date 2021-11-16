@@ -8,29 +8,29 @@
 
 {% seo %}
 
-<meta property="og:title"
-    content="{% if page.title %}
-      {{ page.title | strip_html | strip_newlines | truncate: 160 }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}">
+{% assign pagetitle = page.name | replace: ".md", "" %}
+{% assign title = site.title | append: " - " | append: pagetitle | strip_html %}
 
-<meta property="og:description"
-    content="{% if page.excerpt %}
+<title>{{ title | strip_html | strip_newlines | truncate: 160 }}</title>
+
+<meta property="og:title" content="{{ title | strip_html | strip_newlines | truncate: 160 }}">
+
+<meta property="og:description" content="{% if page.excerpt %}
         {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
       {% else %}
         {{ site.description }}
       {% endif %}">
 
 
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:url"
+  content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
 {% if page.image %}
-    <meta property="og:image" content="{{page.image}}" />
-    <meta name="twitter:image" content="{{page.image}}" />
+<meta property="og:image" content="{{page.image}}" />
+<meta name="twitter:image" content="{{page.image}}" />
 {% elsif site.logo_url %}
-    <meta property="og:image" content="{{ site.logo_url | relative_url }}" />
-    <meta name="twitter:image" content="{{ site.logo_url | relative_url }}" />
+<meta property="og:image" content="{{ site.logo_url | relative_url }}" />
+<meta name="twitter:image" content="{{ site.logo_url | relative_url }}" />
 {% endif %}
 
 
