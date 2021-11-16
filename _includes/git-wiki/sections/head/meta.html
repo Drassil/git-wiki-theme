@@ -9,7 +9,7 @@
 {% seo %}
 
 {% assign pagetitle = page.name | replace: ".md", "" %}
-{% assign title = site.title | append: " - " | append: pagetitle | strip_html %}
+{% assign title = pagetitle | append: " - " | append: site.title  | strip_html %}
 
 <title>{{ title | strip_html | strip_newlines | truncate: 160 }}</title>
 
