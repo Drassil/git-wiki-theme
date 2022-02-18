@@ -2,6 +2,8 @@
 title: 
 # (string) Description of your wiki
 description: 
+# (boolean) disable edit functionalities (edit/delete/add pages)
+disable_edit: false
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: true
 # (integer) Maximum number of wiki page to shown in sidebar

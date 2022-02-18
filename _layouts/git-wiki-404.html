@@ -5,6 +5,7 @@ is_wiki_page: false
 ---
 
 <!-- redirect to page creator if not exists -->
+{% if site.disable_edit != true %}
 <script type="text/javascript">
     var filename = window.location.pathname.split('/').pop();
     if (!filename.endsWith(".md"))
@@ -13,3 +14,8 @@ is_wiki_page: false
     var url = '{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: 'wiki' }}/'+filename;
     window.location=url;
 </script>
+{% else %}
+
+Page Not Found
+
+{% endif %}
