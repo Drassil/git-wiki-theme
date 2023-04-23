@@ -17,7 +17,7 @@ show_wiki_posts_limit: 10
 # from jekyll (read jekyll doc)
 paginate: 5
 paginate_path: "/assets/blog/page:num"
-permalink: /assets/blog/posts/:year/:month/:day/:title:output_ext
+permalink: "/assets/blog/posts/:year/:month/:day/:title:output_ext"
 # (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
