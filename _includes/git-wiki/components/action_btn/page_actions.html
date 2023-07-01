@@ -12,7 +12,7 @@
     {% else %}
 
     {% if site.disable_edit != true %}
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.site_root | default: '/' }}{{ site.wiki_folder }}/">Add
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{ site.wiki_folder }}?filename=">Add
             new</a></span>
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Edit</a></span>
 
@@ -27,7 +27,7 @@
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">History</a></span>
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/blob/{{site.git_branch | escape}}/{{ site.site_root | default: '/' }}{{page.path | escape}}">Source</a></span>
     {% if site.blog_feature %}
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.site_root | default: '/' }}_posts/">Add
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}_posts?filename=">Add
             new post</a></span>
     {% endif %}
     {% if site.use_prose_io and site.github.hostname != "gitlab.com" %}
