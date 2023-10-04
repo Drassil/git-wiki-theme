@@ -396,3 +396,17 @@ screen and (max-width: 480px) {
 body.darkmode--activated img, body.darkmode--activated .darkmode-ignore {
   mix-blend-mode: difference;
 }
+
+/* Notes above pages */
+.note {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.note img {
+  height: 100px;
+  margin-right: 20px;
+}
